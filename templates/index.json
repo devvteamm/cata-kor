@@ -44,7 +44,7 @@
         "buttons_wHGza9"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
+        "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "top-center",
         "show_text_box": false,
