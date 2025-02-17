@@ -19,12 +19,19 @@
             "heading_size": "h0"
           }
         },
-        "button": {
+        "text_eeRahC": {
+          "type": "text",
+          "settings": {
+            "text": "Fresh Look, Powerful Formula / Reimagined Aesthetics, Advanced Formula",
+            "text_style": "body"
+          }
+        },
+        "buttons_wHGza9": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
+            "button_label_1": "Shop Now",
+            "button_link_1": "#",
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -33,12 +40,13 @@
       },
       "block_order": [
         "heading",
-        "button"
+        "text_eeRahC",
+        "buttons_wHGza9"
       ],
       "settings": {
         "image_overlay_opacity": 40,
         "image_height": "large",
-        "desktop_content_position": "bottom-center",
+        "desktop_content_position": "top-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-5",
