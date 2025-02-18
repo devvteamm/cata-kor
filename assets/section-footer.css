@@ -7,7 +7,7 @@
 }
 
 .footer__content-top {
-  padding-bottom: 5rem;
+  padding-bottom: 5.4rem;
   display: block;
 }
 
@@ -292,7 +292,7 @@
 
 .footer__copyright {
   text-align: center;
-  margin-top: 1.5rem;
+  /* margin-top: 1.5rem; */
 }
 
 @media screen and (min-width: 750px) {
@@ -337,7 +337,7 @@
 
 .footer-block__details-content .list-menu__item--link,
 .copyright__content a {
-  color: rgba(var(--color-foreground), 0.75);
+  color: rgba(var(--color-foreground));
 }
 
 .footer-block__details-content .list-menu__item--active {
@@ -506,3 +506,99 @@
     }
   }
 }
+.copyright__content,
+.copyright__content-title{
+  font-family: 'Onest', serif;
+  font-size: 1.6rem;
+  line-height: 1.275;
+  letter-spacing: -0.61px;
+}
+.copyright__content{
+  font-weight: 400;
+}
+.copyright__content-title{
+  font-weight: 600;
+}
+.footer .footer__content-top .footer-block--menu.grid__item{
+ width: fit-content;
+}
+.footer-block__heading{
+  font-family: 'Onest', serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 1.275;
+}
+.footer-block__details-content .list-menu__item--link{
+  font-family: 'Onest', serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.275;
+  padding-block: 0.8rem;
+}
+.footer-block-image {
+  flex-direction: column;
+}
+.footer_image_text p{
+  margin: 0;
+  font-family: 'Onest', serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.5;  
+}
+.footer-block__image-wrapper{
+  margin-bottom: 1rem;
+}
+.footer-block__details-content>li:not(:last-child){
+  margin-right: 0;
+}
+.footer_image_icons{
+   margin-top: 3rem;
+   display: flex;
+   gap: 3.7rem;
+}
+.footer-block__newsletter{
+  margin-top: 1.6rem;
+}
+.footer .footer_image-block{
+  max-width: 27.9rem;
+  width: 100%;
+}
+
+.footer .footer_text-block{
+  max-width: 36.3rem;
+  width: 100%;
+}
+.footer .field{
+  height: 5.2rem;
+  background: rgba(255, 255, 255, 10%);
+  border-radius: 7rem;
+  padding: .6rem;
+}
+.field__input{
+  background: transparent;
+  color: #fff;
+}
+.field:after{
+  box-shadow: none;
+}
+.field__input:focus{
+  border-radius: 7rem;
+  box-shadow: none;
+}
+.field:hover.field:after{
+  box-shadow: none;
+}
+.field:hover.field:after{
+  box-shadow: none;
+}
+.footer .footer_text-block .field .newsletter-form__button{
+  background-color: #E4F69D;
+  color: #000;
+  border-radius: 3rem;
+  max-width: 8rem;
+  width: 100%;
+  height: 4rem;
+  top: 50%;
+  transform: translateY(-50%);
+  right: .6rem;
+} 

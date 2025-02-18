@@ -15,14 +15,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Begin Your NAD Journey",
-            "heading_size": "hxl"
+            "heading": "Fresh Look, Powerful Formula.",
+            "heading_size": "h0"
           }
         },
         "text_eeRahC": {
           "type": "text",
           "settings": {
-            "text": "Cata-Kor NAD Supplements is a daily health supplements designed to support cellular energy, overall wellness, and healthy aging. Formulated with high-quality ingredients, it helps promote vitality, optimize metabolism, and enhance overall body function.",
+            "text": "Fresh Look, Powerful Formula / Reimagined Aesthetics, Advanced Formula",
             "text_style": "body"
           }
         },
@@ -36,57 +36,72 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
-        },
-        "product_PaHmxC": {
-          "type": "Product",
-          "settings": {
-            "product": "250mg-can-of-nad",
-            "image_ratio": "portrait",
-            "image_shape": "default",
-            "show_secondary_image": false,
-            "show_description": true,
-            "show_price": false,
-            "show_custom_button": "Shop Now",
-            "link_on_card_product": false,
-            "show_vendor": false,
-            "show_rating": false
-          }
-        },
-        "product_XC9FfW": {
-          "type": "Product",
-          "settings": {
-            "product": "250mg-can-of-nad-copy",
-            "image_ratio": "portrait",
-            "image_shape": "default",
-            "show_secondary_image": false,
-            "show_description": true,
-            "show_price": false,
-            "show_custom_button": "Shop Now",
-            "link_on_card_product": false,
-            "show_vendor": false,
-            "show_rating": false
-          }
         }
       },
       "block_order": [
         "heading",
         "text_eeRahC",
-        "buttons_wHGza9",
-        "product_PaHmxC",
-        "product_XC9FfW"
+        "buttons_wHGza9"
       ],
       "settings": {
-        "image": "shopify://shop_images/image.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
-        "desktop_content_position": "top-left",
+        "desktop_content_position": "top-center",
         "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "scheme-2",
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-5",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "image_with_text_YkBmHw": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_VyATji": {
+          "type": "heading",
+          "settings": {
+            "heading": "NAD is declining over the years",
+            "heading_size": "h1",
+            "sub_heding": "About NAD Booster"
+          }
+        },
+        "text_HXLphP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Your 37.2 trillion cells are powered by NAD+, a vital coenzyme that fuels cellular energy and repair throughout your entire body. NAD+ levels naturally decline with age, lifestyle factors, and stressors. Replenishing NAD+ levels is essential for maintaining your cellular health, energy, and vitality.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_wdbfjU": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_VyATji",
+        "text_HXLphP",
+        "button_wdbfjU"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Frame_1321317020.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-5",
+        "color_scheme": "scheme-5",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "featured_collection": {
@@ -120,6 +135,7 @@
   },
   "order": [
     "image_banner",
+    "image_with_text_YkBmHw",
     "featured_collection"
   ]
 }
