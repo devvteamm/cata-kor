@@ -36,12 +36,44 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "product_PaHmxC": {
+          "type": "Product",
+          "settings": {
+            "product": "250mg-can-of-nad",
+            "image_ratio": "portrait",
+            "image_shape": "default",
+            "show_secondary_image": false,
+            "show_description": true,
+            "show_price": false,
+            "show_custom_button": "Shop Now",
+            "link_on_card_product": false,
+            "show_vendor": false,
+            "show_rating": false
+          }
+        },
+        "product_XC9FfW": {
+          "type": "Product",
+          "settings": {
+            "product": "250mg-can-of-nad-copy",
+            "image_ratio": "portrait",
+            "image_shape": "default",
+            "show_secondary_image": false,
+            "show_description": true,
+            "show_price": false,
+            "show_custom_button": "Shop Now",
+            "link_on_card_product": false,
+            "show_vendor": false,
+            "show_rating": false
+          }
         }
       },
       "block_order": [
         "heading",
         "text_eeRahC",
-        "buttons_wHGza9"
+        "buttons_wHGza9",
+        "product_PaHmxC",
+        "product_XC9FfW"
       ],
       "settings": {
         "image": "shopify://shop_images/image.jpg",
