@@ -7,6 +7,10 @@
     <meta name="theme-color" content="">
     <link rel="canonical" href="{{ canonical_url }}">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap" rel="stylesheet">
+
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
     {%- endif -%}
@@ -48,6 +52,93 @@
     %}
 
     {% style %}
+
+      @font-face {
+        font-family: "Nohemi-ExtraBold";
+        src: url("{{ "Nohemi-ExtraBold.woff2" | file_url }}") format('woff2');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "Nohemi-ExtraBold";
+        src: url("{{ "Nohemi-ExtraBold.woff" | file_url }}") format('woff');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "Nohemi-Regular";
+        src: url("{{ "Nohemi-Regular.woff2" | file_url }}") format('woff2');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "Nohemi-Regular";
+        src: url("{{ "Nohemi-Regular.woff" | file_url }}") format('woff');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "Nohemi-Medium";
+        src: url("{{ "Nohemi-Medium.woff2" | file_url }}") format('woff2');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "Nohemi-Medium";
+        src: url("{{ "Nohemi-Medium.woff" | file_url }}") format('woff');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "Nohemi-Light";
+        src: url("{{ "Nohemi-Light.woff2" | file_url }}") format('woff2');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "Nohemi-Light";
+        src: url("{{ "Nohemi-Light.woff" | file_url }}") format('woff');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "Nohemi-SemiBold";
+        src: url("{{ "Nohemi-SemiBold.woff2" | file_url }}") format('woff2');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "Nohemi-SemiBold";
+        src: url("{{ "Nohemi-SemiBold.woff" | file_url }}") format('woff');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "Nohemi-Bold";
+        src: url("{{ "Nohemi-Bold.woff2" | file_url }}") format('woff2');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "Nohemi-Bold";
+        src: url("{{ "Nohemi-Bold.woff" | file_url }}") format('woff');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+
+
       {{ settings.type_body_font | font_face: font_display: 'swap' }}
       {{ body_font_bold | font_face: font_display: 'swap' }}
       {{ body_font_italic | font_face: font_display: 'swap' }}

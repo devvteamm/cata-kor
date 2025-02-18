@@ -25,6 +25,7 @@
       "block_order": [
         "announcement-bar-0"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
         "show_line_separator": true,
@@ -39,11 +40,16 @@
       "type": "header",
       "settings": {
         "logo_position": "middle-left",
-        "menu": "main-menu",
+        "menu": "main-menu-header",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
-        "color_scheme": "scheme-5",
+        "show_search_icon": false,
+        "show_cutomer_icon": false,
+        "show_cart_icon": false,
+        "custom_button_text": "Shop Now",
+        "custom_button_link": "shopify://collections",
+        "color_scheme": "scheme-1",
         "menu_color_scheme": "scheme-1",
         "enable_country_selector": true,
         "enable_language_selector": true,

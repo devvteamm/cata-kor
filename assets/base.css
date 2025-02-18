@@ -279,7 +279,7 @@ h5,
 
 @media only screen and (min-width: 750px) {
   .hxl {
-    font-size: calc(var(--font-heading-scale) * 6.2rem);
+    font-size: calc(var(--font-heading-scale) * 6.5rem);
   }
 }
 
@@ -2385,8 +2385,29 @@ input[type='checkbox'] {
 
   .header--middle-left {
     grid-template-areas: 'heading navigation icons';
-    grid-template-columns: auto auto 1fr;
+    grid-template-columns: auto 1fr auto;
     column-gap: 2rem;
+  }
+
+  .header--middle-left .header__icon {
+    width: unset;
+  }
+
+  .header__buttons {
+    font-family: 'Nohemi-Medium', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    display: unset;
+  }
+  .header__buttons .shop_now_btn {
+    padding: 1.65rem 3rem;
+    letter-spacing: 0;
+    border-radius: 23.2rem;
+    border: 1px solid #1B352A40;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgba(var(--color-button), var(--alpha-button-background));
+    color: rgb(var(--color-button-text));
   }
 
   .header--middle-center:not(.drawer-menu) {
@@ -2762,6 +2783,11 @@ details[open] > .header__submenu {
   margin-left: -1.2rem;
   grid-area: navigation;
   display: none;
+  font-family: "Onest", serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.275;
+  letter-spacing: 0;
 }
 
 .header--top-center .header__inline-menu,
@@ -2771,7 +2797,8 @@ details[open] > .header__submenu {
 
 @media screen and (min-width: 990px) {
   .header__inline-menu {
-    display: block;
+    display: flex;
+    justify-content: center;
   }
 
   .header--top-center .header__inline-menu {
@@ -2794,7 +2821,8 @@ details[open] > .header__submenu {
 .header__menu-item {
   padding: 1.2rem;
   text-decoration: none;
-  color: rgba(var(--color-foreground), 0.75);
+  color: rgba(var(--color-foreground));
+  /* color: rgba(var(--color-foreground), 0.75); */
 }
 
 .header__menu-item:hover {

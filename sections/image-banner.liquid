@@ -160,8 +160,30 @@
                 </a>
               {%- endif -%}
             </div>
-        {%- endcase -%}
-      {%- endfor -%}
+          {%- endcase -%}
+        {%- endfor -%}
+        <div class="banner__box-product--wrapper">
+          {%- assign product_blocks = section.blocks | where: "type", "Product" -%}
+          {% if product_blocks.size > 0 %}
+            {%- for product_block in product_blocks -%}
+              <div class="banner__box-product" {{ product_block.shopify_attributes }}>
+                {% render 'card-product',
+                  card_product: product_block.settings.product,
+                  media_aspect_ratio: product_block.settings.image_ratio,
+                  image_shape: product_block.settings.image_shape,
+                  show_secondary_image: product_block.settings.show_secondary_image,
+                  show_vendor: product_block.settings.show_vendor,
+                  show_rating: product_block.settings.show_rating,
+                  show_description: product_block.settings.show_description,
+                  show_price: product_block.settings.show_price,
+                  section_id: product_block.id,
+                  show_custom_button: product_block.settings.show_custom_button,
+                  link_on_card_product: product_block.settings.link_on_card_product
+                %}
+              </div>
+            {%- endfor -%}
+          {% endif %}
+        </div>        
     </div>
   </div>
 </div>
@@ -400,6 +422,125 @@
           ],
           "default": "h1",
           "label": "t:sections.all.heading_size.label"
+        }
+      ]
+    },
+    {
+      "type": "Product",
+      "name": "Product",
+      "limit": 2,
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Product"
+        },
+        {
+          "type": "header",
+          "content": "t:sections.featured-collection.settings.header.content"
+        },
+        {
+          "type": "select",
+          "id": "image_ratio",
+          "options": [
+            {
+              "value": "adapt",
+              "label": "t:sections.featured-collection.settings.image_ratio.options__1.label"
+            },
+            {
+              "value": "portrait",
+              "label": "t:sections.featured-collection.settings.image_ratio.options__2.label"
+            },
+            {
+              "value": "square",
+              "label": "t:sections.featured-collection.settings.image_ratio.options__3.label"
+            }
+          ],
+          "default": "adapt",
+          "label": "t:sections.featured-collection.settings.image_ratio.label"
+        },
+        {
+          "type": "select",
+          "id": "image_shape",
+          "options": [
+            {
+              "value": "default",
+              "label": "t:sections.all.image_shape.options__1.label"
+            },
+            {
+              "value": "arch",
+              "label": "t:sections.all.image_shape.options__2.label"
+            },
+            {
+              "value": "blob",
+              "label": "t:sections.all.image_shape.options__3.label"
+            },
+            {
+              "value": "chevronleft",
+              "label": "t:sections.all.image_shape.options__4.label"
+            },
+            {
+              "value": "chevronright",
+              "label": "t:sections.all.image_shape.options__5.label"
+            },
+            {
+              "value": "diamond",
+              "label": "t:sections.all.image_shape.options__6.label"
+            },
+            {
+              "value": "parallelogram",
+              "label": "t:sections.all.image_shape.options__7.label"
+            },
+            {
+              "value": "round",
+              "label": "t:sections.all.image_shape.options__8.label"
+            }
+          ],
+          "default": "default",
+          "label": "t:sections.all.image_shape.label",
+          "info": "t:sections.all.image_shape.info"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_secondary_image",
+          "default": false,
+          "label": "t:sections.featured-collection.settings.show_secondary_image.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_description",
+          "default": false,
+          "label": "Show description"
+        },
+         {
+          "type": "checkbox",
+          "id": "show_price",
+          "default": false,
+          "label": "Show Price"
+        },
+        {
+          "type": "text",
+          "id": "show_custom_button",
+          "label": "Show Custom button"
+        }, 
+        {
+          "type": "checkbox",
+          "id": "link_on_card_product",
+          "label": "Enable Full Card Click",
+          "info": "When this setting is enabled, the product link will work on the entire card, not just on the button."
+        },
+        {
+          "type": "checkbox",
+          "id": "show_vendor",
+          "default": false,
+          "label": "t:sections.featured-collection.settings.show_vendor.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_rating",
+          "default": false,
+          "label": "t:sections.featured-collection.settings.show_rating.label",
+          "info": "t:sections.featured-collection.settings.show_rating.info"
         }
       ]
     },
