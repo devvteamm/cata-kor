@@ -15,15 +15,8 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Begin Your NAD Journey",
-            "heading_size": "hxl"
-          }
-        },
-        "text_iUQJdw": {
-          "type": "text",
-          "settings": {
-            "text": "Cata-Kor NAD Supplements is a daily health supplements designed to support cellular energy, overall wellness, and healthy aging. Formulated with high-quality ingredients, it helps promote vitality, optimize metabolism, and enhance overall body function.",
-            "text_style": "body"
+            "heading": "Fresh Look, Powerful Formula.",
+            "heading_size": "h0"
           }
         },
         "text_eeRahC": {
@@ -35,7 +28,6 @@
         },
         "buttons_wHGza9": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
             "button_label_1": "Shop Now",
             "button_link_1": "#",
@@ -44,44 +36,12 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
-        },
-        "product_aCtEBN": {
-          "type": "Product",
-          "settings": {
-            "product": "250mg-can-of-nad",
-            "image_ratio": "portrait",
-            "image_shape": "default",
-            "show_secondary_image": false,
-            "show_description": true,
-            "show_price": false,
-            "show_custom_button": "Shop Now",
-            "link_on_card_product": false,
-            "show_vendor": false,
-            "show_rating": false
-          }
-        },
-        "product_JyTB8C": {
-          "type": "Product",
-          "settings": {
-            "product": "250mg-can-of-nad-copy",
-            "image_ratio": "portrait",
-            "image_shape": "default",
-            "show_secondary_image": false,
-            "show_description": true,
-            "show_price": false,
-            "show_custom_button": "Shop Now",
-            "link_on_card_product": false,
-            "show_vendor": false,
-            "show_rating": false
-          }
         }
       },
       "block_order": [
         "heading",
-        "text_iUQJdw",
-        "button",
-        "product_aCtEBN",
-        "product_JyTB8C"
+        "text_eeRahC",
+        "buttons_wHGza9"
       ],
       "settings": {
         "image": "shopify://shop_images/image.jpg",
