@@ -602,3 +602,10 @@
   transform: translateY(-50%);
   right: .6rem;
 } 
+.grid__item{
+  flex-grow: 0;
+}
+.footer .footer__blocks-wrapper{
+  justify-content: space-between; 
+  gap: 1rem;
+}
