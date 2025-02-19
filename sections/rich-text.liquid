@@ -91,6 +91,16 @@
         {%- endfor -%}
       </div>
     </div>
+    {% if section.settings.show_accent_graphics %}
+      {% comment %} <div class="show_accent_graphics--wrapper"> {% endcomment %}
+        <div class="left_side_graphics">
+          {{- 'icon-star-left.svg' | inline_asset_content -}}
+        </div>
+        <div class="right_side_graphics">
+          {{- 'icon-star-right.svg' | inline_asset_content -}}
+        </div>
+      {% comment %} </div> {% endcomment %}
+    {% endif %}
   </div>
 </div>
 
@@ -155,6 +165,12 @@
       "id": "full_width",
       "default": true,
       "label": "t:sections.rich-text.settings.full_width.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_accent_graphics",
+      "default": true,
+      "label": "Show Accent Graphics"
     },
     {
       "type": "header",

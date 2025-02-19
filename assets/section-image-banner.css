@@ -510,3 +510,30 @@
     color: currentColor;
   }
 }
+
+
+/* banner with logo_with_text text block css */
+.banner__box-logo-with-text--wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6rem;
+  max-width: 53rem;
+  margin-top: 10rem;
+}
+
+.banner__box-logo-with-text--wrapper .logo-with-text-wrraper {
+  display: flex;
+  column-gap: 5rem;
+}
+
+.banner__box-logo-with-text--wrapper .logo-with-text-content {
+  font-family: 'Nohemi-Medium',sans-serif;
+  font-size: 2.8rem;
+  line-height: 1.5;
+  letter-spacing: 0;
+  color: rgb(var(--color-foreground));
+}
+
+.banner__box-logo-with-text--wrapper .logo-with-text-content p {
+  margin: 0;
+}

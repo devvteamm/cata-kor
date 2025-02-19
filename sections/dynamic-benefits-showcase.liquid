@@ -1,0 +1,157 @@
+{{ 'dynamic-benefits-showcase.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="dynamic-benefits-showcase--wrapper color-{{ section.settings.color_scheme }} gradient">
+    <div
+      class="dynamic-benefits-showcase page-width section-{{ section.id }}-padding {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+    >
+        <div class="dynamic-benefits-showcase-container">
+            <div class="dynamic-benefits-showcase-left-side-container">
+                {%- assign left_side_container = section.blocks | where : "type" , "left_side_block" -%}
+                {%  for block in left_side_container %}
+                    <div class="dynamic-benefits-showcase-left-side-item">
+                        <div class="dynamic-benefits-showcase-left-side-item--image">
+                            <img 
+                              src="{{ block.settings.image | image_url: width: 160 }}"
+                              alt="{{ block.settings.image.alt | default: 'Logo image' }}"
+                              width=""
+                              height=""
+                              loading="lazy"
+                            >
+                            </div>
+                            <div class="dynamic-benefits-showcase-left-side-item--content-wrapper">
+                                <h3 class="dynamic-benefits-showcase-left-side-item--heading">{{ block.settings.heading }}</h3>
+                                <div class="dynamic-benefits-showcase-left-side-item--text">{{ block.settings.text }}</div>
+                            </div>
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="dynamic-benefits-showcase-right-side-container">
+                {%- assign right_side_container = section.blocks | where : "type" , "right_side_block" -%}
+                {%  for block in right_side_container %}
+                    <div class="dynamic-benefits-showcase-right-side-item">
+                        <span class="dynamic-benefits-showcase-right-side-item-subheading">{{ block.settings.sub_heading }}</span>
+                        <h1 class="dynamic-benefits-showcase-right-side-item-heading">{{ block.settings.heading }}</h1>
+                        <div class="dynamic-benefits-showcase-right-side-item-text">{{ block.settings.text }}</div>
+                        <div class="dynamic-benefits-showcase-right-side-item-button">
+                            <a class="shop_now_btn" href="{{ block.settings.button_link_1 }}">{{ block.settings.button_label_1 }}</a>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+    {
+        "name": "Dynamic benefits showcase",
+        "tag": "section",
+        "class": "section section dynamic-benefits-showcase",
+        "disabled_on": {
+            "groups": ["header", "footer"]
+        },
+        "settings": [
+            {
+                "type": "color_scheme",
+                "id": "color_scheme",
+                "label": "t:sections.all.colors.label",
+                "default": "scheme-1"
+              },
+              {
+                "type": "range",
+                "id": "padding_top",
+                "min": 0,
+                "max": 100,
+                "step": 4,
+                "unit": "px",
+                "label": "t:sections.all.padding.padding_top",
+                "default": 40
+              },
+              {
+                "type": "range",
+                "id": "padding_bottom",
+                "min": 0,
+                "max": 100,
+                "step": 4,
+                "unit": "px",
+                "label": "t:sections.all.padding.padding_bottom",
+                "default": 52
+              }
+        ],
+        "blocks": [
+           {
+             "type": "left_side_block",
+             "name": "Left side block",
+             "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+                },
+                {
+                    "type": "inline_richtext",
+                    "id": "heading",
+                    "label": "Title"
+                },
+                {
+                    "type": "richtext",
+                    "id": "text",
+                    "label": "Text"
+                }
+             ]
+           },
+           {
+            "type": "right_side_block",
+            "name": "Right side block",
+            "settings": [
+                {
+                    "type": "inline_richtext",
+                    "id": "sub_heading",
+                    "label": "Sub Title"
+                },
+                {
+                    "type": "inline_richtext",
+                    "id": "heading",
+                    "label": "Title"
+                },
+                {
+                    "type": "richtext",
+                    "id": "text",
+                    "label": "Text"
+                },
+                {
+                    "type": "text",
+                    "id": "button_label_1",
+                    "default": "t:sections.image-banner.blocks.buttons.settings.button_label_1.default",
+                    "label": "t:sections.image-banner.blocks.buttons.settings.button_label_1.label",
+                    "info": "t:sections.image-banner.blocks.buttons.settings.button_label_1.info"
+                },
+                {
+                    "type": "url",
+                    "id": "button_link_1",
+                    "label": "t:sections.image-banner.blocks.buttons.settings.button_link_1.label"
+                },
+            ]
+          }
+        ],
+        "presets": [
+            {
+                "name": "Dynamic benefits showcase",
+            }
+        ]
+    }
+{% endschema %}

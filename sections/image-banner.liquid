@@ -185,6 +185,26 @@
             {%- endfor -%}
           {% endif %}
         </div>        
+        <div class="banner__box-logo-with-text--wrapper">
+          {%- assign logo_with_text_block = section.blocks |where: "type", "logo_with_text" -%}
+          {% if logo_with_text_block.size > 0 %}
+            {%- for logo_with_text in logo_with_text_block -%}
+              <div class="logo-with-text-wrraper">
+                <div class="logo">
+                  <img 
+                    src="{{ logo_with_text.settings.image | image_url: width: 70 }}"
+                    alt="{{ logo_with_text.settings.image.alt | default: 'Logo image' }}"
+                    width="70"
+                    height="70"
+                    loading="lazy"
+                  >
+                  
+                </div>
+                <div class="logo-with-text-content">{{ logo_with_text.settings.text }}</div>
+              </div>
+            {% endfor %}
+          {% endif %}
+        </div>
     </div>
   </div>
 </div>
@@ -575,6 +595,22 @@
           ],
           "default": "body",
           "label": "t:sections.image-banner.blocks.text.settings.text_style.label"
+        }
+      ]
+    },
+    {
+      "type": "logo_with_text",
+      "name": "Logo with text",
+      "settings": [
+        {
+           "type": "richtext",
+           "id": "text",
+           "label": "Text",
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
         }
       ]
     },

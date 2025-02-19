@@ -2344,7 +2344,12 @@ input[type='checkbox'] {
   display: block;
   position: relative;
   background-color: rgb(var(--color-background));
+
 }
+
+.header-wrapper.gradient{
+  background: linear-gradient(to right, #34473F 50%, var(--gradient-background) 50%);
+ }
 
 .header-wrapper--border-bottom {
   border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
@@ -2399,7 +2404,7 @@ input[type='checkbox'] {
     line-height: 1.75;
     display: unset;
   }
-  .header__buttons .shop_now_btn {
+  .shop_now_btn {
     padding: 1.65rem 3rem;
     letter-spacing: 0;
     border-radius: 23.2rem;

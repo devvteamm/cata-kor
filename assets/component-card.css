@@ -97,11 +97,8 @@
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(var(--color-button), var(--alpha-button-background)); 
-  padding: 1.65rem 1.7rem;
-  border-radius: 23.2rem;
+  /* justify-content: center;
+  align-items: center; */
   margin-top: 2rem !important;
   text-transform: uppercase;
   font-family: 'Nohemi-Medium',sans-serif;
@@ -113,7 +110,12 @@
 .card_product--custom__buttons .shop_now_btn {
   text-decoration: none;
   color: rgb(var(--color-button-text));
+  background-color: rgba(var(--color-button), var(--alpha-button-background)); 
   line-height: 1;
+  flex: 1;
+  text-align: center;
+  padding: 1.65rem 1.7rem;
+  border-radius: 23.2rem;
 }
 
 .card__media,

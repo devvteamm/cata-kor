@@ -1,0 +1,90 @@
+.product-evolution .gradient {
+    background: linear-gradient(to right, #34473F 50%, var(--gradient-background) 50%);
+}
+.product-evolution .banner__heading {
+    max-width: unset;
+    font-size: 8.5rem;
+    font-family: 'Nohemi-Regular', sans-serif;
+}
+
+.product-evolution .banner__text {
+    color: rgba(var(--color-foreground));
+}
+
+.product-evolution .banner {
+    flex-direction: column;
+}
+
+.product-evolution--media--wrapper {
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin-top: 3.8rem;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+}
+.product-evolution--media--wrapper .product-evolution--media--1,
+.product-evolution--media--wrapper .product-evolution--media--2 {
+    position: relative;
+    justify-self: center
+}
+
+.product-evolution--media--wrapper .product-evolution--media--bullet-text {
+    position: absolute;
+    min-width: 16.6rem;
+    font-family: 'Onest',sans-serif;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 1.1111;
+    letter-spacing: 0;
+    color: rgba(var(--color-foreground));
+}
+.product-evolution--media--wrapper .product-evolution--media--bullet-text p {
+    margin: 0;
+}
+.product-evolution--media--wrapper .product-evolution--media--bullet-text.bullet-text--first {
+    top: 8.4rem;
+}
+.product-evolution--media--wrapper .product-evolution--media--bullet-text.bullet-text--second {
+    top: 21rem;
+}
+.product-evolution--media--wrapper .product-evolution--media--bullet-text.bullet-text--third {
+    top: 32.6rem;
+}
+.product-evolution--media--wrapper .svg-wrapper {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.product-evolution .shop_now_btn {
+    font-family: 'Nohemi-Medium', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1;
+    display: inline-flex;
+    /* padding: 1.35rem 3rem; */
+
+}
+.product-evolution .banner__content {
+    padding: 0;
+}
+.product-evolution .banner__box {
+    padding: 0;
+}
+.product-evolution  .banner:after {
+    position: unset;
+    background: unset;
+    opacity: unset;
+    z-index: unset;
+    width: unset;
+    height: unset;
+}
+  
+@media screen and (min-width: 1400px) {
+    .product-evolution .banner__box {
+        max-width: 80rem;
+    }
+}

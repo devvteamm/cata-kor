@@ -9,6 +9,66 @@
  */
 {
   "sections": {
+    "product_evolution_KxPGAg": {
+      "type": "product-evolution",
+      "blocks": {
+        "heading_tYfwC9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fresh Look, Powerful Formula.",
+            "heading_size": "hxxl"
+          }
+        },
+        "text_iXPjBa": {
+          "type": "text",
+          "settings": {
+            "text": "Fresh Look, Powerful Formula / Reimagined Aesthetics, Advanced Formula",
+            "text_style": "body"
+          }
+        },
+        "buttons_N7QyD3": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "#",
+            "button_style_secondary_1": false
+          }
+        },
+        "image_pgP7bL": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify://shop_images/Group_1171276115.png",
+            "first_text": "",
+            "second_text": "",
+            "third_text": "<p><br/></p>"
+          }
+        },
+        "image_3aVRLE": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify://shop_images/2025-02-19_19-06.png",
+            "first_text": "<p><br/></p>",
+            "second_text": "",
+            "third_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_tYfwC9",
+        "text_iXPjBa",
+        "buttons_N7QyD3",
+        "image_pgP7bL",
+        "image_3aVRLE"
+      ],
+      "settings": {
+        "desktop_content_position": "top-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "padding_top": 80,
+        "padding_bottom": 44
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -24,17 +84,6 @@
           "settings": {
             "text": "Cata-Kor NAD Supplements is a daily health supplements designed to support cellular energy, overall wellness, and healthy aging. Formulated with high-quality ingredients, it helps promote vitality, optimize metabolism, and enhance overall body function.",
             "text_style": "body"
-          }
-        },
-        "buttons_wHGza9": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "#",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
           }
         },
         "product_PaHmxC": {
@@ -71,14 +120,13 @@
       "block_order": [
         "heading",
         "text_eeRahC",
-        "buttons_wHGza9",
         "product_PaHmxC",
         "product_XC9FfW"
       ],
       "settings": {
         "image": "shopify://shop_images/image.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "large",
+        "image_height": "adapt",
         "desktop_content_position": "top-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
@@ -117,10 +165,227 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "rich_text_YtNtjM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yeKnjY": {
+          "type": "heading",
+          "settings": {
+            "heading": "We have a solution and we can help fight it.",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yeKnjY"
+      ],
+      "custom_css": [
+        ".rich-text__heading {font-size: 6rem;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "show_accent_graphics": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "dynamic_benefits_showcase_wPg7KQ": {
+      "type": "dynamic-benefits-showcase",
+      "blocks": {
+        "left_side_block_zDV4YK": {
+          "type": "left_side_block",
+          "settings": {
+            "image": "shopify://shop_images/image_1.png",
+            "heading": "Combats the Effects of Aging",
+            "text": "<p>Aging depletes NAD+ levels, leading to reduced cellular function. Our supplement helps restore these levels, supporting DNA repair and longevity. Feel younger and more vibrant every day.</p>"
+          }
+        },
+        "left_side_block_JjdFAc": {
+          "type": "left_side_block",
+          "settings": {
+            "image": "shopify://shop_images/image_2.png",
+            "heading": "Boosts Cellular Energy",
+            "text": "<p>NAD+ fuels mitochondria, the powerhouse of your cells. By enhancing energy production, our formula helps you stay active, focused, and energized throughout the day.</p>"
+          }
+        },
+        "left_side_block_XTQHNU": {
+          "type": "left_side_block",
+          "settings": {
+            "image": "shopify://shop_images/image_3.png",
+            "heading": "Supports Heart and Muscles",
+            "text": "<p>Healthy NAD+ levels contribute to optimal cardiovascular function and muscle recovery. Strengthen your heart, improve endurance, and reduce fatigue naturally.</p>"
+          }
+        },
+        "left_side_block_fckCEF": {
+          "type": "left_side_block",
+          "settings": {
+            "image": "shopify://shop_images/image_4.png",
+            "heading": "Fuels Cellular Repair",
+            "text": "<p>Every cell in your body relies on NAD+ for repair and regeneration. Our formula aids in cellular recovery, reducing oxidative stress and promoting overall resilience.</p>"
+          }
+        },
+        "right_side_block_EQYpMe": {
+          "type": "right_side_block",
+          "settings": {
+            "sub_heading": "About NAD Booster",
+            "heading": "Unlock the Power of NAD+ for a Healthier You",
+            "text": "<p>Reignite your body's natural vitality with Cata-Kor NAD+ supplements. Designed to replenish declining NAD+ levels, our formula supports cellular health, energy production, and overall well-being. Experience a boost in daily performance, enhanced resilience, and long-term wellness. From combating aging to fueling recovery, NAD+ is at the core of longevity. Take charge of your health and feel the difference today.</p>",
+            "button_label_1": "Shop Now",
+            "button_link_1": "#"
+          }
+        }
+      },
+      "block_order": [
+        "left_side_block_zDV4YK",
+        "left_side_block_JjdFAc",
+        "left_side_block_XTQHNU",
+        "left_side_block_fckCEF",
+        "right_side_block_EQYpMe"
+      ],
+      "settings": {
+        "color_scheme": "scheme-03cfe59c-a110-4281-ad5b-6676b0e6ba86",
+        "padding_top": 92,
+        "padding_bottom": 92
+      }
+    },
+    "custom_review_JQdbwY": {
+      "type": "custom-review",
+      "blocks": {
+        "column_fkGLxp": {
+          "type": "column",
+          "settings": {
+            "title": "Rachal R",
+            "text": "<p>“Love this! I’ve been taking this for 1 week and already feel better! More energy and softer skin! :) highly recommend!”</p>",
+            "product_rating_number": 5,
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_AgiVKJ": {
+          "type": "column",
+          "settings": {
+            "title": "Rachal R",
+            "text": "<p>“Love this! I’ve been taking this for 1 week and already feel better! More energy and softer skin! :) highly recommend!”</p>",
+            "product_rating_number": 5,
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_b9rjah": {
+          "type": "column",
+          "settings": {
+            "title": "Rachal R",
+            "text": "<p>“Love this! I’ve been taking this for 1 week and already feel better! More energy and softer skin! :) highly recommend!”</p>",
+            "product_rating_number": 5,
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eXcAYf": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_fkGLxp",
+        "column_AgiVKJ",
+        "column_b9rjah",
+        "column_eXcAYf"
+      ],
+      "settings": {
+        "title": "See what members are saying about Cata-Kor",
+        "sub_title": "Ingredients And Study",
+        "heading_size": "hxl",
+        "title_align": "justify-start",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "enable_desktop_slider": true,
+        "carousel_nav_inline_with_title": true,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-4",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_MRD4HA": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_dLhci4": {
+          "type": "heading",
+          "settings": {
+            "heading": "GMP Manufactured, Scientifically (Not Clinically) Research Ingredients, 3-rd-Party Tested for.",
+            "heading_size": "hxl"
+          }
+        },
+        "logo_with_text_XLwLmf": {
+          "type": "logo_with_text",
+          "settings": {
+            "text": "<p>GMP Manufactured Scientifically</p>",
+            "image": "shopify://shop_images/fi_18565766.svg"
+          }
+        },
+        "logo_with_text_AHXjRT": {
+          "type": "logo_with_text",
+          "settings": {
+            "text": "<p>Scientifically Researched<br/>Ingredients</p>",
+            "image": "shopify://shop_images/fi_11498784.svg"
+          }
+        },
+        "logo_with_text_MACiVp": {
+          "type": "logo_with_text",
+          "settings": {
+            "text": "<p>3rd-Party Tested for Purity, <br/>Potency, and Heavy Metals</p>",
+            "image": "shopify://shop_images/fi_18610465.svg"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dLhci4",
+        "logo_with_text_XLwLmf",
+        "logo_with_text_AHXjRT",
+        "logo_with_text_MACiVp"
+      ],
+      "custom_css": [
+        ".banner--desktop-transparent .banner__box {max-width: 117.5rem;}",
+        ".banner__heading {max-width: unset;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/image.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "top-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
+    "product_evolution_KxPGAg",
     "image_banner",
-    "featured_collection"
+    "featured_collection",
+    "rich_text_YtNtjM",
+    "dynamic_benefits_showcase_wPg7KQ",
+    "custom_review_JQdbwY",
+    "image_banner_MRD4HA"
   ]
 }

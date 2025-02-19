@@ -2,6 +2,18 @@
   z-index: 1;
 }
 
+.rich-text .left_side_graphics {
+  position: absolute;
+  left: 0;
+  top: 2.1rem;
+}
+
+.rich-text .right_side_graphics {
+  position: absolute;
+  right: 0;
+  top: 2.1rem;
+}
+
 .rich-text__wrapper {
   display: flex;
   justify-content: center;
@@ -15,6 +27,12 @@
 
 .rich-text__blocks {
   width: 100%;
+}
+
+.rich-text__blocks .rich-text__heading {
+  font-family: 'Nohemi-Regular', sans-serif;
+  line-height: 1.2;
+  letter-spacing: -0.180px;
 }
 
 @media screen and (min-width: 750px) {
@@ -37,7 +55,8 @@
 
 @media screen and (min-width: 990px) {
   .rich-text__blocks {
-    max-width: 78rem;
+    /* max-width: 78rem; */
+    max-width: 66.8rem;
   }
 }
 
