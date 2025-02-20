@@ -52,32 +52,34 @@
   </div>
 </div>
 <div class="product-evolution--media--wrapper">
-{%- assign image_block = section.blocks |where: "type", "Image" -%}
-    {% if image_block.size > 0 %}
-    {%- for block in image_block -%}
-      <div class="product-evolution--media--{{ forloop.index }}">
-        {{ block.settings.image | image_url: width: block.settings.image.width | image_tag: 
-          alt: block.settings.image.alt | default: 'Product image'
-        }}
-        {% if block.settings.first_text != blank %}
-          <span class="product-evolution--media--bullet-text bullet-text--first">
-            {{ block.settings.first_text }}
-          </span>      
-        {% endif %}
-        {% if block.settings.second_text != blank %}
-          {% comment %} <div class="dotted-line"> </div> {% endcomment %}
-          <span class="product-evolution--media--bullet-text bullet-text--second">{{ block.settings.second_text }}</span>      
-        {% endif %}
-        {% if block.settings.third_text != blank %}
-          {% comment %} <div class="dotted-line"> </div> {% endcomment %}
-          <span class="product-evolution--media--bullet-text bullet-text--third">{{ block.settings.third_text }}</span>      
-        {% endif %}
-      </div>
-    {% endfor %}
-  {% endif %}
-  <span class="svg-wrapper"> {{- 'icon-double-right.svg' | inline_asset_content -}}</span>
+  <div class="product-evolution--media">
+      {%- assign image_block = section.blocks |where: "type", "Image" -%}
+      {% if image_block.size > 0 %}
+      {%- for block in image_block -%}
+        <div class="product-evolution--media--{{ forloop.index }}">
+          {{ block.settings.image | image_url: width: block.settings.image.width | image_tag: 
+            alt: block.settings.image.alt | default: 'Product image'
+          }}
+          {% if block.settings.first_text != blank %}
+            <span class="product-evolution--media--bullet-text bullet-text--first">
+              {{ block.settings.first_text }}
+            </span>      
+          {% endif %}
+          {% if block.settings.second_text != blank %}
+            {% comment %} <div class="dotted-line"> </div> {% endcomment %}
+            <span class="product-evolution--media--bullet-text bullet-text--second">{{ block.settings.second_text }}</span>      
+          {% endif %}
+          {% if block.settings.third_text != blank %}
+            {% comment %} <div class="dotted-line"> </div> {% endcomment %}
+            <span class="product-evolution--media--bullet-text bullet-text--third">{{ block.settings.third_text }}</span>      
+          {% endif %}
+        </div>
+      {% endfor %}
+    {% endif %}
+    <span class="svg-wrapper"> {{- 'icon-double-right.svg' | inline_asset_content -}}</span>
   </div>
   </div>
+</div>
 </div>
 
 {% schema %}

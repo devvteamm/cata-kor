@@ -201,7 +201,8 @@
           "settings": {
             "image": "shopify://shop_images/image_1.png",
             "heading": "Combats the Effects of Aging",
-            "text": "<p>Aging depletes NAD+ levels, leading to reduced cellular function. Our supplement helps restore these levels, supporting DNA repair and longevity. Feel younger and more vibrant every day.</p>"
+            "text": "<p>Aging depletes NAD+ levels, leading to reduced cellular function. Our supplement helps restore these levels, supporting DNA repair and longevity. Feel younger and more vibrant every day.</p>",
+            "text_key": "first_slide"
           }
         },
         "left_side_block_JjdFAc": {
@@ -209,7 +210,8 @@
           "settings": {
             "image": "shopify://shop_images/image_2.png",
             "heading": "Boosts Cellular Energy",
-            "text": "<p>NAD+ fuels mitochondria, the powerhouse of your cells. By enhancing energy production, our formula helps you stay active, focused, and energized throughout the day.</p>"
+            "text": "<p>NAD+ fuels mitochondria, the powerhouse of your cells. By enhancing energy production, our formula helps you stay active, focused, and energized throughout the day.</p>",
+            "text_key": "second_slide"
           }
         },
         "left_side_block_XTQHNU": {
@@ -217,7 +219,8 @@
           "settings": {
             "image": "shopify://shop_images/image_3.png",
             "heading": "Supports Heart and Muscles",
-            "text": "<p>Healthy NAD+ levels contribute to optimal cardiovascular function and muscle recovery. Strengthen your heart, improve endurance, and reduce fatigue naturally.</p>"
+            "text": "<p>Healthy NAD+ levels contribute to optimal cardiovascular function and muscle recovery. Strengthen your heart, improve endurance, and reduce fatigue naturally.</p>",
+            "text_key": "third_slide"
           }
         },
         "left_side_block_fckCEF": {
@@ -225,7 +228,8 @@
           "settings": {
             "image": "shopify://shop_images/image_4.png",
             "heading": "Fuels Cellular Repair",
-            "text": "<p>Every cell in your body relies on NAD+ for repair and regeneration. Our formula aids in cellular recovery, reducing oxidative stress and promoting overall resilience.</p>"
+            "text": "<p>Every cell in your body relies on NAD+ for repair and regeneration. Our formula aids in cellular recovery, reducing oxidative stress and promoting overall resilience.</p>",
+            "text_key": "forth_slide"
           }
         },
         "right_side_block_EQYpMe": {
@@ -234,8 +238,42 @@
             "sub_heading": "About NAD Booster",
             "heading": "Unlock the Power of NAD+ for a Healthier You",
             "text": "<p>Reignite your body's natural vitality with Cata-Kor NAD+ supplements. Designed to replenish declining NAD+ levels, our formula supports cellular health, energy production, and overall well-being. Experience a boost in daily performance, enhanced resilience, and long-term wellness. From combating aging to fueling recovery, NAD+ is at the core of longevity. Take charge of your health and feel the difference today.</p>",
+            "text_key": "first_slide",
             "button_label_1": "Shop Now",
             "button_link_1": "#"
+          }
+        },
+        "right_side_block_jXweC4": {
+          "type": "right_side_block",
+          "settings": {
+            "sub_heading": "About NAD Booster",
+            "heading": "Unlock the Power of NAD+ for a Healthier You 2",
+            "text": "<p>Reignite your body's natural vitality with Cata-Kor NAD+ supplements. Designed to replenish declining NAD+ levels, our formula supports cellular health, energy production, and overall well-being. Experience a boost in daily performance, enhanced resilience, and long-term wellness. From combating aging to fueling recovery, NAD+ is at the core of longevity. Take charge of your health and feel the difference today. 2</p>",
+            "text_key": "second_slide",
+            "button_label_1": "Button label",
+            "button_link_1": ""
+          }
+        },
+        "right_side_block_GgK3gW": {
+          "type": "right_side_block",
+          "settings": {
+            "sub_heading": "About NAD Booster",
+            "heading": "Unlock the Power of NAD+ for a Healthier You 3",
+            "text": "<p>Reignite your body's natural vitality with Cata-Kor NAD+ supplements. Designed to replenish declining NAD+ levels, our formula supports cellular health, energy production, and overall well-being. Experience a boost in daily performance, enhanced resilience, and long-term wellness. From combating aging to fueling recovery, NAD+ is at the core of longevity. Take charge of your health and feel the difference today. 3</p>",
+            "text_key": "third_slide",
+            "button_label_1": "Button label",
+            "button_link_1": ""
+          }
+        },
+        "right_side_block_rgMifg": {
+          "type": "right_side_block",
+          "settings": {
+            "sub_heading": "About NAD Booster",
+            "heading": "Unlock the Power of NAD+ for a Healthier You 4",
+            "text": "<p>Reignite your body's natural vitality with Cata-Kor NAD+ supplements. Designed to replenish declining NAD+ levels, our formula supports cellular health, energy production, and overall well-being. Experience a boost in daily performance, enhanced resilience, and long-term wellness. From combating aging to fueling recovery, NAD+ is at the core of longevity. Take charge of your health and feel the difference today. 4</p>",
+            "text_key": "forth_slide",
+            "button_label_1": "Button label",
+            "button_link_1": ""
           }
         }
       },
@@ -244,7 +282,10 @@
         "left_side_block_JjdFAc",
         "left_side_block_XTQHNU",
         "left_side_block_fckCEF",
-        "right_side_block_EQYpMe"
+        "right_side_block_EQYpMe",
+        "right_side_block_jXweC4",
+        "right_side_block_GgK3gW",
+        "right_side_block_rgMifg"
       ],
       "settings": {
         "color_scheme": "scheme-03cfe59c-a110-4281-ad5b-6676b0e6ba86",
@@ -308,6 +349,7 @@
         "title_align": "justify-start",
         "image_width": "full",
         "image_ratio": "adapt",
+        "slider_visual": "dots",
         "columns_desktop": 2,
         "enable_desktop_slider": true,
         "carousel_nav_inline_with_title": true,

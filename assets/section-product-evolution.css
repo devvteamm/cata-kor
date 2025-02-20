@@ -16,18 +16,40 @@
 }
 
 .product-evolution--media--wrapper {
+    width: 100%;
     display: grid;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
     position: relative;
     margin-top: 3.8rem;
-    grid-template-columns: 1fr 1fr;
     overflow: hidden;
+}
+.product-evolution--media--wrapper .product-evolution--media {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    grid-template-columns: 1fr 1fr;
+    max-width: 120rem;
 }
 .product-evolution--media--wrapper .product-evolution--media--1,
 .product-evolution--media--wrapper .product-evolution--media--2 {
     position: relative;
-    justify-self: center
+    justify-self: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.product-evolution--media--wrapper .product-evolution--media--2 {
+    margin-left: 10rem;
+    margin-right: 5rem;
+}
+
+.product-evolution--media--wrapper .product-evolution--media--1 img,
+.product-evolution--media--wrapper .product-evolution--media--2 img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 
 .product-evolution--media--wrapper .product-evolution--media--bullet-text {

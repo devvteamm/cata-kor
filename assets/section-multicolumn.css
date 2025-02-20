@@ -281,6 +281,8 @@
     display: list-item;
   }
 }
+
+
 .custom_review_block .slider-component-desktop .slider-buttons-wrapper {
   position: absolute;
   bottom: 0;
@@ -288,6 +290,13 @@
 }
 .custom_review_block .multicolumn-card__info {
   padding: 3rem 6.1rem 3rem 3rem;
+}
+.custom_review_block .swiper-slide {
+  margin-right: 0 !important;
+}
+.custom_review_block .slider--desktop.grid--2-col-desktop .grid__item {
+  width: calc((100% - var(--desktop-margin-left-first-item)) / 2 - var(--grid-desktop-horizontal-spacing)* 5) !important;
+
 }
 .custom_review_block  .multicolumn .title-wrapper-with-link {
   position: relative;

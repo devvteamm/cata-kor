@@ -22,7 +22,7 @@
             <div class="dynamic-benefits-showcase-left-side-container">
                 {%- assign left_side_container = section.blocks | where : "type" , "left_side_block" -%}
                 {%  for block in left_side_container %}
-                    <div class="dynamic-benefits-showcase-left-side-item">
+                    <div class="dynamic-benefits-showcase-left-side-item {% if forloop.index == 1 %} active {% endif %}" data-text-key="{{ block.settings.text_key }}">
                         <div class="dynamic-benefits-showcase-left-side-item--image">
                             <img 
                               src="{{ block.settings.image | image_url: width: 160 }}"
@@ -42,7 +42,7 @@
             <div class="dynamic-benefits-showcase-right-side-container">
                 {%- assign right_side_container = section.blocks | where : "type" , "right_side_block" -%}
                 {%  for block in right_side_container %}
-                    <div class="dynamic-benefits-showcase-right-side-item">
+                    <div class="dynamic-benefits-showcase-right-side-item" data-text-key="{{ block.settings.text_key }}">
                         <span class="dynamic-benefits-showcase-right-side-item-subheading">{{ block.settings.sub_heading }}</span>
                         <h1 class="dynamic-benefits-showcase-right-side-item-heading">{{ block.settings.heading }}</h1>
                         <div class="dynamic-benefits-showcase-right-side-item-text">{{ block.settings.text }}</div>
@@ -55,6 +55,47 @@
         </div>
     </div>
 </div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll(".dynamic-benefits-showcase-container").forEach(container => {
+            const leftItems = container.querySelectorAll(".dynamic-benefits-showcase-left-side-item");
+            const rightItems = container.querySelectorAll(".dynamic-benefits-showcase-right-side-item");
+    
+            function updateRightContent(selectedKey) {
+                rightItems.forEach(item => {
+                    if (item.getAttribute("data-text-key") === selectedKey) {
+                        item.style.display = "flex";
+                    } else {
+                        item.style.display = "none";
+                    }
+                });
+            }
+    
+            leftItems.forEach(item => {
+                item.addEventListener("click", function () {
+                    // Remove "active" class from all left items in this section only
+                    leftItems.forEach(i => i.classList.remove("active"));
+    
+                    // Add "active" class to the clicked item
+                    this.classList.add("active");
+    
+                    // Get selected key and update right side content
+                    const selectedKey = this.getAttribute("data-text-key");
+                    updateRightContent(selectedKey);
+                });
+            });
+    
+            // Set initial state to match the first active left-side item in this section only
+            const activeLeftItem = container.querySelector(".dynamic-benefits-showcase-left-side-item.active");
+            if (activeLeftItem) {
+                updateRightContent(activeLeftItem.getAttribute("data-text-key"));
+            }
+        });
+    });
+    
+    
+</script>
 
 {% schema %}
     {
@@ -111,6 +152,11 @@
                     "type": "richtext",
                     "id": "text",
                     "label": "Text"
+                },
+                {
+                    "type": "text",
+                    "id": "text_key",
+                    "label": "Comparison Key"
                 }
              ]
            },
@@ -132,6 +178,11 @@
                     "type": "richtext",
                     "id": "text",
                     "label": "Text"
+                },
+                {
+                    "type": "text",
+                    "id": "text_key",
+                    "label": "Comparison Key"
                 },
                 {
                     "type": "text",
