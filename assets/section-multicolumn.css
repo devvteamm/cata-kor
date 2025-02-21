@@ -291,13 +291,6 @@
 .custom_review_block .multicolumn-card__info {
   padding: 3rem 6.1rem 3rem 3rem;
 }
-.custom_review_block .swiper-slide {
-  margin-right: 0 !important;
-}
-.custom_review_block .slider--desktop.grid--2-col-desktop .grid__item {
-  width: calc((100% - var(--desktop-margin-left-first-item)) / 2 - var(--grid-desktop-horizontal-spacing)* 5) !important;
-
-}
 .custom_review_block  .multicolumn .title-wrapper-with-link {
   position: relative;
 }
@@ -328,6 +321,66 @@
   /* .custom_review_block .grid--2-col-desktop .grid__item {
     max-width: calc(34.7% - var(--grid-desktop-horizontal-spacing) / 2);
 } */
+}
+
+
+/* swiper css */
+.custom_review_block .swiper-button--wrapper {
+  position: absolute;
+  display: flex;
+  height: 5rem;
+  gap: 1.2rem;
+  bottom: 0;
+  right: 5rem;
+}
+
+.custom_review_block .swiper-wrapper .swiper-slide {
+  height: unset;
+}
+
+.custom_review_block .swiper-button--wrapper .swiper-button-prev,
+.custom_review_block .swiper-button--wrapper .swiper-button-next {
+   margin-top: 0;
+   position: relative;
+   color: unset;
+   top: unset;
+   left: unset;
+   right: unset;
+   width: 5rem;
+   height: 5rem;
+}
+.custom_review_block .swiper-button--wrapper .swiper-button-prev .svg-wrapper,
+.custom_review_block .swiper-button--wrapper .swiper-button-next .svg-wrapper{
+  width: 5rem;
+  height: 5rem;
+ }
+
+ .custom_review_block .swiper-pagination {
+  position: relative;
+  margin-top: 3.4rem;
+  top: unset;
+  bottom: unset;
+ }
+
+ .custom_review_block .swiper-pagination-bullet {
+  width: 27px; /* Longer width for the active bullet */
+  height: 8px;  /* Keep it a rounded pill shape */
+  background-color: rgba(0, 0, 0, 0.2); /* Light greenish-gray color for inactive bullets */
+  border-radius: 10px; 
+  transition: all 0.3s ease;
+}
+
+.custom_review_block .swiper-pagination-bullet-active {
+  background-color: #1a3a2d; /* Darker green for active bullet */
+  width: 95px; /* Wider than inactive bullets */
+  height: 8px;
+  border-radius: 10px;
+}
+
+
+.custom_review_block .swiper-button--wrapper  .swiper-button-prev:after, 
+.custom_review_block .swiper-button--wrapper .swiper-button-next:after {
+  content: "";
 }
 
 

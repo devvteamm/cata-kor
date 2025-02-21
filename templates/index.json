@@ -310,7 +310,7 @@
           "type": "column",
           "settings": {
             "title": "Rachal R",
-            "text": "<p>“Love this! I’ve been taking this for 1 week and already feel better! More energy and softer skin! :) highly recommend!”</p>",
+            "text": "<p>“Love this! I’ve been taking this for 2 week and already feel better! More energy and softer skin! :) highly recommend!”</p>",
             "product_rating_number": 5,
             "link_label": "",
             "link": ""
@@ -320,13 +320,13 @@
           "type": "column",
           "settings": {
             "title": "Rachal R",
-            "text": "<p>“Love this! I’ve been taking this for 1 week and already feel better! More energy and softer skin! :) highly recommend!”</p>",
+            "text": "<p>“Love this! I’ve been taking this for 3 week and already feel better! More energy and softer skin! :) highly recommend!”</p>",
             "product_rating_number": 5,
             "link_label": "",
             "link": ""
           }
         },
-        "column_eXcAYf": {
+        "column_9GckFc": {
           "type": "column",
           "settings": {
             "title": "Column",
@@ -340,7 +340,7 @@
         "column_fkGLxp",
         "column_AgiVKJ",
         "column_b9rjah",
-        "column_eXcAYf"
+        "column_9GckFc"
       ],
       "settings": {
         "title": "See what members are saying about Cata-Kor",
@@ -349,9 +349,7 @@
         "title_align": "justify-start",
         "image_width": "full",
         "image_ratio": "adapt",
-        "slider_visual": "dots",
-        "columns_desktop": 2,
-        "enable_desktop_slider": true,
+        "columns_desktop": 2.5,
         "carousel_nav_inline_with_title": true,
         "column_alignment": "left",
         "background_style": "primary",
@@ -359,7 +357,6 @@
         "button_link": "",
         "color_scheme": "scheme-4",
         "columns_mobile": "2",
-        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
