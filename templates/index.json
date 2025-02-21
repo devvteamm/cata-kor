@@ -422,9 +422,9 @@
         "heading_7iibFG": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "NAD is declining over the years",
             "heading_size": "h1",
-            "sub_heding": ""
+            "sub_heding": "About NAD Booster"
           }
         },
         "text_CDTPy4": {
@@ -438,7 +438,7 @@
           "type": "button",
           "settings": {
             "button_label": "Button label",
-            "button_link": "",
+            "button_link": "#",
             "button_style_secondary": false
           }
         }
@@ -449,14 +449,15 @@
         "button_MdaJ8V"
       ],
       "settings": {
+        "image": "shopify://shop_images/Frame_1321317020.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
+        "section_color_scheme": "scheme-4a883a37-99d1-4761-a71a-25fcb256acf5",
+        "color_scheme": "scheme-4a883a37-99d1-4761-a71a-25fcb256acf5",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
