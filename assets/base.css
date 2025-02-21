@@ -3628,3 +3628,7 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
+.button--primary{
+  border-radius: 23.2rem;
+  overflow: hidden;
+}

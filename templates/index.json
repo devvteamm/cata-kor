@@ -75,14 +75,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Begin Your NAD Journey",
-            "heading_size": "hxl"
+            "heading": "Fresh Look, Powerful Formula.",
+            "heading_size": "h0"
           }
         },
         "text_eeRahC": {
           "type": "text",
           "settings": {
-            "text": "Cata-Kor NAD Supplements is a daily health supplements designed to support cellular energy, overall wellness, and healthy aging. Formulated with high-quality ingredients, it helps promote vitality, optimize metabolism, and enhance overall body function.",
+            "text": "Fresh Look, Powerful Formula / Reimagined Aesthetics, Advanced Formula",
             "text_style": "body"
           }
         },
@@ -124,17 +124,108 @@
         "product_XC9FfW"
       ],
       "settings": {
-        "image": "shopify://shop_images/image.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "top-left",
         "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "scheme-2",
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-5",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "image_with_text_YkBmHw": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_VyATji": {
+          "type": "heading",
+          "settings": {
+            "heading": "NAD is declining over the years",
+            "heading_size": "h1",
+            "sub_heding": "About NAD Booster"
+          }
+        },
+        "text_HXLphP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Your 37.2 trillion cells are powered by NAD+, a vital coenzyme that fuels cellular energy and repair throughout your entire body. NAD+ levels naturally decline with age, lifestyle factors, and stressors. Replenishing NAD+ levels is essential for maintaining your cellular health, energy, and vitality.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_wdbfjU": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_VyATji",
+        "text_HXLphP",
+        "button_wdbfjU"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Frame_1321317020.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-5",
+        "color_scheme": "scheme-5",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "image_with_blocks_wFHNYJ": {
+      "type": "image-with-blocks",
+      "blocks": {
+        "heading_W84WCn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Designed for your body. Proven by research.",
+            "heading_size": "h1",
+            "sub_heding": "Ingredients And Study"
+          }
+        },
+        "image_PnLWpa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2025-02-19_18-17.png"
+          }
+        },
+        "label_with_text_XyYqm3": {
+          "type": "label-with-text",
+          "settings": {
+            "label_text_1": "3x More Superior",
+            "text_1": "9.3x",
+            "description_text_1": "LipoNAD+™ preserves NAD+ levels in the liver at 9.3x higher than regular NAD+.",
+            "text_2": "",
+            "description_text_2": "",
+            "label_text_2": "3x More Superior",
+            "text_3": "96%",
+            "description_text_3": "Increased general energy level",
+            "text_4": "91%",
+            "description_text_4": "Increased overall skin health"
+          }
+        }
+      },
+      "block_order": [
+        "heading_W84WCn",
+        "image_PnLWpa",
+        "label_with_text_XyYqm3"
+      ],
+      "settings": {
+        "color_scheme": "scheme-5",
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     },
     "featured_collection": {
@@ -425,6 +516,9 @@
     "rich_text_YtNtjM",
     "dynamic_benefits_showcase_wPg7KQ",
     "custom_review_JQdbwY",
-    "image_banner_MRD4HA"
+    "image_banner_MRD4HA",
+    "image_with_text_YkBmHw",
+    "image_with_blocks_wFHNYJ",
+    "featured_collection"
   ]
 }
