@@ -137,6 +137,62 @@
         "show_text_below": false
       }
     },
+    "image_banner_MRD4HA": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_dLhci4": {
+          "type": "heading",
+          "settings": {
+            "heading": "GMP Manufactured, Scientifically (Not Clinically) Research Ingredients, 3-rd-Party Tested for.",
+            "heading_size": "hxl"
+          }
+        },
+        "logo_with_text_XLwLmf": {
+          "type": "logo_with_text",
+          "settings": {
+            "text": "<p>GMP Manufactured Scientifically</p>",
+            "image": "shopify://shop_images/fi_18565766.svg"
+          }
+        },
+        "logo_with_text_AHXjRT": {
+          "type": "logo_with_text",
+          "settings": {
+            "text": "<p>Scientifically Researched<br/>Ingredients</p>",
+            "image": "shopify://shop_images/fi_11498784.svg"
+          }
+        },
+        "logo_with_text_MACiVp": {
+          "type": "logo_with_text",
+          "settings": {
+            "text": "<p>3rd-Party Tested for Purity, <br/>Potency, and Heavy Metals</p>",
+            "image": "shopify://shop_images/fi_18610465.svg"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dLhci4",
+        "logo_with_text_XLwLmf",
+        "logo_with_text_AHXjRT",
+        "logo_with_text_MACiVp"
+      ],
+      "custom_css": [
+        ".banner--desktop-transparent .banner__box {max-width: 117.5rem;}",
+        ".banner__heading {max-width: unset;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/image.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "top-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "disabled": true,
@@ -288,7 +344,7 @@
         "right_side_block_rgMifg"
       ],
       "settings": {
-        "color_scheme": "scheme-03cfe59c-a110-4281-ad5b-6676b0e6ba86",
+        "color_scheme": "scheme-5",
         "padding_top": 92,
         "padding_bottom": 92
       }
@@ -360,70 +416,62 @@
         "padding_bottom": 36
       }
     },
-    "image_banner_MRD4HA": {
-      "type": "image-banner",
+    "image_with_text_PaBftd": {
+      "type": "image-with-text",
       "blocks": {
-        "heading_dLhci4": {
+        "heading_7iibFG": {
           "type": "heading",
           "settings": {
-            "heading": "GMP Manufactured, Scientifically (Not Clinically) Research Ingredients, 3-rd-Party Tested for.",
-            "heading_size": "hxl"
+            "heading": "Image with text",
+            "heading_size": "h1",
+            "sub_heding": ""
           }
         },
-        "logo_with_text_XLwLmf": {
-          "type": "logo_with_text",
+        "text_CDTPy4": {
+          "type": "text",
           "settings": {
-            "text": "<p>GMP Manufactured Scientifically</p>",
-            "image": "shopify://shop_images/fi_18565766.svg"
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
           }
         },
-        "logo_with_text_AHXjRT": {
-          "type": "logo_with_text",
+        "button_MdaJ8V": {
+          "type": "button",
           "settings": {
-            "text": "<p>Scientifically Researched<br/>Ingredients</p>",
-            "image": "shopify://shop_images/fi_11498784.svg"
-          }
-        },
-        "logo_with_text_MACiVp": {
-          "type": "logo_with_text",
-          "settings": {
-            "text": "<p>3rd-Party Tested for Purity, <br/>Potency, and Heavy Metals</p>",
-            "image": "shopify://shop_images/fi_18610465.svg"
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading_dLhci4",
-        "logo_with_text_XLwLmf",
-        "logo_with_text_AHXjRT",
-        "logo_with_text_MACiVp"
-      ],
-      "custom_css": [
-        ".banner--desktop-transparent .banner__box {max-width: 117.5rem;}",
-        ".banner__heading {max-width: unset;}"
+        "heading_7iibFG",
+        "text_CDTPy4",
+        "button_MdaJ8V"
       ],
       "settings": {
-        "image": "shopify://shop_images/image.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "top-left",
-        "show_text_box": false,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
         "desktop_content_alignment": "left",
-        "color_scheme": "scheme-1",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "product_evolution_KxPGAg",
     "image_banner",
+    "image_banner_MRD4HA",
     "featured_collection",
     "rich_text_YtNtjM",
     "dynamic_benefits_showcase_wPg7KQ",
     "custom_review_JQdbwY",
-    "image_banner_MRD4HA"
+    "image_with_text_PaBftd"
   ]
 }
