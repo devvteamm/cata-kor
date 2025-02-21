@@ -226,6 +226,7 @@
         "button_MdaJ8V"
       ],
       "settings": {
+        "text_slogan": "We can help fight it.",
         "image": "shopify://shop_images/Frame_1321317020.png",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -368,6 +369,50 @@
         "padding_bottom": 92
       }
     },
+    "image_with_blocks_MJhgzL": {
+      "type": "image-with-blocks",
+      "blocks": {
+        "heading_QxjQg8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Designed for your body. Proven by research.",
+            "heading_size": "h1",
+            "sub_heding": "Ingredients And Study"
+          }
+        },
+        "image_LVwxCR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2025-02-19_18-17.png"
+          }
+        },
+        "label_with_text_MWCVNJ": {
+          "type": "label-with-text",
+          "settings": {
+            "label_text_1": "3x More Superior",
+            "text_1": "9.3x",
+            "description_text_1": "LipoNAD+™ preserves NAD+ levels in the liver at 9.3x higher than regular NAD+.",
+            "text_2": "",
+            "description_text_2": "",
+            "label_text_2": "3x More Superior",
+            "text_3": "96%",
+            "description_text_3": "Increased general energy level",
+            "text_4": "91%",
+            "description_text_4": "Increased overall skin health"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QxjQg8",
+        "image_LVwxCR",
+        "label_with_text_MWCVNJ"
+      ],
+      "settings": {
+        "color_scheme": "scheme-4a883a37-99d1-4761-a71a-25fcb256acf5",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
     "custom_review_JQdbwY": {
       "type": "custom-review",
       "blocks": {
@@ -431,52 +476,8 @@
         "button_link": "",
         "color_scheme": "scheme-4",
         "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_blocks_MJhgzL": {
-      "type": "image-with-blocks",
-      "blocks": {
-        "heading_QxjQg8": {
-          "type": "heading",
-          "settings": {
-            "heading": "Designed for your body. Proven by research.",
-            "heading_size": "h1",
-            "sub_heding": "Ingredients And Study"
-          }
-        },
-        "image_LVwxCR": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2025-02-19_18-17.png"
-          }
-        },
-        "label_with_text_MWCVNJ": {
-          "type": "label-with-text",
-          "settings": {
-            "label_text_1": "3x More Superior",
-            "text_1": "9.3x",
-            "description_text_1": "LipoNAD+™ preserves NAD+ levels in the liver at 9.3x higher than regular NAD+.",
-            "text_2": "",
-            "description_text_2": "",
-            "label_text_2": "3x More Superior",
-            "text_3": "96%",
-            "description_text_3": "Increased general energy level",
-            "text_4": "91%",
-            "description_text_4": "Increased overall skin health"
-          }
-        }
-      },
-      "block_order": [
-        "heading_QxjQg8",
-        "image_LVwxCR",
-        "label_with_text_MWCVNJ"
-      ],
-      "settings": {
-        "color_scheme": "scheme-4a883a37-99d1-4761-a71a-25fcb256acf5",
-        "padding_top": 80,
-        "padding_bottom": 80
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     }
   },
@@ -487,7 +488,7 @@
     "image_with_text_PaBftd",
     "rich_text_YtNtjM",
     "dynamic_benefits_showcase_wPg7KQ",
-    "custom_review_JQdbwY",
-    "image_with_blocks_MJhgzL"
+    "image_with_blocks_MJhgzL",
+    "custom_review_JQdbwY"
   ]
 }

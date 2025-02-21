@@ -1643,7 +1643,7 @@ details[open] > .share-button__fallback {
   border-radius: var(--inputs-radius);
 }
 
-.field__input:focus-visible,
+/* .field__input:focus-visible, */
 .select__select:focus-visible,
 .customer .field input:focus-visible,
 .customer select:focus-visible,
@@ -2399,13 +2399,24 @@ input[type='checkbox'] {
   }
 
   .header__buttons {
-    font-family: 'Nohemi-Medium', sans-serif;
-    font-size: 1.6rem;
-    line-height: 1.75;
     display: unset;
+    line-height: 1.75;
   }
   .shop_now_btn {
-    padding: 1.65rem 3rem;
+    padding: 1.35rem 3rem;
+    letter-spacing: 0;
+    border-radius: 23.2rem;
+    border: 1px solid #1B352A40;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Nohemi-Medium', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1;
+    background-color: rgba(var(--color-button), var(--alpha-button-background));
+    color: rgb(var(--color-button-text));
+  }
+  .shop_now_btn_without_family {
+    padding: 1.35rem 3rem;
     letter-spacing: 0;
     border-radius: 23.2rem;
     border: 1px solid #1B352A40;

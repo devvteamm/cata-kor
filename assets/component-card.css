@@ -167,6 +167,7 @@
 
 .card__information {
   grid-row-start: 2;
+  text-align: center;
   /* padding: 1.3rem 1rem; */
 }
 

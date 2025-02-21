@@ -95,6 +95,7 @@
 }
 .product-evolution .banner__box {
     padding: 0;
+    max-width: 73rem;
 }
 .product-evolution  .banner:after {
     position: unset;

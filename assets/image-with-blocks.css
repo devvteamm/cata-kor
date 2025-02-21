@@ -16,6 +16,7 @@
   font-family: "Nohemi-Medium", sans-serif;
   font-size: 6.5rem;
   line-height: 1.015;
+  letter-spacing: 0;
 }
 .image-with-blocks .image-with-blocks__text .sub_heding{
   font-family: "Nohemi-Regular", sans-serif;
@@ -24,6 +25,7 @@
   line-height: 1.75;
   display: flex;
   align-items: center;
+  letter-spacing: 0;
 }
 .image-with-blocks .image-with-blocks__text .sub_heding::before {
   content: "";
@@ -60,6 +62,7 @@
   font-size: 1.6rem;
   text-transform: uppercase;
   line-height: 1;
+  letter-spacing: 0;
 }
 .image-with-blocks .label-block{
   display: flex;
@@ -76,6 +79,7 @@
   font-size: 2rem;
   line-height: 1.6;
   opacity: 80%;
+  letter-spacing: 0;
 }
 .image-with-blocks .label-block .label-block-text{
   display: flex;
