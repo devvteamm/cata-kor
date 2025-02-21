@@ -46,7 +46,7 @@
         "image_3aVRLE": {
           "type": "Image",
           "settings": {
-            "image": "shopify://shop_images/2025-02-19_19-06.png",
+            "image": "shopify://shop_images/image_6.png",
             "first_text": "<p><br/></p>",
             "second_text": "",
             "third_text": ""
@@ -239,7 +239,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 100,
-        "padding_bottom": 100
+        "padding_bottom": 44
       }
     },
     "rich_text_YtNtjM": {

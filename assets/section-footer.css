@@ -609,6 +609,7 @@
   top: 50%;
   transform: translateY(-50%);
   right: .6rem;
+  text-transform: uppercase;
 } 
 .grid__item{
   flex-grow: 0;

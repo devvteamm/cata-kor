@@ -85,3 +85,7 @@
   display: flex;
   gap: 1rem;
 }
+
+.image-with-blocks .label-block .label-block-text .label-block-text-item {
+  margin-left: 1rem;
+}
