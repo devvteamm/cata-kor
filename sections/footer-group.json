@@ -19,7 +19,9 @@
           "settings": {
             "image": "shopify://shop_images/Mask_group_1.png",
             "image_width": 165,
-            "alignment": ""
+            "alignment": "",
+            "image_text": "<p>Lorem ipsum dolor amet consectetur adipiscing elit, sed eiusmod tempor incid labore dolore aliqua. </p>",
+            "show_icon": true
           }
         },
         "link_list_iaciy6": {
@@ -47,7 +49,8 @@
           "type": "text",
           "settings": {
             "heading": "Join Our Newsletter",
-            "subtext": "<p>Signup for our latest news & articles. We won’t give you spam mails.</p>"
+            "subtext": "<p>Signup for our latest news & articles. We won’t give you spam mails.</p>",
+            "show_email": false
           }
         }
       },
@@ -59,7 +62,7 @@
         "text_UHm6WK"
       ],
       "settings": {
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-4a883a37-99d1-4761-a71a-25fcb256acf5",
         "newsletter_enable": true,
         "newsletter_heading": "",
         "enable_follow_on_shop": true,
