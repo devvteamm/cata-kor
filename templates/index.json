@@ -193,10 +193,10 @@
         "show_text_below": true
       }
     },
-    "image_with_text_PaBftd": {
-      "type": "image-with-text",
+    "text_with_blocks_hmMX9V": {
+      "type": "text-with-blocks",
       "blocks": {
-        "heading_7iibFG": {
+        "heading_qy6ad7": {
           "type": "heading",
           "settings": {
             "heading": "NAD is declining over the years",
@@ -204,42 +204,57 @@
             "sub_heding": "About NAD Booster"
           }
         },
-        "text_CDTPy4": {
+        "text_Bbqg9T": {
           "type": "text",
           "settings": {
             "text": "<p>Your 37.2 trillion cells are powered by NAD+, a vital coenzyme that fuels cellular energy and repair throughout your entire body. NAD+ levels naturally decline with age, lifestyle factors, and stressors. Replenishing NAD+ levels is essential for maintaining your cellular health, energy, and vitality.</p>",
             "text_style": "body"
           }
         },
-        "button_MdaJ8V": {
+        "button_CrQken": {
           "type": "button",
           "settings": {
             "button_label": "Learn More",
-            "button_link": "#",
+            "button_link": "",
             "button_style_secondary": false
+          }
+        },
+        "image_with_designation_gDGTjr": {
+          "type": "image-with-designation",
+          "settings": {
+            "background_color": "#f3efe6",
+            "main_image": "shopify://shop_images/image_dde2f5d3-ef32-478a-b51b-6602d5f5a2bb.png",
+            "sub_image": "shopify://shop_images/Subtract.png",
+            "title_text": "nad+",
+            "text2": "Declines by Up to 65%Between Ages 30 and 70",
+            "percentage": "65%",
+            "percentage_text": "NAD+ Decline",
+            "graph_image": "shopify://shop_images/image_21.png",
+            "bottom_text": "Tissuenad+ Decline"
           }
         }
       },
       "block_order": [
-        "heading_7iibFG",
-        "text_CDTPy4",
-        "button_MdaJ8V"
+        "heading_qy6ad7",
+        "text_Bbqg9T",
+        "button_CrQken",
+        "image_with_designation_gDGTjr"
       ],
       "settings": {
         "text_slogan": "We can help fight it.",
         "image": "shopify://shop_images/Frame_1321317020.png",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "text_first",
-        "desktop_content_position": "middle",
+        "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-4a883a37-99d1-4761-a71a-25fcb256acf5",
+        "section_color_scheme": "scheme-1",
         "color_scheme": "scheme-4a883a37-99d1-4761-a71a-25fcb256acf5",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 100,
-        "padding_bottom": 44
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "rich_text_YtNtjM": {
@@ -485,7 +500,7 @@
     "product_evolution_KxPGAg",
     "image_banner",
     "image_banner_MRD4HA",
-    "image_with_text_PaBftd",
+    "text_with_blocks_hmMX9V",
     "rich_text_YtNtjM",
     "dynamic_benefits_showcase_wPg7KQ",
     "image_with_blocks_MJhgzL",
