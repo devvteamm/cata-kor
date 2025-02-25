@@ -508,6 +508,8 @@
   letter-spacing: 0;
   color: #1B352A;
   text-transform: uppercase;
+  width: 30%;
+  word-wrap: break-word;
 }
 .nad-image-with-text .media-item-taxt-and-title .media-text{
   font-family: 'Onest', serif;
@@ -516,6 +518,7 @@
   line-height: 1.428;
   letter-spacing: 0;
   color: #000;
+  width: 70%;
 }
 .nad-image-with-text .image-with-text__media-item-text_part-1{
   margin-top: 2.5rem;
@@ -578,6 +581,7 @@
   flex-direction: column;
   justify-content: space-between;
   gap: .5rem;
+  width: 100%;
 }
 .nad-image-with-text .media-item-icon{
   max-width: 6.7rem;
