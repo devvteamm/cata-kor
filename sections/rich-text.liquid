@@ -14,13 +14,16 @@
   }
 {%- endstyle -%}
 
-<div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
+<div class="isolate{% unless section.settings.full_width %} page-width{% endunless %} {{ template.suffix }}">
   <div class="rich-text content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
     <div class="rich-text__wrapper rich-text__wrapper--{{ section.settings.desktop_content_position }}{% if section.settings.full_width %} page-width{% endif %}">
-      <div class="rich-text__blocks {{ section.settings.content_alignment }}">
+      <div class="rich-text__blocks {% if section.settings.full_width_container == true %} rich-text__blocks_full_width {% endif %} {{ section.settings.content_alignment }}">
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'heading' -%}
+              {% if block.settings.sub_heding != blank %}
+                <h6 class="rich-text__sub-heading">{{ block.settings.sub_heding }}</h6>
+              {% endif %}
               <h2
                 class="rich-text__heading rte inline-richtext {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                 {{ block.shopify_attributes }}
@@ -101,6 +104,11 @@
         </div>
       {% comment %} </div> {% endcomment %}
     {% endif %}
+    {% if section.settings.show_star == true %}
+      <div class="star-icon">
+        {{- 'about-star.svg' | inline_asset_content -}}
+      </div>
+  {% endif %}
   </div>
 </div>
 
@@ -132,7 +140,7 @@
       ],
       "default": "center",
       "label": "t:sections.rich-text.settings.desktop_content_position.label",
-      "info": "t:sections.rich-text.settings.desktop_content_position.info"
+      "info": "Position is automatically optimized for mobile, Make container full width is inedible to not work"
     },
     {
       "type": "select",
@@ -168,9 +176,21 @@
     },
     {
       "type": "checkbox",
+      "id": "full_width_container",
+      "label": "Make container full width",
+      "default": false
+    },
+    {
+      "type": "checkbox",
       "id": "show_accent_graphics",
       "default": true,
       "label": "Show Accent Graphics"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_star",
+      "default": false,
+      "label": "Show Accent Graphics big"
     },
     {
       "type": "header",
@@ -236,6 +256,11 @@
           ],
           "default": "h1",
           "label": "t:sections.all.heading_size.label"
+        },
+        {
+          "type": "text",
+          "id": "sub_heding",
+          "label": "Sub heding"
         }
       ]
     },
