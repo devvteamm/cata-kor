@@ -73,9 +73,9 @@
         {%- else -%}
           {{ 'hero-apparel-3' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
         {%- endif -%}
-        <span class="deferred-media__poster-button motion-reduce">
-          <span class="svg-wrapper">
-            {{- 'icon-play.svg' | inline_asset_content -}}
+        <span class="deferred-media__poster-button motion-reduce {{ section.settings.button_position }}">
+          <span class="svg-wrapper-video">
+            {{- 'icon-video-play.svg' | inline_asset_content -}}
           </span>
         </span>
       </button>
@@ -111,12 +111,15 @@
               image_size: '1100x',
               autoplay: true,
               loop: section.settings.enable_video_looping,
-              controls: true,
+              controls: section.settings.enable_video_controls,
               muted: false
           }}
         {%- endif -%}
       </template>
-    </deferred-media>
+      <div class="video_description">{{ section.settings.video_description }}</div>
+      </deferred-media>
+      <div class="video_description-mobile">{{ section.settings.video_description }}</div>
+      </deferred-media>
   </div>
 </div>
 
@@ -164,9 +167,31 @@
       "label": "t:sections.all.heading_size.label"
     },
     {
+      "type": "select",
+      "id": "button_position",
+      "options": [
+        {
+          "value": "center",
+          "label": "center"
+        },
+        {
+          "value": "bottom-right",
+          "label": "Bottom Right"
+        }  
+      ],
+      "default": "center",
+      "label": "Button Position"
+    },
+    {
       "type": "checkbox",
       "id": "enable_video_looping",
       "label": "t:sections.video.settings.enable_video_looping.label",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_video_controls",
+      "label": "controls",
       "default": false
     },
     {
@@ -204,6 +229,11 @@
       "id": "description",
       "label": "t:sections.video.settings.description.label",
       "info": "t:sections.video.settings.description.info"
+    },
+    {
+      "type": "richtext",
+      "id": "video_description",
+      "label": "Video description"
     },
     {
       "type": "header",

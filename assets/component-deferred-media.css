@@ -67,8 +67,8 @@
 }
 
 .deferred-media__poster-button {
-  background-color: rgb(var(--color-background));
-  border: 0.1rem solid rgba(var(--color-foreground), 0.1);
+  /* background-color: rgb(var(--color-background)); */
+  /* border: 0.1rem solid rgba(var(--color-foreground), 0.1); */
   border-radius: 50%;
   color: rgb(var(--color-foreground));
   display: flex;
@@ -76,17 +76,25 @@
   justify-content: center;
   height: 6.2rem;
   width: 6.2rem;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%) scale(1);
-  transition: transform var(--duration-short) ease, color var(--duration-short) ease;
+  position: absolute; 
+  /* transition: transform var(--duration-short) ease, color var(--duration-short) ease; */
   z-index: 1;
 }
 
-.deferred-media__poster-button:hover {
-  transform: translate(-50%, -50%) scale(1.1);
+.deferred-media__poster-button.center {
+  transform: translate(-50%, -50%) scale(1);
+  left: 50%;
+  top: 50%;
 }
+
+.deferred-media__poster-button.bottom-right {
+  right: 10rem;
+  bottom: 7rem;
+}
+
+/* .deferred-media__poster-button:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+} */
 
 .deferred-media__poster-button .icon {
   width: 2rem;
@@ -95,4 +103,67 @@
 
 .deferred-media__poster-button .icon-play {
   margin-left: 0.2rem;
+}
+
+.svg-wrapper-video {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video_description {
+  position: absolute;
+  /* transform: translate(-50%, -50%); */
+  left: 0;
+  bottom: 0;
+  left: 10rem;
+  bottom: 7rem;
+  max-width: 58.3rem;
+}
+
+.video_description p {
+  font-family: "Onest", serif;
+  font-weight: 400;
+  line-height: 1.94;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.video_description strong {
+  font-family: 'Nohemi-Medium',sans-serif;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+
+
+
+/* .video_description > * {
+  display: inline-block;
+} */
+
+
+@media screen and (max-width: 1024px) {
+  .video_description { 
+    max-width: 57%;
+  }
+}
+
+.video_description-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 769px) {
+  .video_description { 
+    display: none;
+  }
+  .video_description-mobile {
+    display: block;
+    padding-inline: 1rem;
+  }
+
+  .deferred-media__poster-button.bottom-right {
+    right: 3rem;
+    bottom: 3rem;
+  }  
 }
