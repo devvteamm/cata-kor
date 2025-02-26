@@ -184,32 +184,34 @@
               </div>
             {%- endfor -%}
           {% endif %}
-        </div>        
-        <div class="banner__box-logo-with-text--wrapper">
-          {%- assign logo_with_text_block = section.blocks |where: "type", "logo_with_text" -%}
-          {% if logo_with_text_block.size > 0 %}
-            {%- for logo_with_text in logo_with_text_block -%}
-              <div class="logo-with-text-wrraper">
-                <div class="logo">
-                  <img 
-                    src="{{ logo_with_text.settings.image | image_url: width: 70 }}"
-                    alt="{{ logo_with_text.settings.image.alt | default: 'Logo image' }}"
-                    width="70"
-                    height="70"
-                    loading="lazy"
-                  >
-                  
-                </div>
-                <div>
-                  <div class="logo-with-text-content">{{ logo_with_text.settings.text }}</div>
-                  {% if logo_with_text.settings.description != blank %}
-                    <div class="logo-with-text-description">{{ logo_with_text.settings.description }}</div>                  
-                  {% endif %}
-                </div>
-              </div>
-            {% endfor %}
-          {% endif %}
         </div>
+        {%- assign logo_with_text_block = section.blocks |where: "type", "logo_with_text" -%}
+        {% if logo_with_text_block != blank %}
+          <div class="banner__box-logo-with-text--wrapper">
+            {% if logo_with_text_block.size > 0 %}
+              {%- for logo_with_text in logo_with_text_block -%}
+                <div class="logo-with-text-wrraper">
+                  <div class="logo">
+                    <img 
+                      src="{{ logo_with_text.settings.image | image_url: width: 70 }}"
+                      alt="{{ logo_with_text.settings.image.alt | default: 'Logo image' }}"
+                      width="70"
+                      height="70"
+                      loading="lazy"
+                    >
+                    
+                  </div>
+                  <div>
+                    <div class="logo-with-text-content">{{ logo_with_text.settings.text }}</div>
+                    {% if logo_with_text.settings.description != blank %}
+                      <div class="logo-with-text-description">{{ logo_with_text.settings.description }}</div>                  
+                    {% endif %}
+                  </div>
+                </div>
+              {% endfor %}
+            {% endif %}
+          </div>          
+        {% endif %}  
     </div>
   </div>
 </div>
@@ -413,7 +415,6 @@
     {
       "type": "heading",
       "name": "t:sections.image-banner.blocks.heading.name",
-      "limit": 1,
       "settings": [
         {
           "type": "inline_richtext",
@@ -425,6 +426,10 @@
           "type": "select",
           "id": "heading_size",
           "options": [
+            {
+              "value": "extra-small",
+              "label": "extra small"
+            },
             {
               "value": "h2",
               "label": "t:sections.all.heading_size.options__1.label"
