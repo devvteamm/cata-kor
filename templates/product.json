@@ -229,8 +229,79 @@
         "video_description": "<p><strong>See the Science in Action!</strong> Watch how LipoNAD+™ works at a cellular level to boost energy, focus, and healthy aging.</p>",
         "full_width": true,
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_cBWACG": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_FccN3x": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/image_16.png",
+            "title": "",
+            "text": "<h2>Third-party testing certification</h2>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RBGiiL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/image_17.png",
+            "title": "",
+            "text": "<h2>Lab-tested purity</h2>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LMQihn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/image_18.png",
+            "title": "",
+            "text": "<h2>Physician-developed formula</h2>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Aj7wqi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/image_19.png",
+            "title": "",
+            "text": "<h2>Scientific research references</h2>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_FccN3x",
+        "column_RBGiiL",
+        "column_LMQihn",
+        "column_Aj7wqi"
+      ],
+      "custom_css": [
+        ".multicolumn-card__info {padding: 0;}"
+      ],
+      "settings": {
+        "sub_title": "About NAD Booster",
+        "title": "Backed by science, quality, and safety",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-b5151d7e-8668-4505-82cd-fa78be2bc3f0",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     }
   },
@@ -239,6 +310,7 @@
     "related-products",
     "image_banner_mBp3NR",
     "image_banner_LDQNUw",
-    "video_W7Xkyt"
+    "video_W7Xkyt",
+    "multicolumn_cBWACG"
   ]
 }
