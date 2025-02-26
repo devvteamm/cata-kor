@@ -168,51 +168,19 @@
         "show_text_below": true
       }
     },
-    "image_banner_LDQNUw": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_enNpGU": {
-          "type": "heading",
-          "settings": {
-            "heading": "30 days supply",
-            "heading_size": "hxl"
-          }
-        },
-        "heading_yBV7b3": {
-          "type": "heading",
-          "settings": {
-            "heading": "Consistency is key!",
-            "heading_size": "extra-small"
-          }
-        },
-        "text_MKah38": {
-          "type": "text",
-          "settings": {
-            "text": "Take two capsules daily as part of your routine to maximize benefits and support your body's natural NAD+ levels.",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_enNpGU",
-        "heading_yBV7b3",
-        "text_MKah38"
-      ],
-      "custom_css": [
-        ".banner__heading {max-width: unset;}"
-      ],
+    "video_ahqxTU": {
+      "type": "video",
       "settings": {
-        "image": "shopify://shop_images/1_a4516a20-ac67-4a5e-9a8a-a5d7b99c14cf.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-left",
-        "show_text_box": true,
-        "desktop_content_alignment": "left",
-        "color_scheme": "scheme-a3ee4e6d-93d0-42e6-83e9-f266ede1bd40",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "heading": "Video",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify://files/videos/movie.mp4",
+        "video_url": "",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -220,6 +188,6 @@
     "main",
     "related-products",
     "image_banner_mBp3NR",
-    "image_banner_LDQNUw"
+    "video_ahqxTU"
   ]
 }
