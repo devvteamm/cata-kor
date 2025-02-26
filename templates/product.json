@@ -99,10 +99,79 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "image_banner_mBp3NR": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_GDGnmL": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why NAD {{ product.metafields.custom.product_volume.value }}?",
+            "heading_size": "hxl"
+          }
+        },
+        "logo_with_text_8UafWd": {
+          "type": "logo_with_text",
+          "settings": {
+            "text": "<p>BEST START FOR NAD+ BEGINNERS</p>",
+            "description": "LipoNAD+™ is a unique, trademarked formula designed to provide an ideal introduction to NAD+, enhancing cellular health and boosting energy levels.",
+            "image": "shopify://shop_images/Mask_group_2.png"
+          }
+        },
+        "logo_with_text_xqyFKf": {
+          "type": "logo_with_text",
+          "settings": {
+            "text": "<p>TESTED IN THE USA</p>",
+            "description": "Our LipoNAD+™ supplement is third-party tested in the USA to ensure its purity and effectiveness. Certificate available upon request.",
+            "image": "shopify://shop_images/Mask_group_7fcc326e-eb09-4b85-b3db-765105e376b7.png"
+          }
+        },
+        "logo_with_text_WMGqgw": {
+          "type": "logo_with_text",
+          "settings": {
+            "text": "<p>SUPPORTS SKIN AGING</p>",
+            "description": "SUPPORTS SKIN AGING with 250 mg LipoNAD+™ an NMN supplement alternative that enhances your body's absorption and utilization of NAD precursors",
+            "image": "shopify://shop_images/Mask_group_1_14a87da7-3628-4a44-b6eb-09b60639a81f.png"
+          }
+        },
+        "logo_with_text_GBWXJn": {
+          "type": "logo_with_text",
+          "settings": {
+            "text": "<p>9.3x GREATER ABSORPTION</p>",
+            "description": "250 mg LipoNAD+™ enhances bioavailability, delivering superior absorption compared to regular NAD+*.",
+            "image": "shopify://shop_images/Mask_group_3.png"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GDGnmL",
+        "logo_with_text_8UafWd",
+        "logo_with_text_xqyFKf",
+        "logo_with_text_WMGqgw",
+        "logo_with_text_GBWXJn"
+      ],
+      "custom_css": [
+        ".banner--desktop-transparent .banner__box {max-width: 117.5rem;}",
+        ".banner__heading {max-width: unset;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/image_15.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "top-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-5073547c-114c-4af3-9a37-721a7265f990",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "image_banner_mBp3NR"
   ]
 }

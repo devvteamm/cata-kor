@@ -438,7 +438,7 @@
 @media screen and (min-width: 750px) {
   .banner__box {
     width: auto;
-    max-width: 71rem;
+    max-width: 70%;
     min-width: 45rem;
   }
 }
@@ -517,13 +517,33 @@
   display: flex;
   flex-direction: column;
   row-gap: 6rem;
-  max-width: 53rem;
+  max-width: 64.4rem;
   margin-top: 10rem;
 }
 
 .banner__box-logo-with-text--wrapper .logo-with-text-wrraper {
   display: flex;
   column-gap: 5rem;
+}
+
+@media screen and (max-width: 749px) {
+  .banner__box-logo-with-text--wrapper {
+    max-width: unset;
+    
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .banner__box-logo-with-text--wrapper .logo-with-text-wrraper {
+    flex-direction: column;
+  }
+}
+
+body.template-product .banner__box-logo-with-text--wrapper .logo-with-text-wrraper .logo img {
+  max-width: 6.2rem;
+  max-height: 6.2rem;
+  object-fit: contain;
+  overflow: hidden;
 }
 
 .banner__box-logo-with-text--wrapper .logo-with-text-content {
@@ -533,6 +553,20 @@
   letter-spacing: 0;
   color: rgb(var(--color-foreground));
 }
+
+body.template-product .banner__box-logo-with-text--wrapper .logo-with-text-content {
+  font-size: 24px;
+}
+
+.banner__box-logo-with-text--wrapper .logo-with-text-description {
+  font-family: "Onest", serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.388;
+  letter-spacing: 0;
+  opacity: 80%;
+  margin-top: 1.8rem;
+} 
 
 .banner__box-logo-with-text--wrapper .logo-with-text-content p {
   margin: 0;

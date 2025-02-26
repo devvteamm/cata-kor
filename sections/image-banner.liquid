@@ -200,7 +200,12 @@
                   >
                   
                 </div>
-                <div class="logo-with-text-content">{{ logo_with_text.settings.text }}</div>
+                <div>
+                  <div class="logo-with-text-content">{{ logo_with_text.settings.text }}</div>
+                  {% if logo_with_text.settings.description != blank %}
+                    <div class="logo-with-text-description">{{ logo_with_text.settings.description }}</div>                  
+                  {% endif %}
+                </div>
               </div>
             {% endfor %}
           {% endif %}
@@ -605,7 +610,12 @@
         {
            "type": "richtext",
            "id": "text",
-           "label": "Text",
+           "label": "Text"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Description"
         },
         {
           "type": "image_picker",
