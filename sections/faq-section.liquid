@@ -37,7 +37,7 @@
           {% endif %}
           </div>
 
-          {% if section.settings.show-vector-icon and section.settings.button_label != blank %}
+          {% if section.settings.show-icon and section.settings.button_label != blank %}
            <div class="vector-icon">
               {{- 'vector.svg' | inline_asset_content -}}
            </div>
@@ -53,12 +53,12 @@
                 {{ block.shopify_attributes }}
               >
                 <details
-                  id="Details-{{ block.id }}-{{ section.id }}"
+                  id="Details-{{ block.id }}-{{ section.id }}" name="que"
                   {% if section.settings.open_first_collapsible_row and forloop.first %}
                     open
                   {% endif %}
                 >
-                  <summary id="Summary-{{ block.id }}-{{ section.id }}">
+                  <summary id="Summary-{{ block.id }}-{{ section.id }}" name="que">
                     {% render 'icon-accordion', icon: block.settings.icon %}
                     <h3 class="accordion__title inline-richtext h4">
                 {% if forloop.index < 10 %} 0{{ forloop.index }}. {% else %} {{ forloop.index }}. {% endif %} {{ block.settings.heading | default: block.settings.page.title | escape }}
@@ -111,7 +111,7 @@
       "type": "color_scheme",
       "id": "color_scheme",
       "label": "t:sections.all.colors.label",
-      "default": "scheme-1"
+      "default": "scheme-8"
     },
     {
       "type": "color_scheme",
@@ -134,9 +134,9 @@
     },
     {
       "type": "checkbox",
-      "id": "show-vector-icon",
+      "id": "show-icon",
       "default": false,
-      "label": "Show vector icon",
+      "label": "Show icon",
       "info": "The button will be visible to icon show and Full Content is enable to not work"
     },
     {

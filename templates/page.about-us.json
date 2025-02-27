@@ -40,7 +40,6 @@
         "text_zCWUpn"
       ],
       "settings": {
-        "desktop_content_position": "left",
         "content_alignment": "left",
         "color_scheme": "scheme-48f5fdb3-1497-4f57-ad4f-77832234cc6e",
         "full_width": true,
@@ -114,7 +113,7 @@
         "container_color_scheme": "",
         "full_content": false,
         "open_first_collapsible_row": false,
-        "show-vector-icon": true,
+        "show-icon": true,
         "button_label": "View All",
         "button_link": "",
         "padding_top": 100,
