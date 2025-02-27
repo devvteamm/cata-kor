@@ -294,12 +294,80 @@
         "image_ratio": "adapt",
         "columns_desktop": 4,
         "column_alignment": "left",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "",
         "button_link": "",
         "color_scheme": "scheme-b5151d7e-8668-4505-82cd-fa78be2bc3f0",
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "custom_review_WpwPcD": {
+      "type": "custom-review",
+      "blocks": {
+        "column_aqyME4": {
+          "type": "column",
+          "settings": {
+            "title": "Rachal R",
+            "text": "<p>“Love this! I’ve been taking this for 1 week and already feel better! More energy and softer skin! :) highly recommend!”</p>",
+            "product_rating_number": 5,
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BEDb4e": {
+          "type": "column",
+          "settings": {
+            "title": "Rachal R",
+            "text": "<p>“Love this! I’ve been taking this for 1 week and already feel better! More energy and softer skin! :) highly recommend!”</p>",
+            "product_rating_number": 5,
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_AhPidR": {
+          "type": "column",
+          "settings": {
+            "title": "Rachal R",
+            "text": "<p>“Love this! I’ve been taking this for 1 week and already feel better! More energy and softer skin! :) highly recommend!”</p>",
+            "product_rating_number": 5,
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3WKcmh": {
+          "type": "column",
+          "settings": {
+            "title": "Rachal R",
+            "text": "<p>“Love this! I’ve been taking this for 1 week and already feel better! More energy and softer skin! :) highly recommend!”</p>",
+            "product_rating_number": 5,
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_aqyME4",
+        "column_BEDb4e",
+        "column_AhPidR",
+        "column_3WKcmh"
+      ],
+      "settings": {
+        "title": "See what members are saying about Cata-Kor",
+        "sub_title": "Ingredients And Study",
+        "heading_size": "hxl",
+        "title_align": "justify-start",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2.5,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-4",
+        "columns_mobile": "1",
         "padding_top": 100,
         "padding_bottom": 100
       }
@@ -311,6 +379,7 @@
     "image_banner_mBp3NR",
     "image_banner_LDQNUw",
     "video_W7Xkyt",
-    "multicolumn_cBWACG"
+    "multicolumn_cBWACG",
+    "custom_review_WpwPcD"
   ]
 }
