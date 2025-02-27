@@ -52,6 +52,15 @@
   .multicolumn .title-wrapper-with-link {
     margin-bottom: 3rem;
   }
+  .multicolumn .title-wrapper-with-link .title {
+    max-width: 75%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .custom_review_block .swiper-button--wrapper {
+    right: 1rem !important;
+  }
 }
 
 @media screen and (min-width: 750px) and (max-width: 989px) {
