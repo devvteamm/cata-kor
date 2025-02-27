@@ -17,44 +17,19 @@
         "padding_bottom": 28
       }
     },
-    "rich_text_AqXiqJ": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_mtwHVJ": {
-          "type": "heading",
-          "settings": {
-            "heading": "The Genesis of Cata-Kor: A Journey to Transform Lives",
-            "heading_size": "h0",
-            "sub_heding": "Liposomal"
-          }
-        },
-        "text_zCWUpn": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Meet Cata-kor a brand of dietary supplements on a mission to make a genuine impact.<br/></p><p>What makes Cata-kor stand out is not just its scientific precision but also its genuine concern for customers' well-being. Each product undergoes rigorous testing, ensuring the highest standards of safety and effectiveness.<br/></p><p>More than a brand, Cata-kor is a community—a community committed to healthier, vibrant lives. From groundbreaking formulations in the lab to positive impacts in households, the brand embodies the transformative power of science and passion.<br/></p><p>Today, Cata-kor is not just a brand; it's a catalyst for change, inspiring individuals to embrace a healthier life through the marriage of science and wellness.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_mtwHVJ",
-        "text_zCWUpn"
-      ],
+    "section_header_DWxUAq": {
+      "type": "section-header",
       "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "scheme-48f5fdb3-1497-4f57-ad4f-77832234cc6e",
-        "full_width": true,
-        "full_width_container": true,
-        "show_accent_graphics": false,
-        "show_star": true,
-        "padding_top": 100,
-        "padding_bottom": 100
+        "title": "FAQ’s",
+        "color_scheme": "scheme-1",
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     },
-    "faq_section_NwAcKn": {
+    "faq_section_w4ygkY": {
       "type": "faq-section",
       "blocks": {
-        "collapsible_row_z6Dy38": {
+        "collapsible_row_XGwPKp": {
           "type": "collapsible_row",
           "settings": {
             "heading": "How long does it take to see results from dietary supplements?",
@@ -63,7 +38,7 @@
             "page": ""
           }
         },
-        "collapsible_row_9tkXMG": {
+        "collapsible_row_ctU3nC": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Are there potential side effects of dietary supplements?",
@@ -72,7 +47,7 @@
             "page": ""
           }
         },
-        "collapsible_row_9rHCLH": {
+        "collapsible_row_bV6EGh": {
           "type": "collapsible_row",
           "settings": {
             "heading": "How does Сata-Kor ensure the quality of its ingredients?",
@@ -81,7 +56,7 @@
             "page": ""
           }
         },
-        "collapsible_row_UX6tNQ": {
+        "collapsible_row_UFCxNQ": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Are your products gluten-free?",
@@ -90,7 +65,7 @@
             "page": ""
           }
         },
-        "collapsible_row_WaKdYq": {
+        "collapsible_row_NU3knD": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Are your products non-GMO/organic?",
@@ -98,25 +73,44 @@
             "row_content": "<p>The time to experience results varies based on the supplement and individual factors. Consistency in usage is key. Some may notice changes quickly, while others may require more time.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_UNcJ9H": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are your products safe to take with medications?",
+            "icon": "none",
+            "row_content": "<p>The time to experience results varies based on the supplement and individual factors. Consistency in usage is key. Some may notice changes quickly, while others may require more time.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_wdkkg4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you have samples?",
+            "icon": "none",
+            "row_content": "<p>The time to experience results varies based on the supplement and individual factors. Consistency in usage is key. Some may notice changes quickly, while others may require more time.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
-        "collapsible_row_z6Dy38",
-        "collapsible_row_9tkXMG",
-        "collapsible_row_9rHCLH",
-        "collapsible_row_UX6tNQ",
-        "collapsible_row_WaKdYq"
+        "collapsible_row_XGwPKp",
+        "collapsible_row_ctU3nC",
+        "collapsible_row_bV6EGh",
+        "collapsible_row_UFCxNQ",
+        "collapsible_row_NU3knD",
+        "collapsible_row_UNcJ9H",
+        "collapsible_row_wdkkg4"
       ],
       "settings": {
-        "caption": "FAQs",
+        "caption": "",
         "heading": "People often ask these questions",
-        "heading_alignment": "left",
         "color_scheme": "scheme-61c54174-6908-4e3f-a360-364419028ed7",
         "container_color_scheme": "",
-        "full_content": false,
+        "full_content": true,
         "open_first_collapsible_row": false,
-        "show-vector-icon": true,
-        "button_label": "View All",
+        "show-vector-icon": false,
+        "button_label": "",
         "button_link": "",
         "padding_top": 100,
         "padding_bottom": 100
@@ -125,7 +119,7 @@
   },
   "order": [
     "main",
-    "rich_text_AqXiqJ",
-    "faq_section_NwAcKn"
+    "section_header_DWxUAq",
+    "faq_section_w4ygkY"
   ]
 }

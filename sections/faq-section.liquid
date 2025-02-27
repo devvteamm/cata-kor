@@ -15,13 +15,12 @@
   }
 {%- endstyle -%}
 
-<div class="color-{{ section.settings.color_scheme }} faq gradient">
+<div class="color-{{ section.settings.color_scheme }} faq {% if section.settings.full_content %} faq_fullContent {% endif %} gradient">
   <div class="collapsible-content">
     <div class="collapsible-content__wrapper section-{{ section.id }}-padding{% if section.settings.layout == 'section' %} content-container color-{{ section.settings.container_color_scheme }} gradient{% endif %}">
       <div class="page-width faq-content__wrapper">
         <div
           class="collapsible-content__header{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-          style="text-align: {{ section.settings.heading_alignment }};"
         >
           <div class="faq_header">
           {%- if section.settings.caption != blank -%}
@@ -37,6 +36,12 @@
             <h2 class="visually-hidden">{{ 'accessibility.collapsible_content_title' | t }}</h2>
           {% endif %}
           </div>
+
+          {% if section.settings.show-vector-icon and section.settings.button_label != blank %}
+           <div class="vector-icon">
+              {{- 'vector.svg' | inline_asset_content -}}
+           </div>
+          {% endif %}
             {% if section.settings.button_label != blank %}
              <a class="faq_button" href="{{ section.settings.button_link }}">{{ section.settings.button_label }}</a>
             {% endif %} 
@@ -103,54 +108,6 @@
       "default": "t:sections.collapsible_content.settings.heading.default"
     },
     {
-      "type": "select",
-      "id": "heading_size",
-      "options": [
-        {
-          "value": "h2",
-          "label": "t:sections.all.heading_size.options__1.label"
-        },
-        {
-          "value": "h1",
-          "label": "t:sections.all.heading_size.options__2.label"
-        },
-        {
-          "value": "h0",
-          "label": "t:sections.all.heading_size.options__3.label"
-        },
-        {
-          "value": "hxl",
-          "label": "t:sections.all.heading_size.options__4.label"
-        },
-        {
-          "value": "hxxl",
-          "label": "t:sections.all.heading_size.options__5.label"
-        }
-      ],
-      "default": "h1",
-      "label": "t:sections.all.heading_size.label"
-    },
-    {
-      "type": "select",
-      "id": "heading_alignment",
-      "label": "t:sections.collapsible_content.settings.heading_alignment.label",
-      "options": [
-        {
-          "value": "left",
-          "label": "t:sections.collapsible_content.settings.heading_alignment.options__1.label"
-        },
-        {
-          "value": "center",
-          "label": "t:sections.collapsible_content.settings.heading_alignment.options__2.label"
-        },
-        {
-          "value": "right",
-          "label": "t:sections.collapsible_content.settings.heading_alignment.options__3.label"
-        }
-      ],
-      "default": "center"
-    },
-    {
       "type": "color_scheme",
       "id": "color_scheme",
       "label": "t:sections.all.colors.label",
@@ -165,9 +122,22 @@
     },
     {
       "type": "checkbox",
+      "id": "full_content",
+      "default": false,
+      "label": "Full Content"
+    },
+    {
+      "type": "checkbox",
       "id": "open_first_collapsible_row",
       "default": false,
       "label": "t:sections.collapsible_content.settings.open_first_collapsible_row.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show-vector-icon",
+      "default": false,
+      "label": "Show vector icon",
+      "info": "The button will be visible to icon show and Full Content is enable to not work"
     },
     {
       "type": "text",

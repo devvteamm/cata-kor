@@ -136,6 +136,7 @@
 .faq .collapsible-content__header{
   max-width: 32rem;
   width: 100%;
+  text-align: left;
 }
 .faq .question{
   width: 100%;
@@ -198,7 +199,7 @@
 .faq .accordion{
   border-radius: 1.6rem;
   border: 1px solid #E5E5E5;
-  padding: 2.7rem 3.3rem 2.7rem 2.7rem;
+  /* padding: 2.7rem 3.3rem 2.7rem 2.7rem; */
   margin-top: 0;
 }
 .faq .collapsible-content summary:hover{
@@ -215,26 +216,71 @@
   text-decoration: none;
 }
 .faq .accordion__content{
-  border-top: 1px solid #E5E5E5;
   padding: 0;
 }
 .faq .accordion__content p{
-  padding: 1.6rem 4.3rem 0rem 4.3rem;
-  font-family: 'Onest', serif;
+  padding: 1.6rem 4.3rem 0rem;
+  font-family: Onest, serif;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.5625;
   letter-spacing: 0;
+  margin: 0 auto;
+  border-top: 1px solid #E5E5E5;
+  width: calc(100% - 60px);
 }
 .faq .faq_button_mobile{
   display: none;
 }
 .faq .accordion summary{
-  padding: 0;
+  padding: 2.7rem 3.3rem 2.7rem 2.7rem;
 }
 .faq .accordion details[open] summary{
   padding-bottom: 1rem;
 }
+.faq .vector-icon {
+  position: relative;
+}
+.faq .vector-icon svg{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 25%;
+}
+.faq.faq_fullContent .faq-content__wrapper{
+  flex-direction: column;
+}
+.faq.faq_fullContent .collapsible-content__header{
+  max-width: 100%;
+}
+.faq.faq_fullContent .collapsible-content__heading{
+  max-width: 56.2rem;
+  width: 100%;
+  margin: 0 auto;
+}
+.faq.faq_fullContent .faq_header{
+  text-align: center;
+}
+.faq summary .icon-caret{
+  right: 3.3rem;
+}
+.faq.faq_fullContent .vector-icon{
+  display: none;
+}
+.faq.faq_fullContent .faq_button_mobile{
+  display: block;
+}
+.faq.faq_fullContent .faq_button{
+  display: none;
+}
+.faq.faq_fullContent .faq-content__wrapper{
+  gap: 5rem;
+}
+
+.faq.faq_fullContent .caption-with-letter-spacing{
+  justify-content: center;
+}
+
 @media screen and (max-width: 989px) {
   .faq .faq-content__wrapper{
     flex-direction: column;
@@ -252,13 +298,16 @@
     display: block;
     margin: 0 auto;
   }
+  .faq .vector-icon{
+    display: none;
+  } 
 }
 
 @media screen and (max-width: 749px) {
   .faq .collapsible-content__heading {
     font-size: 2.5rem;
   }
-  .faq .accordion {
+  .faq .accordion summary {
     padding: 1rem;
   }
   .faq .accordion__title{
@@ -274,5 +323,11 @@
   }
   .faq .faq_button{
     padding: 1rem 2rem;
+  }
+  .faq summary .icon-caret{
+    right: 1.5rem;
+  }
+  .faq.faq_fullContent .faq-content__wrapper{
+    gap: 2rem;
   }
 }
