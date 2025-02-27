@@ -1,5 +1,6 @@
 .rich-text {
   z-index: 1;
+  overflow: hidden;
 }
 
 .rich-text .left_side_graphics {
@@ -156,9 +157,50 @@
   right: 0;
   z-index: -1;
 }
+
+/* lifetime warranty page css */
+.lifetime-warranty .rich-text__blocks{
+  max-width: 106.8rem;
+  width: 100%;
+}
+
+.lifetime-warranty .rich-text__blocks .rich-text__heading.hxxl{
+  font-size: 8.5rem;
+  line-height: 1.058;
+  letter-spacing: 0;
+} 
+
+ .lifetime-warranty .rich-text__text{
+  margin-top: 1.3rem;
+  display: inline-flex;
+  justify-content: center;
+  max-width: 69.3rem;
+  width: 100%;
+}
+
+.lifetime-warranty .rich-text__buttons{
+  margin-top: 2.2rem;
+}
+
+.lifetime-warranty .rich-text__buttons .button--primary{
+  font-family: 'Nohemi-Medium', sans-serif;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 1;
+  letter-spacing: 0;
+  padding: 2.4rem 4.6rem;
+  border: 1.54px solid rgba(27, 53, 42, .25);
+}
+
 @media screen and (max-width: 989px) {
   .about-us .rich-text__heading{
     font-size: 5rem;
+  }
+  .lifetime-warranty .rich-text__blocks .rich-text__heading.hxxl{
+    font-size: 5.5rem;
+  }
+  .lifetime-warranty .rich-text__blocks {
+    max-width: 100%;
   }
 }
 
@@ -172,5 +214,20 @@
   } 
   .about-us .rich-text__text{
     font-size: 1.4rem;
+  }
+  .lifetime-warranty .rich-text__wrapper{
+    width: 100%;
+  }
+  .lifetime-warranty .rich-text__blocks .rich-text__heading.hxxl {
+    font-size: 3rem;
+  }
+  .lifetime-warranty .rich-text__text {
+    margin-top: 1rem;
+    max-width: 100%;
+    font-size: 1.6rem;
+  }
+  .lifetime-warranty .rich-text__buttons .button--primary {
+    font-size: 1.4rem;
+    padding: 1rem;
   }
 }

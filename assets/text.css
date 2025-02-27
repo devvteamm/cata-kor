@@ -1,0 +1,31 @@
+.section-text.lifetime-warranty p{
+  max-width: 90.3rem;
+  width: 100%;
+  margin: 0 auto;
+  color: rgba(var(--color-foreground),50%);
+}
+.section-text.lifetime-warranty strong,
+.section-text.lifetime-warranty span{
+  color: rgba(var(--color-foreground));
+} 
+.section-text.lifetime-warranty span strong{
+  font-family: "Nohemi-Medium", sans-serif;
+  color: #1B352A;
+} 
+.section-text{
+  font-family: "Nohemi-Regular", sans-serif;
+  font-size: 2.4rem;
+  line-height: 1.79;
+  letter-spacing: 0;
+  text-align: center;
+}
+@media screen and (max-width:989px) {
+  .section-text.lifetime-warranty p{
+    max-width: 100%;
+  }
+}
+@media screen and (max-width:749px) {
+  .section-text{
+    font-size: 1.8rem;
+  }
+}
