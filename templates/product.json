@@ -371,6 +371,48 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "custom_image_with_text_Cg33qY": {
+      "type": "custom-image-with-text",
+      "blocks": {
+        "heading_XpeTEi": {
+          "type": "heading",
+          "settings": {
+            "heading": "Choose the product that best suits your needs",
+            "heading_size": "hxl",
+            "sub_heding": "Switch Product"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XpeTEi"
+      ],
+      "settings": {
+        "text_slogan": "",
+        "product_list": [
+          "500mg-can-of-nad",
+          "250mg-can-of-nad"
+        ],
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_description": true,
+        "show_price": true,
+        "show_custom_button": "Shop Now",
+        "link_on_card_product": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-b5151d7e-8668-4505-82cd-fa78be2bc3f0",
+        "color_scheme": "scheme-41f8d28c-2279-47f0-8f39-bd10f09968cd",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -380,6 +422,7 @@
     "image_banner_LDQNUw",
     "video_W7Xkyt",
     "multicolumn_cBWACG",
-    "custom_review_WpwPcD"
+    "custom_review_WpwPcD",
+    "custom_image_with_text_Cg33qY"
   ]
 }
