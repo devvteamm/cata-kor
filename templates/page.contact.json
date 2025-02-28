@@ -36,7 +36,9 @@
         "email_text": "Feel free to contact us",
         "email": "help@catakor.com",
         "padding_top": 100,
-        "padding_bottom": 48
+        "padding_bottom": 48,
+        "mobile_padding_top": 45,
+        "mobile_padding_bottom": 10
       }
     },
     "faq_section_dnWETC": {
@@ -98,6 +100,7 @@
       "settings": {
         "caption": "FAQs",
         "heading": "People often ask these questions",
+        "mobile_text": "",
         "color_scheme": "scheme-61c54174-6908-4e3f-a360-364419028ed7",
         "container_color_scheme": "",
         "full_content": false,
@@ -106,7 +109,9 @@
         "button_label": "View All",
         "button_link": "",
         "padding_top": 52,
-        "padding_bottom": 52
+        "padding_bottom": 52,
+        "mobile_padding_top": 60,
+        "mobile_padding_bottom": 60
       }
     }
   },
