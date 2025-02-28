@@ -537,3 +537,78 @@
 .banner__box-logo-with-text--wrapper .logo-with-text-content p {
   margin: 0;
 }
+
+.rebranding_banner.banner--large{
+  min-height: 98.9rem;
+}
+.rebranding_banner .banner__heading{
+  font-family: "Nohemi-Regular";
+  letter-spacing: 0;
+  max-width: 73.1rem;
+}
+.rebranding_banner .banner__heading.hxxl{
+  font-size: 8.5rem;
+  line-height: 1.05;
+}
+.rebranding_banner .banner__text.body{
+  font-family: Onest, serif;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.4;
+  letter-spacing: 0;
+  margin-top: 2.4rem;
+}
+.rebranding_banner .button{
+  font-family: 'Nohemi-Medium', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  letter-spacing: 0;
+  padding: .8rem 3rem;
+} 
+.rebranding_banner .banner__buttons{
+  margin-top: 3rem;
+}
+.rebranding_banner .banner__media .mobile_image_class{
+  display: none;
+}
+
+@media screen and (max-width:989px) {
+  .rebranding_banner{
+    max-height: 100%;
+  }
+  .rebranding_banner .banner__heading{
+    max-width: 100%;
+  }
+  .rebranding_banner .banner__heading.hxxl{
+    font-size: 6.5rem;
+  }
+  .rebranding_banner.banner--mobile-bottom .banner__box{
+    padding-inline: 0;
+  }
+}
+@media screen and (max-width:749px) {
+  .rebranding_banner.banner:not(.banner--stacked){
+    flex-direction: column-reverse;
+  }
+  .rebranding_banner.banner.banner--large{
+    min-height: unset;
+  }
+  .rebranding_banner .banner__heading.hxxl{
+    font-size: 4.5rem;
+    line-height: 1.11;
+  }
+  .rebranding_banner .banner__text.body{
+    font-size: 1.8rem;
+    line-height: 1.56;
+    margin-top: 1.8rem;
+  }
+  .rebranding_banner .banner__buttons{
+    margin-top: 2.4rem;
+  }
+  .rebranding_banner .banner__media .mobile_image_class{
+    display: block;
+  }
+  .rebranding_banner .banner__media .banner__media-image-half{
+    display: none;
+  }
+}

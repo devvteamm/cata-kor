@@ -1,0 +1,243 @@
+{{ 'product-compare.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.mobile_padding_top }}px;
+    padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+  }
+
+  .product-compare{
+    background: linear-gradient(to right, {{ section.settings.left_color }} 50%, {{ section.settings.right_color }} 50%);
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="product-compare color-{{ section.settings.color_scheme }}">
+  <div class="section-text {{ template.suffix }} page-width section-{{ section.id }}-padding">
+    {% if section.settings.title != blank %}
+        <h2 class="product-compare__heding">{{ section.settings.title }}</h2>
+    {% endif %}
+     <div class="product_container">
+      <div class="product_item product_container_frist">
+        {% if section.settings.product1_image != blank %} 
+          <div class="product_image">
+            <img src="{{ section.settings.product1_image | image_url }}" alt="product image" width="" height="">
+            {% if section.settings.product2_name != blank %}
+              <span>{{ section.settings.product2_name }}</span>
+            {% endif %}
+          </div>
+          {% endif %}
+          <div class="product_text">
+            {% if section.settings.product1_text1 != blank %}
+              <div class="text"><span class="right-icon">{{- 'right-icon.svg' | inline_asset_content -}}</span><p>{{ section.settings.product1_text1 }}</p></div>
+            {% endif %}
+            {% if section.settings.product1_text2 != blank %}
+              <div class="text"><span class="right-icon">{{- 'right-icon.svg' | inline_asset_content -}}</span><p>{{ section.settings.product1_text2 }}</p></div>
+            {% endif %}
+            {% if section.settings.product1_text3 != blank %}
+              <div class="text"><span class="right-icon">{{- 'right-icon.svg' | inline_asset_content -}}</span><p>{{ section.settings.product1_text3 }}</p></div>
+            {% endif %}
+            {% if section.settings.product1_text4 != blank %}
+              <div class="text"><span class="right-icon">{{- 'right-icon.svg' | inline_asset_content -}}</span><p>{{ section.settings.product1_text4 }}</p></div>
+            {% endif %}
+            {% if section.settings.product1_text5 != blank %}
+              <div class="text"><span class="right-icon">{{- 'right-icon.svg' | inline_asset_content -}}</span><p>{{ section.settings.product1_text5 }}</p></div>
+            {% endif %}
+          </div>
+      </div>
+      <div class="product_item product_container_second">
+        {% if section.settings.product2_image != blank %} 
+          <div class="product_image">
+            <img src="{{ section.settings.product2_image | image_url }}" alt="product image" width="" height="">
+            {% if section.settings.product2_name != blank %}
+              <span>{{ section.settings.product2_name }}</span>
+            {% endif %}
+          </div>
+          {% endif %}
+          <div class="product_text">
+            {% if section.settings.product2_text1 != blank %}
+              <div class="text"><span class="right-icon">{{- 'right-icon.svg' | inline_asset_content -}}</span><p>{{ section.settings.product2_text1 }}</p></div>
+            {% endif %}
+            {% if section.settings.product2_text2 != blank %}
+              <div class="text"><span class="right-icon">{{- 'right-icon.svg' | inline_asset_content -}}</span><p>{{ section.settings.product2_text2 }}</p></div>
+            {% endif %}
+            {% if section.settings.product2_text3 != blank %}
+              <div class="text"><span class="right-icon">{{- 'right-icon.svg' | inline_asset_content -}}</span><p>{{ section.settings.product1_text3 }}</p></div>
+            {% endif %}
+            {% if section.settings.product2_text4 != blank %}
+              <div class="text"><span class="right-icon">{{- 'right-icon.svg' | inline_asset_content -}}</span><p>{{ section.settings.product1_text4 }}</p></div>
+            {% endif %}
+            {% if section.settings.product2_text5 != blank %}
+              <div class="text"><span class="right-icon">{{- 'right-icon.svg' | inline_asset_content -}}</span><p>{{ section.settings.product1_text5 }}</p></div>
+            {% endif %}
+          </div>
+      </div>
+    </div>
+</div>
+</div>
+
+{% schema %}
+{
+  "name": "Product compare",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "label": "Heding"
+    },
+    {
+      "type": "color",
+      "id": "left_color",
+      "label": "Left color",
+      "default": "#FFF"
+    },
+    {
+      "type": "color",
+      "id": "right_color",
+      "label": "Right color",
+      "default": "#FFF"
+    },
+    {
+      "type": "header",
+      "content": "Product 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "product1_image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "product1_name",
+      "label": "Product Name"
+    },
+    {
+      "type": "text",
+      "id": "product1_text1",
+      "label": "Text 1"
+    },
+    {
+      "type": "text",
+      "id": "product1_text2",
+      "label": "Text 2"
+    },
+    {
+      "type": "text",
+      "id": "product1_text3",
+      "label": "Text 3"
+    },
+    {
+      "type": "text",
+      "id": "product1_text4",
+      "label": "Text 4"
+    },
+    {
+      "type": "text",
+      "id": "product1_text5",
+      "label": "Text 5"
+    },
+    {
+      "type": "header",
+      "content": "Product 2"
+    },
+    {
+      "type": "image_picker",
+      "id": "product2_image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "product2_name",
+      "label": "Product Name"
+    },
+    {
+      "type": "text",
+      "id": "product2_text1",
+      "label": "Text 1"
+    },
+    {
+      "type": "text",
+      "id": "product2_text2",
+      "label": "Text 2"
+    },
+    {
+      "type": "text",
+      "id": "product2_text3",
+      "label": "Text 3"
+    },
+    {
+      "type": "text",
+      "id": "product2_text4",
+      "label": "Text 4"
+    },
+    {
+      "type": "text",
+      "id": "product2_text5",
+      "label": "Text 5"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Mobile top padding",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "mobile bottom padding",
+      "default": 36
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product compare"
+    }
+  ]
+}
+{% endschema %}
