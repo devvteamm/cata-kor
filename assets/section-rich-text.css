@@ -176,6 +176,7 @@
   justify-content: center;
   max-width: 69.3rem;
   width: 100%;
+  color: rgb(var(--color-secondary-text));
 }
 
 .lifetime-warranty .rich-text__buttons{
@@ -220,16 +221,17 @@
     width: 100%;
   }
   .lifetime-warranty .rich-text__blocks .rich-text__heading.hxxl {
-    font-size: 3rem;
+    font-size: 4.3rem;
+    line-height: 1.162;
   }
   .lifetime-warranty .rich-text__text {
-    margin-top: 1rem;
+    margin-top: 1.8rem;
     max-width: 100%;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+    line-height: 1.56;
   }
   .lifetime-warranty .rich-text__buttons .button--primary {
-    font-size: 1.4rem;
-    padding: 1rem;
+    font-size: 1.8rem;
   }
   .star-icon{
     right: -30%;

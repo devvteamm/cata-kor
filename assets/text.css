@@ -26,6 +26,8 @@
 }
 @media screen and (max-width:749px) {
   .section-text{
-    font-size: 1.8rem;
+    font-size: 2rem;
+    line-height: 1.7;
+    text-align: start;
   }
 }
