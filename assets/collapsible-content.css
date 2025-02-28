@@ -153,6 +153,7 @@
   margin: 0; 
   display: flex;
   align-items: center; 
+  color: rgb(var(--color-secondary-text));
 }
 .faq .caption-with-letter-spacing::before {
   content: "";
@@ -174,7 +175,7 @@
   font-size: 5.5rem;
   line-height: 1.27;
   letter-spacing: 0;
-  color: rgb(var(--color-secondary-text));
+  color: rgb(var(--color-foreground));
 }
 .faq .collapsible-content__header{
   display: flex;
@@ -280,6 +281,20 @@
 .faq.faq_fullContent .caption-with-letter-spacing{
   justify-content: center;
 }
+.faq .collapsible-content__mobile-text{
+  display: none;
+  font-family: 'Onest', serif;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.6;
+  letter-spacing: 0;
+}
+.faq .collapsible-content__mobile-text p{
+  margin: 0;
+}
+.faq .accordion__title_number{
+  margin-right: 1.6rem;
+}
 
 @media screen and (max-width: 989px) {
   .faq .faq-content__wrapper{
@@ -303,25 +318,44 @@
 }
 
 @media screen and (max-width: 749px) {
+  .faq .accordion__content{
+    margin-bottom: 2.6rem;
+  }
+  .faq .faq-content__wrapper{
+    gap: 3rem;
+  }
   .faq .collapsible-content__heading {
-    font-size: 2.5rem;
+    font-size: 4.5rem;
+    line-height: 1.11;
+  }
+  .faq .collapsible-content__mobile-text{
+    display: block;
+  }
+  .faq.faq_fullContent .collapsible-content__mobile-text{
+    display: none;
+  }
+  .faq .faq_header{
+    gap: 2rem;
   }
   .faq .accordion summary {
-    padding: 1rem;
+    padding: 2.4rem 1.6rem 2.4rem 2.5rem
   }
   .faq .accordion__title{
-    font-size: 1.4rem;
+    font-size: 2rem;
   }
   .faq .accordion__content p{
     padding: 1rem;
     padding-bottom: 0;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
+    padding-left: 4rem;
   }
   .faq .question{
     gap: 1rem;
   }
   .faq .faq_button{
-    padding: 1rem 2rem;
+    padding: 1.4rem 3.4rem;
+    margin-top: 2.2rem;
+    font-size: 1.6rem;
   }
   .faq summary .icon-caret{
     right: 1.5rem;

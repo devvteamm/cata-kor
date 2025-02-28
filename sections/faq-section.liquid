@@ -3,8 +3,8 @@
 
 {%- style -%}
   .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    padding-top: {{ section.settings.mobile_padding_top }}px;
+    padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
   }
 
   @media screen and (min-width: 750px) {
@@ -32,9 +32,10 @@
             <h2 class="collapsible-content__heading inline-richtext {{ section.settings.heading_size }}">
               {{ section.settings.heading }}
             </h2>
-          {%- else -%}
-            <h2 class="visually-hidden">{{ 'accessibility.collapsible_content_title' | t }}</h2>
-          {% endif %}
+          {%- endif -%}
+         {% if section.settings.mobile_text != blank %}
+            <div class="collapsible-content__mobile-text">{{ section.settings.mobile_text }}</div>
+          {% endif %} 
           </div>
 
           {% if section.settings.show-icon and section.settings.button_label != blank %}
@@ -60,8 +61,9 @@
                 >
                   <summary id="Summary-{{ block.id }}-{{ section.id }}" name="que">
                     {% render 'icon-accordion', icon: block.settings.icon %}
+                  <h3 class="accordion__title accordion__title_number">{% if forloop.index < 10 %} 0{{ forloop.index }}. {% else %} {{ forloop.index }}. {% endif %}</h3>
                     <h3 class="accordion__title inline-richtext h4">
-                {% if forloop.index < 10 %} 0{{ forloop.index }}. {% else %} {{ forloop.index }}. {% endif %} {{ block.settings.heading | default: block.settings.page.title | escape }}
+                     {{ block.settings.heading | default: block.settings.page.title | escape }}
                     </h3>
                     {{- 'icon-caret.svg' | inline_asset_content -}}
                   </summary>
@@ -106,6 +108,11 @@
       "id": "heading",
       "label": "t:sections.collapsible_content.settings.heading.label",
       "default": "t:sections.collapsible_content.settings.heading.default"
+    },
+    {
+      "type": "richtext",
+      "id": "mobile_text",
+      "label": "Mobile Text"
     },
     {
       "type": "color_scheme",
@@ -172,8 +179,28 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Mobile top padding",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Mobile bottom padding",
+      "default": 60
     }
-  ],
+  ], 
   "blocks": [
     {
       "type": "collapsible_row",
