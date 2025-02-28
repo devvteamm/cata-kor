@@ -54,7 +54,7 @@
 
 <div
   id="Banner-{{ section.id }}"
-  class="banner {% if template.suffix == "rebranding" %} rebranding_banner {% endif %} banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+  class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
 >
   {%- if section.settings.image != blank -%}
     <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
@@ -75,20 +75,9 @@
         section.settings.image
         | image_url: width: 3840
         | image_tag:
-          class: 'banner__media-image-half',
           width: section.settings.image.width,
           height: image_height,
-          sizes: sizes,
-          widths: widths,
-          fetchpriority: fetch_priority
-      }}
-      {{
-        section.settings.mobile_image
-        | image_url: width: 3840
-        | image_tag:
-          class: 'mobile_image_class',
-          width: section.settings.mobile_image.width,
-          height: image_height,
+          class: image_class,
           sizes: sizes,
           widths: widths,
           fetchpriority: fetch_priority
@@ -174,7 +163,6 @@
             </div>
           {%- endcase -%}
         {%- endfor -%}
-        {% if block.type == "Product" %}
         <div class="banner__box-product--wrapper">
           {%- assign product_blocks = section.blocks | where: "type", "Product" -%}
           {% if product_blocks.size > 0 %}
@@ -196,30 +184,34 @@
               </div>
             {%- endfor -%}
           {% endif %}
-        </div>    
-        {% endif %}    
-        {% if block.type == "logo_with_text" %}
-        <div class="banner__box-logo-with-text--wrapper">
-          {%- assign logo_with_text_block = section.blocks |where: "type", "logo_with_text" -%}
-          {% if logo_with_text_block.size > 0 %}
-            {%- for logo_with_text in logo_with_text_block -%}
-              <div class="logo-with-text-wrraper">
-                <div class="logo">
-                  <img 
-                    src="{{ logo_with_text.settings.image | image_url: width: 70 }}"
-                    alt="{{ logo_with_text.settings.image.alt | default: 'Logo image' }}"
-                    width="70"
-                    height="70"
-                    loading="lazy"
-                  >
-                  
-                </div>
-                <div class="logo-with-text-content">{{ logo_with_text.settings.text }}</div>
-              </div>
-            {% endfor %}
-          {% endif %}
         </div>
-        {% endif %}
+        {%- assign logo_with_text_block = section.blocks |where: "type", "logo_with_text" -%}
+        {% if logo_with_text_block != blank %}
+          <div class="banner__box-logo-with-text--wrapper">
+            {% if logo_with_text_block.size > 0 %}
+              {%- for logo_with_text in logo_with_text_block -%}
+                <div class="logo-with-text-wrraper">
+                  <div class="logo">
+                    <img 
+                      src="{{ logo_with_text.settings.image | image_url: width: 70 }}"
+                      alt="{{ logo_with_text.settings.image.alt | default: 'Logo image' }}"
+                      width="70"
+                      height="70"
+                      loading="lazy"
+                    >
+                    
+                  </div>
+                  <div>
+                    <div class="logo-with-text-content">{{ logo_with_text.settings.text }}</div>
+                    {% if logo_with_text.settings.description != blank %}
+                      <div class="logo-with-text-description">{{ logo_with_text.settings.description }}</div>                  
+                    {% endif %}
+                  </div>
+                </div>
+              {% endfor %}
+            {% endif %}
+          </div>          
+        {% endif %}  
     </div>
   </div>
 </div>
@@ -242,11 +234,6 @@
       "type": "image_picker",
       "id": "image_2",
       "label": "t:sections.image-banner.settings.image_2.label"
-    },
-    {
-      "type": "image_picker",
-      "id": "mobile_image",
-      "label": "Mobile_image"
     },
     {
       "type": "range",

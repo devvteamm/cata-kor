@@ -275,6 +275,7 @@
         ".rich-text__heading {font-size: 6rem;}"
       ],
       "settings": {
+        "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "scheme-3",
         "full_width": true,
