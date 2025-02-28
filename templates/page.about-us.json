@@ -17,6 +17,55 @@
         "padding_bottom": 28
       }
     },
+    "header_image_with_text_m8bHBE": {
+      "type": "header-image-with-text",
+      "blocks": {
+        "heading_PBUtKV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Be in charge of your own aging history!",
+            "heading_size": "hxxl",
+            "sub_heding": ""
+          }
+        },
+        "text_WbHTjR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover high-quality ingredients that fuel your body and mind, support your health and fitness goals, and help you surpass your limits.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_kthNyx": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_PBUtKV",
+        "text_WbHTjR",
+        "button_kthNyx"
+      ],
+      "settings": {
+        "text_slogan": "",
+        "image": "shopify://shop_images/7408ffa7e7b5eb8879d255f796e11bdb.png",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "rich_text_AqXiqJ": {
       "type": "rich-text",
       "blocks": {
@@ -123,6 +172,7 @@
   },
   "order": [
     "main",
+    "header_image_with_text_m8bHBE",
     "rich_text_AqXiqJ",
     "faq_section_NwAcKn"
   ]
