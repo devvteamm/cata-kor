@@ -216,7 +216,67 @@
           "shadow": "#e6f69c"
         }
       },
-      "scheme-48f5fdb3-1497-4f57-ad4f-77832234cc6e": {
+      "scheme-603b64c2-7061-406c-a1c3-8d8dcc58cc1c": {
+        "settings": {
+          "background": "#223f33",
+          "background_gradient": "",
+          "text": "#ffffff",
+          "secondary_text": "#000000",
+          "button": "#e4f69d",
+          "button_label": "#000000",
+          "secondary_button_label": "#121212",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-5073547c-114c-4af3-9a37-721a7265f990": {
+        "settings": {
+          "background": "rgba(0,0,0,0)",
+          "background_gradient": "",
+          "text": "#ffffff",
+          "secondary_text": "#000000",
+          "button": "#e4f69d",
+          "button_label": "#000000",
+          "secondary_button_label": "#121212",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-aea46e1b-cb03-4624-b890-519a4839224a": {
+        "settings": {
+          "background": "#223f33",
+          "background_gradient": "",
+          "text": "#ffffff",
+          "secondary_text": "#000000",
+          "button": "#e4f69d",
+          "button_label": "#000000",
+          "secondary_button_label": "#121212",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-a3ee4e6d-93d0-42e6-83e9-f266ede1bd40": {
+        "settings": {
+          "background": "#ffffff",
+          "background_gradient": "",
+          "text": "#223f33",
+          "secondary_text": "#000000",
+          "button": "#e4f69d",
+          "button_label": "#000000",
+          "secondary_button_label": "#121212",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-4df7eafc-acea-4f8d-871e-9e71ab19579d": {
+        "settings": {
+          "background": "#223f33",
+          "background_gradient": "",
+          "text": "#ffffff",
+          "secondary_text": "#000000",
+          "button": "#e4f69d",
+          "button_label": "#000000",
+          "secondary_button_label": "#121212",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-b5151d7e-8668-4505-82cd-fa78be2bc3f0": {
         "settings": {
           "background": "#f3f1ed",
           "background_gradient": "",
@@ -250,6 +310,18 @@
           "button_label": "#000000",
           "secondary_button_label": "#e4f69d",
           "shadow": "#e4f69d"
+        }
+      },
+      "scheme-41f8d28c-2279-47f0-8f39-bd10f09968cd": {
+        "settings": {
+          "background": "#f3f1ed",
+          "background_gradient": "",
+          "text": "#223f33",
+          "secondary_text": "#000000",
+          "button": "#e4f69d",
+          "button_label": "#000000",
+          "secondary_button_label": "#121212",
+          "shadow": "#121212"
         }
       }
     }

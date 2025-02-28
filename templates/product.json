@@ -84,25 +84,393 @@
     },
     "related-products": {
       "type": "related-products",
+      "settings": {}
+    },
+    "image_banner_mBp3NR": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_GDGnmL": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why NAD {{ product.metafields.custom.product_volume.value }}?",
+            "heading_size": "hxl"
+          }
+        },
+        "logo_with_text_8UafWd": {
+          "type": "logo_with_text",
+          "settings": {
+            "text": "<p>BEST START FOR NAD+ BEGINNERS</p>",
+            "description": "LipoNAD+™ is a unique, trademarked formula designed to provide an ideal introduction to NAD+, enhancing cellular health and boosting energy levels.",
+            "image": "shopify://shop_images/Mask_group_2.png"
+          }
+        },
+        "logo_with_text_xqyFKf": {
+          "type": "logo_with_text",
+          "settings": {
+            "text": "<p>TESTED IN THE USA</p>",
+            "description": "Our LipoNAD+™ supplement is third-party tested in the USA to ensure its purity and effectiveness. Certificate available upon request.",
+            "image": "shopify://shop_images/Mask_group_7fcc326e-eb09-4b85-b3db-765105e376b7.png"
+          }
+        },
+        "logo_with_text_WMGqgw": {
+          "type": "logo_with_text",
+          "settings": {
+            "text": "<p>SUPPORTS SKIN AGING</p>",
+            "description": "SUPPORTS SKIN AGING with 250 mg LipoNAD+™ an NMN supplement alternative that enhances your body's absorption and utilization of NAD precursors",
+            "image": "shopify://shop_images/Mask_group_1_14a87da7-3628-4a44-b6eb-09b60639a81f.png"
+          }
+        },
+        "logo_with_text_GBWXJn": {
+          "type": "logo_with_text",
+          "settings": {
+            "text": "<p>9.3x GREATER ABSORPTION</p>",
+            "description": "250 mg LipoNAD+™ enhances bioavailability, delivering superior absorption compared to regular NAD+*.",
+            "image": "shopify://shop_images/Mask_group_3.png"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GDGnmL",
+        "logo_with_text_8UafWd",
+        "logo_with_text_xqyFKf",
+        "logo_with_text_WMGqgw",
+        "logo_with_text_GBWXJn"
+      ],
+      "custom_css": [
+        ".banner--desktop-transparent .banner__box {max-width: 117.5rem;}",
+        ".banner__heading {max-width: unset;}"
+      ],
       "settings": {
-        "heading": "You may also like",
-        "heading_size": "h2",
-        "products_to_show": 4,
+        "image": "shopify://shop_images/image_15.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "top-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-5073547c-114c-4af3-9a37-721a7265f990",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_LDQNUw": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_enNpGU": {
+          "type": "heading",
+          "settings": {
+            "heading": "30 days supply",
+            "heading_size": "hxl"
+          }
+        },
+        "heading_yBV7b3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Consistency is key!",
+            "heading_size": "extra-small"
+          }
+        },
+        "text_MKah38": {
+          "type": "text",
+          "settings": {
+            "text": "Take two capsules daily as part of your routine to maximize benefits and support your body's natural NAD+ levels.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_enNpGU",
+        "heading_yBV7b3",
+        "text_MKah38"
+      ],
+      "custom_css": [
+        ".banner__heading {max-width: unset;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/1_a4516a20-ac67-4a5e-9a8a-a5d7b99c14cf.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-a3ee4e6d-93d0-42e6-83e9-f266ede1bd40",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "video_W7Xkyt": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "button_position": "bottom-right",
+        "enable_video_looping": false,
+        "enable_video_controls": true,
+        "video": "shopify://files/videos/movie.mp4",
+        "video_url": "",
+        "description": "",
+        "video_description": "<p><strong>See the Science in Action!</strong> Watch how LipoNAD+™ works at a cellular level to boost energy, focus, and healthy aging.</p>",
+        "full_width": true,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_cBWACG": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_FccN3x": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/image_16.png",
+            "title": "",
+            "text": "<h2>Third-party testing certification</h2>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RBGiiL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/image_17.png",
+            "title": "",
+            "text": "<h2>Lab-tested purity</h2>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LMQihn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/image_18.png",
+            "title": "",
+            "text": "<h2>Physician-developed formula</h2>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Aj7wqi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/image_19.png",
+            "title": "",
+            "text": "<h2>Scientific research references</h2>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_FccN3x",
+        "column_RBGiiL",
+        "column_LMQihn",
+        "column_Aj7wqi"
+      ],
+      "custom_css": [
+        ".multicolumn-card__info {padding: 0;}"
+      ],
+      "settings": {
+        "sub_title": "About NAD Booster",
+        "title": "Backed by science, quality, and safety",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
         "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-b5151d7e-8668-4505-82cd-fa78be2bc3f0",
         "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "custom_review_WpwPcD": {
+      "type": "custom-review",
+      "blocks": {
+        "column_aqyME4": {
+          "type": "column",
+          "settings": {
+            "title": "Rachal R",
+            "text": "<p>“Love this! I’ve been taking this for 1 week and already feel better! More energy and softer skin! :) highly recommend!”</p>",
+            "product_rating_number": 5,
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BEDb4e": {
+          "type": "column",
+          "settings": {
+            "title": "Rachal R",
+            "text": "<p>“Love this! I’ve been taking this for 1 week and already feel better! More energy and softer skin! :) highly recommend!”</p>",
+            "product_rating_number": 5,
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_AhPidR": {
+          "type": "column",
+          "settings": {
+            "title": "Rachal R",
+            "text": "<p>“Love this! I’ve been taking this for 1 week and already feel better! More energy and softer skin! :) highly recommend!”</p>",
+            "product_rating_number": 5,
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3WKcmh": {
+          "type": "column",
+          "settings": {
+            "title": "Rachal R",
+            "text": "<p>“Love this! I’ve been taking this for 1 week and already feel better! More energy and softer skin! :) highly recommend!”</p>",
+            "product_rating_number": 5,
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_aqyME4",
+        "column_BEDb4e",
+        "column_AhPidR",
+        "column_3WKcmh"
+      ],
+      "settings": {
+        "title": "See what members are saying about Cata-Kor",
+        "sub_title": "Ingredients And Study",
+        "heading_size": "hxl",
+        "title_align": "justify-start",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2.5,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-4",
+        "columns_mobile": "1",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "custom_image_with_text_Cg33qY": {
+      "type": "custom-image-with-text",
+      "blocks": {
+        "heading_XpeTEi": {
+          "type": "heading",
+          "settings": {
+            "heading": "Choose the product that best suits your needs",
+            "heading_size": "hxl",
+            "sub_heding": "Switch Product"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XpeTEi"
+      ],
+      "settings": {
+        "text_slogan": "",
+        "product_list": [
+          "500mg-can-of-nad",
+          "250mg-can-of-nad"
+        ],
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_description": true,
+        "show_price": true,
+        "show_custom_button": "Shop Now",
+        "link_on_card_product": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "desktop_product_card_width": "medium",
+        "layout": "text_first",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-b5151d7e-8668-4505-82cd-fa78be2bc3f0",
+        "color_scheme": "scheme-41f8d28c-2279-47f0-8f39-bd10f09968cd",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
-        "padding_bottom": 28
+        "padding_bottom": 36
+      }
+    },
+    "text_with_product_swiper_FiMbmQ": {
+      "type": "text-with-product-swiper",
+      "blocks": {
+        "heading_kGrADc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Daily Serving Recommendations",
+            "heading_size": "hxl",
+            "sub_heding": "Dosage"
+          }
+        },
+        "text_FnWeDN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The recommended dosage depends on your age and lifestyle factors. If you're exposed to physical stress or environmental factors, we suggest an additional 250-500mg of NAD+ per day.</p>",
+            "text_style": "subtitle"
+          }
+        },
+        "product_4FFfq6": {
+          "type": "Product",
+          "settings": {
+            "product": "250mg-can-of-nad",
+            "product_image": "shopify://shop_images/nr_main_3.png",
+            "product_description": "<h3><strong>200mg Can of NAD</strong></h3><p>Age 35+: Larger stack → “500mg NAD+”</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+            "button_text_buy": "SHOP NOW",
+            "button_text": "NAD+ CORE 250mg",
+            "background_color": ""
+          }
+        },
+        "product_hwCXUg": {
+          "type": "Product",
+          "settings": {
+            "product": "500mg-can-of-nad",
+            "product_image": "shopify://shop_images/nr_main_3.png",
+            "product_description": "<h2><strong>500mg Can of NAD</strong></h2><p>Age 35+: Larger stack → “500mg NAD+”</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+            "button_text_buy": "SHOP NOW",
+            "button_text": "NAD+ ADVANCED 500mg",
+            "background_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_kGrADc",
+        "text_FnWeDN",
+        "product_4FFfq6",
+        "product_hwCXUg"
+      ],
+      "settings": {
+        "text_slogan": "",
+        "desktop_product_card_width": "medium",
+        "layout": "image_first",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-a3ee4e6d-93d0-42e6-83e9-f266ede1bd40",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "image_banner_mBp3NR",
+    "image_banner_LDQNUw",
+    "video_W7Xkyt",
+    "multicolumn_cBWACG",
+    "custom_review_WpwPcD",
+    "custom_image_with_text_Cg33qY",
+    "text_with_product_swiper_FiMbmQ"
   ]
 }

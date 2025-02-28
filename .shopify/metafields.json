@@ -21,13 +21,13 @@
       }
     },
     {
-      "key": "ingredient-category",
-      "namespace": "shopify",
-      "name": "Ingredient category",
-      "description": "Classifies the type of ingredients in vitamins and supplements, e.g. fiber, herbs",
+      "key": "product_volume",
+      "namespace": "custom",
+      "name": "Product Volume",
+      "description": "",
       "type": {
-        "name": "list.metaobject_reference",
-        "category": "REFERENCE"
+        "name": "single_line_text_field",
+        "category": "TEXT"
       }
     }
   ],
