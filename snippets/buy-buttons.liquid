@@ -82,13 +82,16 @@
               disabled
             {% endif %}
           >
-            <span>
+            <span class="btn-text_containe">
               {%- if product.selected_or_first_available_variant == null -%}
                 {{ 'products.product.unavailable' | t }}
               {%- elsif product.selected_or_first_available_variant.available == false or quantity_rule_soldout -%}
                 {{ 'products.product.sold_out' | t }}
               {%- else -%}
-                {{ 'products.product.add_to_cart' | t }}
+                <div class="icon_with_btn">
+                  <span>{{'icon-buy-now.svg' | inline_asset_content  }}</span>
+                  <span>BUY NOW</span>
+                </div>
               {%- endif -%}
             </span>
             {%- render 'loading-spinner' -%}
