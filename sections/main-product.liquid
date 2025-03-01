@@ -31,7 +31,7 @@
       padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
 
-    @media screen and (min-width: 750px) {
+    @media screen and (min-width: 75rem) {
       .section-{{ section.id }}-padding {
         padding-top: {{ section.settings.padding_top }}px;
         padding-bottom: {{ section.settings.padding_bottom }}px;
@@ -77,6 +77,12 @@
     <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
       <div class="grid__item product__media-wrapper">
         {% render 'product-media-gallery', variant_images: variant_images %}
+        {% if section.settings.bg_image %}
+          <div class="product_page-image-wrapper">
+            <img src="{{ section.settings.bg_image | image_url: width:section.settings.bg_image.width }}" width="" height="" alt="Product Image">
+          </div>
+        {% endif %}
+
       </div>
       <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         <section
@@ -214,12 +220,13 @@
                   <details id="Details-{{ block.id }}-{{ section.id }}">
                     <summary>
                       <div class="summary__title">
-                        {% render 'icon-accordion', icon: block.settings.icon %}
+                        {% comment %} {% render 'icon-accordion', icon: block.settings.icon %} {% endcomment %}
                         <h2 class="h4 accordion__title inline-richtext">
                           {{ block.settings.heading | default: block.settings.page.title | escape }}
                         </h2>
                       </div>
-                      {{- 'icon-caret.svg' | inline_asset_content -}}
+                      {% comment %} {{- 'icon-caret.svg' | inline_asset_content -}} {% endcomment %}
+                       {{ block.settings.heading_2 | escape }}
                     </summary>
                     <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
                       {{ block.settings.content }}
@@ -660,6 +667,29 @@
                 </product-recommendations>
               {%- when 'icon-with-text' -%}
                 {% render 'icon-with-text', block: block %}
+              {%- when 'custom-rating' -%}
+                <div class="product_custom-rating">
+                  <div class="product_rating-star">
+                    {% for item in (1..5) %}
+                      {{- 'icon-new-star.svg' | inline_asset_content -}}                    
+                    {% endfor %}
+                    <span class="product_review">(824 reviews)</span>
+                  </div>
+                </div>
+              {%- when 'main_ingredients' -%}
+                {% if block.settings.main_ingredients contains 'main_ingredients' %}
+                  <div class="main_ingredients_title">Ingredients</div>
+                  <div class="main_ingredients">
+                    {{ product.metafields.custom.Ingredients.value }}
+                  </div>
+                {% endif %}
+              {%- when 'other_ingredients' -%}  
+                {% if block.settings.other_ingredients contains 'other_ingredients' %}
+                  <div class="other_ingredients_title">Other Ingredients</div>
+                  <div class="other_ingredients">
+                    {{ product.metafields.custom.other_ingredients.value }}
+                  </div>
+                {% endif %}
             {%- endcase -%}
           {%- endfor -%}
           <a href="{{ product.url }}" class="link product__view-details animate-arrow">
@@ -722,6 +752,7 @@
       {{ product | structured_data }}
     </script>
   </div>
+ 
 </product-info>
 
 {% schema %}
@@ -1185,6 +1216,39 @@
         {
           "type": "paragraph",
           "content": "t:sections.main-product.blocks.rating.settings.paragraph.content"
+        }
+      ]
+    },
+    {
+      "type": "custom-rating",
+      "name": "custom_rating",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "Custom Rating"
+        }
+      ]
+    },
+    {
+      "type": "main_ingredients",
+      "name": "main ingredients",
+      "settings": [
+        {
+          "type": "text",
+          "id": "main_ingredients",
+          "label": "Main ingredients"
+        }
+      ]
+    },
+    {
+      "type": "other_ingredients",
+      "name": "other ingredients",
+      "settings": [
+        {
+          "type": "text",
+          "id": "other_ingredients",
+          "label": "other ingredients"
         }
       ]
     },
@@ -2088,6 +2152,20 @@
       "id": "color_scheme",
       "label": "t:sections.all.colors.label",
       "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "background image"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_image",
+      "label": "background image"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_image_mobile",
+      "label": "background image"
     },
     {
       "type": "header",
