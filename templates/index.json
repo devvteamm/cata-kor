@@ -151,6 +151,7 @@
           "type": "logo_with_text",
           "settings": {
             "text": "<p>GMP Manufactured Scientifically</p>",
+            "description": "",
             "image": "shopify://shop_images/fi_18565766.svg"
           }
         },
@@ -158,6 +159,7 @@
           "type": "logo_with_text",
           "settings": {
             "text": "<p>Scientifically Researched<br/>Ingredients</p>",
+            "description": "",
             "image": "shopify://shop_images/fi_11498784.svg"
           }
         },
@@ -165,6 +167,7 @@
           "type": "logo_with_text",
           "settings": {
             "text": "<p>3rd-Party Tested for Purity, <br/>Potency, and Heavy Metals</p>",
+            "description": "",
             "image": "shopify://shop_images/fi_18610465.svg"
           }
         }
@@ -517,6 +520,7 @@
       "block_order": [
         "product_nBrAwV"
       ],
+      "disabled": true,
       "settings": {
         "product_image": "shopify://shop_images/2025-01-20_09.57.13_2.png",
         "heading": "Backed by science, quality, and safety",
