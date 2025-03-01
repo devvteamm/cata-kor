@@ -61,7 +61,7 @@
         "image_3aVRLE"
       ],
       "custom_css": [
-        ".banner__text {max-width:100%;}"
+        ".banner__text {max-width: 100%;}"
       ],
       "settings": {
         "desktop_content_position": "top-center",
