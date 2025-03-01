@@ -31,7 +31,7 @@
       "settings": {
         "heading": "We are committed to customer care",
         "heading_size": "hxl",
-        "color_scheme": "scheme-61c54174-6908-4e3f-a360-364419028ed7",
+        "color_scheme": "scheme-2",
         "contact_image": "shopify://shop_images/076f03af4168bd181d7800d56c1b1ceb.png",
         "email_text": "Feel free to contact us",
         "email": "help@catakor.com",
@@ -102,7 +102,7 @@
         "heading": "People often ask these questions",
         "mobile_text": "",
         "color_scheme": "scheme-61c54174-6908-4e3f-a360-364419028ed7",
-        "container_color_scheme": "",
+        "container_color_scheme": "scheme-2",
         "full_content": false,
         "open_first_collapsible_row": false,
         "show-icon": true,
