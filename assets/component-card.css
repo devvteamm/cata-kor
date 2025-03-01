@@ -112,7 +112,7 @@
 .card_product--custom__buttons .shop_now_btn {
   text-decoration: none;
   color: rgb(var(--color-button-text));
-  background-color: rgba(var(--color-button), var(--alpha-button-background)); 
+  /* background-color: rgba(var(--color-button), var(--alpha-button-background));  */
   line-height: 1;
   flex: 1;
   text-align: center;
