@@ -107,6 +107,7 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h1",
@@ -236,6 +237,67 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "text_with_product_swiper_FiMbmQ": {
+      "type": "text-with-product-swiper",
+      "blocks": {
+        "heading_kGrADc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Daily Serving Recommendations",
+            "heading_size": "hxl",
+            "sub_heding": "Dosage"
+          }
+        },
+        "text_FnWeDN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The recommended dosage depends on your age and lifestyle factors. If you're exposed to physical stress or environmental factors, we suggest an additional 250-500mg of NAD+ per day.</p>",
+            "text_style": "subtitle"
+          }
+        },
+        "product_4FFfq6": {
+          "type": "Product",
+          "settings": {
+            "product": "250mg-can-of-nad",
+            "product_image": "shopify://shop_images/nr_main_3.png",
+            "product_description": "<h3><strong>200mg Can of NAD</strong></h3><p>Age 35+: Larger stack → “500mg NAD+”</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+            "button_text_buy": "SHOP NOW",
+            "button_text": "NAD+ CORE 250mg",
+            "background_color": ""
+          }
+        },
+        "product_hwCXUg": {
+          "type": "Product",
+          "settings": {
+            "product": "500mg-can-of-nad",
+            "product_image": "shopify://shop_images/nr_main_3.png",
+            "product_description": "<h2><strong>500mg Can of NAD</strong></h2><p>Age 35+: Larger stack → “500mg NAD+”</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+            "button_text_buy": "SHOP NOW",
+            "button_text": "NAD+ ADVANCED 500mg",
+            "background_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_kGrADc",
+        "text_FnWeDN",
+        "product_4FFfq6",
+        "product_hwCXUg"
+      ],
+      "settings": {
+        "text_slogan": "",
+        "desktop_product_card_width": "medium",
+        "layout": "image_first",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-a3ee4e6d-93d0-42e6-83e9-f266ede1bd40",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "video_W7Xkyt": {
@@ -437,67 +499,6 @@
         "padding_bottom": 36
       }
     },
-    "text_with_product_swiper_FiMbmQ": {
-      "type": "text-with-product-swiper",
-      "blocks": {
-        "heading_kGrADc": {
-          "type": "heading",
-          "settings": {
-            "heading": "Daily Serving Recommendations",
-            "heading_size": "hxl",
-            "sub_heding": "Dosage"
-          }
-        },
-        "text_FnWeDN": {
-          "type": "text",
-          "settings": {
-            "text": "<p>The recommended dosage depends on your age and lifestyle factors. If you're exposed to physical stress or environmental factors, we suggest an additional 250-500mg of NAD+ per day.</p>",
-            "text_style": "subtitle"
-          }
-        },
-        "product_4FFfq6": {
-          "type": "Product",
-          "settings": {
-            "product": "250mg-can-of-nad",
-            "product_image": "shopify://shop_images/nr_main_3.png",
-            "product_description": "<h3><strong>200mg Can of NAD</strong></h3><p>Age 35+: Larger stack → “500mg NAD+”</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
-            "button_text_buy": "SHOP NOW",
-            "button_text": "NAD+ CORE 250mg",
-            "background_color": ""
-          }
-        },
-        "product_hwCXUg": {
-          "type": "Product",
-          "settings": {
-            "product": "500mg-can-of-nad",
-            "product_image": "shopify://shop_images/nr_main_3.png",
-            "product_description": "<h2><strong>500mg Can of NAD</strong></h2><p>Age 35+: Larger stack → “500mg NAD+”</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
-            "button_text_buy": "SHOP NOW",
-            "button_text": "NAD+ ADVANCED 500mg",
-            "background_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_kGrADc",
-        "text_FnWeDN",
-        "product_4FFfq6",
-        "product_hwCXUg"
-      ],
-      "settings": {
-        "text_slogan": "",
-        "desktop_product_card_width": "medium",
-        "layout": "image_first",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-2",
-        "color_scheme": "scheme-a3ee4e6d-93d0-42e6-83e9-f266ede1bd40",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "product_feature_section_p9fyWR": {
       "type": "Product-feature-section",
       "blocks": {
@@ -542,11 +543,11 @@
     "related-products",
     "image_banner_mBp3NR",
     "image_banner_LDQNUw",
+    "text_with_product_swiper_FiMbmQ",
     "video_W7Xkyt",
     "multicolumn_cBWACG",
+    "product_feature_section_p9fyWR",
     "custom_review_WpwPcD",
-    "custom_image_with_text_Cg33qY",
-    "text_with_product_swiper_FiMbmQ",
-    "product_feature_section_p9fyWR"
+    "custom_image_with_text_Cg33qY"
   ]
 }

@@ -3,7 +3,7 @@
     padding: 50px 20px;
     color: white;
     position: relative;
-    z-index: 10;
+    z-index: 1;
   }
 
   .feature-heading--wrapper {
@@ -12,7 +12,7 @@
     justify-content: center;
     margin-bottom: 9.7rem;
   }
-  
+
   .feature-heading {
     font-family: 'Nohemi-Medium',sans-serif;
     font-size: 6.5rem;
@@ -21,7 +21,7 @@
     max-width: 86rem;
     margin: 0;
   }
-  
+
   .feature-content {
     display: flex;
     align-items: center;
@@ -31,17 +31,17 @@
     margin: auto;
     gap: 2.7rem;
   }
-  
+
   .product-image-wrapper  {
     max-width: 40rem;
   }
-  
+
   .product-image-wrapper img {
     max-width: 100%;
     height: 100%;
     display: block;
   }
-  
+
   .feature-item-heading {
     font-family: "Nohemi-Medium", sans-serif;
     font-size: 2.4rem;
@@ -82,7 +82,7 @@
   .feature-section--wrapper {
     width: 100%;
     height: 100%;
-    background: 
+    background:
     url('https://cdn.shopify.com/s/files/1/0918/3667/8454/files/86943798e196009678a7d1a306a1356f.png?v=1740745058'),
     radial-gradient(46.26% 46.26% at 50% 53.74%, #587569 0%, #223F33 100%),
     linear-gradient(0deg, #FFFFFF, #FFFFFF);
