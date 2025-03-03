@@ -1,0 +1,134 @@
+.image_with-text-slider {
+  background-color: #ffff;
+  /* padding: 60px; */
+  padding-top: 10rem;
+  padding-bottom: 0;
+
+
+}
+
+.slider-image-with-text-container div:empty {
+  display: block;
+}
+
+.slider-image-with-text-container .main-hading p {
+  font-family: 'Nohemi-Medium', sans-serif;
+  font-weight: 500;
+  font-size: 6.5rem;
+  letter-spacing: 0;
+  line-height: 1.23;
+  margin-top: 0;
+}
+
+
+.img_carousel {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  position: relative;
+  /* overflow: hidden; */
+  height: 470px; /* Ensuring a fixed height */
+}
+
+.image_slide {
+  flex-basis: 25%; /* Equal width initially */
+  position: relative;
+  /* overflow: hidden; */
+  transition: flex-basis 0.5s ease-in-out;
+}
+
+.image_slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.image_slide:not(.active)::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  transition: background 0.5s ease-in-out;
+}
+
+.image_slide.active {
+  flex-basis: 50%; /* Active slide takes up more space */
+}
+
+.image_text-content .text-content {
+  /* position: absolute;
+  bottom: 10px;
+  left: 10px; */
+  width: 90%;
+  /* transition: opacity 0.5s ease-in-out; */
+  font-family: "Onest",sans-serif;
+  font-size: 2.4rem;
+  line-height: 1.099;
+  letter-spacing: 0;
+}
+.image_text-content .text-content h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.image_text-content .image_description {
+  font-size: 14px;
+  opacity: 0; 
+  /* Hide description by default */
+  transition: opacity 0.5s ease-in-out;
+}
+.image_slide:not(.active) .image_description {
+  opacity: 0;
+   /* Reduce title opacity for inactive slides */
+}
+.image_slide.active .image_description {
+  opacity: 1;
+   /* Show description only on active slide */
+}
+
+.text-content p{
+  margin: 0;
+}
+
+/* Progress bar */
+
+.image_slide.active  .progress-bar_container {
+  position: absolute;
+  bottom: .7rem;
+  /* right: 0; */
+  left: 0;
+  width: 100%;
+  height: 1.1rem;
+  background: #E4F69D;
+  border-radius: 4.9rem;
+  padding: .5rem;
+}
+
+
+.progress-bar {
+  /* position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%; */
+  height: .3rem;
+  background: #000000;
+  transition: width linear;
+}
+
+.image_slide.active .progress-bar {
+  width: 100%;
+  transition: width 3s linear;
+}
+
+
+.image_description {
+  font-family: "Onest",sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
