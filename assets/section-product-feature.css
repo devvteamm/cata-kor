@@ -12,7 +12,6 @@
     justify-content: center;
     margin-bottom: 9.7rem;
   }
-
   .feature-heading {
     font-family: 'Nohemi-Medium',sans-serif;
     font-size: 6.5rem;
@@ -21,7 +20,6 @@
     max-width: 86rem;
     margin: 0;
   }
-
   .feature-content {
     display: flex;
     align-items: center;
@@ -41,7 +39,6 @@
     height: 100%;
     display: block;
   }
-
   .feature-item-heading {
     font-family: "Nohemi-Medium", sans-serif;
     font-size: 2.4rem;
