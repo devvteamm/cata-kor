@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-{
+ {
   "sections": {
     "product_evolution_KxPGAg": {
       "type": "product-evolution",
@@ -504,44 +504,6 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
-    },
-    "product_feature_section_p9fyWR": {
-      "type": "Product-feature-section",
-      "blocks": {
-        "product_nBrAwV": {
-          "type": "Product",
-          "settings": {
-            "product": "250mg-can-of-nad",
-            "image_ratio": "square",
-            "image_shape": "default",
-            "show_secondary_image": false,
-            "show_description": true,
-            "show_price": true,
-            "show_custom_button": "Shop Now",
-            "link_on_card_product": false,
-            "show_vendor": false,
-            "show_rating": true
-          }
-        }
-      },
-      "block_order": [
-        "product_nBrAwV"
-      ],
-      "disabled": true,
-      "settings": {
-        "product_image": "shopify://shop_images/2025-01-20_09.57.13_2.png",
-        "heading": "Backed by science, quality, and safety",
-        "feature_1_heading": "GMP Certified",
-        "feature_1_description": "Manufactured in a Good Manufacturing Practices (GMP) facility, ensuring high safety and quality standards.",
-        "feature_2_heading": "FDA-Compliant",
-        "feature_2_description": "Produced in an FDA-registered facility, meeting strict safety guidelines.",
-        "feature_3_heading": "Lab-Tested",
-        "feature_3_description": "Each batch is third-party tested to verify its effectiveness and purity before reaching you.",
-        "feature_4_heading": "Non-GMO & Gluten-Free",
-        "feature_4_description": "Formulated without artificial additives to support a clean, high-quality supplement.",
-        "padding_top": 100,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -552,7 +514,6 @@
     "rich_text_YtNtjM",
     "dynamic_benefits_showcase_wPg7KQ",
     "image_with_blocks_MJhgzL",
-    "custom_review_JQdbwY",
-    "product_feature_section_p9fyWR"
+    "custom_review_JQdbwY"
   ]
 }

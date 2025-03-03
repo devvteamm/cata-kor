@@ -1,0 +1,182 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_7Lzr8m": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_dYyXa3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Enhanced Bioavailability Scientifically Proven",
+            "heading_size": "hxl",
+            "sub_heding": "Liposomal"
+          }
+        },
+        "text_q8mgNP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>LipoNAD+™ preserves NAD+ levels in the liver at 9.3x higher than regular NAD+.*<br/></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dYyXa3",
+        "text_q8mgNP"
+      ],
+      "settings": {
+        "text_slogan": "",
+        "image": "shopify://shop_images/Group_1686565235.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-41f8d28c-2279-47f0-8f39-bd10f09968cd",
+        "color_scheme": "scheme-41f8d28c-2279-47f0-8f39-bd10f09968cd",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_image_with_text_Cg33qY": {
+      "type": "custom-image-with-text",
+      "blocks": {
+        "heading_XpeTEi": {
+          "type": "heading",
+          "settings": {
+            "heading": "Enhanced Bioavailability Scientifically Proven",
+            "heading_size": "hxl",
+            "sub_heding": "Switch Product"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XpeTEi"
+      ],
+      "settings": {
+        "text_slogan": "",
+        "product_list": [
+          "500mg-can-of-nad",
+          "250mg-can-of-nad"
+        ],
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_description": true,
+        "show_price": true,
+        "show_custom_button": "Shop Now",
+        "link_on_card_product": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "desktop_product_card_width": "medium",
+        "layout": "text_first",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-b5151d7e-8668-4505-82cd-fa78be2bc3f0",
+        "color_scheme": "scheme-41f8d28c-2279-47f0-8f39-bd10f09968cd",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "faq_section_KBHFfR": {
+      "type": "faq-section",
+      "blocks": {
+        "collapsible_row_VaiQTf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long does it take to see results from dietary supplements?",
+            "icon": "none",
+            "row_content": "<p>The time to experience results varies based on the supplement and individual factors. Consistency in usage is key. Some may notice changes quickly, while others may require more time.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_6ikAjG": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are there potential side effects of dietary supplements?",
+            "icon": "none",
+            "row_content": "<p>The time to experience results varies based on the supplement and individual factors. Consistency in usage is key. Some may notice changes quickly, while others may require more time.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Vja3Lx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does Сata-Kor ensure the quality of its ingredients?",
+            "icon": "none",
+            "row_content": "<p>The time to experience results varies based on the supplement and individual factors. Consistency in usage is key. Some may notice changes quickly, while others may require more time.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_U7jwrW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are your products gluten-free?",
+            "icon": "none",
+            "row_content": "<p>The time to experience results varies based on the supplement and individual factors. Consistency in usage is key. Some may notice changes quickly, while others may require more time.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_rMQtT4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are your products gluten-free?",
+            "icon": "none",
+            "row_content": "<p>The time to experience results varies based on the supplement and individual factors. Consistency in usage is key. Some may notice changes quickly, while others may require more time.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_VaiQTf",
+        "collapsible_row_6ikAjG",
+        "collapsible_row_Vja3Lx",
+        "collapsible_row_U7jwrW",
+        "collapsible_row_rMQtT4"
+      ],
+      "settings": {
+        "caption": "FAQs",
+        "heading": "People often ask these questions",
+        "mobile_text": "",
+        "color_scheme": "scheme-b5151d7e-8668-4505-82cd-fa78be2bc3f0",
+        "container_color_scheme": "scheme-41f8d28c-2279-47f0-8f39-bd10f09968cd",
+        "full_content": false,
+        "open_first_collapsible_row": false,
+        "show-icon": false,
+        "button_label": "",
+        "button_link": "",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mobile_padding_top": 60,
+        "mobile_padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_7Lzr8m",
+    "custom_image_with_text_Cg33qY",
+    "faq_section_KBHFfR"
+  ]
+}
