@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-{
+ {
   "sections": {
     "main": {
       "type": "main-product",
@@ -107,10 +107,7 @@
     },
     "related-products": {
       "type": "related-products",
-<<<<<<< HEAD
-=======
       "disabled": true,
->>>>>>> main
       "settings": {
         "heading": "You may also like",
         "heading_size": "h1",
@@ -539,44 +536,6 @@
         "padding_top": 100,
         "padding_bottom": 36
       }
-    },
-    "product_feature_section_p9fyWR": {
-      "type": "Product-feature-section",
-      "blocks": {
-        "product_nBrAwV": {
-          "type": "Product",
-          "settings": {
-            "product": "250mg-can-of-nad",
-            "image_ratio": "square",
-            "image_shape": "default",
-            "show_secondary_image": false,
-            "show_description": true,
-            "show_price": true,
-            "show_custom_button": "Shop Now",
-            "link_on_card_product": false,
-            "show_vendor": false,
-            "show_rating": true
-          }
-        }
-      },
-      "block_order": [
-        "product_nBrAwV"
-      ],
-      "settings": {
-        "product_image": "shopify://shop_images/2025-01-20_09.57.13_2.png",
-        "heading": "Backed by science, quality, and safety",
-        "feature_1_heading": "GMP Certified",
-        "feature_1_description": "Manufactured in a Good Manufacturing Practices (GMP) facility, ensuring high safety and quality standards.",
-        "feature_2_heading": "FDA-Compliant",
-        "feature_2_description": "Produced in an FDA-registered facility, meeting strict safety guidelines.",
-        "feature_3_heading": "Lab-Tested",
-        "feature_3_description": "Each batch is third-party tested to verify its effectiveness and purity before reaching you.",
-        "feature_4_heading": "Non-GMO & Gluten-Free",
-        "feature_4_description": "Formulated without artificial additives to support a clean, high-quality supplement.",
-        "feature_star_image": "shopify://shop_images/Star_5_3.png",
-        "padding_top": 100,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -589,12 +548,6 @@
     "multicolumn_cBWACG",
     "product_feature_section_p9fyWR",
     "custom_review_WpwPcD",
-<<<<<<< HEAD
-    "custom_image_with_text_Cg33qY",
-    "text_with_product_swiper_FiMbmQ",
-    "product_feature_section_p9fyWR"
-=======
     "custom_image_with_text_Cg33qY"
->>>>>>> main
   ]
 }
