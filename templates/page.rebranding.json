@@ -46,8 +46,6 @@
           "type": "Image",
           "settings": {
             "image": "shopify://shop_images/Group_1171276115.png",
-            "button_text": "",
-            "button_url": "",
             "first_text": "",
             "second_text": "",
             "third_text": ""
@@ -57,8 +55,6 @@
           "type": "Image",
           "settings": {
             "image": "shopify://shop_images/Group_1171276143.png",
-            "button_text": "The new & improved",
-            "button_url": "",
             "first_text": "",
             "second_text": "",
             "third_text": ""
@@ -76,17 +72,48 @@
         ".banner__text {max-width: 100%;}"
       ],
       "settings": {
+        "left_site_color": "#ffffff",
+        "right_site_color": "#f4f5f5",
         "desktop_content_position": "top-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-e965e503-3001-48e5-bfba-c573452f2cbc",
+        "color_scheme": "scheme-b5151d7e-8668-4505-82cd-fa78be2bc3f0",
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "product_compare_YmXTHw": {
+      "type": "product-compare",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "image": "shopify://shop_images/Star_5_4.png",
+        "title": "Difference between NAD250 & NAD500 Mg",
+        "left_color": "#ece9e2",
+        "right_color": "#f3f1ed",
+        "product1_image": "shopify://shop_images/product_1.png",
+        "product1_name": "NAD250",
+        "product1_text1": "Essential NAD+ support for everyday vitality",
+        "product1_text2": "New scientifically-backed ingredient",
+        "product1_text3": "Unique liposomal technology",
+        "product1_text4": "Balanced dosage, free from side effects",
+        "product1_text5": "",
+        "product2_image": "shopify://shop_images/product_1.png",
+        "product2_name": "NAD500",
+        "product2_text1": "Advanced formula with Resveratrol for anti-aging",
+        "product2_text2": "New scientifically-backed ingredient",
+        "product2_text3": "Unique liposomal technology",
+        "product2_text4": "Manufactured and tested in the USA",
+        "product2_text5": "",
+        "padding_top": 100,
+        "padding_bottom": 84,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
-    "product_evolution_yRdyz4"
+    "product_evolution_yRdyz4",
+    "product_compare_YmXTHw"
   ]
 }

@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "sections": {
     "product_evolution_KxPGAg": {
       "type": "product-evolution",
@@ -64,6 +64,8 @@
         ".banner__text {max-width: 100%;}"
       ],
       "settings": {
+        "left_site_color": "#34473f",
+        "right_site_color": "#223f33",
         "desktop_content_position": "top-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",

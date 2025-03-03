@@ -30,20 +30,24 @@
     position: relative;
     grid-template-columns: 1fr 1fr;
     max-width: 120rem;
+    gap: 16.8rem;
 }
 .product-evolution--media--wrapper .product-evolution--media--1,
 .product-evolution--media--wrapper .product-evolution--media--2 {
     position: relative;
-    justify-self: center;
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: end;
+    position: relative;
+
 }
 
-.product-evolution--media--wrapper .product-evolution--media--2 {
+/* .product-evolution--media--wrapper .product-evolution--media--2 {
     margin-left: 10rem;
     margin-right: 5rem;
-}
+} */
 
 .product-evolution--media--wrapper .product-evolution--media--1 img,
 .product-evolution--media--wrapper .product-evolution--media--2 img {

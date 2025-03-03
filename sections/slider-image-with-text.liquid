@@ -1,0 +1,139 @@
+{{ 'slider-image-with-text.css' | asset_url | stylesheet_tag }}
+
+
+<div class='slider-image-with-text-container  page-width'>
+  <div class="main-hading" style="color: {{ section.settings.heading_color }};">
+    <p>{{ section.settings.heading }}</p>
+  </div>
+
+  <div class="slider-container">
+    <div class="img_carousel">
+      {% for block in section.blocks %}
+        <div class="image_slide {% if forloop.first %} active {% endif %}">
+          {{  block.settings.image | image_url: width: block.settings.image.width | image_tag }}
+          <div class="image_text-content">
+            <div class="text-content" style="color:{{ block.settings.subtitle_color }};">
+              {{ block.settings.heading }}
+            </div>
+            <div class="image_description" style="color:{{ block.settings.subtitle_color }};">
+              {{ block.settings.description }}
+            </div>
+          </div>
+          <div class="progress-bar_container">
+            <div class="progress-bar"></div>
+          </div>
+        </div>
+      {% endfor %}        
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+const slides = document.querySelectorAll(".image_slide");
+  let currentIndex = 0;
+  const intervalTime = 3000; // Change slide every 3 seconds
+
+  function changeSlide() {
+      slides.forEach((slide) => {
+          slide.classList.remove("active");
+          slide.querySelector(".progress-bar").style.width = "0%"; // Reset progress bar
+      });
+
+      // Move to the next slide, loop back if at the end
+      currentIndex = (currentIndex + 1) % slides.length;
+      slides[currentIndex].classList.add("active");
+
+      // Restart progress bar animation
+      setTimeout(() => {
+          slides[currentIndex].querySelector(".progress-bar").style.width = "100%";
+      }, 50);
+  }
+
+  // Auto-change slides at a fixed interval
+  let slideInterval = setInterval(changeSlide, intervalTime);
+
+  // Allow manual click to change slide and reset interval
+  slides.forEach((slide, index) => {
+      slide.addEventListener("click", () => {
+          slides.forEach((s) => {
+              s.classList.remove("active");
+              s.querySelector(".progress-bar").style.width = "0%";
+          });
+
+          slide.classList.add("active");
+          currentIndex = index;
+
+          // Restart progress bar animation
+          setTimeout(() => {
+              slide.querySelector(".progress-bar").style.width = "100%";
+          }, 50);
+
+          // Restart interval to prevent immediate next slide change
+          clearInterval(slideInterval);
+          slideInterval = setInterval(changeSlide, intervalTime);
+      });
+  });
+
+  // Start initial progress bar animation
+  slides[currentIndex].querySelector(".progress-bar").style.width = "100%";
+})
+  
+</script>
+
+{% schema %}
+{ 
+  "name": "slider image with text",
+  "class": "image_with-text-slider",
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "product_block",
+      "name": "Product",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "image"
+        },
+        {
+          "type": "richtext",
+          "id": "heading",
+          "label": "Heading"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Description",
+          "default": "Write a short description here."
+        },
+        {
+          "type": "color",
+          "id": "subtitle_color",
+          "label": "subtitle color",
+          "default": "#000"
+        }
+        
+
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "slider-image-with-text"
+    }
+  ]
+}
+
+{% endschema %}

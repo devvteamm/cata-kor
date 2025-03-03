@@ -7,6 +7,10 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
+  .product-evolution .gradient {
+    background: linear-gradient(to right, {{ section.settings.left_site_color }} 50%, {{ section.settings.right_site_color }} 50%);
+}
+
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -91,6 +95,18 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "color",
+      "id": "left_site_color",
+      "label":"Left Side color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "right_site_color",
+      "label":"Right Side color",
+      "default": "#F4F5F5"
+    },
     {
       "type": "select",
       "id": "desktop_content_position",
