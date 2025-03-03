@@ -13,38 +13,23 @@
       "type": "main-page",
       "disabled": true,
       "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 28,
+        "padding_bottom": 28
       }
     },
-    "section_header_HRhaKy": {
+    "section_header_DWxUAq": {
       "type": "section-header",
       "settings": {
-        "title": "Contact Us",
-        "color_scheme": "",
-        "padding_top": 100,
-        "padding_bottom": 100
+        "title": "FAQ’s",
+        "color_scheme": "scheme-1",
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     },
-    "form": {
-      "type": "contact-form",
-      "settings": {
-        "heading": "We are committed to customer care",
-        "heading_size": "hxl",
-        "color_scheme": "scheme-2",
-        "contact_image": "shopify://shop_images/076f03af4168bd181d7800d56c1b1ceb.png",
-        "email_text": "Feel free to contact us",
-        "email": "help@catakor.com",
-        "padding_top": 100,
-        "padding_bottom": 48,
-        "mobile_padding_top": 45,
-        "mobile_padding_bottom": 10
-      }
-    },
-    "faq_section_dnWETC": {
+    "faq_section_w4ygkY": {
       "type": "faq-section",
       "blocks": {
-        "collapsible_row_PnKr4c": {
+        "collapsible_row_XGwPKp": {
           "type": "collapsible_row",
           "settings": {
             "heading": "How long does it take to see results from dietary supplements?",
@@ -53,7 +38,7 @@
             "page": ""
           }
         },
-        "collapsible_row_rFmgKt": {
+        "collapsible_row_ctU3nC": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Are there potential side effects of dietary supplements?",
@@ -62,7 +47,7 @@
             "page": ""
           }
         },
-        "collapsible_row_dUJfbG": {
+        "collapsible_row_bV6EGh": {
           "type": "collapsible_row",
           "settings": {
             "heading": "How does Сata-Kor ensure the quality of its ingredients?",
@@ -71,7 +56,7 @@
             "page": ""
           }
         },
-        "collapsible_row_PdxmcV": {
+        "collapsible_row_UFCxNQ": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Are your products gluten-free?",
@@ -80,7 +65,7 @@
             "page": ""
           }
         },
-        "collapsible_row_C9HF8e": {
+        "collapsible_row_NU3knD": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Are your products non-GMO/organic?",
@@ -88,37 +73,56 @@
             "row_content": "<p>The time to experience results varies based on the supplement and individual factors. Consistency in usage is key. Some may notice changes quickly, while others may require more time.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_UNcJ9H": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are your products safe to take with medications?",
+            "icon": "none",
+            "row_content": "<p>The time to experience results varies based on the supplement and individual factors. Consistency in usage is key. Some may notice changes quickly, while others may require more time.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_wdkkg4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you have samples?",
+            "icon": "none",
+            "row_content": "<p>The time to experience results varies based on the supplement and individual factors. Consistency in usage is key. Some may notice changes quickly, while others may require more time.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
-        "collapsible_row_PnKr4c",
-        "collapsible_row_rFmgKt",
-        "collapsible_row_dUJfbG",
-        "collapsible_row_PdxmcV",
-        "collapsible_row_C9HF8e"
+        "collapsible_row_XGwPKp",
+        "collapsible_row_ctU3nC",
+        "collapsible_row_bV6EGh",
+        "collapsible_row_UFCxNQ",
+        "collapsible_row_NU3knD",
+        "collapsible_row_UNcJ9H",
+        "collapsible_row_wdkkg4"
       ],
       "settings": {
-        "caption": "FAQs",
+        "caption": "",
         "heading": "People often ask these questions",
         "mobile_text": "",
         "color_scheme": "scheme-61c54174-6908-4e3f-a360-364419028ed7",
-        "container_color_scheme": "scheme-2",
-        "full_content": false,
+        "container_color_scheme": "",
+        "full_content": true,
         "open_first_collapsible_row": false,
-        "show-icon": true,
-        "button_label": "View All",
+        "show-icon": false,
+        "button_label": "",
         "button_link": "",
-        "padding_top": 52,
-        "padding_bottom": 52,
-        "mobile_padding_top": 60,
-        "mobile_padding_bottom": 60
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "mobile_padding_top": 45,
+        "mobile_padding_bottom": 97
       }
     }
   },
   "order": [
     "main",
-    "section_header_HRhaKy",
-    "form",
-    "faq_section_dnWETC"
+    "section_header_DWxUAq",
+    "faq_section_w4ygkY"
   ]
 }

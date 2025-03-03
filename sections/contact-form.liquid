@@ -2,8 +2,8 @@
 
 {%- style -%}
   .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    padding-top: {{ section.settings.mobile_padding_top }}px;
+    padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
   }
 
   @media screen and (min-width: 750px) {
@@ -15,7 +15,8 @@
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
-  <div class="contact page-width page-width--narrow section-{{ section.id }}-padding">
+  <div class="main-contact page-width section-{{ section.id }}-padding">
+  <div class="contact">
     {%- if section.settings.heading != blank -%}
       <h2 class="title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         {{ section.settings.heading }}
@@ -52,7 +53,11 @@
         </ul>
       {%- endif -%}
       <div class="contact__fields">
+        <label class="field__label" for="ContactForm-name">Full Name</label>
         <div class="field">
+          <div class="contact_icon">
+            {{- 'contact_nameIcon.svg' | inline_asset_content -}}
+          </div>
           <input
             class="field__input"
             autocomplete="name"
@@ -60,11 +65,16 @@
             id="ContactForm-name"
             name="contact[{{ 'templates.contact.form.name' | t }}]"
             value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
-            placeholder="{{ 'templates.contact.form.name' | t }}"
+            placeholder="Enter Name"
           >
-          <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}</label>
-        </div>
+          </div>
+          <label class="field__label" for="ContactForm-email">
+            Email
+          </label>
         <div class="field field--with-error">
+          <div class="contact_icon">
+            {{- 'contact_emailIcon.svg' | inline_asset_content -}}
+          </div>
           <input
             autocomplete="email"
             type="email"
@@ -79,13 +89,9 @@
               aria-invalid="true"
               aria-describedby="ContactForm-email-error"
             {% endif %}
-            placeholder="{{ 'templates.contact.form.email' | t }}"
+            placeholder="Enter Your Email"
           >
-          <label class="field__label" for="ContactForm-email">
-            {{- 'templates.contact.form.email' | t }}
-            <span aria-hidden="true">*</span></label
-          >
-          {%- if form.errors contains 'email' -%}
+          {% comment %} {%- if form.errors contains 'email' -%}
             <small class="contact__field-error" id="ContactForm-email-error">
               <span class="visually-hidden">{{ 'accessibility.error' | t }}</span>
               <span class="form__message">
@@ -96,10 +102,10 @@
                 {{ form.errors.messages.email -}}
               </span>
             </small>
-          {%- endif -%}
+          {%- endif -%} {% endcomment %}
         </div>
       </div>
-      <div class="field">
+      {% comment %} <div class="field">
         <input
           type="tel"
           id="ContactForm-phone"
@@ -111,27 +117,49 @@
           placeholder="{{ 'templates.contact.form.phone' | t }}"
         >
         <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
-      </div>
+      </div> {% endcomment %}
+      <label class="form__label field__label" for="ContactForm-body">
+        Message
+      </label>
       <div class="field">
         <textarea
-          rows="10"
+          rows="6"
           id="ContactForm-body"
           class="text-area field__input"
           name="contact[{{ 'templates.contact.form.comment' | t }}]"
-          placeholder="{{ 'templates.contact.form.comment' | t }}"
+          placeholder="Enter your message here..."
         >
           {{- form.body -}}
         </textarea>
-        <label class="form__label field__label" for="ContactForm-body">
-          {{- 'templates.contact.form.comment' | t -}}
-        </label>
       </div>
       <div class="contact__button">
         <button type="submit" class="button">
-          {{ 'templates.contact.form.send' | t }}
+          Send Message
         </button>
       </div>
     {%- endform -%}
+  </div>
+  <div class="contact_image">
+    {% if section.settings.contact_image != blank %}
+      <img class="image" src="{{ section.settings.contact_image | image_url }}" alt="contact image" width="" height="">
+    {% endif %}
+    <a href="mailto:{{ section.settings.email }}" class="email_box">
+      <div class="icon_box">
+        {{- 'new-email.svg' | inline_asset_content -}}
+      </div>
+      <div class="text">
+        <div class="email_text_container">
+          {% if section.settings.email_text != blank %}
+             <p class="email_text">{{ section.settings.email_text }}</p>
+          {% endif %}
+          {% if section.settings.email != blank %}
+              <h6 class="email">{{ section.settings.email }}</h6>
+          {% endif %}
+        </div>
+        {{- 'right-arrow.svg' | inline_asset_content -}}
+      </div>
+    </a>
+  </div>
   </div>
 </div>
 
@@ -185,6 +213,21 @@
       "default": "scheme-1"
     },
     {
+      "type": "image_picker",
+      "id": "contact_image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "email_text",
+      "label": "Email Text"
+    },
+    {
+      "type": "text",
+      "id": "email",
+      "label": "Your Email"
+    },
+    {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
     },
@@ -206,6 +249,26 @@
       "step": 4,
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Mobile top padding",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Mobile bottom padding",
       "default": 36
     }
   ],

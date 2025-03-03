@@ -26,14 +26,206 @@
 
 @media screen and (min-width: 750px) {
   .contact__button {
-    margin-top: 4rem;
+    margin-top: 3rem;
   }
 }
 
 @media screen and (min-width: 750px) {
   .contact__fields {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 2rem;
+  }
+}
+
+.main-contact .contact{
+  flex: 1;
+}
+
+.main-contact .contact .title{
+  font-family: "Nohemi-Medium", sans-serif;
+  font-size: 6.5rem;
+  line-height: 1.23;
+  letter-spacing: 0;
+  color: rgb(var(--color-foreground));
+}
+
+.main-contact .contact_image{
+  max-width: 59.3rem;
+  aspect-ratio: 593/687;
+  width: 100%;
+  border-radius: 1.6rem;
+  position: relative;
+  text-decoration: none;
+  flex: 1;
+}
+.main-contact .contact_image .image{
+  width: 100%;
+  height: 100%;
+  border-radius: 1.6rem;
+  object-fit: cover;
+  display: block;
+}
+.main-contact {
+  display: flex;
+  gap: 1.5rem;
+}
+.main-contact .email_box{
+  position: absolute;
+  bottom: 1.6rem;
+  left: 1.6rem;
+  background-color: #fff;
+  border-radius: .8rem;
+  padding: 1.2rem 2rem 1.2rem 1.2rem;
+  width: calc(100% - 32px);
+  display: flex;
+  gap: 1.6rem;
+  text-decoration: none;
+}
+
+.main-contact .email_box .text{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+}
+.main-contact .email_box .icon_box{
+ max-width: 6rem;
+ width: 100%;
+ background-color: #F3F1ED;
+ border-radius: .8rem; 
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.main-contact .email_box .email_text_container{
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+}
+.main-contact .email_box .email_text{
+  margin: 0;
+  font-family: Onest, serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.275;
+  letter-spacing: -0.16px;
+  opacity: 80%;
+  color: #000;
+}
+.main-contact .email_box .email{
+  margin: 0;
+  font-family: 'Onest', serif;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.275;
+  letter-spacing: -0.20px;
+}
+.main-contact .contact__button .button{
+  border-radius: 23.2rem;
+}
+.main-contact .contact__button .button:after{
+  box-shadow: none;
+}
+.main-contact .contact__button .button:hover{
+  box-shadow: none;
+}
+.main-contact .field__label{
+  position: unset;
+}
+.main-contact .field:after{
+  box-shadow: none;
+}
+.main-contact .field{
+  border: 1px solid #D4D4D4;
+  border-radius: .8rem;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 1.4rem;
+}
+.main-contact .field__input:focus{
+  box-shadow: none;
+  padding: 0;
+} 
+.main-contact .field:hover.field:after {
+  box-shadow: none;
+}
+.main-contact .field__input{
+  padding: 0;
+  height: fit-content;
+  font-family: 'Onest', serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+.main-contact .text-area{
+  min-height: unset;
+}
+.main-contact .contact_icon{
+  max-height: 2rem;
+}
+.main-contact .field--with-error{
+  flex-wrap: unset;
+}
+.main-contact .field__label{
+  font-family: 'Onest', serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 1.275;
+  letter-spacing: -0.28px;
+  margin-bottom: 1rem;
+}
+.main-contact .field__input::placeholder{
+  opacity: 1;
+}
+.main-contact .text svg{
+ width: 2rem;
+}
+
+@media screen and (max-width:989px) {
+  .main-contact .contact .title{
+    font-size: 4.5rem;
+  }
+  .main-contact .contact .field{
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width:749px) {
+  .main-contact{
+    flex-direction: column;
+    gap: 3.4rem;
+  }
+  .main-contact .contact_image{
+    max-width: 100%;
+    min-height: 67.8rem;
+  }
+  .main-contact .contact .title {
+    font-size: 4.5rem;
+    line-height: 1.11;
+  }
+  .main-contact .contact__button .button{
+    margin-top: 1.4rem;
+  }
+  .main-contact .field{
+    padding: 1.5rem 1rem;
+  }
+  .main-contact .contact__button {
+    margin-top: 2rem;
+  }
+  .main-contact .email_box{
+    bottom: 1rem;
+    left: 1rem;
+    padding: 1rem;
+    width: calc(100% - 20px);
+    gap: 1rem;
+  }
+  .main-contact .email_box .email_text{
+    font-size: 1.6rem;
+  }
+  .main-contact .email_box .email{
+    font-size: 2rem;
   }
 }

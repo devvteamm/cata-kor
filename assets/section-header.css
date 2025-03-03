@@ -1,0 +1,22 @@
+.section-header .main-page-title{
+  font-family: "Nohemi-Regular", sans-serif;
+  font-weight: 400;
+  font-size: 8.5rem;
+  line-height: 1.058;
+  letter-spacing: 0;
+  text-align: center;  
+  margin: 0;
+}
+
+.section-header .breadcrumbs__link,
+.section-header .breadcrumbs__list,
+.section-header .breadcrumbs__link[aria-current="page"]{
+  color: rgb(var(--color-foreground));
+}
+
+
+@media screen and (max-width:749px) {
+  .section-header .main-page-title {
+    font-size: 4.5rem;
+  }
+}

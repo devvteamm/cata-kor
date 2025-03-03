@@ -60,11 +60,14 @@
         "image_pgP7bL",
         "image_3aVRLE"
       ],
+      "custom_css": [
+        ".banner__text {max-width: 100%;}"
+      ],
       "settings": {
         "desktop_content_position": "top-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-b49a82f8-f6d3-41ac-a5b7-fbc6d69a02af",
         "padding_top": 80,
         "padding_bottom": 44
       }
@@ -267,7 +270,8 @@
           "type": "heading",
           "settings": {
             "heading": "We have a solution and we can help fight it.",
-            "heading_size": "h0"
+            "heading_size": "h0",
+            "sub_heding": ""
           }
         }
       },
@@ -278,13 +282,16 @@
         ".rich-text__heading {font-size: 6rem;}"
       ],
       "settings": {
-        "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "scheme-3",
         "full_width": true,
+        "full_width_container": false,
         "show_accent_graphics": true,
+        "show_star": false,
         "padding_top": 60,
-        "padding_bottom": 60
+        "padding_bottom": 60,
+        "mobile_padding_top": 60,
+        "mobile_padding_bottom": 60
       }
     },
     "dynamic_benefits_showcase_wPg7KQ": {

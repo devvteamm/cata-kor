@@ -593,6 +593,116 @@
  object-fit: cover;
 }
 
+/* image with text header css  */
+
+.image-with-text-header .image-with-text__content{
+  padding-left: 10rem;    
+  padding-right: 6.1rem;
+
+}
+
+.image-with-text-header .text_box{
+  max-width: 55.9rem;
+  width: 100%;
+  align-self: flex-end;
+}
+
+.image-with-text-header .image-with-text__heading{
+  font-family: "Nohemi-Regular";
+  font-weight: 400;
+  letter-spacing: 0;
+  max-width: 55.9rem;
+  width: 100%;
+  margin-top: 0;
+}
+.image-with-text-header .image-with-text__heading.hxxl{
+  font-size: 8.5rem;
+  line-height: 1.058;
+}
+.image-with-text-header .image-with-text__text{
+  font-family: Onest, serif;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.4;
+  letter-spacing: 0;
+  margin-top: 2.5rem;
+  max-width: 51.2rem;
+  width: 100%;
+}
+.image-with-text-header .shop_now_btn{
+ margin-top: 4rem;
+ display: inline-block;
+} 
+.image-with-text-header .image-with-text__media--large{
+  height: 81.2rem;
+}
+
+@media screen and (max-width:1200px) {
+  .image-with-text-header .image-with-text__heading.hxxl{
+    font-size: 6.5rem;
+  }
+}
+@media screen and (max-width:989px) {
+  .image-with-text-header .image-with-text__grid{
+    flex-direction: column-reverse;
+  }
+  .image-with-text-header .text_box{
+    max-width: 100%;
+  }
+  .image-with-text-header .image-with-text__text-item{
+    max-width: 100%;
+    width: 100%;
+  }
+  .image-with-text-header .image-with-text__heading{
+    max-width: 100%;
+  }
+  .image-with-text-header .image-with-text__text{
+    max-width: 100%;
+  }
+  .image-with-text-header .shop_now_btn{
+    padding: 1.35rem 3rem;
+    letter-spacing: 0;
+    border-radius: 23.2rem;
+    border: 1px solid #1B352A40;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Nohemi-Medium, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1;
+    background-color: rgba(var(--color-button), var(--alpha-button-background));
+    color: rgb(var(--color-button-text));
+  }
+  .image-with-text-header .image-with-text__media-item{
+    max-width: 100%;
+    width: 100%;
+  }
+  .image-with-text-header .image-with-text__content{
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+  }
+}
+
+@media screen and (max-width:989px) {
+  .image-with-text-header .image-with-text__content{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .image-with-text-header .image-with-text__media--large{
+    height: 49.6rem;
+  }
+  .image-with-text-header .image-with-text__heading.hxxl{
+    font-size: 4.5rem;
+    line-height: 1.11;
+  }
+  .image-with-text-header .image-with-text__text{
+    font-size: 1.8rem;
+    line-height: 1.56;
+    margin-top: 2.4rem;
+  }
+  .image-with-text-header .shop_now_btn{
+    margin-top: 3.2rem;
+  }
+}
 /* custom css for custom-image-with-text.liquid */
 .custom-image-with-text .card__information {
   text-align: left;

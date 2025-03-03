@@ -582,21 +582,21 @@
   border-radius: 7rem;
   /* padding: .6rem; */
 }
-.field__input{
+.footer .field__input{
   background: transparent;
   color: #fff;
 }
-.field:after{
+.footer .field:after{
   box-shadow: none;
 }
-.field__input:focus{
+.footer  .field__input:focus{
   border-radius: 7rem;
   box-shadow: none;
 }
-.field:hover.field:after{
+.footer .field:hover.field:after{
   box-shadow: none;
 }
-.field:hover.field:after{
+.footer .field:hover.field:after{
   box-shadow: none;
 }
 .footer .footer_text-block .field .newsletter-form__button{
@@ -611,7 +611,7 @@
   right: .6rem;
   text-transform: uppercase;
 } 
-.grid__item{
+.footer .grid__item{
   flex-grow: 0;
 }
 .footer .footer__blocks-wrapper{
