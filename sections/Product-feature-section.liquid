@@ -52,7 +52,7 @@
   </div>
 {% endif %}
 <div class="banner__box-product--wrapper-parent">
-<div class="banner__box-product--wrapper">
+<div class="banner__box-product--wrapper product-card_row">
     {%- assign product_blocks = section.blocks | where: "type", "Product" -%}
     {% if product_blocks.size > 0 %}
       {%- for product_block in product_blocks -%}

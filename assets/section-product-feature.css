@@ -112,7 +112,7 @@
     max-width: unset;
  }
 
- .product-feature-section .banner__box-product--wrapper .card:not(.ratio) {
+ .product-feature-section .banner__box-product--wrapper.product-card_row .card:not(.ratio) {
     flex-direction: row;
  }
 
