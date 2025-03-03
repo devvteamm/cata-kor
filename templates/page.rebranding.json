@@ -46,6 +46,7 @@
           "type": "Image",
           "settings": {
             "image": "shopify://shop_images/Group_1171276115.png",
+            "button_text": "",
             "first_text": "",
             "second_text": "",
             "third_text": ""
@@ -55,6 +56,7 @@
           "type": "Image",
           "settings": {
             "image": "shopify://shop_images/Group_1171276143.png",
+            "button_text": "New & Improved",
             "first_text": "",
             "second_text": "",
             "third_text": ""
@@ -109,11 +111,85 @@
         "mobile_padding_top": 36,
         "mobile_padding_bottom": 36
       }
+    },
+    "faq_section_3dQJza": {
+      "type": "faq-section",
+      "blocks": {
+        "collapsible_row_BCjjed": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long does it take to see results from dietary supplements?",
+            "icon": "none",
+            "row_content": "<p>The time to experience results varies based on the supplement and individual factors. Consistency in usage is key. Some may notice changes quickly, while others may require more time.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_qHUBJ9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are there potential side effects of dietary supplements?",
+            "icon": "none",
+            "row_content": "<p>The time to experience results varies based on the supplement and individual factors. Consistency in usage is key. Some may notice changes quickly, while others may require more time.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Q6TLAr": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does Сata-Kor ensure the quality of its ingredients?",
+            "icon": "none",
+            "row_content": "<p>The time to experience results varies based on the supplement and individual factors. Consistency in usage is key. Some may notice changes quickly, while others may require more time.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_YMfCRh": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are your products gluten-free?",
+            "icon": "none",
+            "row_content": "<p>The time to experience results varies based on the supplement and individual factors. Consistency in usage is key. Some may notice changes quickly, while others may require more time.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_jU3GD9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are your products non-GMO/organic?",
+            "icon": "none",
+            "row_content": "<p>The time to experience results varies based on the supplement and individual factors. Consistency in usage is key. Some may notice changes quickly, while others may require more time.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_BCjjed",
+        "collapsible_row_qHUBJ9",
+        "collapsible_row_Q6TLAr",
+        "collapsible_row_YMfCRh",
+        "collapsible_row_jU3GD9"
+      ],
+      "settings": {
+        "caption": "FAQs",
+        "heading": "People often ask these questions",
+        "mobile_text": "",
+        "color_scheme": "scheme-41f8d28c-2279-47f0-8f39-bd10f09968cd",
+        "container_color_scheme": "",
+        "full_content": false,
+        "open_first_collapsible_row": false,
+        "show-icon": false,
+        "button_label": "",
+        "button_link": "",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mobile_padding_top": 60,
+        "mobile_padding_bottom": 60
+      }
     }
   },
   "order": [
     "main",
     "product_evolution_yRdyz4",
-    "product_compare_YmXTHw"
+    "product_compare_YmXTHw",
+    "faq_section_3dQJza"
   ]
 }
