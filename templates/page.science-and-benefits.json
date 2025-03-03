@@ -17,6 +17,64 @@
         "padding_bottom": 28
       }
     },
+    "two_image_with_text_X9hXGL": {
+      "type": "two-image-with-text",
+      "blocks": {
+        "heading_RYg8Hd": {
+          "type": "heading",
+          "settings": {
+            "heading": "LipoNAD+™ Difference",
+            "heading_size": "hxxl",
+            "sub_heding": ""
+          }
+        },
+        "text_FmtUri": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>96%</h1><p>Increased general energy level *</p><h1>91%</h1><p>Increased overall skin health*</p><p></p>",
+            "text_style": "body"
+          }
+        },
+        "caption_AKVwBr": {
+          "type": "caption",
+          "settings": {
+            "caption": "*Based on an independent study with 27 subjects.",
+            "text_style": "subtitle",
+            "text_size": "small"
+          }
+        },
+        "button_gwgHaV": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_RYg8Hd",
+        "text_FmtUri",
+        "caption_AKVwBr",
+        "button_gwgHaV"
+      ],
+      "settings": {
+        "text_slogan": "",
+        "image": "shopify://shop_images/image_12.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_7Lzr8m": {
       "type": "image-with-text",
       "blocks": {
@@ -175,6 +233,7 @@
   },
   "order": [
     "main",
+    "two_image_with_text_X9hXGL",
     "image_with_text_7Lzr8m",
     "custom_image_with_text_Cg33qY",
     "faq_section_KBHFfR"
