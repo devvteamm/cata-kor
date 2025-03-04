@@ -52,7 +52,7 @@
     </div>
   {%- endif -%} {% endcomment %}
      <!-- Swiper Navigation -->
-     <div class="swiper-button--wrapper">
+     <div class="swiper-button--wrapper small-hide">
       <div class="swiper-button-prev"><span class="svg-wrapper">{{ 'icon-left-arrow.svg' | inline_asset_content }}</span></div>
       <div class="swiper-button-next"><span class="svg-wrapper">{{ 'icon-right-arrow.svg' | inline_asset_content }}</span></div>
     </div>
@@ -235,7 +235,7 @@
           </li>
         {%- endfor -%}
       </ul>
-      <div class="swiper-pagination"> </div>
+      <div class="swiper-pagination small-hide"> </div>
     </div>
       <div class="center">
         {%- if section.settings.button_label != blank -%}
@@ -261,23 +261,42 @@
     function getCSSVariableValue(variable) {
       return parseInt(getComputedStyle(document.documentElement).getPropertyValue(variable));
     }
-    var swiper = new Swiper(".swiper-container", {
-      slidesPerView: {{ section.settings.columns_mobile }},
-      spaceBetween: getCSSVariableValue("--grid-mobile-horizontal-spacing"),
-      loop: true,
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      breakpoints: {
-        989: { slidesPerView: {{ section.settings.columns_desktop }}, spaceBetween: getCSSVariableValue("--grid-desktop-horizontal-spacing") },
-      },
+  
+    let swiperInstance;
+  
+    function initSwiper() {
+      if (window.innerWidth >= 750 && !swiperInstance) {
+        swiperInstance = new Swiper(".swiper-container", {
+          slidesPerView: {{ section.settings.columns_mobile }},
+          spaceBetween: getCSSVariableValue("--grid-mobile-horizontal-spacing"),
+          loop: true,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          breakpoints: {
+            989: { slidesPerView: {{ section.settings.columns_desktop }}, spaceBetween: getCSSVariableValue("--grid-desktop-horizontal-spacing") },
+          },
+        });
+      } else if (window.innerWidth < 750 && swiperInstance) {
+        swiperInstance.destroy(true, true);
+        swiperInstance = null;
+      }
+    }
+  
+    // Initialize Swiper based on screen size
+    initSwiper();
+  
+    // Listen for window resize events
+    window.addEventListener("resize", function () {
+      initSwiper();
     });
   });
+  
 </script>
 
 {% schema %}

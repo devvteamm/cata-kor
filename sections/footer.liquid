@@ -375,7 +375,8 @@
       <div class="footer__copyright caption">
         <small class="copyright__content"
           >{% comment %}&copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url -}}{% endcomment %}
-          <span class="copyright__content-title">FDA Disclosure:</span> The statements on this site have not been evaluated by the food and drug administration. These products are not intended to diagnose, treat, cure, or prevent any disease.
+          {% comment %} <span class="copyright__content-title">FDA Disclosure:</span>  {% endcomment %}
+          The statements on this site have not been evaluated by the food and drug administration. These products are not intended to diagnose, treat, cure, or prevent any disease.
         </small>
         {% comment %} <small class="copyright__content">{{ powered_by_link }}</small> {% endcomment %}
         {%- if section.settings.show_policy -%}

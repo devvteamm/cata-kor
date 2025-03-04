@@ -13,13 +13,14 @@
   flex: 1;
 }
 .image-with-blocks .image-with-blocks__text .heding{
-  font-family: "Nohemi-Medium", sans-serif;
+  font-family: "Teachers", sans-serif;
   font-size: 6.5rem;
   line-height: 1.015;
-  letter-spacing: 0;
+  letter-spacing: -0.195px;
+  font-weight: 600;
 }
 .image-with-blocks .image-with-blocks__text .sub_heding{
-  font-family: "Nohemi-Regular", sans-serif;
+  font-family: "Teachers", sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.75;
@@ -55,14 +56,15 @@
 }
 .image-with-blocks .label-block-label{
   background: rgba(var(--color-secondary-text));
-  color: #000;
+  color: #333333;
   padding: 1.4rem 1.8rem;
   border-radius: 23.2rem;
-  font-family: "Nohemi-Regular", sans-serif;
+  font-family: "Teachers", sans-serif;
   font-size: 1.6rem;
   text-transform: uppercase;
   line-height: 1;
   letter-spacing: 0;
+  border: 1px solid #1B352A40;
 }
 .image-with-blocks .label-block{
   display: flex;
@@ -70,22 +72,54 @@
   gap: 2.5rem;
 }
 .image-with-blocks .label-block .text{
-  font-family: "Nohemi-Medium", sans-serif;
+  font-family: "Teachers", sans-serif;
+  font-weight: 500;
   font-size: 5rem;
   line-height: 1.2;
+  color: #333333;
 }
 .image-with-blocks .label-block .description_text{
-  font-family: "Nohemi-Regular", sans-serif;
+  font-family: "Teachers", sans-serif;
+  font-weight: 400;
   font-size: 2rem;
   line-height: 1.6;
-  opacity: 80%;
+  /* opacity: 80%; */
   letter-spacing: 0;
+  color: #333333;
 }
 .image-with-blocks .label-block .label-block-text{
   display: flex;
   gap: 1rem;
 }
 
+.image-with-blocks .label-block .disclaimer_text {
+  font-family: 'Teachers',sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  letter-spacing: 0;
+  color: #375B2B;
+
+}
+
 .image-with-blocks .label-block .label-block-text .label-block-text-item {
   margin-left: 1rem;
+}
+
+@media screen and (max-width:749px) {
+  .image-with-blocks .image-with-blocks__wrapper {
+    flex-direction: column;
+    /* align-items: baseline; */
+    gap: 2.3rem;
+  }
+  .image-with-blocks .image-with-blocks__text .heding {
+    font-size: 4.5rem;
+    line-height: 1.11;
+    letter-spacing: -0.135px;
+  }
+  .image-with-blocks .image-with-blocks__text,
+  .image-with-blocks .image-with-blocks__label-block {
+    max-width: unset;
+  }
 }

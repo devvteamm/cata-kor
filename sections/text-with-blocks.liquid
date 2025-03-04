@@ -81,10 +81,15 @@
                 {% endif %}
               </div>
               {% if block.settings.main_image != blank %}
-                <div class="image-with-text__media-item-image">
+                <div class="image-with-text__media-item-image small-hide medium-hide">
                   <img src="{{ block.settings.main_image | image_url }}" alt="Image" width="" height="">
                 </div>
-                {% endif %}
+              {% endif %}
+              {% if block.settings.main_mobile_image != blank %}
+                <div class="image-with-text__media-item-image large-up-hide">
+                  <img src="{{ block.settings.main_mobile_image | image_url }}" alt="Image" width="" height="">
+                </div>
+              {% endif %}      
             {% endif %}
           {% endfor %}
         </div>
@@ -501,6 +506,11 @@
           "type": "image_picker",
           "id": "main_image",
           "label": "Main Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "main_mobile_image",
+          "label": "Main Mobile Image"
         },
         {
           "type": "image_picker",

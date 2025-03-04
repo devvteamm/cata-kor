@@ -333,21 +333,23 @@
 }
 
 .card__heading {
-  font-family: 'Nohemi-SemiBold',sans-serif;
+  font-family: 'Teachers',sans-serif;
+  font-weight: 600;
   font-size: 1.6rem;
   line-height: 1.5;
   letter-spacing: -0.32px;
-  color: #444445;
+  color: rgb(var(--color-foreground));
   margin-top: 0;
   margin-bottom: 0;
 }
 
 .card__description {
-  font-family: 'Onest', serif;
-  font-weight: 300;
+  font-family: 'Teachers', serif;
+  font-weight: 400;
   font-size: 1.4rem;
   line-height: 1.57;
   letter-spacing: -0.28px;
+  color: rgb(var(--color-secondary-text));
 }
 
 .card__description p{

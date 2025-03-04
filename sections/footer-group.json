@@ -20,12 +20,13 @@
             "image": "shopify://shop_images/Mask_group_1.png",
             "image_width": 165,
             "alignment": "",
-            "image_text": "<p>Lorem ipsum dolor amet consectetur adipiscing elit, sed eiusmod tempor incid labore dolore aliqua. </p>",
+            "image_text": "<p>Health supplements designed to support the lifestyle you deserve.</p>",
             "show_icon": true
           }
         },
         "link_list_iaciy6": {
           "type": "link_list",
+          "disabled": true,
           "settings": {
             "heading": "Naviagtion",
             "menu": "main-menu-header"
@@ -35,7 +36,7 @@
           "type": "link_list",
           "settings": {
             "heading": "Quick links",
-            "menu": "about"
+            "menu": "footer-quicklinks"
           }
         },
         "link_list_Ek7fBD": {
@@ -62,7 +63,7 @@
         "text_UHm6WK"
       ],
       "settings": {
-        "color_scheme": "scheme-4a883a37-99d1-4761-a71a-25fcb256acf5",
+        "color_scheme": "scheme-a2b3209b-05e4-451b-a0ea-704ad54c91cb",
         "newsletter_enable": true,
         "newsletter_heading": "",
         "enable_follow_on_shop": true,

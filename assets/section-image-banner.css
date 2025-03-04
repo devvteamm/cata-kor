@@ -165,6 +165,17 @@
   top: 0;
   width: 100%;
 }
+ @media screen and (max-width:749px) {
+   .image_banner__homepage-nad-journey .banner__content::before {
+     padding-bottom: 278.40% !important;
+   }
+
+   .image_banner__homepage-ingredients .banner__content::before,
+   .image_banner__homepage-ingredients .banner__media::before {
+    padding-bottom: 284.77% !important;
+   }
+  
+ }
 
 .banner__media-half {
   width: 50%;
@@ -271,7 +282,7 @@
   display: flex;
   position: relative;
   width: 100%;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   z-index: 2;
 }
@@ -280,7 +291,8 @@
   .banner__content {
     padding-top: 4rem;
     padding-bottom: 4rem;
-
+    align-items: center;
+    
   }
 
   .banner__content--top-left {
@@ -400,7 +412,7 @@
 
 .banner__box > * + .banner__text {
   margin-top: 1.5rem;
-  font-family: Onest, serif;
+  font-family: 'Teachers', serif;
   font-weight: 400;
   font-size: 2rem;
   line-height: 1.6;
@@ -463,10 +475,11 @@
 
 .banner__heading {
   margin-bottom: 0;
-  font-family: 'Nohemi-Medium', sans-serif;
-  letter-spacing: 0;
-  max-width: 43.6rem;
-  line-height: 1.23;
+  font-family: 'Teachers', sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.195px;
+  max-width: 46.3rem;
+  line-height: 1.230;
 }
 
 .banner__box .banner__heading + * {
@@ -482,6 +495,30 @@
 }
 
 @media screen and (max-width: 749px) {
+  .image_banner__homepage-nad-journey .banner__heading {
+    max-width: 38rem;
+    text-align: justify;
+  }
+  .image_banner__homepage-ingredients .banner__heading {
+    font-size: 4.5rem;
+    line-height: 1.11;
+    max-width: 40rem;
+    text-align: start;
+  }
+  .image_banner__homepage-ingredients .banner__box-logo-with-text--wrapper {
+    margin-top: 2.8rem;
+  }
+  .image_banner__homepage-ingredients .banner__box-logo-with-text--wrapper .logo-with-text-wrraper {
+    column-gap: 4rem;
+  }
+  .image_banner__homepage-ingredients .banner__box-logo-with-text--wrapper .logo-with-text-wrraper .logo img {
+    width: 5rem;
+    height: 5rem;
+  }
+  .image_banner__homepage-nad-journey .banner__box .banner__text {
+    text-align: start;
+     margin-right: 2rem;
+  }
   .banner--content-align-mobile-right .banner__buttons--multiple {
     justify-content: flex-end;
   }
@@ -563,7 +600,8 @@ body.template-product .banner__box-logo-with-text--wrapper .logo-with-text-wrrap
 }
 
 .banner__box-logo-with-text--wrapper .logo-with-text-content {
-  font-family: 'Nohemi-Medium',sans-serif;
+  font-family: 'Teachers',sans-serif;
+  font-weight: 500;
   font-size: 2.8rem;
   line-height: 1.5;
   letter-spacing: 0;
@@ -607,6 +645,11 @@ h2.extra-small {
 }
 
 @media screen and (max-width: 749px) {
+  .image_banner__homepage-ingredients .banner__box-logo-with-text--wrapper .logo-with-text-content p {
+    font-size: 2.2rem;
+    line-height: 1.4545;
+    text-align: start;
+  }
   .banner__content .content-container {
    background-color: var(--gradient-background);
   }

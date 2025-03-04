@@ -2361,7 +2361,8 @@ input[type='checkbox'] {
 }
 
 .header-wrapper.gradient{
-  background: linear-gradient(to right, #34473F 50%, var(--gradient-background) 50%);
+  /* background: linear-gradient(to right, #FFFFFF 50%, var(--gradient-background) 50%); */
+  background: transparent;
  }
 
 .header-wrapper--border-bottom {
@@ -2375,10 +2376,46 @@ input[type='checkbox'] {
   align-items: center;
 }
 
+@media screen and (max-width:989px) {
+  .header {
+    grid-template-areas: 'heading left-icons ';
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 @media screen and (max-width: 749px) {
   .header--has-app {
     grid-template-columns: auto 1fr auto;
   }
+}
+
+.header__buttons {
+  display: unset;
+  line-height: 1.75;
+}
+.shop_now_btn {
+  padding: 1.35rem 3rem;
+  letter-spacing: 0;
+  border-radius: 23.2rem;
+  border: 1px solid #1B352A40;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Teachers', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1;
+  background-color: rgba(var(--color-button), var(--alpha-button-background));
+  color: rgb(var(--color-button-text));
+}
+.shop_now_btn_without_family {
+  padding: 1.35rem 3rem;
+  letter-spacing: 0;
+  border-radius: 23.2rem;
+  border: 1px solid #1B352A40;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: rgba(var(--color-button), var(--alpha-button-background));
+  color: rgb(var(--color-button-text));
 }
 
 @media screen and (min-width: 990px) {
@@ -2409,34 +2446,6 @@ input[type='checkbox'] {
 
   .header--middle-left .header__icon {
     width: unset;
-  }
-
-  .header__buttons {
-    display: unset;
-    line-height: 1.75;
-  }
-  .shop_now_btn {
-    padding: 1.35rem 3rem;
-    letter-spacing: 0;
-    border-radius: 23.2rem;
-    border: 1px solid #1B352A40;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-family: 'Nohemi-Medium', sans-serif;
-    font-size: 1.6rem;
-    line-height: 1;
-    background-color: rgba(var(--color-button), var(--alpha-button-background));
-    color: rgb(var(--color-button-text));
-  }
-  .shop_now_btn_without_family {
-    padding: 1.35rem 3rem;
-    letter-spacing: 0;
-    border-radius: 23.2rem;
-    border: 1px solid #1B352A40;
-    text-transform: uppercase;
-    text-decoration: none;
-    background-color: rgba(var(--color-button), var(--alpha-button-background));
-    color: rgb(var(--color-button-text));
   }
 
   .header--middle-center:not(.drawer-menu) {
@@ -2515,6 +2524,7 @@ input[type='checkbox'] {
   .header__heading,
   .header__heading-link {
     text-align: center;
+    justify-self: start;
   }
 
   .header--mobile-left .header__heading,
@@ -2812,10 +2822,10 @@ details[open] > .header__submenu {
   margin-left: -1.2rem;
   grid-area: navigation;
   display: none;
-  font-family: "Onest", serif;
+  font-family: "Teachers", sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
-  line-height: 1.275;
+  line-height: 1.2;
   letter-spacing: 0;
 }
 

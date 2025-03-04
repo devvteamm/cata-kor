@@ -1,6 +1,27 @@
+.dynamic-benefits-showcase--wrapper .disclaimer_text {
+    font-family: 'Teachers' ,sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.dynamic-benefits-showcase--wrapper .disclaimer_text p {
+    margin: 0;
+
+}
 .dynamic-benefits-showcase-container {
     display: flex;
     gap: 6.7rem;
+}
+
+@media screen and (max-width:989px) {
+    .dynamic-benefits-showcase-container {
+        flex-direction: column-reverse;
+        gap: 6rem;
+    }
 }
 
 .dynamic-benefits-showcase-left-side-container {
@@ -17,7 +38,7 @@
 }
 
 .dynamic-benefits-showcase-left-side-item.active {
-    background-color: #F3F1ED;
+    background-color: #E4F69D;
 }
 
 .dynamic-benefits-showcase-right-side-item {
@@ -27,17 +48,22 @@
 
 .dynamic-benefits-showcase-right-side-item-subheading,
 .dynamic-benefits-showcase-right-side-item-text {
-    font-family: 'Onest',sans-serif;
+    font-family: 'Teachers',sans-serif;
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 1.75;
     letter-spacing: 0;
-    color: #1B352A;
+    color: #000000;
+}
+
+.dynamic-benefits-showcase-right-side-item-text {
+    opacity: .8;
 }
 
 .dynamic-benefits-showcase-right-side-item-subheading {
     display: flex;
     align-items: center;
+    color: #375B2B;
 }
 
 .dynamic-benefits-showcase-right-side-item-subheading::before {
@@ -61,7 +87,7 @@
     margin-top: 3rem;
     display: inline-flex;
     line-height: 1;
-    font-family: 'Onest',sans-serif;
+    font-family: 'Teachers',sans-serif;
     font-weight: 700;
     font-size: 1.6rem;
     line-height: 1.275;
@@ -72,10 +98,11 @@
 .dynamic-benefits-showcase-right-side-item-heading{
     margin: 0;
     margin-top: 1.2rem;
-    font-family: 'Nohemi-Medium',sans-serif;
+    font-family: 'Teachers',sans-serif;
+    font-weight: 600;
     font-size: 5.5rem;
     line-height: 1.18;
-    letter-spacing: 0;
+    letter-spacing: -0.165px;
 }
 
 .dynamic-benefits-showcase-right-side-container {
@@ -86,7 +113,7 @@
 
 .dynamic-benefits-showcase-left-side-item .dynamic-benefits-showcase-left-side-item--image {
     padding: 1rem 0 1rem 1rem;
-    min-width: 16.9rem;
+    min-width: 12.1rem;
 }
 .dynamic-benefits-showcase-left-side-item .dynamic-benefits-showcase-left-side-item--image img {
     width: 100%;
@@ -94,6 +121,22 @@
     object-fit: cover;
     display: block;
     aspect-ratio: 1/1;
+}
+
+@media screen and (max-width:989px) {
+    .dynamic-benefits-showcase-right-side-item-heading {
+        font-size: 4.5rem;
+        line-height: 1.11;
+        letter-spacing: -0.135px;
+    }
+    .dynamic-benefits-showcase-right-side-item-text {
+        font-size: 1.8rem;
+        line-height: 1.55;
+
+    }
+    .dynamic-benefits-showcase-left-side-item .dynamic-benefits-showcase-left-side-item--image img {
+        aspect-ratio: 1 / 1.53;
+    }
 }
 
 .dynamic-benefits-showcase-left-side-item--content-wrapper {
@@ -106,7 +149,7 @@
 
 .dynamic-benefits-showcase-left-side-item--content-wrapper h3 {
     margin: 0;
-    font-family: 'Onest',sans-serif;
+    font-family: 'Teachers',sans-serif;
     font-weight: 600;
     font-size: 1.6rem;
     line-height: 1.64;
@@ -115,12 +158,13 @@
 }
 
 .dynamic-benefits-showcase-left-side-item--text {
-  font-family: 'Onest',sans-serif;
+  font-family: 'Teachers',sans-serif;
   font-weight: 400;
   font-size: 1.4rem;
   line-height: 1.52;
   letter-spacing: 0;
   color: #362525;
+  opacity: .8;
 }
 
 .dynamic-benefits-showcase-left-side-item--text p{

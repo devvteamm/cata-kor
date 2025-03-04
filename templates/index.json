@@ -21,9 +21,30 @@
         },
         "text_iXPjBa": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Fresh Look, Powerful Formula / Reimagined Aesthetics, Advanced Formula",
             "text_style": "body"
+          }
+        },
+        "image_pgP7bL": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify://shop_images/2025-03-04_16-52.png",
+            "mobile_image": "shopify://shop_images/2025-03-04_17-40.png",
+            "first_text": "",
+            "second_text": "",
+            "third_text": "<p><br/></p>"
+          }
+        },
+        "image_3aVRLE": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify://shop_images/2025-03-04_16-53.png",
+            "mobile_image": "shopify://shop_images/2025-03-04_17-40_1.png",
+            "first_text": "<p><br/></p>",
+            "second_text": "",
+            "third_text": ""
           }
         },
         "buttons_N7QyD3": {
@@ -33,41 +54,25 @@
             "button_link_1": "#",
             "button_style_secondary_1": false
           }
-        },
-        "image_pgP7bL": {
-          "type": "Image",
-          "settings": {
-            "image": "shopify://shop_images/Group_1171276115.png",
-            "first_text": "",
-            "second_text": "",
-            "third_text": "<p><br/></p>"
-          }
-        },
-        "image_3aVRLE": {
-          "type": "Image",
-          "settings": {
-            "image": "shopify://shop_images/image_6.png",
-            "first_text": "<p><br/></p>",
-            "second_text": "",
-            "third_text": ""
-          }
         }
       },
       "block_order": [
         "heading_tYfwC9",
         "text_iXPjBa",
-        "buttons_N7QyD3",
         "image_pgP7bL",
-        "image_3aVRLE"
+        "image_3aVRLE",
+        "buttons_N7QyD3"
       ],
       "custom_css": [
         ".banner__text {max-width: 100%;}"
       ],
       "settings": {
-        "left_site_color": "#34473f",
-        "right_site_color": "#223f33",
+        "left_site_color": "#ffffff",
+        "right_site_color": "rgba(0,0,0,0)",
         "desktop_content_position": "top-center",
         "show_text_box": true,
+        "show_accent_graphics": "shopify://shop_images/attachment4_1_b1a45908-4902-4b23-b323-288575895f77.png",
+        "show_accent_mobile_graphics": "shopify://shop_images/attachment4_1_mobile.png",
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-b49a82f8-f6d3-41ac-a5b7-fbc6d69a02af",
         "padding_top": 40,
@@ -87,7 +92,7 @@
         "text_eeRahC": {
           "type": "text",
           "settings": {
-            "text": "Cata-Kor NAD Supplements is a daily health supplements designed to support cellular energy, overall wellness, and healthy aging. Formulated with high-quality ingredients, it helps promote vitality, optimize metabolism, and enhance overall body function.",
+            "text": "Cata-Kor NAD⁺ is a daily health supplement that supports cellular energy, overall wellness, and healthy aging. Formulated with high-quality ingredients, it helps to promote vitality, optimize metabolism, and enhance overall body function.*",
             "text_style": "body"
           }
         },
@@ -129,7 +134,9 @@
         "product_XC9FfW"
       ],
       "settings": {
+        "custom_class": "image_banner__homepage-nad-journey",
         "image": "shopify://shop_images/image.jpg",
+        "mobile_image": "shopify://shop_images/image_mobile.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "top-left",
@@ -155,25 +162,25 @@
         "logo_with_text_XLwLmf": {
           "type": "logo_with_text",
           "settings": {
-            "text": "<p>GMP Manufactured Scientifically</p>",
+            "text": "<p>GMP Manufactured to ensure quality and safety of ingredients</p>",
             "description": "",
-            "image": "shopify://shop_images/fi_18565766.svg"
+            "image": "shopify://shop_images/fi_18565766.png"
           }
         },
         "logo_with_text_AHXjRT": {
           "type": "logo_with_text",
           "settings": {
-            "text": "<p>Scientifically Researched<br/>Ingredients</p>",
+            "text": "<p>Scientifically Researched<br/> Ingredients</p>",
             "description": "",
-            "image": "shopify://shop_images/fi_11498784.svg"
+            "image": "shopify://shop_images/fi_11498784.png"
           }
         },
         "logo_with_text_MACiVp": {
           "type": "logo_with_text",
           "settings": {
-            "text": "<p>3rd-Party Tested for Purity, <br/>Potency, and Heavy Metals</p>",
+            "text": "<p>Third Party Tested for Purity, Potency, and<br/> Heavy Metals</p>",
             "description": "",
-            "image": "shopify://shop_images/fi_18610465.svg"
+            "image": "shopify://shop_images/fi_18610465.png"
           }
         }
       },
@@ -185,10 +192,12 @@
       ],
       "custom_css": [
         ".banner--desktop-transparent .banner__box {max-width: 117.5rem;}",
-        ".banner__heading {max-width: unset;}"
+        ".banner__heading {max-width: unset; letter-spacing: 0;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/image.png",
+        "custom_class": "image_banner__homepage-ingredients",
+        "image": "shopify://shop_images/Group_1171276136.png",
+        "mobile_image": "shopify://shop_images/image_mobile_2.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "top-left",
@@ -197,8 +206,8 @@
         "color_scheme": "scheme-1",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "text_with_blocks_hmMX9V": {
@@ -230,11 +239,12 @@
         "image_with_designation_gDGTjr": {
           "type": "image-with-designation",
           "settings": {
-            "background_color": "#f3efe6",
+            "background_color": "#375b2b",
             "main_image": "shopify://shop_images/image_dde2f5d3-ef32-478a-b51b-6602d5f5a2bb.png",
-            "sub_image": "shopify://shop_images/Subtract.png",
+            "main_mobile_image": "shopify://shop_images/image_1111.png",
+            "sub_image": "shopify://shop_images/Subtract_982da6e7-ab88-405e-af2b-8b0363588251.png",
             "title_text": "nad+",
-            "text2": "Declines by Up to 65%Between Ages 30 and 70",
+            "text2": "Declines by Up to 65%  Between Ages 30 and 70",
             "percentage": "65%",
             "percentage_text": "NAD+ Decline",
             "graph_image": "shopify://shop_images/image_21.png",
@@ -249,7 +259,7 @@
         "image_with_designation_gDGTjr"
       ],
       "settings": {
-        "text_slogan": "We can help fight it.",
+        "text_slogan": "",
         "image": "shopify://shop_images/Frame_1321317020.png",
         "height": "small",
         "desktop_image_width": "medium",
@@ -280,6 +290,7 @@
       "block_order": [
         "heading_yeKnjY"
       ],
+      "disabled": true,
       "custom_css": [
         ".rich-text__heading {font-size: 6rem;}"
       ],
@@ -391,9 +402,10 @@
         "right_side_block_rgMifg"
       ],
       "settings": {
+        "disclaimer_text": "<p>*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.<br/>Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.</p>",
         "color_scheme": "scheme-5",
-        "padding_top": 92,
-        "padding_bottom": 92
+        "padding_top": 100,
+        "padding_bottom": 60
       }
     },
     "image_with_blocks_MJhgzL": {
@@ -418,14 +430,15 @@
           "settings": {
             "label_text_1": "3x More Superior",
             "text_1": "9.3x",
-            "description_text_1": "LipoNAD+™ preserves NAD+ levels in the liver at 9.3x higher than regular NAD+.",
+            "description_text_1": "LipoNAD+™ preserves NAD+ levels in the liver at 9.3x higher than regular NAD+.*",
             "text_2": "",
             "description_text_2": "",
-            "label_text_2": "3x More Superior",
+            "label_text_2": "In a single-arm study*",
             "text_3": "96%",
-            "description_text_3": "Increased general energy level",
+            "description_text_3": "Increased general energy level*",
             "text_4": "91%",
-            "description_text_4": "Increased overall skin health"
+            "description_text_4": "Increased overall skin health*",
+            "disclaimer_text": "*Based on an independent study with 27 subjects."
           }
         }
       },
@@ -435,9 +448,9 @@
         "label_with_text_MWCVNJ"
       ],
       "settings": {
-        "color_scheme": "scheme-4a883a37-99d1-4761-a71a-25fcb256acf5",
-        "padding_top": 80,
-        "padding_bottom": 80
+        "color_scheme": "scheme-5e338020-52db-4854-aec5-98e28b83a176",
+        "padding_top": 100,
+        "padding_bottom": 92
       }
     },
     "custom_review_JQdbwY": {
@@ -490,7 +503,7 @@
         "column_9GckFc"
       ],
       "settings": {
-        "title": "See what members are saying about Cata-Kor",
+        "title": "See What Clients Are Saying About Cata-Kor",
         "sub_title": "Ingredients And Study",
         "heading_size": "hxl",
         "title_align": "justify-start",
