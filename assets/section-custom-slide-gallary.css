@@ -1,0 +1,142 @@
+.carousel {
+  display: flex;
+  width: 100%;
+  /* gap: 10px; */
+  position: relative;
+  overflow: hidden;
+  /* height: 470px; /* Ensuring a fixed height */
+}
+
+.slide {
+  flex-basis: 25%; /* Equal width initially */
+  position: relative;
+  overflow: hidden;
+  transition: flex-basis 0.5s ease-in-out;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slide .multicolumn-card__image-wrapper{
+  position: relative;
+}
+
+.slide:not(.active) .multicolumn-card__image-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  transition: background 0.5s ease-in-out;
+}
+
+.slide.active {
+  flex-basis: 50%; /* Active slide takes up more space */
+}
+
+.text-content {
+  /* position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  width: 90%;
+  transition: opacity 0.5s ease-in-out; */
+}
+
+.text-content h3 {
+  font-family: Nohemi-Medium, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.text-content p {
+  font-size: 14px;
+  opacity: 0;  /* Hide description by default */
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slide:not(.active) .text-content h3 {
+  opacity: 0.5;  /* Reduce title opacity for inactive slides */
+}
+
+.slide.active .text-content p {
+  opacity: 1;  /* Show description only on active slide */
+}
+
+/* Progress bar */
+.progress-bar--background {
+  background: #e4f69d;
+  position: absolute;
+  bottom: 7px;
+  left: 3%;
+  height: 10px;
+  z-index: 9;
+  width: 94%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.progress-bar {
+  width: 0%;
+  height: 3px;
+  background: #375B2B;
+  transition: width linear;
+  display: block !important;
+  margin: 0 5px;
+}
+
+
+
+.slide.active .progress-bar {
+  width: 100%;
+  transition: width 3s linear;
+}
+
+.slide .media--portrait {
+  height: 550px;
+  padding-bottom: unset;
+}
+
+.custom-slide-gallary .title-wrapper-with-link .title {
+  font-family: Nohemi-Medium, sans-serif;
+  font-size: 4.5rem;
+}
+@media only screen and (min-width: 750px) {
+  .custom-slide-gallary .title-wrapper-with-link .title {
+    font-size: 6.5rem;
+  }
+}
+.custom-slide-gallary .title-wrapper-with-link .sub-title {
+  font-family: Onest, serif;
+  line-height: 1.75;
+  letter-spacing: 0;
+  font-weight: 400;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.custom-slide-gallary .title-wrapper-with-link {
+  margin-top: 0;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 1.2rem;
+  margin-bottom: 4.4rem;
+
+}
+
+.custom-slide-gallary .title-wrapper-with-link .sub-title:before {
+  content: "";
+  display: inline-block;
+  width: 1.2rem;
+  height: .1rem;
+  background-color: #1b352a;
+  margin-right: 1rem;
+}

@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "sections": {
     "main": {
       "type": "main-product",
@@ -318,6 +318,60 @@
         "padding_bottom": 0
       }
     },
+    "custom_slide_gallary_GDdL3p": {
+      "type": "custom-slide-gallary",
+      "blocks": {
+        "slide_Kjy9Vy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Group_1171276121.png",
+            "title": "Healthy Aging",
+            "description": ""
+          }
+        },
+        "slide_XyyEQm": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Group_1171276121.png",
+            "title": "Brain Health",
+            "description": ""
+          }
+        },
+        "slide_JbNDck": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Group_1171276121.png",
+            "title": "Cellular Health",
+            "description": ""
+          }
+        },
+        "slide_4PA7tt": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Group_1171276121.png",
+            "title": "Cellular performance and repair",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_Kjy9Vy",
+        "slide_XyyEQm",
+        "slide_JbNDck",
+        "slide_4PA7tt"
+      ],
+      "settings": {
+        "section_color_scheme": "scheme-2",
+        "padding_top": 88,
+        "padding_bottom": 88,
+        "sub_title": "",
+        "title": "Benefits",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 4
+      }
+    },
     "multicolumn_cBWACG": {
       "type": "multicolumn",
       "blocks": {
@@ -368,6 +422,7 @@
         "column_LMQihn",
         "column_Aj7wqi"
       ],
+      "disabled": true,
       "custom_css": [
         ".multicolumn-card__info {padding: 0;}"
       ],
@@ -387,6 +442,45 @@
         "swipe_on_mobile": false,
         "padding_top": 100,
         "padding_bottom": 100
+      }
+    },
+    "product_feature_section_p9fyWR": {
+      "type": "Product-feature-section",
+      "blocks": {
+        "product_nBrAwV": {
+          "type": "Product",
+          "settings": {
+            "product": "250mg-can-of-nad",
+            "image_ratio": "square",
+            "image_shape": "default",
+            "show_secondary_image": false,
+            "show_description": true,
+            "show_price": true,
+            "show_custom_button": "Shop Now",
+            "link_on_card_product": false,
+            "show_vendor": false,
+            "show_rating": true
+          }
+        }
+      },
+      "block_order": [
+        "product_nBrAwV"
+      ],
+      "disabled": true,
+      "settings": {
+        "product_image": "shopify://shop_images/2025-01-20_09.57.13_2.png",
+        "heading": "Backed by science, quality, and safety",
+        "feature_1_heading": "GMP Certified",
+        "feature_1_description": "Manufactured in a Good Manufacturing Practices (GMP) facility, ensuring high safety and quality standards.",
+        "feature_2_heading": "FDA-Compliant",
+        "feature_2_description": "Produced in an FDA-registered facility, meeting strict safety guidelines.",
+        "feature_3_heading": "Lab-Tested",
+        "feature_3_description": "Each batch is third-party tested to verify its effectiveness and purity before reaching you.",
+        "feature_4_heading": "Non-GMO & Gluten-Free",
+        "feature_4_description": "Formulated without artificial additives to support a clean, high-quality supplement.",
+        "feature_star_image": "shopify://shop_images/Star_5_3.png",
+        "padding_top": 100,
+        "padding_bottom": 36
       }
     },
     "custom_review_WpwPcD": {
@@ -498,44 +592,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "product_feature_section_p9fyWR": {
-      "type": "Product-feature-section",
-      "blocks": {
-        "product_nBrAwV": {
-          "type": "Product",
-          "settings": {
-            "product": "250mg-can-of-nad",
-            "image_ratio": "square",
-            "image_shape": "default",
-            "show_secondary_image": false,
-            "show_description": true,
-            "show_price": true,
-            "show_custom_button": "Shop Now",
-            "link_on_card_product": false,
-            "show_vendor": false,
-            "show_rating": true
-          }
-        }
-      },
-      "block_order": [
-        "product_nBrAwV"
-      ],
-      "settings": {
-        "product_image": "shopify://shop_images/2025-01-20_09.57.13_2.png",
-        "heading": "Backed by science, quality, and safety",
-        "feature_1_heading": "GMP Certified",
-        "feature_1_description": "Manufactured in a Good Manufacturing Practices (GMP) facility, ensuring high safety and quality standards.",
-        "feature_2_heading": "FDA-Compliant",
-        "feature_2_description": "Produced in an FDA-registered facility, meeting strict safety guidelines.",
-        "feature_3_heading": "Lab-Tested",
-        "feature_3_description": "Each batch is third-party tested to verify its effectiveness and purity before reaching you.",
-        "feature_4_heading": "Non-GMO & Gluten-Free",
-        "feature_4_description": "Formulated without artificial additives to support a clean, high-quality supplement.",
-        "feature_star_image": "shopify://shop_images/Star_5_3.png",
-        "padding_top": 100,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -545,6 +601,7 @@
     "image_banner_LDQNUw",
     "text_with_product_swiper_FiMbmQ",
     "video_W7Xkyt",
+    "custom_slide_gallary_GDdL3p",
     "multicolumn_cBWACG",
     "product_feature_section_p9fyWR",
     "custom_review_WpwPcD",
