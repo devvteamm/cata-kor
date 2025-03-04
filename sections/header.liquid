@@ -14,7 +14,7 @@
 
 <style>
   header-drawer {
-    justify-self: start;
+    justify-self: end;
     margin-left: -1.2rem;
   }
 
@@ -54,7 +54,8 @@
   .list-menu__item {
     display: flex;
     align-items: center;
-    line-height: calc(1 + 0.3 / var(--font-body-scale));
+    line-height: calc(1 + 0.2 / var(--font-body-scale));
+    font-size: 1.6rem;
   }
 
   .list-menu__item--link {
@@ -200,7 +201,7 @@
       {%- endif -%}
     {%- endif -%}
 
-    <div class="header__icon{% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header__icons--localization header-localization{% endif %}">
+    <div class="header__icon medium-hide small-hide{% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header__icons--localization header-localization{% endif %}">
       <div class="desktop-localization-wrapper">
         {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
           <localization-form class="small-hide medium-hide" data-prevent-hide>
@@ -285,7 +286,7 @@
 
       {% if section.settings.custom_button_text != blank and section.settings.custom_button_link != blank %}
         <div class="header__buttons">
-          <a href="{{ section.settings.custom_button_link }}" class="shop_now_btn">{{ section.settings.custom_button_text }}</a>
+          <a href="{{ section.settings.custom_button_link }}" class="shop_now_btn medium-hide small-hide">{{ section.settings.custom_button_text }}</a>
         </div>
       {% endif %}
     </div>

@@ -19,8 +19,15 @@
   width: 100%;
 }
 
-.newsletter-form__field-wrapper .field__input {
+.newsletter-form__field-wrapper .field__input  {
   padding-right: 5rem;
+}
+
+.newsletter-form__field-wrapper .field__label {
+  font-family: 'Teachers',sans-serif;
+  color: #FFFFFF;
+  letter-spacing: -0.64px;
+  font-weight: 400;
 }
 
 .newsletter-form__field-wrapper .field {

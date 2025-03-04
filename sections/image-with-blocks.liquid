@@ -65,27 +65,30 @@
                     {% endif %}
                 </div>
                 <div class="label-block-text">
-                {% if block.settings.text_3 != blank or block.settings.description_text_3 != blank %}
-                  <div class="label-block-text-item">
-                    {% if block.settings.text_3 != blank %}
-                      <div class="text">{{ block.settings.text_3 }}</div>
-                    {% endif %}
-                    {% if block.settings.description_text_3  != blank %}
-                        <div class="description_text">{{ block.settings.description_text_3 }}</div>
-                    {% endif %}
-                  </div>
-                {% endif %}
-                {% if block.settings.text_4 != blank or block.settings.description_text_4 != blank %}
-                  <div class="label-block-text-item">
-                    {% if block.settings.text_4 != blank %}
-                      <div class="text">{{ block.settings.text_4 }}</div>
-                    {% endif %}
-                    {% if block.settings.description_text_4 != blank %}
-                        <div class="description_text">{{ block.settings.description_text_4 }}</div>
-                    {% endif %}
-                  </div>
-                 {% endif %}
+                  {% if block.settings.text_3 != blank or block.settings.description_text_3 != blank %}
+                    <div class="label-block-text-item">
+                      {% if block.settings.text_3 != blank %}
+                        <div class="text">{{ block.settings.text_3 }}</div>
+                      {% endif %}
+                      {% if block.settings.description_text_3  != blank %}
+                          <div class="description_text">{{ block.settings.description_text_3 }}</div>
+                      {% endif %}
+                    </div>
+                  {% endif %}
+                  {% if block.settings.text_4 != blank or block.settings.description_text_4 != blank %}
+                    <div class="label-block-text-item">
+                      {% if block.settings.text_4 != blank %}
+                        <div class="text">{{ block.settings.text_4 }}</div>
+                      {% endif %}
+                      {% if block.settings.description_text_4 != blank %}
+                          <div class="description_text">{{ block.settings.description_text_4 }}</div>
+                      {% endif %}
+                    </div>
+                  {% endif %}
                 </div>
+                {% if block.settings.disclaimer_text != blank %}
+                  <div class="disclaimer_text">{{ block.settings.disclaimer_text }}
+                {% endif %}
               </div>
            </div>
       {%- endcase -%}
@@ -239,6 +242,11 @@
           "type": "text",
           "id": "description_text_4",
           "label": "Description Text 2"
+        },
+        {
+          "type": "text",
+          "id": "disclaimer_text",
+          "label": "Disclaimer Text"
         }
       ]
     },

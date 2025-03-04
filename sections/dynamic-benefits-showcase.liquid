@@ -47,12 +47,15 @@
                         <h1 class="dynamic-benefits-showcase-right-side-item-heading">{{ block.settings.heading }}</h1>
                         <div class="dynamic-benefits-showcase-right-side-item-text">{{ block.settings.text }}</div>
                         <div class="dynamic-benefits-showcase-right-side-item-button">
-                            <a class="shop_now_btn_without_family" href="{{ block.settings.button_link_1 }}">{{ block.settings.button_label_1 }}</a>
+                            <a class="shop_now_btn" href="{{ block.settings.button_link_1 }}">{{ block.settings.button_label_1 }}</a>
                         </div>
                     </div>
                 {% endfor %}
             </div>
         </div>
+        {% if section.settings.disclaimer_text != blank %}
+            <div class="disclaimer_text">{{ section.settings.disclaimer_text }}</div>
+        {% endif %}
     </div>
 </div>
 
@@ -107,31 +110,36 @@
         },
         "settings": [
             {
+                "type": "richtext",
+                "id": "disclaimer_text",
+                "label": "Disclaimer Text",
+            },
+            {
                 "type": "color_scheme",
                 "id": "color_scheme",
                 "label": "t:sections.all.colors.label",
                 "default": "scheme-1"
-              },
-              {
-                "type": "range",
-                "id": "padding_top",
-                "min": 0,
-                "max": 100,
-                "step": 4,
-                "unit": "px",
-                "label": "t:sections.all.padding.padding_top",
-                "default": 40
-              },
-              {
-                "type": "range",
-                "id": "padding_bottom",
-                "min": 0,
-                "max": 100,
-                "step": 4,
-                "unit": "px",
-                "label": "t:sections.all.padding.padding_bottom",
-                "default": 52
-              }
+            },
+            {
+            "type": "range",
+            "id": "padding_top",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "t:sections.all.padding.padding_top",
+            "default": 40
+            },
+            {
+            "type": "range",
+            "id": "padding_bottom",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "t:sections.all.padding.padding_bottom",
+            "default": 52
+            }
         ],
         "blocks": [
            {
