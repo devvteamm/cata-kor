@@ -46,7 +46,6 @@
           "type": "Image",
           "settings": {
             "image": "shopify://shop_images/Group_1171276115.png",
-            "button_text": "",
             "first_text": "",
             "second_text": "",
             "third_text": ""
@@ -56,7 +55,6 @@
           "type": "Image",
           "settings": {
             "image": "shopify://shop_images/Group_1171276143.png",
-            "button_text": "New & Improved",
             "first_text": "",
             "second_text": "",
             "third_text": ""
