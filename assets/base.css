@@ -965,7 +965,7 @@ summary::-webkit-details-marker {
   }
 
   .grid--2-col-tablet .grid__item {
-    width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);    
+    width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
   }
 
   .product.grid--2-col-tablet .grid__item {
@@ -3664,7 +3664,7 @@ details-disclosure > details {
   align-items: center;
 }
 
-@media only screen and (min-width:900px) { 
+@media only screen and (min-width:900px) {
   .product--small .thumbnail-list.slider--tablet-up li.thumbnail-list__item.slider__slide {
     transform: rotate(-90deg);
     width: calc(20% - .8rem);
@@ -3704,7 +3704,7 @@ details-disclosure > details {
 }
 
 
-@media screen and (min-width: 900px){ 
+@media screen and (min-width: 900px){
   .product .product-media-container.constrain-height {
     margin-left: 7rem;
   }
@@ -3740,8 +3740,8 @@ details-disclosure > details {
     width: min(65.4%, 100%);
   }
 
- 
-  
+
+
 }
 
 /* .template-product product-info .page-width {
@@ -3749,7 +3749,7 @@ details-disclosure > details {
   padding-right: 3.2rem;
 } */
 
-@media screen and (min-width: 750px){    
+@media screen and (min-width: 750px){
 
   /* .template-product product-info .page-width {
     padding-left: 0;
@@ -3761,7 +3761,7 @@ details-disclosure > details {
   .template-product .product__info-wrapper {
     padding: 3.2rem 0 0 0;
   }
- 
+
 }
 
 
@@ -3867,60 +3867,5 @@ details-disclosure > details {
   font-size: 1.6rem;
   line-height: 1;
   gap: 1rem;
-}
-
-.product .grid__item.product__media-wrapper {
-  position: relative;
-}
-
-.product .product_page-image-wrapper {
-  display: none !important;
-  position: absolute;
-  top: 6rem;
-  right: 0;
-  display: flex;
-  /* margin-right: 2rem; */
-  opacity: .5;
-}
-
-@media screen and (min-width: 749px){    
- .product .product_page-image-wrapper {
-    display: block !important;
-  }
-
-  .product .product_page-image-wrapper {
-    left: -2.8rem;
-    top: -2.0rem;
-  }
-
-}
-
-@media screen and (min-width: 900px){ 
-   .product .product_page-image-wrapper {
-     left: -2.8rem;
-   } 
-}
-
-@media screen and (min-width: 990px){ 
-  .product .product_page-image-wrapper {
-    right: 0;
-    left: -81px;
-    top: -115px;
-  } 
-}
-
-@media screen and (min-width: 1200px){ 
-  .product .product_page-image-wrapper {
-    right: 0;
-    left: unset;
-    right: 0;
-    top: 3%;
-  } 
-}
-
-@media screen and (min-width: 1400px){ 
-  .product .product_page-image-wrapper {
-    margin-right: 2rem;
-  }
 }
 

@@ -363,9 +363,9 @@ a.product__text {
   margin-bottom: 1.2rem;
 }
 
-.product-form__buttons {
+/* .product-form__buttons {
   max-width: 44rem;
-}
+} */
 
 .product--no-media .product__info-container > modal-opener {
   display: block;
@@ -962,6 +962,10 @@ a.product__text {
     align-items: center;
   }
 
+  .thumbnail-slider .slider-button{
+    display: none;
+  }
+
   .thumbnail-slider .thumbnail-list.slider {
     display: flex;
     padding: 0.5rem;
@@ -970,7 +974,7 @@ a.product__text {
   }
 
   .thumbnail-list__item.slider__slide {
-    width: calc(33% - 0.6rem);
+    width: calc(23% - 0.6rem);
   }
 }
 
@@ -1490,5 +1494,76 @@ a.product__text {
 
   .recipient-form > input[type='checkbox']:checked + label .icon-checkmark {
     border: none;
+  }
+}
+
+
+/* custom */
+
+.product .grid__item.product__media-wrapper {
+  position: relative;
+}
+
+.product .product__column-sticky{
+  position: relative;
+  z-index: 2;
+}
+.product .product_page-image-wrapper {
+  /* display: none !important; */
+  position: absolute;
+  top: 6rem;
+  right: 0;
+  display: flex;
+  /* margin-right: 2rem; */
+  opacity: .5;
+  z-index: 1;
+}
+@media screen and (max-width: 749.98px){
+  .product .product_page-image-wrapper {
+    width: 100vw;
+  }
+}
+.product .product_page-image-wrapper img{
+  max-width: 100%;
+}
+
+@media screen and (min-width: 749px){
+ .product .product_page-image-wrapper {
+    /* display: block !important; */
+  }
+
+  .product .product_page-image-wrapper {
+    left: -2.8rem;
+    top: -2.0rem;
+  }
+
+}
+
+@media screen and (min-width: 900px){
+   .product .product_page-image-wrapper {
+     left: -2.8rem;
+   }
+}
+
+@media screen and (min-width: 990px){
+  .product .product_page-image-wrapper {
+    right: 0;
+    left: -81px;
+    top: -115px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .product .product_page-image-wrapper {
+    right: 0;
+    left: unset;
+    right: 0;
+    top: 3%;
+  }
+}
+
+@media screen and (min-width: 1400px){
+  .product .product_page-image-wrapper {
+    margin-right: 2rem;
   }
 }
