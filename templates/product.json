@@ -137,25 +137,25 @@
         "logo_with_text_8UafWd": {
           "type": "logo_with_text",
           "settings": {
-            "text": "<p>BEST START FOR NAD+ BEGINNERS</p>",
-            "description": "LipoNAD+™ is a unique, trademarked formula designed to provide an ideal introduction to NAD+, enhancing cellular health and boosting energy levels.",
-            "image": "shopify://shop_images/Mask_group_2.png"
+            "text": "<p>NEW TO THE NAD+ GAME</p>",
+            "description": "LipoNAD+™ is a unique, trademarked formula designed to provide an ideal introduction to NAD+, enhancing cellular health and boosting energy levels. The minimum dose is a great place to start if you are new to supplements!",
+            "image": "shopify://shop_images/icon-person-question.png"
           }
         },
         "logo_with_text_xqyFKf": {
           "type": "logo_with_text",
           "settings": {
-            "text": "<p>TESTED IN THE USA</p>",
-            "description": "Our LipoNAD+™ supplement is third-party tested in the USA to ensure its purity and effectiveness. Certificate available upon request.",
-            "image": "shopify://shop_images/Mask_group_7fcc326e-eb09-4b85-b3db-765105e376b7.png"
+            "text": "<p>THIRD-PARTY TESTED</p>",
+            "description": "Our LipoNAD+™ supplement is third-party tested in the USA to ensure its purity and effectiveness. Certificate found here.",
+            "image": "shopify://shop_images/icon-tested.png"
           }
         },
         "logo_with_text_WMGqgw": {
           "type": "logo_with_text",
           "settings": {
             "text": "<p>SUPPORTS SKIN AGING</p>",
-            "description": "SUPPORTS SKIN AGING with 250 mg LipoNAD+™ an NMN supplement alternative that enhances your body's absorption and utilization of NAD precursors",
-            "image": "shopify://shop_images/Mask_group_1_14a87da7-3628-4a44-b6eb-09b60639a81f.png"
+            "description": "With 250 mg LipoNAD+™ an NMN supplement alternative that enhances your body's absorption and the utilization of NAD precursors to support cellular health and regeneration*.",
+            "image": "shopify://shop_images/icon-skin-aging.png"
           }
         },
         "logo_with_text_GBWXJn": {
@@ -163,7 +163,7 @@
           "settings": {
             "text": "<p>9.3x GREATER ABSORPTION</p>",
             "description": "250 mg LipoNAD+™ enhances bioavailability, delivering superior absorption compared to regular NAD+*.",
-            "image": "shopify://shop_images/Mask_group_3.png"
+            "image": "shopify://shop_images/icon-absorption.png"
           }
         }
       },
@@ -179,13 +179,13 @@
         ".banner__heading {max-width: unset;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/image_15.png",
+        "image": "shopify://shop_images/cata-kor-why-nad-250-bg.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "top-left",
         "show_text_box": true,
         "desktop_content_alignment": "left",
-        "color_scheme": "scheme-5073547c-114c-4af3-9a37-721a7265f990",
+        "color_scheme": "scheme-a3ee4e6d-93d0-42e6-83e9-f266ede1bd40",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "stack_images_on_mobile": true,
@@ -226,7 +226,7 @@
         ".banner__heading {max-width: unset;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/1_a4516a20-ac67-4a5e-9a8a-a5d7b99c14cf.png",
+        "image": "shopify://shop_images/cata-kor-pdp-30-day-supply.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-left",
@@ -296,8 +296,8 @@
         "color_scheme": "scheme-a3ee4e6d-93d0-42e6-83e9-f266ede1bd40",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "video_W7Xkyt": {
