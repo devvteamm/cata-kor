@@ -23,7 +23,7 @@
         "heading_PBUtKV": {
           "type": "heading",
           "settings": {
-            "heading": "Be in charge of your own aging history!",
+            "heading": "Take Charge of Your Aging History!",
             "heading_size": "hxxl",
             "sub_heding": ""
           }
@@ -31,7 +31,7 @@
         "text_WbHTjR": {
           "type": "text",
           "settings": {
-            "text": "<p>Discover high-quality ingredients that fuel your body and mind, support your health and fitness goals, and help you surpass your limits.</p>",
+            "text": "<p>Experience high-quality ingredients that fuel your body and mind, support your health and fitness goals, and help you to surpass your limits.</p>",
             "text_style": "body"
           }
         },
@@ -39,7 +39,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop Now",
-            "button_link": "",
+            "button_link": "shopify://products/nad-core-250mg-copy",
             "button_style_secondary": false
           }
         }
@@ -51,7 +51,7 @@
       ],
       "settings": {
         "text_slogan": "",
-        "image": "shopify://shop_images/7408ffa7e7b5eb8879d255f796e11bdb.png",
+        "image": "shopify://shop_images/cata-kor-aboutus-hero-banner.jpg",
         "height": "large",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -80,7 +80,7 @@
         "text_zCWUpn": {
           "type": "text",
           "settings": {
-            "text": "<p>Meet Cata-kor a brand of dietary supplements on a mission to make a genuine impact.<br/></p><p>What makes Cata-kor stand out is not just its scientific precision but also its genuine concern for customers' well-being. Each product undergoes rigorous testing, ensuring the highest standards of safety and effectiveness.<br/></p><p>More than a brand, Cata-kor is a community—a community committed to healthier, vibrant lives. From groundbreaking formulations in the lab to positive impacts in households, the brand embodies the transformative power of science and passion.<br/></p><p>Today, Cata-kor is not just a brand; it's a catalyst for change, inspiring individuals to embrace a healthier life through the marriage of science and wellness.</p>"
+            "text": "<p>Meet Cata-Kor, a brand of dietary supplements on a mission to make a genuine impact.<br/><br/>More than a brand, Cata-kor is a community—a community committed to healthier, vibrant lives. From groundbreaking formulations in our lab, to positive impacts in households, our brand embodies the transformative power of scientific precision at a cellular level. With the customer’s health and well-being at the forefront of our approach, each of our products undergo rigorous third-party testing to ensure the highest standards of quality, safety, and effectiveness are met.<br/><br/>Today, Cata-kor is a catalyst for change, inspiring individuals to embrace a healthier life through the marriage of science and wellness. </p>"
           }
         }
       },
@@ -159,7 +159,7 @@
       ],
       "settings": {
         "caption": "FAQs",
-        "heading": "People often ask these questions",
+        "heading": "Frequently Asked Questions",
         "mobile_text": "<p>Every batch of our NAD+ supplement undergoes rigorous third-party testing to ensure purity, potency, and safety. Below, you’ll find the Certificates of Analysis (COA) for our 250 mg and 500 mg versions.</p>",
         "color_scheme": "scheme-61c54174-6908-4e3f-a360-364419028ed7",
         "container_color_scheme": "",

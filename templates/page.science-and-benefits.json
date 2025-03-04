@@ -42,25 +42,17 @@
             "text_style": "subtitle",
             "text_size": "small"
           }
-        },
-        "button_gwgHaV": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "heading_RYg8Hd",
         "text_FmtUri",
-        "caption_AKVwBr",
-        "button_gwgHaV"
+        "caption_AKVwBr"
       ],
       "settings": {
         "text_slogan": "",
-        "image": "shopify://shop_images/image_12.png",
+        "image": "shopify://shop_images/cata-kor-sci-benefit-hero-banner-1.png",
+        "second_image": "shopify://shop_images/cata-kor-sci-benifit-nad-advanced.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -72,7 +64,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "image_with_text_7Lzr8m": {
@@ -100,7 +92,7 @@
       ],
       "settings": {
         "text_slogan": "",
-        "image": "shopify://shop_images/Group_1686565235.png",
+        "image": "shopify://shop_images/cata-kor-bioavailability.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -115,20 +107,82 @@
         "padding_bottom": 36
       }
     },
+    "custom_slide_gallary_zWB9xR": {
+      "type": "custom-slide-gallary",
+      "blocks": {
+        "slide_WbipEm": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Group_1171276121.png",
+            "title": "Healthy Aging",
+            "description": "<p>Take two capsules daily as part of your routine to maximize benefits and support your body's natural NAD+ levels.</p>"
+          }
+        },
+        "slide_fdGYjz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Group_1171276121.png",
+            "title": "Brain Health",
+            "description": "<p>Take two capsules daily as part of your routine to maximize benefits and support your body's natural NAD+ levels.</p>"
+          }
+        },
+        "slide_mCdc7J": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Group_1171276121.png",
+            "title": "Cellular Health",
+            "description": "<p>Take two capsules daily as part of your routine to maximize benefits and support your body's natural NAD+ levels.</p>"
+          }
+        },
+        "slide_L7rD4t": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Group_1171276121.png",
+            "title": "Cellular performance and repair",
+            "description": "<p>Take two capsules daily as part of your routine to maximize benefits and support your body's natural NAD+ levels.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_WbipEm",
+        "slide_fdGYjz",
+        "slide_mCdc7J",
+        "slide_L7rD4t"
+      ],
+      "settings": {
+        "section_color_scheme": "scheme-3",
+        "padding_top": 92,
+        "padding_bottom": 100,
+        "sub_title": "",
+        "title": "Benefits",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 3
+      }
+    },
     "custom_image_with_text_Cg33qY": {
       "type": "custom-image-with-text",
       "blocks": {
         "heading_XpeTEi": {
           "type": "heading",
           "settings": {
-            "heading": "Enhanced Bioavailability Scientifically Proven",
+            "heading": "Certified Quality COA for Every Batch",
             "heading_size": "hxl",
-            "sub_heding": "Switch Product"
+            "sub_heding": "COA"
+          }
+        },
+        "text_iKThBM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Every batch of our NAD+ supplement undergoes rigorous third-party testing to ensure purity, potency, and safety. To the right, you’ll find the Certificates of Analysis (COA) for our 250 mg and 500 mg formulas.</p>",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "heading_XpeTEi"
+        "heading_XpeTEi",
+        "text_iKThBM"
       ],
       "settings": {
         "text_slogan": "",
@@ -140,11 +194,11 @@
         "image_shape": "default",
         "show_secondary_image": false,
         "show_description": true,
-        "show_price": true,
-        "show_custom_button": "Shop Now",
+        "show_price": false,
+        "show_custom_button": "COA CERTIFICATE",
         "link_on_card_product": false,
         "show_vendor": false,
-        "show_rating": true,
+        "show_rating": false,
         "desktop_product_card_width": "medium",
         "layout": "text_first",
         "desktop_content_alignment": "left",
@@ -215,17 +269,17 @@
       ],
       "settings": {
         "caption": "FAQs",
-        "heading": "People often ask these questions",
+        "heading": "QuestionsWe Receive Often",
         "mobile_text": "",
-        "color_scheme": "scheme-b5151d7e-8668-4505-82cd-fa78be2bc3f0",
-        "container_color_scheme": "scheme-41f8d28c-2279-47f0-8f39-bd10f09968cd",
+        "color_scheme": "scheme-2",
+        "container_color_scheme": "scheme-2",
         "full_content": false,
         "open_first_collapsible_row": false,
-        "show-icon": false,
-        "button_label": "",
-        "button_link": "",
+        "show-icon": true,
+        "button_label": "View All",
+        "button_link": "shopify://pages/faqs",
         "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_bottom": 100,
         "mobile_padding_top": 60,
         "mobile_padding_bottom": 60
       }
@@ -235,6 +289,7 @@
     "main",
     "two_image_with_text_X9hXGL",
     "image_with_text_7Lzr8m",
+    "custom_slide_gallary_zWB9xR",
     "custom_image_with_text_Cg33qY",
     "faq_section_KBHFfR"
   ]
