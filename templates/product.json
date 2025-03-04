@@ -174,10 +174,7 @@
         "logo_with_text_WMGqgw",
         "logo_with_text_GBWXJn"
       ],
-      "custom_css": [
-        ".banner--desktop-transparent .banner__box {max-width: 117.5rem;}",
-        ".banner__heading {max-width: unset;}"
-      ],
+      "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/cata-kor-why-nad-250-bg.jpg",
         "image_overlay_opacity": 0,
@@ -185,11 +182,12 @@
         "desktop_content_position": "top-left",
         "show_text_box": true,
         "desktop_content_alignment": "left",
-        "color_scheme": "scheme-a3ee4e6d-93d0-42e6-83e9-f266ede1bd40",
+        "color_scheme": "scheme-b5151d7e-8668-4505-82cd-fa78be2bc3f0",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": true,
+        "custom_class": "image-banner__pdp-why"
       }
     },
     "image_banner_LDQNUw": {
@@ -236,7 +234,8 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": true,
+        "custom_class": "image-banner__pdp-30-days"
       }
     },
     "text_with_product_swiper_FiMbmQ": {
