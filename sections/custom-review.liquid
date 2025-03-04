@@ -71,13 +71,13 @@
         <h4 class="sub-title">{{ section.settings.sub_title }}</h4>
         <h2 class="title inline-richtext {{ section.settings.heading_size }}">
           {{ section.settings.title }}
-        </h2>     
+        </h2>
         {%- if section.settings.button_label != blank -%}
           <a href="{{ section.settings.button_link }}" class="link underlined-link large-up-hide">
             {{- section.settings.button_label | escape -}}
           </a>
         {%- endif -%}
-          {{ slider_navigation }}         
+          {{ slider_navigation }}
       </div>
     {%- endunless -%}
     <div class="swiper-container swiper">
@@ -250,7 +250,7 @@
           {{ section.settings.button_label | escape }}
           </a>
         {%- endif -%}
-      </div> 
+      </div>
     </slider-component>
   </div>
 </div>

@@ -14,69 +14,69 @@
   }
 {%- endstyle -%}
 <div class="feature-section--wrapper section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
-<div class="feature-section page-width">
-    <div class="feature-heading--wrapper">
-    <h2 class="feature-heading">{{ section.settings.heading }}</h2>
-    </div>
-  
-  <div class="feature-content">
-    <div class="feature-item__left-wrapper">
-        <div class="feature-item__top-left-wrapper">
-            <div class="feature-item-heading top-left">{{ section.settings.feature_1_heading }}</div>
-            <div class="feature-item-description top-left">{{ section.settings.feature_1_description }}</div>
-        </div>
-        <div class="feature-item__bottom-left-wrapper">
-            <div class="feature-item-heading bottom-left">{{ section.settings.feature_2_heading }}</div>
-            <div class="feature-item-description bottom-left">{{ section.settings.feature_2_description }}</div>
-        </div>
-    </div>
-    <div class="product-image-wrapper">
-      {% if section.settings.product_image %}
-        <img src="{{ section.settings.product_image | image_url: width:section.settings.product_image.width }}" width="" height="" alt="Product Image">
-      {% endif %}
-    </div>
-    <div class="feature-item__right-wrapper">
-        <div class="feature-item__top-right-wrapper">
-            <div class="feature-item-heading top-right">{{ section.settings.feature_3_heading }}</div>
-            <div class="feature-item-description top-right">{{ section.settings.feature_3_description }}</div>
-        </div>
-        <div class="feature-item__bottom-right-wrapper">
-            <div class="feature-item-heading bottom-right">{{ section.settings.feature_4_heading }}</div>
-            <div class="feature-item-description bottom-right">{{ section.settings.feature_4_description }}</div>
-        </div>
-    </div>
-  </div>
-  {% if section.settings.feature_star_image != blank %}
-  <div class="feature-star-image-wrraper">
-    <img src="{{ section.settings.feature_star_image | image_url: width:section.settings.feature_star_image.width }}" width="" height="" alt="Feature Star Image">
-  </div>
-{% endif %}
-<div class="banner__box-product--wrapper-parent">
-<div class="banner__box-product--wrapper product-card_row">
-    {%- assign product_blocks = section.blocks | where: "type", "Product" -%}
-    {% if product_blocks.size > 0 %}
-      {%- for product_block in product_blocks -%}
-        <div class="banner__box-product" {{ product_block.shopify_attributes }}>
-          {% render 'card-product',
-            card_product: product_block.settings.product,
-            media_aspect_ratio: product_block.settings.image_ratio,
-            image_shape: product_block.settings.image_shape,
-            show_secondary_image: product_block.settings.show_secondary_image,
-            show_vendor: product_block.settings.show_vendor,
-            show_rating: product_block.settings.show_rating,
-            show_description: product_block.settings.show_description,
-            show_price: product_block.settings.show_price,
-            section_id: product_block.id,
-            show_custom_button: product_block.settings.show_custom_button,
-            link_on_card_product: product_block.settings.link_on_card_product
-          %}
-        </div>
-      {%- endfor -%}
-    {% endif %}
-  </div>     
-</div>
-</div>
+  <div class="feature-section page-width">
+      <div class="feature-heading--wrapper">
+        <h2 class="feature-heading">{{ section.settings.heading }}</h2>
+      </div>
 
+    <div class="feature-content">
+      <div class="feature-item__left-wrapper">
+          <div class="feature-item__top-left-wrapper">
+              <div class="feature-item-heading top-left">{{ section.settings.feature_1_heading }}</div>
+              <div class="feature-item-description top-left">{{ section.settings.feature_1_description }}</div>
+          </div>
+          <div class="feature-item__bottom-left-wrapper">
+              <div class="feature-item-heading bottom-left">{{ section.settings.feature_2_heading }}</div>
+              <div class="feature-item-description bottom-left">{{ section.settings.feature_2_description }}</div>
+          </div>
+      </div>
+      <div class="product-image-wrapper">
+        {% if section.settings.product_image %}
+          <img src="{{ section.settings.product_image | image_url: width:section.settings.product_image.width }}" width="" height="" alt="Product Image">
+        {% endif %}
+      </div>
+      <div class="feature-item__right-wrapper">
+          <div class="feature-item__top-right-wrapper">
+              <div class="feature-item-heading top-right">{{ section.settings.feature_3_heading }}</div>
+              <div class="feature-item-description top-right">{{ section.settings.feature_3_description }}</div>
+          </div>
+          <div class="feature-item__bottom-right-wrapper">
+              <div class="feature-item-heading bottom-right">{{ section.settings.feature_4_heading }}</div>
+              <div class="feature-item-description bottom-right">{{ section.settings.feature_4_description }}</div>
+          </div>
+      </div>
+    </div>
+    {% if section.settings.feature_star_image != blank %}
+    <div class="feature-star-image-wrraper">
+      <img src="{{ section.settings.feature_star_image | image_url: width:section.settings.feature_star_image.width }}" width="" height="" alt="Feature Star Image">
+    </div>
+    {% endif %}
+    <div class="banner__box-product--wrapper-parent">
+      <div class="banner__box-product--wrapper product-card_row">
+        {%- assign product_blocks = section.blocks | where: "type", "Product" -%}
+        {% if product_blocks.size > 0 %}
+          {%- for product_block in product_blocks -%}
+            <div class="banner__box-product" {{ product_block.shopify_attributes }}>
+              {% render 'card-product',
+                card_product: product_block.settings.product,
+                media_aspect_ratio: product_block.settings.image_ratio,
+                image_shape: product_block.settings.image_shape,
+                show_secondary_image: product_block.settings.show_secondary_image,
+                show_vendor: product_block.settings.show_vendor,
+                show_rating: product_block.settings.show_rating,
+                show_description: product_block.settings.show_description,
+                show_price: product_block.settings.show_price,
+                section_id: product_block.id,
+                show_custom_button: product_block.settings.show_custom_button,
+                link_on_card_product: product_block.settings.link_on_card_product
+              %}
+            </div>
+          {%- endfor -%}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
 
 {% schema %}
 {
@@ -274,7 +274,7 @@
         "type": "text",
         "id": "show_custom_button",
         "label": "Show Custom button"
-        }, 
+        },
         {
         "type": "checkbox",
         "id": "link_on_card_product",
