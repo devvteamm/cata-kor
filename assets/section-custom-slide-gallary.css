@@ -1,10 +1,15 @@
 .carousel {
-  display: flex;
+
   width: 100%;
   /* gap: 10px; */
   position: relative;
   overflow: hidden;
   /* height: 470px; /* Ensuring a fixed height */
+}
+@media only screen and (min-width: 750px) {
+  .carousel {
+    display: flex;
+  }
 }
 
 .slide {
@@ -77,7 +82,7 @@
   bottom: 7px;
   left: 3%;
   height: 10px;
-  z-index: 9;
+  z-index: 1;
   width: 94%;
   border-radius: 10px;
   display: flex;
@@ -100,8 +105,23 @@
 }
 
 .slide .media--portrait {
-  height: 550px;
-  padding-bottom: unset;
+  padding-bottom: 41%;
+}
+
+@media only screen and (min-width: 750px) {
+  .slide .media--portrait {
+    height: 550px;
+    padding-bottom: unset;
+  }
+}
+
+.slide.active .media--portrait {
+  padding-bottom: 68%;
+}
+@media only screen and (min-width: 750px) {
+  .slide.active .media--portrait {
+    padding-bottom: unset;
+  }
 }
 
 .custom-slide-gallary .title-wrapper-with-link .title {

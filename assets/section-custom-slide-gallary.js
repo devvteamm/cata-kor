@@ -3,7 +3,7 @@ class CustomSlides extends HTMLElement {
     super();
 
     try {
-      const slides = document.querySelectorAll(".slide");
+      const slides = this.querySelectorAll(".slide");
       if (slides.length === 0) {
         console.error("No slides found with the class 'slide'.");
         return;
