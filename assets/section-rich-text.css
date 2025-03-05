@@ -207,7 +207,7 @@
   .about-us .rich-text__heading{
     font-size: 5rem;
   }
-  .lifetime-warranty .rich-text__blocks .rich-text__heading.hxxl{
+  .lifetime-warranty .rich-text__blocks .rich-text__heading.hxl{
     font-size: 5.5rem;
   }
   .lifetime-warranty .rich-text__blocks {
@@ -230,19 +230,24 @@
   .lifetime-warranty .rich-text__wrapper{
     width: 100%;
   }
-  .lifetime-warranty .rich-text__blocks .rich-text__heading.hxxl {
-    font-size: 4.3rem;
-    line-height: 1.162;
+  .lifetime-warranty .rich-text__blocks .rich-text__heading.hxl {
+    font-size: 4.5rem;
+    line-height: 1.11;
+    letter-spacing: -0.30px;
   }
   .lifetime-warranty .rich-text__text {
     margin-top: 1.8rem;
     max-width: 100%;
     font-size: 1.8rem;
     line-height: 1.56;
+    margin-inline: 0;
   }
-  .lifetime-warranty .rich-text__buttons .button--primary {
+  .lifetime-warranty .rich-text__buttons{
+    margin-top: 3.2rem;
+  }
+  /* .lifetime-warranty .rich-text__buttons .button--primary {
     font-size: 1.8rem;
-  }
+  } */
   .star-icon{
     right: -30%;
   }
