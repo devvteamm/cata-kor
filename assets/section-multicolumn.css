@@ -265,7 +265,7 @@
   .multicolumn-card__info .rte {
     font-size: 1.8rem;
     line-height: 1.55;
-    
+
   }
   .background-none .slider .multicolumn-card__info {
     padding-bottom: 1rem;
@@ -378,11 +378,11 @@
   bottom: 0;
   right: 5rem;
 }
-@media screen and (max-width: 749px) { 
+@media screen and (max-width: 749px) {
   .custom_review_block .swiper-wrapper {
     flex-direction: column;
     gap: 2.8rem;
-    padding-inline: 2rem;
+    padding-inline: 1rem;
   }
   .custom_review_block .swiper-wrapper .swiper-slide {
     width: 94%;
@@ -426,7 +426,7 @@
   width: 27px; /* Longer width for the active bullet */
   height: 8px;  /* Keep it a rounded pill shape */
   background-color: rgba(0, 0, 0, 0.2); /* Light greenish-gray color for inactive bullets */
-  border-radius: 10px; 
+  border-radius: 10px;
   transition: all 0.3s ease;
 }
 
@@ -438,7 +438,7 @@
 }
 
 
-.custom_review_block .swiper-button--wrapper  .swiper-button-prev:after, 
+.custom_review_block .swiper-button--wrapper  .swiper-button-prev:after,
 .custom_review_block .swiper-button--wrapper .swiper-button-next:after {
   content: "";
 }

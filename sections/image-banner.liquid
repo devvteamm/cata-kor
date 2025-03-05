@@ -7,7 +7,11 @@
       #Banner-{{ section.id }}::before,
       #Banner-{{ section.id }} .banner__media::before,
       #Banner-{{ section.id }}:not(.banner--mobile-bottom) .banner__content::before {
-        padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;
+        {%- if section.settings.image_first_mobile != blank -%}
+          padding-bottom: {{ 1 | divided_by: section.settings.image_first_mobile.aspect_ratio | times: 100 }}%;
+        {%- else -%}
+          padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;
+        {%- endif -%}
         content: '';
         display: block;
       }
@@ -54,7 +58,7 @@
 
 <div
   id="Banner-{{ section.id }}"
-  class="banner {{ section.settings.custom_class }} banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+  class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %} {{ section.settings.custom_class }}"
 >
   {%- if section.settings.image != blank -%}
     <div class="banner__media media small-hide {% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
@@ -83,10 +87,10 @@
           fetchpriority: fetch_priority
       }}
     </div>
-    {%- if section.settings.mobile_image != blank -%}
+    {%- if section.settings.image_first_mobile != blank -%}
     <div class="banner__media media medium-hide large-up-hide {% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
       {%- liquid
-        assign image_height = section.settings.mobile_image.width | divided_by: section.settings.mobile_image.aspect_ratio
+        assign image_height = section.settings.image_first_mobile.width | divided_by: section.settings.image_first_mobile.aspect_ratio
         if section.settings.image_2 != blank
           assign image_class = 'banner__media-image-half'
         endif
@@ -99,10 +103,10 @@
         endif
       -%}
       {{
-        section.settings.mobile_image
+        section.settings.image_first_mobile
         | image_url: width: 1920
         | image_tag:
-          width: section.settings.mobile_image.width,
+          width: section.settings.image_first_mobile.width,
           height: image_height,
           class: image_class,
           sizes: sizes,
@@ -247,26 +251,26 @@
               {%- for logo_with_text in logo_with_text_block -%}
                 <div class="logo-with-text-wrraper">
                   <div class="logo">
-                    <img 
+                    <img
                       src="{{ logo_with_text.settings.image | image_url: width: 70 }}"
                       alt="{{ logo_with_text.settings.image.alt | default: 'Logo image' }}"
                       width="70"
                       height="70"
                       loading="lazy"
                     >
-                    
+
                   </div>
                   <div>
                     <div class="logo-with-text-content">{{ logo_with_text.settings.text }}</div>
                     {% if logo_with_text.settings.description != blank %}
-                      <div class="logo-with-text-description">{{ logo_with_text.settings.description }}</div>                  
+                      <div class="logo-with-text-description">{{ logo_with_text.settings.description }}</div>
                     {% endif %}
                   </div>
                 </div>
               {% endfor %}
             {% endif %}
-          </div>          
-        {% endif %}  
+          </div>
+        {% endif %}
     </div>
   </div>
 </div>
@@ -281,23 +285,14 @@
   },
   "settings": [
     {
-      "type": "header",
-      "content": "Developer Use",
-    },
-    {
-      "type": "text",
-      "id": "custom_class",
-      "label": "Custom Class"
-    },
-    {
       "type": "image_picker",
       "id": "image",
       "label": "t:sections.image-banner.settings.image.label"
     },
     {
       "type": "image_picker",
-      "id": "mobile_image",
-      "label": "First image mobile"
+      "id": "image_first_mobile",
+      "label": "t:sections.image-banner.settings.image_mobile.label"
     },
     {
       "type": "image_picker",
@@ -478,6 +473,15 @@
       "id": "show_text_below",
       "default": true,
       "label": "t:sections.image-banner.settings.show_text_below.label"
+    },
+    {
+      "type": "header",
+      "content": "Developer Use",
+    },
+    {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom Class"
     }
   ],
   "blocks": [
@@ -622,7 +626,7 @@
           "type": "text",
           "id": "show_custom_button",
           "label": "Show Custom button"
-        }, 
+        },
         {
           "type": "checkbox",
           "id": "link_on_card_product",

@@ -177,6 +177,7 @@
       "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/cata-kor-why-nad-250-bg.jpg",
+        "image_first_mobile": "shopify://shop_images/cata-kor-why-nad-250-bg-mob.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "top-left",
@@ -225,6 +226,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/cata-kor-pdp-30-day-supply.jpg",
+        "image_first_mobile": "shopify://shop_images/cata-kor-pdp-30-day-supply-mob.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-left",

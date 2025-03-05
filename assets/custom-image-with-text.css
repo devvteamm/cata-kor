@@ -2,7 +2,7 @@
   gap: 2rem;
 }
 .custom-image-with-text .image-with-text__text {
-  font-family: 'Onest', sans-serif;
+  font-family: 'Teachers', sans-serif;
   font-size: 2rem;
   line-height: 1.6;
   letter-spacing: 0;
@@ -16,7 +16,7 @@
 .custom-image-with-text .sub_heding {
   display: flex;
   align-items: center;
-  font-family: 'Nohemi-Regular', sans-serif;
+  font-family: 'Teachers', sans-serif;
   font-size: 1.6rem;
   line-height: 1.7;
   letter-spacing: 0;
@@ -36,7 +36,6 @@
 .custom-image-with-text .image-with-text__heading {
   margin-top: 1.2rem;
   line-height: 1.23;
-  font-family: 'Nohemi-Medium', sans-serif;
   letter-spacing: 0;
 }
 

@@ -282,7 +282,7 @@ h5,
 }
 
 .hxl {
-  font-size: calc(var(--font-heading-scale) * 5rem);
+  font-size: calc(var(--font-heading-scale) * 4.5rem);
   line-height: calc(1 + 0.3 / max(1, var(--font-heading-scale)));
 }
 
@@ -3796,7 +3796,7 @@ details-disclosure > details {
 }
 
 .product__info-wrapper .product__title h1 {
-  font-family: 'Nohemi-Medium',sans-serif;
+  /* font-family: 'Nohemi-Medium',sans-serif; */
   font-weight: 500;
   font-size: 2.8rem;
   line-height: 1.39;
@@ -3804,7 +3804,7 @@ details-disclosure > details {
 }
 
 .product__info-wrapper .price-item {
-  font-family: 'Onest',sans-serif;
+  /* font-family: 'Onest',sans-serif; */
   font-weight: 700;
   font-size: 2.2rem;
   letter-spacing: 0;
@@ -3812,7 +3812,7 @@ details-disclosure > details {
 }
 
 .product__info-wrapper .product__text {
-  font-family: 'Onest',sans-serif;
+  /* font-family: 'Onest',sans-serif; */
   font-size: 1.4rem;
   line-height: 1.27;
   letter-spacing: 0;
@@ -3830,7 +3830,7 @@ details-disclosure > details {
 }
 
 .main_ingredients_title,.other_ingredients_title {
-  font-family: 'Onest',sans-serif;
+  /* font-family: 'Onest',sans-serif; */
   font-size: 1.6rem;
   letter-spacing: 0;
   line-height: 1.275;
@@ -3851,7 +3851,7 @@ details-disclosure > details {
 }
 
 .main_ingredients,.other_ingredients {
-  font-family: 'Onest',sans-serif;
+  /* font-family: 'Onest',sans-serif; */
   font-size: 2rem;
   letter-spacing: 0;
   line-height: 1.4;
@@ -3873,7 +3873,7 @@ details-disclosure > details {
 .icon_with_btn {
   display: flex;
   align-items: center;
-  font-family: 'Nohemi-Medium',sans-serif;
+  /* font-family: 'Nohemi-Medium',sans-serif; */
   font-size: 1.6rem;
   line-height: 1;
   gap: 1rem;

@@ -1,3 +1,19 @@
+.custom-text-width-product-swiper.custom-image-with-text{
+  position: relative;
+  overflow: hidden;
+}
+.custom-text-width-product-swiper.custom-image-with-text::after{
+  content: '';
+  display: block;
+  clear: both;
+  width: 500px;
+  height: 280px;
+  background: url(https://cdn.shopify.com/s/files/1/0918/3667/8454/files/cata-kor-floating-star.png?v=1741139965) no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: -60px;
+  right: -210px;
+}
 .custom-text-width-product-swiper.custom-image-with-text .image-with-text__grid{
   align-items: start;
   gap: 9rem;
@@ -187,6 +203,10 @@
     line-height: 1;
   }
 
+  .custom-text-width-product-swiper.custom-image-with-text .image-with-text__grid {
+    flex-direction: column-reverse;
+    gap: 0;
+  }
 }
 
 @media screen and (max-width: 480px) {
