@@ -113,7 +113,7 @@
 /* about-us page  */
 
 .about-us .rich-text__heading{
-  font-family: 'Teachers', serif;
+  /* font-family: 'Teachers', serif; */
   line-height: 1.23;
   letter-spacing: 0;  
   color: rgb(var(--color-foreground));
@@ -168,7 +168,7 @@
   line-height: 1.23;
 } 
 .lifetime-warranty .rich-text__blocks .rich-text__heading{
-  font-family: 'Teachers', serif;
+  /* font-family: 'Teachers', serif; */
   letter-spacing: 0;
   font-weight: 600;
 }

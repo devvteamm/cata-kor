@@ -175,7 +175,7 @@
   line-height: 1.27;
   letter-spacing: -0.22rem;
   color: rgb(var(--color-foreground));
-  font-family: 'Teachers', serif;
+  /* font-family: 'Teachers', serif; */
   font-weight: 600;
 }
 .faq .collapsible-content__header{

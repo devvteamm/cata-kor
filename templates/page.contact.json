@@ -22,10 +22,10 @@
       "settings": {
         "title": "Contact Us",
         "color_scheme": "scheme-a2b3209b-05e4-451b-a0ea-704ad54c91cb",
-        "padding_top": 172,
+        "padding_top": 176,
         "padding_bottom": 100,
-        "mobile_padding_top": 136,
-        "mobile_padding_bottom": 48
+        "mobile_padding_top": 132,
+        "mobile_padding_bottom": 100
       }
     },
     "form": {
@@ -38,7 +38,7 @@
         "email_text": "Feel free to contact us",
         "email": "help@catakor.com",
         "padding_top": 100,
-        "padding_bottom": 52,
+        "padding_bottom": 48,
         "mobile_padding_top": 45,
         "mobile_padding_bottom": 10
       }
@@ -111,7 +111,7 @@
         "button_label": "View All",
         "button_link": "",
         "padding_top": 52,
-        "padding_bottom": 100,
+        "padding_bottom": 52,
         "mobile_padding_top": 60,
         "mobile_padding_bottom": 60
       }

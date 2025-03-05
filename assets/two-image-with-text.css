@@ -3,7 +3,7 @@
 }
 
 .image-with-text__heading  {
-  font-family: 'Nohemi-Medium', sans-serif;
+  /* font-family: 'Nohemi-Medium', sans-serif; */
   line-height: 1.23;
   letter-spacing: 0;
 }
@@ -685,7 +685,7 @@
 }
 
 .two-image-with-text .image-with-text__heading{
-  font-family: "Nohemi-Regular";
+  /* font-family: "Nohemi-Regular"; */
   font-weight: 400;
   letter-spacing: 0;
   max-width: 55.9rem;

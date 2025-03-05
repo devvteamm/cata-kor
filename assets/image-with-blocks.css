@@ -13,7 +13,7 @@
   flex: 1;
 }
 .image-with-blocks .image-with-blocks__text .heding{
-  font-family: "Teachers", sans-serif;
+  /* font-family: "Teachers", sans-serif; */
   font-size: 6.5rem;
   line-height: 1.015;
   letter-spacing: -0.195px;
