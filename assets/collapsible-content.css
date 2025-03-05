@@ -171,11 +171,12 @@
 }
 .faq .collapsible-content__heading{
   margin: 0;
-  font-family: "Nohemi-Medium", sans-serif;
   font-size: 5.5rem;
   line-height: 1.27;
-  letter-spacing: 0;
+  letter-spacing: -0.22rem;
   color: rgb(var(--color-foreground));
+  font-family: 'Teachers', serif;
+  font-weight: 600;
 }
 .faq .collapsible-content__header{
   display: flex;
@@ -207,7 +208,7 @@
   background-color: rgb(var(--gradient-background));
 }
 .faq .accordion__title{
-  font-family: 'Onest', serif;
+  font-family: 'Teachers', serif;
   font-weight: 600;
   font-size: 2rem;
   line-height: 1.275;
@@ -221,7 +222,7 @@
 }
 .faq .accordion__content p{
   padding: 1.6rem 4.3rem 0rem;
-  font-family: Onest, serif;
+  font-family: 'Teachers', serif;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.5625;
@@ -327,6 +328,7 @@
   .faq .collapsible-content__heading {
     font-size: 4.5rem;
     line-height: 1.11;
+    letter-spacing: 0.135px;
   }
   .faq .collapsible-content__mobile-text{
     display: block;
@@ -338,7 +340,9 @@
     gap: 2rem;
   }
   .faq .accordion summary {
-    padding: 2.4rem 1.6rem 2.4rem 2.5rem
+    padding: 2.4rem 1.6rem 2.4rem 2.5rem;
+    min-height: 100px;
+    height: 100%;
   }
   .faq .accordion__title{
     font-size: 2rem;
