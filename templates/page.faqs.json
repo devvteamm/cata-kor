@@ -20,7 +20,7 @@
     "section_header_DWxUAq": {
       "type": "section-header",
       "settings": {
-        "title": "FAQ’s",
+        "title": "Frequently Asked Questions",
         "color_scheme": "scheme-a2b3209b-05e4-451b-a0ea-704ad54c91cb",
         "padding_top": 152,
         "padding_bottom": 80,
@@ -45,7 +45,7 @@
           "settings": {
             "heading": "Are there potential side effects of dietary supplements?",
             "icon": "none",
-            "row_content": "<p>The time to experience results varies based on the supplement and individual factors. Consistency in usage is key. Some may notice changes quickly, while others may require more time.</p>",
+            "row_content": "<p>While most people tolerate supplements well, side effects can occur, especially when exceeding recommended dosages. Common side effects are usually mild, but it's essential to report any adverse reactions to a healthcare provider.</p>",
             "page": ""
           }
         },
@@ -54,16 +54,16 @@
           "settings": {
             "heading": "How does Сata-Kor ensure the quality of its ingredients?",
             "icon": "none",
-            "row_content": "<p>The time to experience results varies based on the supplement and individual factors. Consistency in usage is key. Some may notice changes quickly, while others may require more time.</p>",
+            "row_content": "<p>We source our ingredients meticulously, prioritizing quality, purity, and sustainability. Our commitment to excellence extends to rigorous testing and adherence to industry-leading standards.</p>",
             "page": ""
           }
         },
         "collapsible_row_UFCxNQ": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Are your products gluten-free?",
+            "heading": " Are your products gluten-free?",
             "icon": "none",
-            "row_content": "<p>The time to experience results varies based on the supplement and individual factors. Consistency in usage is key. Some may notice changes quickly, while others may require more time.</p>",
+            "row_content": "<p>Yes</p>",
             "page": ""
           }
         },
@@ -72,7 +72,7 @@
           "settings": {
             "heading": "Are your products non-GMO/organic?",
             "icon": "none",
-            "row_content": "<p>The time to experience results varies based on the supplement and individual factors. Consistency in usage is key. Some may notice changes quickly, while others may require more time.</p>",
+            "row_content": "<p>Yes</p>",
             "page": ""
           }
         },
@@ -81,7 +81,7 @@
           "settings": {
             "heading": "Are your products safe to take with medications?",
             "icon": "none",
-            "row_content": "<p>The time to experience results varies based on the supplement and individual factors. Consistency in usage is key. Some may notice changes quickly, while others may require more time.</p>",
+            "row_content": "<p>Please consult with a certified healthcare professional before trying any Brand supplement if you are currently taking a medication or have a known medical condition.</p>",
             "page": ""
           }
         },
@@ -90,7 +90,7 @@
           "settings": {
             "heading": "Do you have samples?",
             "icon": "none",
-            "row_content": "<p>The time to experience results varies based on the supplement and individual factors. Consistency in usage is key. Some may notice changes quickly, while others may require more time.</p>",
+            "row_content": "<p>Not at this time</p>",
             "page": ""
           }
         }
@@ -106,7 +106,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "People often ask these questions",
+        "heading": "General Inquiries",
         "mobile_text": "",
         "color_scheme": "scheme-61c54174-6908-4e3f-a360-364419028ed7",
         "container_color_scheme": "",
