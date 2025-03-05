@@ -50,7 +50,7 @@
         "caption_AKVwBr"
       ],
       "custom_css": [
-        ".two-image-with-text {background: linear-gradient(to right, #375b2b 50%, #2b4822 50%) !important;}"
+        ".two-image-with-text {background: unset;}"
       ],
       "settings": {
         "text_slogan": "",

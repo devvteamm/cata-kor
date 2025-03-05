@@ -8,6 +8,9 @@
   width: 100%;
   margin: 0 auto;
 }
+.product-compare{
+  overflow: hidden;
+}
 
 .product-compare .product_item .product_image {
   max-width: 326px;

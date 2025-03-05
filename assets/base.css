@@ -2416,6 +2416,20 @@ input[type='checkbox'] {
   background-color: rgba(var(--color-button), var(--alpha-button-background));
   color: rgb(var(--color-button-text));
 }
+
+.header-wrapper.header--bg-color .shop_now_btn{
+  background-color: #E4F69D;
+  color: #000;
+}
+.header--bg-green .shop_now_btn{
+  background-color: #E4F69D;
+  color: #000;
+}
+.header-wrapper.header--bg-color .header__menu-item,
+.header-wrapper.header--bg-green .header__menu-item{
+  color: #fff;
+}
+
 .shop_now_btn_without_family {
   padding: 1.35rem 3rem;
   letter-spacing: 0;
@@ -3890,6 +3904,9 @@ details-disclosure > details {
 
 .header.header--bg-white .header__menu-item{
 
+}
+.header-wrapper.header--bg-green{
+  background-color: #375B2B;
 }
 .header.header--bg-color .header__menu-item{
   color: #fff;

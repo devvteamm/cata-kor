@@ -1,3 +1,6 @@
+.two-image-with-text-main {
+  background: linear-gradient(to right, #375b2b 50%, #2b4822 50%) !important;
+}
 .image-with-text .grid {
   margin-bottom: 0;
 }
@@ -16,7 +19,7 @@
 }
 
 .two-image-with-text .image-with-text__text h1{
-  font-family: 'Nohemi-Medium', sans-serif;
+  /* font-family: 'Nohemi-Medium', sans-serif; */
   font-weight:400;
   font-size: 8rem;
   color: #E4F69D;
