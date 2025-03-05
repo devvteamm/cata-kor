@@ -42,7 +42,7 @@
         "logo_position": "middle-left",
         "menu": "main-menu-header",
         "menu_type_desktop": "dropdown",
-        "sticky_header_type": "on-scroll-up",
+        "sticky_header_type": "always",
         "show_line_separator": true,
         "show_search_icon": false,
         "show_cutomer_icon": false,
