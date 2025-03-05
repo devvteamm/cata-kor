@@ -238,7 +238,7 @@
   padding: 2.7rem 3.3rem 2.7rem 2.7rem;
 }
 .faq .accordion details[open] summary{
-  padding-bottom: 1rem;
+  padding-bottom: 4.6rem;
 }
 .faq .vector-icon {
   position: relative;
@@ -349,7 +349,9 @@
   }
   .faq .accordion__content p{
     padding: 1rem;
+    padding-top: 1.6rem;
     padding-bottom: 0;
+    padding-right: 0;
     font-size: 1.6rem;
     padding-left: 4rem;
   }

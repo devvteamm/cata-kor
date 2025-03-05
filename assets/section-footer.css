@@ -680,4 +680,10 @@
   .footer .footer-block__details-content.list-unstyled{
     margin-bottom: 0;
   }
+  .footer .footer-block__details-content{
+    margin-bottom: 0;
+  }
+  .footer .footer_text-heading{
+    margin-bottom: 0;
+  }
 }

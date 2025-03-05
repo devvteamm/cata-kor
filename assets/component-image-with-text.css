@@ -686,7 +686,7 @@
 
 .image-with-text-header .image-with-text__heading{
   /* font-family: "Nohemi-Regular"; */
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 0;
   max-width: 55.9rem;
   width: 100%;
@@ -725,6 +725,7 @@
   }
   .image-with-text-header .text_box{
     max-width: 100%;
+    padding-top: 10.6rem;
   }
   .image-with-text-header .image-with-text__text-item{
     max-width: 100%;
@@ -763,6 +764,7 @@
   .image-with-text-header .image-with-text__content{
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+    padding-bottom: 4rem;
   }
   .image-with-text-header .image-with-text__media--large{
     height: 49.6rem;
@@ -770,6 +772,7 @@
   .image-with-text-header .image-with-text__heading.hxxl{
     font-size: 4.5rem;
     line-height: 1.11;
+    letter-spacing: 0.135px;
   }
   .image-with-text-header .image-with-text__text{
     font-size: 1.8rem;

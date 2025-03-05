@@ -76,7 +76,7 @@
                 {% endif %}
                 >
                 {%- if block.settings.heading != blank -%}
-                  <h2 class="footer-block__heading menu-header inline-richtext">{{- block.settings.heading -}}</h2>
+                  <h2 class="footer-block__heading menu-header {% if block.type == 'text' %} footer_text-heading {% endif %} inline-richtext">{{- block.settings.heading -}}</h2>
                 {%- endif -%}
               
               {%- case block.type -%}

@@ -113,16 +113,16 @@
 /* about-us page  */
 
 .about-us .rich-text__heading{
-  font-family: "Nohemi-Medium", sans-serif;
+  font-family: 'Teachers', serif;
   line-height: 1.23;
   letter-spacing: 0;  
-  color: rgb(var(--color-secondary-text));
+  color: rgb(var(--color-foreground));
   max-width: 114.3rem;
   width: 100%;
   margin-top: 1.2rem;
 }
 .rich-text__sub-heading{
-  font-family: 'Onest', serif;
+  font-family: 'Teachers', serif;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.75;
@@ -219,6 +219,7 @@
   .about-us .rich-text__heading{
     font-size: 4.5rem;
     margin-top: 2rem;
+    letter-spacing: -0.135px;
   }
   .about-us .rich-text__wrapper{
     max-width: 100%;
