@@ -76,7 +76,7 @@
                 {% endif %}
                 >
                 {%- if block.settings.heading != blank -%}
-                  <h2 class="footer-block__heading inline-richtext">{{- block.settings.heading -}}</h2>
+                  <h2 class="footer-block__heading menu-header {% if block.type == 'text' %} footer_text-heading {% endif %} inline-richtext">{{- block.settings.heading -}}</h2>
                 {%- endif -%}
               
               {%- case block.type -%}
@@ -330,7 +330,7 @@
       data-cascade
     {% endif %}
   >
-    <div class="footer__content-bottom-wrapper page-width">
+    <div class="footer__content-bottom-wrapper">
       <div class="footer__column footer__localization isolate">
         {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
           <localization-form>
@@ -371,7 +371,7 @@
         {%- endif -%}
       </div>
     </div>
-    <div class="footer__content-bottom-wrapper{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}">
+    <div class="footer__content-bottom-wrapper bottom-text{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}">
       <div class="footer__copyright caption">
         <small class="copyright__content"
           >{% comment %}&copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url -}}{% endcomment %}

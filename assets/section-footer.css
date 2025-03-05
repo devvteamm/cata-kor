@@ -40,18 +40,17 @@
   }
 }
 
-.footer__content-bottom {
-  border-top: solid 0.1rem rgba(var(--color-foreground), 0.08);
-  padding-top: 3rem;
-}
-
 .footer__content-bottom:only-child {
   border-top: 0;
 }
 
-.footer__content-bottom-wrapper {
+.footer .footer__content-bottom-wrapper {
   display: flex;
   width: 100%;
+}
+.footer .bottom-text{
+  border-top: solid 0.1rem rgba(var(--color-foreground), 0.08);
+  padding-top: 3rem;
 }
 
 @media screen and (max-width: 749px) {
@@ -618,4 +617,73 @@
 .footer .footer__blocks-wrapper{
   justify-content: space-between; 
   gap: 1rem;
+}
+
+@media screen and (max-width:749px) {
+  .footer .footer_image-block{
+    max-width: 100%;
+  }
+  .footer .footer__list-social.list-social{
+    justify-content: start;
+  }
+  .footer .list-social__link{
+    padding-right: 1.8rem;
+  }
+  .footer .footer__content-top{
+    padding-inline: 2rem;
+  }
+  .footer .footer_text-block,
+  .footer .newsletter-form__field-wrapper{
+    max-width: 100%;
+  }
+  .footer .footer-block__details-content.rte,
+  .footer .footer-block__heading{
+    margin-bottom: 0rem;
+    padding-block: 0;
+  }
+  .footer .footer-block__newsletter{
+    margin-top: 0rem;
+  }
+  .footer .footer_text-block{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+  .footer .footer__content-bottom{
+    padding-inline: 2rem;
+  }
+  .footer .grid{
+    display: flex;
+  }
+  .footer .footer-block.grid__item.footer_image-block{
+    order: 1;
+    margin-bottom: 3rem;
+  }
+  .footer .footer-block.grid__item.footer_text-block{
+    order: 2;
+    margin-bottom: 4rem;
+  }
+  .footer .footer-block--menu{
+    order: 3;
+  }
+  .footer-block.grid__item{
+    margin: 0;
+  }
+  .footer .menu-header{
+    margin-bottom: 2rem;
+  }
+  .footer .footer__blocks-wrapper{
+    justify-content: unset;
+    column-gap: 4.8rem;
+    margin-bottom: 0;
+  }
+  .footer .footer-block__details-content.list-unstyled{
+    margin-bottom: 0;
+  }
+  .footer .footer-block__details-content{
+    margin-bottom: 0;
+  }
+  .footer .footer_text-heading{
+    margin-bottom: 0;
+  }
 }

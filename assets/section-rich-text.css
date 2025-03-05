@@ -113,16 +113,16 @@
 /* about-us page  */
 
 .about-us .rich-text__heading{
-  font-family: "Nohemi-Medium", sans-serif;
+  font-family: 'Teachers', serif;
   line-height: 1.23;
   letter-spacing: 0;  
-  color: rgb(var(--color-secondary-text));
+  color: rgb(var(--color-foreground));
   max-width: 114.3rem;
   width: 100%;
   margin-top: 1.2rem;
 }
 .rich-text__sub-heading{
-  font-family: 'Onest', serif;
+  font-family: 'Teachers', serif;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.75;
@@ -160,36 +160,46 @@
 
 /* lifetime warranty page css */
 .lifetime-warranty .rich-text__blocks{
-  max-width: 106.8rem;
+  max-width: 85.2rem;
   width: 100%;
 }
 
-.lifetime-warranty .rich-text__blocks .rich-text__heading.hxxl{
-  font-size: 8.5rem;
-  line-height: 1.058;
-  letter-spacing: 0;
+.lifetime-warranty .rich-text__blocks .rich-text__heading.hxl{
+  line-height: 1.23;
 } 
+.lifetime-warranty .rich-text__blocks .rich-text__heading{
+  font-family: 'Teachers', serif;
+  letter-spacing: 0;
+  font-weight: 600;
+}
+.lifetime-warranty .rich-text__blocks .rich-text__heading strong{
+  color: rgb(var(--color-secondary-text));
+}
 
- .lifetime-warranty .rich-text__text{
+.lifetime-warranty .rich-text__text{
+  font-family: 'Teachers', serif;
+  font-weight: 500;
   margin-top: 1.3rem;
   display: inline-flex;
+  font-size: 2rem;
+  line-height: 1.4;
   justify-content: center;
-  max-width: 69.3rem;
+  margin-inline: 5.8rem;
   width: 100%;
   color: rgb(var(--color-secondary-text));
 }
 
 .lifetime-warranty .rich-text__buttons{
-  margin-top: 2.2rem;
+  margin-top: 4rem;
 }
 
 .lifetime-warranty .rich-text__buttons .button--primary{
-  font-family: 'Nohemi-Medium', sans-serif;
+  font-family: 'Teachers', serif;
   font-weight: 500;
-  font-size: 1.8rem;
-  line-height: 1;
+  font-size: 2.46rem;
+  line-height: 1.75;
   letter-spacing: 0;
-  padding: 2.4rem 4.6rem;
+  padding: 1.2rem 4.6rem;
   border: 1.54px solid rgba(27, 53, 42, .25);
 }
 
@@ -197,7 +207,7 @@
   .about-us .rich-text__heading{
     font-size: 5rem;
   }
-  .lifetime-warranty .rich-text__blocks .rich-text__heading.hxxl{
+  .lifetime-warranty .rich-text__blocks .rich-text__heading.hxl{
     font-size: 5.5rem;
   }
   .lifetime-warranty .rich-text__blocks {
@@ -209,6 +219,7 @@
   .about-us .rich-text__heading{
     font-size: 4.5rem;
     margin-top: 2rem;
+    letter-spacing: -0.135px;
   }
   .about-us .rich-text__wrapper{
     max-width: 100%;
@@ -220,19 +231,24 @@
   .lifetime-warranty .rich-text__wrapper{
     width: 100%;
   }
-  .lifetime-warranty .rich-text__blocks .rich-text__heading.hxxl {
-    font-size: 4.3rem;
-    line-height: 1.162;
+  .lifetime-warranty .rich-text__blocks .rich-text__heading.hxl {
+    font-size: 4.5rem;
+    line-height: 1.11;
+    letter-spacing: -0.30px;
   }
   .lifetime-warranty .rich-text__text {
     margin-top: 1.8rem;
     max-width: 100%;
     font-size: 1.8rem;
     line-height: 1.56;
+    margin-inline: 0;
   }
-  .lifetime-warranty .rich-text__buttons .button--primary {
+  .lifetime-warranty .rich-text__buttons{
+    margin-top: 3.2rem;
+  }
+  /* .lifetime-warranty .rich-text__buttons .button--primary {
     font-size: 1.8rem;
-  }
+  } */
   .star-icon{
     right: -30%;
   }

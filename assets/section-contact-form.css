@@ -43,10 +43,10 @@
 }
 
 .main-contact .contact .title{
-  font-family: "Nohemi-Medium", sans-serif;
+  font-family: 'Teachers', serif;
   font-size: 6.5rem;
   line-height: 1.23;
-  letter-spacing: 0;
+  letter-spacing: -0.195px;
   color: rgb(var(--color-foreground));
 }
 
@@ -68,7 +68,7 @@
 }
 .main-contact {
   display: flex;
-  gap: 1.5rem;
+  gap: 4.5rem;
 }
 .main-contact .email_box{
   position: absolute;
@@ -106,7 +106,7 @@
 }
 .main-contact .email_box .email_text{
   margin: 0;
-  font-family: Onest, serif;
+  font-family: 'Teachers', serif;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.275;
@@ -116,11 +116,12 @@
 }
 .main-contact .email_box .email{
   margin: 0;
-  font-family: 'Onest', serif;
+  font-family: 'Teachers', serif;
   font-weight: 600;
   font-size: 2rem;
   line-height: 1.275;
   letter-spacing: -0.20px;
+  color: rgb(var(--color-secondary-text));
 }
 .main-contact .contact__button .button{
   border-radius: 23.2rem;
@@ -154,7 +155,7 @@
 .main-contact .field__input{
   padding: 0;
   height: fit-content;
-  font-family: 'Onest', serif;
+  font-family: 'Teachers', serif;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.25;
@@ -170,7 +171,7 @@
   flex-wrap: unset;
 }
 .main-contact .field__label{
-  font-family: 'Onest', serif;
+  font-family: 'Teachers', serif;
   font-weight: 600;
   font-size: 1.4rem;
   line-height: 1.275;
@@ -200,17 +201,19 @@
   }
   .main-contact .contact_image{
     max-width: 100%;
-    min-height: 67.8rem;
+    min-height: 68.7rem;
   }
   .main-contact .contact .title {
     font-size: 4.5rem;
     line-height: 1.11;
+    letter-spacing: -0.135px;
+    margin-bottom: 2.4rem;
   }
   .main-contact .contact__button .button{
     margin-top: 1.4rem;
   }
   .main-contact .field{
-    padding: 1.5rem 1rem;
+    padding: 1.8rem 1rem;
   }
   .main-contact .contact__button {
     margin-top: 2rem;

@@ -21,9 +21,11 @@
       "type": "section-header",
       "settings": {
         "title": "FAQ’s",
-        "color_scheme": "scheme-1",
-        "padding_top": 80,
-        "padding_bottom": 80
+        "color_scheme": "scheme-a2b3209b-05e4-451b-a0ea-704ad54c91cb",
+        "padding_top": 172,
+        "padding_bottom": 100,
+        "mobile_padding_top": 84,
+        "mobile_padding_bottom": 48
       }
     },
     "faq_section_w4ygkY": {

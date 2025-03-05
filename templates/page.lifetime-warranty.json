@@ -23,8 +23,8 @@
         "heading_jijUTM": {
           "type": "heading",
           "settings": {
-            "heading": "Lifetime Warranty* Registration & $50 Amazon Giftcard",
-            "heading_size": "hxxl",
+            "heading": "Lifetime Warranty<strong>* </strong>Registration & $50 Amazon Giftcard",
+            "heading_size": "hxl",
             "sub_heding": ""
           }
         },
@@ -58,9 +58,9 @@
         "full_width_container": false,
         "show_accent_graphics": false,
         "show_star": false,
-        "padding_top": 96,
+        "padding_top": 236,
         "padding_bottom": 48,
-        "mobile_padding_top": 40,
+        "mobile_padding_top": 132,
         "mobile_padding_bottom": 60
       }
     },
