@@ -491,8 +491,8 @@
         "column_aqyME4": {
           "type": "column",
           "settings": {
-            "title": "Rachal R",
-            "text": "<p>“Love this! I’ve been taking this for 1 week and already feel better! More energy and softer skin! :) highly recommend!”</p>",
+            "title": "Kelly",
+            "text": "<p>“I’ve only been taking this a week and I feel like myself for the first time in over a decade. I have focus and energy that feels natural and sustained. I wake up without feeling tired. I hope this continues to work because so far I love it.”</p>",
             "product_rating_number": 5,
             "link_label": "",
             "link": ""
@@ -501,8 +501,8 @@
         "column_BEDb4e": {
           "type": "column",
           "settings": {
-            "title": "Rachal R",
-            "text": "<p>“Love this! I’ve been taking this for 1 week and already feel better! More energy and softer skin! :) highly recommend!”</p>",
+            "title": "David",
+            "text": "<p>“I am happy with this product. My daughter said she see's a difference in my skin. It have been one month since I started.”</p>",
             "product_rating_number": 5,
             "link_label": "",
             "link": ""
@@ -511,8 +511,8 @@
         "column_AhPidR": {
           "type": "column",
           "settings": {
-            "title": "Rachal R",
-            "text": "<p>“Love this! I’ve been taking this for 1 week and already feel better! More energy and softer skin! :) highly recommend!”</p>",
+            "title": "Veronika",
+            "text": "<p>”I recently started using this product in addition to all my other supplements and I feel like it's quite effective . On my anti aging and wellness quest this seems like a staple, I wish I found it sooner! I haven't had any adverse effect and I always get compliments on my skin!”</p>",
             "product_rating_number": 5,
             "link_label": "",
             "link": ""
@@ -521,8 +521,18 @@
         "column_3WKcmh": {
           "type": "column",
           "settings": {
-            "title": "Rachal R",
-            "text": "<p>“Love this! I’ve been taking this for 1 week and already feel better! More energy and softer skin! :) highly recommend!”</p>",
+            "title": "Mary",
+            "text": "<p>”Greater contribution of resistance in activities during the day offers this product to each body.”</p>",
+            "product_rating_number": 5,
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FtUbD7": {
+          "type": "column",
+          "settings": {
+            "title": "Phill",
+            "text": "<p>“Love this product”</p>",
             "product_rating_number": 5,
             "link_label": "",
             "link": ""
@@ -533,7 +543,8 @@
         "column_aqyME4",
         "column_BEDb4e",
         "column_AhPidR",
-        "column_3WKcmh"
+        "column_3WKcmh",
+        "column_FtUbD7"
       ],
       "settings": {
         "title": "See what members are saying about Cata-Kor",
