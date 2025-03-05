@@ -470,16 +470,6 @@
             "link": ""
           }
         },
-        "column_AgiVKJ": {
-          "type": "column",
-          "settings": {
-            "title": "Phill",
-            "text": "<p>“Love this product”</p>",
-            "product_rating_number": 5,
-            "link_label": "",
-            "link": ""
-          }
-        },
         "column_b9rjah": {
           "type": "column",
           "settings": {
@@ -500,6 +490,16 @@
             "link": ""
           }
         },
+        "column_AgiVKJ": {
+          "type": "column",
+          "settings": {
+            "title": "Phill",
+            "text": "<p>“Love this product”</p>",
+            "product_rating_number": 5,
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_Ecd6pE": {
           "type": "column",
           "settings": {
@@ -513,9 +513,9 @@
       },
       "block_order": [
         "column_fkGLxp",
-        "column_AgiVKJ",
         "column_b9rjah",
         "column_9GckFc",
+        "column_AgiVKJ",
         "column_Ecd6pE"
       ],
       "settings": {
