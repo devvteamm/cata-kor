@@ -609,6 +609,7 @@ h2.extra-small {
   background-color: unset;
 }
 
+
 @media screen and (max-width: 749px) {
   .banner__content .content-container {
    background-color: var(--gradient-background);
@@ -715,5 +716,56 @@ h2.extra-small {
     font-size: 2.2rem;
     line-height: 1.4545;
     text-align: start;
+  }
+}
+/* rebranding page hero section css */
+
+.image_banner_rebranding_page_hero_section .banner__text{
+  color: rgb(var(--color-foreground));
+}
+.image_banner_rebranding_page_hero_section .banner__content{
+  padding-top: 17rem;
+}
+.image_banner_rebranding_page_hero_section.banner--large:not(.banner--adapt) {
+  min-height: 100rem;
+}
+
+.image_banner_rebranding_page_hero_section .banner__heading,
+.image_banner_rebranding_page_hero_section .banner__box .banner__text{
+  max-width: unset;
+}
+
+@media screen and (max-width: 749px) {
+  .image_banner_rebranding_page_hero_section.banner--large:not(.banner--adapt) {
+    min-height: unset;
+  }
+  .image_banner_rebranding_page_hero_section .banner__content{
+    padding-top: 0;
+  }
+  .image_banner_rebranding_page_hero_section .banner__media{
+    order: 2;
+  }
+  .image_banner_rebranding_page_hero_section.banner--mobile-bottom:not(.banner--stacked) .banner__content{
+    order: 1;
+  }
+  .image_banner_rebranding_page_hero_section .banner__heading{
+    max-width: 100%;
+  }
+  .image_banner_rebranding_page_hero_section .banner__box{
+    padding-top: 10rem;
+    padding-bottom: 0;
+  }
+  .image_banner_rebranding_page_hero_section .banner__content{
+    background-color: #375B2B;
+  } 
+  .image_banner_rebranding_page_hero_section .banner__heading{
+    font-size: 4.5rem;
+    line-height: 1.11;
+    letter-spacing: -0.135px;
+  }
+  .image_banner_rebranding_page_hero_section .banner__text{
+    font-size: 1.8rem;
+    line-height: 1.56;
+    letter-spacing: 0;
   }
 }
