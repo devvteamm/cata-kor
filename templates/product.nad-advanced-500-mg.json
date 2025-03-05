@@ -488,6 +488,15 @@
     "custom_review_WpwPcD": {
       "type": "custom-review",
       "blocks": {
+        "column_Leq3wU": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_aqyME4": {
           "type": "column",
           "settings": {
@@ -530,13 +539,14 @@
         }
       },
       "block_order": [
+        "column_Leq3wU",
         "column_aqyME4",
         "column_BEDb4e",
         "column_AhPidR",
         "column_3WKcmh"
       ],
       "settings": {
-        "title": "See what members are saying about Cata-Kor",
+        "title": "See What Clients Are Saying About Cata-Kor",
         "sub_title": "Ingredients And Study",
         "heading_size": "hxl",
         "title_align": "justify-start",
