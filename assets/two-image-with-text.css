@@ -560,7 +560,7 @@
   justify-content: space-between;
 }
 .nad-image-with-text .image-with-text__media-item-image{
-  max-width: 26.5rem;
+  /* max-width: 26.5rem; */
   width: 100%;
   height: 100%;
 }

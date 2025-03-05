@@ -123,3 +123,27 @@
     max-width: unset;
   }
 }
+
+/* section wise custom css */
+.imagewithblocks__home-study.image-with-blocks {
+  position: relative;
+  overflow: hidden;
+}
+.imagewithblocks__home-study.image-with-blocks::after {
+  content: "";
+  display: block;
+  clear: both;
+  width: 500px;
+  height: 280px;
+  background: url("https://cdn.shopify.com/s/files/1/0918/3667/8454/files/cata-kor-floating-star.png?v=1741139965") no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: -60px;
+  right: -280px;
+}
+@media screen and (min-width:750px) {
+  .imagewithblocks__home-study.image-with-blocks::after {
+    top: -60px;
+    right: -210px;
+  }
+}

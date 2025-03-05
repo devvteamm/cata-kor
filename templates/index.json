@@ -135,6 +135,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/image.jpg",
+        "image_first_mobile": "shopify://shop_images/image_mobile.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "top-left",
@@ -142,10 +143,10 @@
         "desktop_content_alignment": "left",
         "color_scheme": "scheme-2",
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
+        "mobile_content_alignment": "left",
         "stack_images_on_mobile": false,
         "show_text_below": false,
-        "custom_class": ""
+        "custom_class": "image_banner__homepage-nad-journey"
       }
     },
     "image_banner_MRD4HA": {
@@ -195,6 +196,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/Group_1171276136.png",
+        "image_first_mobile": "shopify://shop_images/cata-kor-why-nad-250-bg-mob-crop.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "top-left",
@@ -202,10 +204,10 @@
         "desktop_content_alignment": "left",
         "color_scheme": "scheme-1",
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false,
-        "custom_class": ""
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "custom_class": "image_banner__homepage-ingredients"
       }
     },
     "text_with_blocks_hmMX9V": {
@@ -239,6 +241,7 @@
           "settings": {
             "background_color": "#375b2b",
             "main_image": "shopify://shop_images/image_dde2f5d3-ef32-478a-b51b-6602d5f5a2bb.png",
+            "main_mobile_image": "shopify://shop_images/cata-kor-NAD-girl-mob.jpg",
             "sub_image": "shopify://shop_images/Subtract_982da6e7-ab88-405e-af2b-8b0363588251.png",
             "title_text": "nad+",
             "text2": "Declines by Up to 65%  Between Ages 30 and 70",
@@ -419,7 +422,7 @@
         "image_LVwxCR": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2025-02-19_18-17.png"
+            "image": "shopify://shop_images/cata-kor-nad-500.png"
           }
         },
         "label_with_text_MWCVNJ": {
@@ -447,7 +450,8 @@
       "settings": {
         "color_scheme": "scheme-5e338020-52db-4854-aec5-98e28b83a176",
         "padding_top": 100,
-        "padding_bottom": 92
+        "padding_bottom": 92,
+        "custom_class": "imagewithblocks__home-study"
       }
     },
     "custom_review_JQdbwY": {

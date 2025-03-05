@@ -14,7 +14,7 @@
   }
 {%- endstyle -%}
 
-<div class="image-with-blocks section-{{ section.id }}-padding color-{{ section.settings.color_scheme }}">
+<div class="image-with-blocks section-{{ section.id }}-padding color-{{ section.settings.color_scheme }}  {{ section.settings.custom_class }}">
    <div class="page-width image-with-blocks__wrapper">
     {%- for block in section.blocks -%}
       {% case block.type %}
@@ -55,7 +55,7 @@
                           <div class="description_text">{{ block.settings.description_text_2 }}</div>
                       {% endif %}
                     </div>
-                    {% endif %} 
+                    {% endif %}
                 </div>
               </div>
               <div class="label-block">
@@ -93,7 +93,7 @@
            </div>
       {%- endcase -%}
     {% endfor %}
-   </div>   
+   </div>
 </div>
 
 {% schema %}
@@ -131,6 +131,15 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 52
+    },
+    {
+      "type": "header",
+      "content": "Developer Use",
+    },
+    {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom Class"
     }
   ],
   "blocks": [

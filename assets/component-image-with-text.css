@@ -495,6 +495,11 @@
   padding: 0;
   padding-right: 11.2rem;
 }
+@media screen and (max-width: 989px) {
+  .nad-image-with-text .image-with-text__grid--reverse .image-with-text__content--desktop-left{
+    padding-right: 0;
+  }
+}
 .nad-image-with-text .image-with-text__content--desktop-left{
   padding: 0;
   padding-left: 11.2rem;
@@ -560,7 +565,7 @@
   }
 }
 .nad-image-with-text .image-with-text__media-item-image{
-  max-width: 26.5rem;
+  /* max-width: 26.5rem; */
   width: 100%;
   height: 100%;
 }

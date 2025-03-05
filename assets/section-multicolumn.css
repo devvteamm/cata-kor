@@ -59,9 +59,9 @@
   .multicolumn .title-wrapper-with-link {
     margin-bottom: 3rem;
   }
-  .multicolumn .title-wrapper-with-link .title {
+  /* .multicolumn .title-wrapper-with-link .title {
     max-width: 75%;
-  }
+  } */
 }
 
 @media screen and (max-width: 425px) {
