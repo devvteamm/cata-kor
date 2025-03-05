@@ -3888,3 +3888,13 @@ details-disclosure > details {
   gap: 1rem;
 }
 
+.header.header--bg-white .header__menu-item{
+
+}
+.header.header--bg-color .header__menu-item{
+  color: #fff;
+}
+.header.header--bg-color .header__buttons a{
+  background-color: #E4F69D;
+  color: #000;
+}
