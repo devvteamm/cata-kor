@@ -207,6 +207,7 @@
     flex-direction: column-reverse;
     gap: 0;
   }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -218,6 +219,13 @@
   .product_container {
     flex-direction: column;
     padding-block: 0;
+  }
+
+  .custom-text-width-product-swiper .text-with-product-container .swiper-wrapper{
+    padding: 3px 9px;
+  }
+  .custom-text-width-product-swiper .text-with-product-container .product_title-btn button {
+    font-size: 1rem;
   }
 }
 

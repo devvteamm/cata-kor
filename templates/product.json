@@ -101,7 +101,7 @@
         "mobile_thumbnails": "show",
         "hide_variants": true,
         "enable_video_looping": false,
-        "padding_top": 28,
+        "padding_top": 100,
         "padding_bottom": 28
       }
     },
@@ -315,7 +315,7 @@
         "description": "",
         "video_description": "<p><strong>See the Science in Action!</strong> Watch how LipoNAD+™ works at a cellular level to boost energy, focus, and healthy aging.</p>",
         "full_width": true,
-        "color_scheme": "",
+        "color_scheme": "scheme-603b64c2-7061-406c-a1c3-8d8dcc58cc1c",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -364,7 +364,7 @@
       ],
       "settings": {
         "section_color_scheme": "scheme-2",
-        "padding_top": 88,
+        "padding_top": 60,
         "padding_bottom": 88,
         "sub_title": "",
         "title": "Benefits",
@@ -547,7 +547,7 @@
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-4",
+        "color_scheme": "scheme-3",
         "columns_mobile": "1",
         "padding_top": 100,
         "padding_bottom": 100
