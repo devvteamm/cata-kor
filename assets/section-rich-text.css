@@ -160,36 +160,43 @@
 
 /* lifetime warranty page css */
 .lifetime-warranty .rich-text__blocks{
-  max-width: 106.8rem;
+  max-width: 85.2rem;
   width: 100%;
 }
 
-.lifetime-warranty .rich-text__blocks .rich-text__heading.hxxl{
-  font-size: 8.5rem;
-  line-height: 1.058;
-  letter-spacing: 0;
+.lifetime-warranty .rich-text__blocks .rich-text__heading.hxl{
+  line-height: 1.23;
 } 
+.lifetime-warranty .rich-text__blocks .rich-text__heading{
+  font-family: 'Teachers', serif;
+  letter-spacing: 0;
+  font-weight: 600;
+}
 
- .lifetime-warranty .rich-text__text{
+.lifetime-warranty .rich-text__text{
+  font-family: 'Teachers', serif;
+  font-weight: 500;
   margin-top: 1.3rem;
   display: inline-flex;
+  font-size: 2rem;
+  line-height: 1.4;
   justify-content: center;
-  max-width: 69.3rem;
+  margin-inline: 5.8rem;
   width: 100%;
   color: rgb(var(--color-secondary-text));
 }
 
 .lifetime-warranty .rich-text__buttons{
-  margin-top: 2.2rem;
+  margin-top: 4rem;
 }
 
 .lifetime-warranty .rich-text__buttons .button--primary{
-  font-family: 'Nohemi-Medium', sans-serif;
+  font-family: 'Teachers', serif;
   font-weight: 500;
-  font-size: 1.8rem;
-  line-height: 1;
+  font-size: 2.46rem;
+  line-height: 1.75;
   letter-spacing: 0;
-  padding: 2.4rem 4.6rem;
+  padding: 1.2rem 4.6rem;
   border: 1.54px solid rgba(27, 53, 42, .25);
 }
 
