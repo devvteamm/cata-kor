@@ -26,7 +26,7 @@
 
 .product-evolution .banner .left_sider-image--wrapper {
     position: absolute;
-    top: 0;
+    top: 70px;
     left: 0;
 }
 
@@ -141,7 +141,7 @@
     width: unset;
     height: unset;
 }
-  
+
 @media screen and (max-width:749px) {
     .product-evolution--media--wrapper {
         justify-content: unset;

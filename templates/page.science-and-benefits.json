@@ -59,11 +59,11 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
+        "section_color_scheme": "scheme-a2b3209b-05e4-451b-a0ea-704ad54c91cb",
+        "color_scheme": "scheme-a2b3209b-05e4-451b-a0ea-704ad54c91cb",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
+        "padding_top": 100,
         "padding_bottom": 0
       }
     },
