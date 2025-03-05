@@ -216,7 +216,7 @@
         "heading_qy6ad7": {
           "type": "heading",
           "settings": {
-            "heading": "NAD is declining over the years",
+            "heading": "NAD Declines as You Age",
             "heading_size": "h1",
             "sub_heding": "About NAD Booster"
           }
@@ -224,7 +224,7 @@
         "text_Bbqg9T": {
           "type": "text",
           "settings": {
-            "text": "<p>Your 37.2 trillion cells are powered by NAD+, a vital coenzyme that fuels cellular energy and repair throughout your entire body. NAD+ levels naturally decline with age, lifestyle factors, and stressors. Replenishing NAD+ levels is essential for maintaining your cellular health, energy, and vitality.</p>",
+            "text": "<p>Your body contains roughly 37.2 trillion cells all of which are powered by NAD+, a vital coenzyme. NAD+ levels naturally decline over time, certain lifestyle factors, and stressors. Replenishing NAD+ levels is essential for maintaining your cellular health, energy, and vitality as you age.</p>",
             "text_style": "body"
           }
         },
@@ -232,7 +232,7 @@
           "type": "button",
           "settings": {
             "button_label": "Learn More",
-            "button_link": "",
+            "button_link": "shopify://pages/science-benefits",
             "button_style_secondary": false
           }
         },
