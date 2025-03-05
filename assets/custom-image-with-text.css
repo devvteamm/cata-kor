@@ -117,5 +117,7 @@
   .custom-image-with-text .banner__box-product--wrapper {
     display: flex;
     gap: 2.5rem;
+    flex-direction: column;
+    width: 100%;
   }
 }

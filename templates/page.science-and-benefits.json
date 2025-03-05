@@ -49,6 +49,9 @@
         "text_FmtUri",
         "caption_AKVwBr"
       ],
+      "custom_css": [
+        ".two-image-with-text {background: linear-gradient(to right, #375b2b 50%, #2b4822 50%) !important;}"
+      ],
       "settings": {
         "text_slogan": "",
         "image": "shopify://shop_images/cata-kor-sci-benefit-hero-banner-1.png",
@@ -89,6 +92,9 @@
       "block_order": [
         "heading_dYyXa3",
         "text_q8mgNP"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 749.98px) {.image-with-text__grid--reverse {flex-direction: column-reverse; } .image-with-text__content {padding: 0 0 25px 0; }}"
       ],
       "settings": {
         "text_slogan": "",
