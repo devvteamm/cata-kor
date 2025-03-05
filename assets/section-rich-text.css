@@ -172,6 +172,9 @@
   letter-spacing: 0;
   font-weight: 600;
 }
+.lifetime-warranty .rich-text__blocks .rich-text__heading strong{
+  color: rgb(var(--color-secondary-text));
+}
 
 .lifetime-warranty .rich-text__text{
   font-family: 'Teachers', serif;
