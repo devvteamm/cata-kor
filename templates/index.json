@@ -30,8 +30,8 @@
         "image_pgP7bL": {
           "type": "Image",
           "settings": {
-            "image": "shopify://shop_images/2025-03-04_16-52.png",
-            "mobile_image": "shopify://shop_images/2025-03-04_17-40.png",
+            "image": "shopify://shop_images/cata-kor-homepage-hero-left.png",
+            "mobile_image": "shopify://shop_images/cata-kor-homepage-hero-top.png",
             "first_text": "",
             "second_text": "",
             "third_text": "<p><br/></p>"
@@ -40,8 +40,8 @@
         "image_3aVRLE": {
           "type": "Image",
           "settings": {
-            "image": "shopify://shop_images/2025-03-04_16-53.png",
-            "mobile_image": "shopify://shop_images/2025-03-04_17-40_1.png",
+            "image": "shopify://shop_images/cata-kor-homepage-hero-right.png",
+            "mobile_image": "shopify://shop_images/cata-kor-homepage-hero-btm.png",
             "first_text": "<p><br/></p>",
             "second_text": "",
             "third_text": ""
@@ -359,6 +359,7 @@
         },
         "right_side_block_jXweC4": {
           "type": "right_side_block",
+          "disabled": true,
           "settings": {
             "sub_heading": "About NAD Booster",
             "heading": "Unlock the Power of NAD+ for a Healthier You 2",
@@ -370,6 +371,7 @@
         },
         "right_side_block_GgK3gW": {
           "type": "right_side_block",
+          "disabled": true,
           "settings": {
             "sub_heading": "About NAD Booster",
             "heading": "Unlock the Power of NAD+ for a Healthier You 3",
@@ -381,6 +383,7 @@
         },
         "right_side_block_rgMifg": {
           "type": "right_side_block",
+          "disabled": true,
           "settings": {
             "sub_heading": "About NAD Booster",
             "heading": "Unlock the Power of NAD+ for a Healthier You 4",
@@ -460,8 +463,8 @@
         "column_fkGLxp": {
           "type": "column",
           "settings": {
-            "title": "Rachal R",
-            "text": "<p>“Love this! I’ve been taking this for 1 week and already feel better! More energy and softer skin! :) highly recommend!”</p>",
+            "title": "Kelly",
+            "text": "<p>“I’ve only been taking this a week and I feel like myself for the first time in over a decade. I have focus and energy that feels natural and sustained. I wake up without feeling tired. I hope this continues to work because so far I love it.”</p>",
             "product_rating_number": 5,
             "link_label": "",
             "link": ""
@@ -470,8 +473,8 @@
         "column_AgiVKJ": {
           "type": "column",
           "settings": {
-            "title": "Rachal R",
-            "text": "<p>“Love this! I’ve been taking this for 2 week and already feel better! More energy and softer skin! :) highly recommend!”</p>",
+            "title": "Phill",
+            "text": "<p>“Love this product”</p>",
             "product_rating_number": 5,
             "link_label": "",
             "link": ""
@@ -480,8 +483,8 @@
         "column_b9rjah": {
           "type": "column",
           "settings": {
-            "title": "Rachal R",
-            "text": "<p>“Love this! I’ve been taking this for 3 week and already feel better! More energy and softer skin! :) highly recommend!”</p>",
+            "title": "David",
+            "text": "<p>“I am happy with this product. My daughter said she see's a difference in my skin. It have been one month since I started.”</p>",
             "product_rating_number": 5,
             "link_label": "",
             "link": ""
@@ -490,8 +493,19 @@
         "column_9GckFc": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Veronika",
+            "text": "<p>”I recently started using this product in addition to all my other supplements and I feel like it's quite effective . On my anti aging and wellness quest this seems like a staple, I wish I found it sooner! I haven't had any adverse effect and I always get compliments on my skin!”</p>",
+            "product_rating_number": 5,
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Ecd6pE": {
+          "type": "column",
+          "settings": {
+            "title": "Mary",
+            "text": "<p>”Greater contribution of resistance in activities during the day offers this product to each body.”</p>",
+            "product_rating_number": 5,
             "link_label": "",
             "link": ""
           }
@@ -501,7 +515,8 @@
         "column_fkGLxp",
         "column_AgiVKJ",
         "column_b9rjah",
-        "column_9GckFc"
+        "column_9GckFc",
+        "column_Ecd6pE"
       ],
       "settings": {
         "title": "See What Clients Are Saying About Cata-Kor",

@@ -5,7 +5,7 @@
     /* max-width: unset; */
     font-size: 8.5rem;
     /* font-family: 'Teachers', sans-serif; */
-    max-width: 73.1rem;
+    max-width: 90rem;
 }
 
 @media screen and (max-width:749px){
@@ -131,7 +131,7 @@
 }
 .product-evolution .banner__box {
     padding: 0;
-    max-width: 73rem;
+    max-width: 90rem;
 }
 .product-evolution  .banner:after {
     position: unset;
@@ -148,6 +148,7 @@
     }
     .product-evolution--media--wrapper .product-evolution--media {
         grid-template-columns: 1fr;
+        gap: 3.8rem;
     }
 
     .product-evolution--media--wrapper .product-evolution--media--1,
@@ -156,11 +157,15 @@
     }
 
     .product-evolution--media--wrapper .product-evolution--media--1 {
-        margin-left: 4.6rem;
+        /* margin-left: 4.6rem; */
     }
 
     .product-evolution--media--wrapper .svg-wrapper {
-        transform: translate(-50%, -50%) rotate(90deg);
+        transform: translate(-50%, -114%) rotate(90deg);
+    }
+    .product-evolution--media--wrapper .svg-wrapper svg{
+        height: 44px;
+        width: 44px;
     }
 
     .product-evolution .banner__box {
@@ -170,6 +175,6 @@
 
 @media screen and (min-width: 1400px) {
     .product-evolution .banner__box {
-        max-width: 80rem;
+        max-width: 90rem;
     }
 }

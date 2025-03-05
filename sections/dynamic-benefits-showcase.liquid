@@ -22,9 +22,9 @@
             <div class="dynamic-benefits-showcase-left-side-container">
                 {%- assign left_side_container = section.blocks | where : "type" , "left_side_block" -%}
                 {%  for block in left_side_container %}
-                    <div class="dynamic-benefits-showcase-left-side-item {% if forloop.index == 1 %} active {% endif %}" data-text-key="{{ block.settings.text_key }}">
+                    <div class="dynamic-benefits-showcase-left-side-item active {% if forloop.index == 1 %} active {% endif %}" data-text-key="{{ block.settings.text_key }}">
                         <div class="dynamic-benefits-showcase-left-side-item--image">
-                            <img 
+                            <img
                               src="{{ block.settings.image | image_url: width: 160 }}"
                               alt="{{ block.settings.image.alt | default: 'Logo image' }}"
                               width=""
@@ -42,7 +42,7 @@
             <div class="dynamic-benefits-showcase-right-side-container">
                 {%- assign right_side_container = section.blocks | where : "type" , "right_side_block" -%}
                 {%  for block in right_side_container %}
-                    <div class="dynamic-benefits-showcase-right-side-item" data-text-key="{{ block.settings.text_key }}">
+                    <div class="dynamic-benefits-showcase-right-side-item" data-text-key="{{ block.settings.text_key }}" style="display: flex;">
                         <span class="dynamic-benefits-showcase-right-side-item-subheading">{{ block.settings.sub_heading }}</span>
                         <h1 class="dynamic-benefits-showcase-right-side-item-heading">{{ block.settings.heading }}</h1>
                         <div class="dynamic-benefits-showcase-right-side-item-text">{{ block.settings.text }}</div>
@@ -59,12 +59,12 @@
     </div>
 </div>
 
-<script>
+{% comment %} <script>
     document.addEventListener("DOMContentLoaded", function () {
         document.querySelectorAll(".dynamic-benefits-showcase-container").forEach(container => {
             const leftItems = container.querySelectorAll(".dynamic-benefits-showcase-left-side-item");
             const rightItems = container.querySelectorAll(".dynamic-benefits-showcase-right-side-item");
-    
+
             function updateRightContent(selectedKey) {
                 rightItems.forEach(item => {
                     if (item.getAttribute("data-text-key") === selectedKey) {
@@ -74,21 +74,21 @@
                     }
                 });
             }
-    
+
             leftItems.forEach(item => {
                 item.addEventListener("click", function () {
                     // Remove "active" class from all left items in this section only
                     leftItems.forEach(i => i.classList.remove("active"));
-    
+
                     // Add "active" class to the clicked item
                     this.classList.add("active");
-    
+
                     // Get selected key and update right side content
                     const selectedKey = this.getAttribute("data-text-key");
                     updateRightContent(selectedKey);
                 });
             });
-    
+
             // Set initial state to match the first active left-side item in this section only
             const activeLeftItem = container.querySelector(".dynamic-benefits-showcase-left-side-item.active");
             if (activeLeftItem) {
@@ -96,9 +96,9 @@
             }
         });
     });
-    
-    
-</script>
+
+
+</script> {% endcomment %}
 
 {% schema %}
     {
