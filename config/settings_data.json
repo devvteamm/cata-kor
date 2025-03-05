@@ -139,6 +139,9 @@
       },
       "main-password-footer": {
         "type": "main-password-footer",
+        "custom_css": [
+          ".list-unstyled {display: none;}"
+        ],
         "settings": {
           "color_scheme": "scheme-1"
         }
