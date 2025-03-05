@@ -155,7 +155,7 @@
         "heading_dLhci4": {
           "type": "heading",
           "settings": {
-            "heading": "GMP Manufactured, Scientifically (Not Clinically) Research Ingredients, 3-rd-Party Tested for.",
+            "heading": "GMP Manufactured, Scientifically Researched Ingredients, Third Party Tested.",
             "heading_size": "hxl"
           }
         },
@@ -216,7 +216,7 @@
         "heading_qy6ad7": {
           "type": "heading",
           "settings": {
-            "heading": "NAD is declining over the years",
+            "heading": "NAD Declines as You Age",
             "heading_size": "h1",
             "sub_heding": "About NAD Booster"
           }
@@ -224,7 +224,7 @@
         "text_Bbqg9T": {
           "type": "text",
           "settings": {
-            "text": "<p>Your 37.2 trillion cells are powered by NAD+, a vital coenzyme that fuels cellular energy and repair throughout your entire body. NAD+ levels naturally decline with age, lifestyle factors, and stressors. Replenishing NAD+ levels is essential for maintaining your cellular health, energy, and vitality.</p>",
+            "text": "<p>Your body contains roughly 37.2 trillion cells all of which are powered by NAD+, a vital coenzyme. NAD+ levels naturally decline over time, certain lifestyle factors, and stressors. Replenishing NAD+ levels is essential for maintaining your cellular health, energy, and vitality as you age.</p>",
             "text_style": "body"
           }
         },
@@ -232,7 +232,7 @@
           "type": "button",
           "settings": {
             "button_label": "Learn More",
-            "button_link": "",
+            "button_link": "shopify://pages/science-benefits",
             "button_style_secondary": false
           }
         },
@@ -315,7 +315,7 @@
           "settings": {
             "image": "shopify://shop_images/image_1.png",
             "heading": "Combats the Effects of Aging",
-            "text": "<p>Aging depletes NAD+ levels, leading to reduced cellular function. Our supplement helps restore these levels, supporting DNA repair and longevity. Feel younger and more vibrant every day.</p>",
+            "text": "<p>Aging depletes NAD+ levels leading to reduced cellular function. Our supplement aids in the restoration of NAD+ levels, supporting DNA repair, metabolism, and longevity to help you feel younger and more vibrant every day.*</p>",
             "text_key": "first_slide"
           }
         },
@@ -324,7 +324,7 @@
           "settings": {
             "image": "shopify://shop_images/image_2.png",
             "heading": "Boosts Cellular Energy",
-            "text": "<p>NAD+ fuels mitochondria, the powerhouse of your cells. By enhancing energy production, our formula helps you stay active, focused, and energized throughout the day.</p>",
+            "text": "<p>NAD+ supports mitochondria, the powerhouse of your cells. By enhancing energy production at a cellular level, our formula helps to support an active, focused, and energized lifestyle.*</p>",
             "text_key": "second_slide"
           }
         },
@@ -333,7 +333,7 @@
           "settings": {
             "image": "shopify://shop_images/image_3.png",
             "heading": "Supports Heart and Muscles",
-            "text": "<p>Healthy NAD+ levels contribute to optimal cardiovascular function and muscle recovery. Strengthen your heart, improve endurance, and reduce fatigue naturally.</p>",
+            "text": "<p>Healthy NAD+ levels contribute to optimal cardiovascular function and muscle recovery. Give your heart the reinforcement it needs to improve endurance and reduce fatigue naturally.*</p>",
             "text_key": "third_slide"
           }
         },
@@ -342,7 +342,7 @@
           "settings": {
             "image": "shopify://shop_images/image_4.png",
             "heading": "Fuels Cellular Repair",
-            "text": "<p>Every cell in your body relies on NAD+ for repair and regeneration. Our formula aids in cellular recovery, reducing oxidative stress and promoting overall resilience.</p>",
+            "text": "<p>Every cell in your body relies on NAD+ for repair and regeneration. Our formula is designed to aid cellular recovery by reducing oxidative stress, and promoting overall resilience.*</p>",
             "text_key": "forth_slide"
           }
         },
@@ -351,7 +351,7 @@
           "settings": {
             "sub_heading": "About NAD Booster",
             "heading": "Unlock the Power of NAD+ for a Healthier You",
-            "text": "<p>Reignite your body's natural vitality with Cata-Kor NAD+ supplements. Designed to replenish declining NAD+ levels, our formula supports cellular health, energy production, and overall well-being. Experience a boost in daily performance, enhanced resilience, and long-term wellness. From combating aging to fueling recovery, NAD+ is at the core of longevity. Take charge of your health and feel the difference today.</p>",
+            "text": "<p>Reignite your body's natural vitality with Cata-Kor NAD+ supplements. Designed to replenish declining NAD+ levels, our formula supports cellular health, energy production, and overall well-being. From combating aging to fueling recovery, NAD+ is at the core of longevity. Take charge of your health with Cata-Kor, and experience a boost in daily performance, enhanced resilience, and long-term wellness*.</p>",
             "text_key": "first_slide",
             "button_label_1": "Shop Now",
             "button_link_1": "#"
@@ -470,16 +470,6 @@
             "link": ""
           }
         },
-        "column_AgiVKJ": {
-          "type": "column",
-          "settings": {
-            "title": "Phill",
-            "text": "<p>“Love this product”</p>",
-            "product_rating_number": 5,
-            "link_label": "",
-            "link": ""
-          }
-        },
         "column_b9rjah": {
           "type": "column",
           "settings": {
@@ -500,6 +490,16 @@
             "link": ""
           }
         },
+        "column_AgiVKJ": {
+          "type": "column",
+          "settings": {
+            "title": "Phill",
+            "text": "<p>“Love this product”</p>",
+            "product_rating_number": 5,
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_Ecd6pE": {
           "type": "column",
           "settings": {
@@ -513,9 +513,9 @@
       },
       "block_order": [
         "column_fkGLxp",
-        "column_AgiVKJ",
         "column_b9rjah",
         "column_9GckFc",
+        "column_AgiVKJ",
         "column_Ecd6pE"
       ],
       "settings": {
