@@ -40,9 +40,22 @@
   background: rgba(0, 0, 0, 0.5);
   transition: background 0.5s ease-in-out;
 }
+@media only screen and (max-width: 749.98px) {
+  .slide .multicolumn-card__image-wrapper::after {
+    display: none;
+  }
+  .slide .text-content h3 {
+    opacity: 1;
+  }
+}
 
 .slide.active {
   flex-basis: 50%; /* Active slide takes up more space */
+}
+@media only screen and (max-width: 749.98px) {
+  .slide {
+    flex-basis: 50%;
+  }
 }
 
 .text-content {
@@ -74,7 +87,11 @@
 .slide.active .text-content p {
   opacity: 1;  /* Show description only on active slide */
 }
-
+@media only screen and (max-width: 749.98px) {
+  .slide .text-content p {
+    opacity: 1;
+  }
+}
 /* Progress bar */
 .progress-bar--background {
   background: #e4f69d;
@@ -87,6 +104,11 @@
   border-radius: 10px;
   display: flex;
   align-items: center;
+}
+@media only screen and (max-width: 749.98px) {
+  .progress-bar--background {
+    display: none;
+  }
 }
 .progress-bar {
   width: 0%;
@@ -102,6 +124,12 @@
 .slide.active .progress-bar {
   width: 100%;
   transition: width 3s linear;
+}
+@media only screen and (max-width: 749.98px) {
+  .slide .progress-bar {
+    width: 100%;
+    transition: width 3s linear;
+  }
 }
 
 .slide .media--portrait {
@@ -121,6 +149,11 @@
 @media only screen and (min-width: 750px) {
   .slide.active .media--portrait {
     padding-bottom: unset;
+  }
+}
+@media only screen and (max-width: 749.98px) {
+  .slide .media--portrait {
+    padding-bottom: 68%;
   }
 }
 

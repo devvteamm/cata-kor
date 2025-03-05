@@ -32,16 +32,16 @@
           "type": "description",
           "settings": {}
         },
-        "text_JbbN8K": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {}
+        },
+        "text_JbbN8K": {
+          "type": "text",
+          "settings": {
+            "text": "60 Capsules",
+            "text_style": "body"
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -80,8 +80,8 @@
         "title",
         "custom_rating_r6wQqG",
         "description",
-        "text_JbbN8K",
         "price",
+        "text_JbbN8K",
         "variant_picker",
         "quantity_selector",
         "main_ingredients_YH8znw",
@@ -137,33 +137,33 @@
         "logo_with_text_8UafWd": {
           "type": "logo_with_text",
           "settings": {
-            "text": "<p>NEW TO THE NAD+ GAME</p>",
-            "description": "LipoNAD+™ is a unique, trademarked formula designed to provide an ideal introduction to NAD+, enhancing cellular health and boosting energy levels. The minimum dose is a great place to start if you are new to supplements!",
+            "text": "<p>ADVANCED NAD+ USER</p>",
+            "description": "<p>Cata-Kor’s unique formula is designed to support cellular health and enhance NAD+ levels, contributing to the slowing of the aging process.</p>",
             "image": "shopify://shop_images/icon-person-question.png"
           }
         },
         "logo_with_text_xqyFKf": {
           "type": "logo_with_text",
           "settings": {
-            "text": "<p>THIRD-PARTY TESTED</p>",
-            "description": "Our LipoNAD+™ supplement is third-party tested in the USA to ensure its purity and effectiveness. Certificate found here.",
-            "image": "shopify://shop_images/icon-tested.png"
+            "text": "<p>SCIENCE-BACKED FORMULA</p>",
+            "description": "<p>NAD+ Advanced is crafted using cutting-edge research and developed in collaboration with expert physicians to ensure the highest quality and effectiveness in supporting cellular health.</p>",
+            "image": "shopify://shop_images/icon-skin-aging.png"
           }
         },
         "logo_with_text_WMGqgw": {
           "type": "logo_with_text",
           "settings": {
-            "text": "<p>SUPPORTS SKIN AGING</p>",
-            "description": "With 250 mg LipoNAD+™ an NMN supplement alternative that enhances your body's absorption and the utilization of NAD precursors to support cellular health and regeneration*.",
-            "image": "shopify://shop_images/icon-skin-aging.png"
+            "text": "<p>9.3x GREATER ABSORPTION</p>",
+            "description": "<p>500 mg LipoNAD+™ with Resveratrol enhances bioavailability, delivering superior absorption compared to regular NAD+ supplements*.</p>",
+            "image": "shopify://shop_images/icon-absorption.png"
           }
         },
         "logo_with_text_GBWXJn": {
           "type": "logo_with_text",
           "settings": {
-            "text": "<p>9.3x GREATER ABSORPTION</p>",
-            "description": "250 mg LipoNAD+™ enhances bioavailability, delivering superior absorption compared to regular NAD+*.",
-            "image": "shopify://shop_images/icon-absorption.png"
+            "text": "<p>THIRD-PARTY TESTED</p>",
+            "description": "<p>Our LipoNAD+™ supplement is third-party tested in the USA to ensure its purity and effectiveness. Certificate found <a href=\"https://cdn.shopify.com/s/files/1/0918/3667/8454/files/attachment-500.png?v=1741205200\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0918/3667/8454/files/attachment-500.png?v=1741205200\">here</a>.</p>",
+            "image": "shopify://shop_images/icon-tested.png"
           }
         }
       },
@@ -254,7 +254,7 @@
         "text_FnWeDN": {
           "type": "text",
           "settings": {
-            "text": "<p>The recommended dosage depends on your age and lifestyle factors. If you're exposed to physical stress or environmental factors, we suggest an additional 250-500mg of NAD+ per day.</p>",
+            "text": "<p>The recommended NAD+ Advanced dosage depends on your age and various lifestyle factors. If you're exposed to physical stress or environmental factors, we suggest an additional 250-500mg of NAD+ per day.</p>",
             "text_style": "subtitle"
           }
         },
@@ -262,8 +262,8 @@
           "type": "Product",
           "settings": {
             "product": "250mg-can-of-nad",
-            "product_image": "shopify://shop_images/nr_main_3.png",
-            "product_description": "<h3><strong>200mg Can of NAD</strong></h3><p>Age 35+: Larger stack → “500mg NAD+”</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+            "product_image": "shopify://shop_images/cata-kor-pdp-tabs-NAD-250.png",
+            "product_description": "<h3>NAD⁺ CORE 250mg</h3><p>Take Cata-Kor daily to unlock a higher NAD+ baseline and achieve desired results.*</p><p>Support healthy aging and boost cellular energy.*</p>",
             "button_text_buy": "SHOP NOW",
             "button_text": "NAD+ CORE 250mg",
             "background_color": ""
@@ -273,8 +273,8 @@
           "type": "Product",
           "settings": {
             "product": "500mg-can-of-nad",
-            "product_image": "shopify://shop_images/nr_main_3.png",
-            "product_description": "<h2><strong>500mg Can of NAD</strong></h2><p>Age 35+: Larger stack → “500mg NAD+”</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+            "product_image": "shopify://shop_images/cata-kor-pdp-tabs-NAD-250.png",
+            "product_description": "<h3>NAD⁺ ADVANCED 500mg</h3><p>Consistency is key, use Cata-Kor NAD+ Advanced daily</p><p>The Reservatrol difference: helps to support skin health and overall energy.*</p>",
             "button_text_buy": "SHOP NOW",
             "button_text": "NAD+ ADVANCED 500mg",
             "background_color": ""
@@ -326,7 +326,7 @@
         "slide_Kjy9Vy": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Group_1171276121.png",
+            "image": "shopify://shop_images/cata-kor-customslide-1-min.png",
             "title": "Healthy Aging",
             "description": "<p>Take two capsules daily as part of your routine to maximize benefits and support your body's natural NAD+ levels.</p>"
           }
@@ -334,7 +334,7 @@
         "slide_XyyEQm": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Group_1171276121.png",
+            "image": "shopify://shop_images/cata-kor-customslide-2-min.png",
             "title": "Brain Health",
             "description": "<p>Take two capsules daily as part of your routine to maximize benefits and support your body's natural NAD+ levels.</p>"
           }
@@ -342,7 +342,7 @@
         "slide_JbNDck": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Group_1171276121.png",
+            "image": "shopify://shop_images/cata-kor-customslide-3-min.png",
             "title": "Cellular Health",
             "description": "<p>Take two capsules daily as part of your routine to maximize benefits and support your body's natural NAD+ levels.</p>"
           }
@@ -350,7 +350,7 @@
         "slide_4PA7tt": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Group_1171276121.png",
+            "image": "shopify://shop_images/cata-kor-customslide-4-min.png",
             "title": "Cellular performance and repair",
             "description": "<p>Take two capsules daily as part of your routine to maximize benefits and support your body's natural NAD+ levels.</p>"
           }

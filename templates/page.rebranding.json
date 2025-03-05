@@ -38,7 +38,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now",
-            "button_link_1": "#",
+            "button_link_1": "shopify://products/500mg-can-of-nad",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -167,7 +167,7 @@
         "slide_hJX7Rb": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Group_1171276121.png",
+            "image": "shopify://shop_images/cata-kor-customslide-1-min.png",
             "title": "Healthy Aging",
             "description": ""
           }
@@ -175,7 +175,7 @@
         "slide_dRz8La": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Group_1171276121.png",
+            "image": "shopify://shop_images/cata-kor-customslide-2-min.png",
             "title": "Brain Health",
             "description": ""
           }
@@ -183,7 +183,7 @@
         "slide_39aePY": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Group_1171276121.png",
+            "image": "shopify://shop_images/cata-kor-customslide-3-min.png",
             "title": "Cellular Health",
             "description": ""
           }
@@ -191,7 +191,7 @@
         "slide_A9XVkL": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Group_1171276121.png",
+            "image": "shopify://shop_images/cata-kor-customslide-4-min.png",
             "title": "Cellular performance and repair",
             "description": ""
           }

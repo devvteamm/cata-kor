@@ -558,8 +558,8 @@
 }
 
 body.template-product .banner__box-logo-with-text--wrapper .logo-with-text-wrraper .logo img {
-  max-width: 6.2rem;
-  max-height: 6.2rem;
+  max-width: 7rem;
+  max-height: 7rem;
   object-fit: contain;
   overflow: hidden;
 }
@@ -574,7 +574,7 @@ body.template-product .banner__box-logo-with-text--wrapper .logo-with-text-wrrap
 }
 
 body.template-product .banner__box-logo-with-text--wrapper .logo-with-text-content {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .banner__box-logo-with-text--wrapper .logo-with-text-description {
@@ -757,7 +757,7 @@ h2.extra-small {
   }
   .image_banner_rebranding_page_hero_section .banner__content{
     background-color: #375B2B;
-  } 
+  }
   .image_banner_rebranding_page_hero_section .banner__heading{
     font-size: 4.5rem;
     line-height: 1.11;

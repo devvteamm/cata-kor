@@ -76,7 +76,7 @@
   justify-content: center;
   height: 6.2rem;
   width: 6.2rem;
-  position: absolute; 
+  position: absolute;
   /* transition: transform var(--duration-short) ease, color var(--duration-short) ease; */
   z-index: 1;
 }
@@ -144,7 +144,7 @@
 
 
 @media screen and (max-width: 1024px) {
-  .video_description { 
+  .video_description {
     max-width: 57%;
   }
 }
@@ -154,16 +154,17 @@
 }
 
 @media screen and (max-width: 769px) {
-  .video_description { 
+  .video_description {
     display: none;
   }
   .video_description-mobile {
     display: block;
     padding-inline: 1rem;
+    padding-bottom: 1px;
   }
 
   .deferred-media__poster-button.bottom-right {
     right: 3rem;
     bottom: 3rem;
-  }  
+  }
 }
