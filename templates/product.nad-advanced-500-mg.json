@@ -313,7 +313,7 @@
         "video": "shopify://files/videos/movie.mp4",
         "video_url": "",
         "description": "",
-        "video_description": "<p><strong>See the Science in Action!</strong> Watch how LipoNAD+™ works at a cellular level to boost energy, focus, and healthy aging.</p>",
+        "video_description": "",
         "full_width": true,
         "color_scheme": "scheme-603b64c2-7061-406c-a1c3-8d8dcc58cc1c",
         "padding_top": 0,
@@ -328,7 +328,7 @@
           "settings": {
             "image": "shopify://shop_images/cata-kor-customslide-1-min.png",
             "title": "Healthy Aging",
-            "description": "<p>Take two capsules daily as part of your routine to maximize benefits and support your body's natural NAD+ levels.</p>"
+            "description": ""
           }
         },
         "slide_XyyEQm": {
@@ -336,7 +336,7 @@
           "settings": {
             "image": "shopify://shop_images/cata-kor-customslide-2-min.png",
             "title": "Brain Health",
-            "description": "<p>Take two capsules daily as part of your routine to maximize benefits and support your body's natural NAD+ levels.</p>"
+            "description": ""
           }
         },
         "slide_JbNDck": {
@@ -344,7 +344,7 @@
           "settings": {
             "image": "shopify://shop_images/cata-kor-customslide-3-min.png",
             "title": "Cellular Health",
-            "description": "<p>Take two capsules daily as part of your routine to maximize benefits and support your body's natural NAD+ levels.</p>"
+            "description": ""
           }
         },
         "slide_4PA7tt": {
@@ -352,7 +352,7 @@
           "settings": {
             "image": "shopify://shop_images/cata-kor-customslide-4-min.png",
             "title": "Cellular performance and repair",
-            "description": "<p>Take two capsules daily as part of your routine to maximize benefits and support your body's natural NAD+ levels.</p>"
+            "description": ""
           }
         }
       },
