@@ -105,6 +105,11 @@
               {%- endcase -%}
             {%- endfor -%}
             </div>
+            {% if section.settings.show_stare_icon == true %}
+            <div class="green-stare-icon">
+                <img class="green-stare-icon_image" src="{{ 'about-us-green-stare.png' | file_url }}" alt="Icon" width="" height="">
+            </div>
+            {% endif %}
           </div>
         </div>
       </div>
@@ -260,6 +265,12 @@
       "id": "color_scheme",
       "label": "t:sections.multirow.settings.container_color_scheme.label",
       "default": "scheme-1"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_stare_icon",
+      "label": "Show stare icon",
+      "default": false
     },
     {
       "type": "header",

@@ -24,7 +24,7 @@
           "type": "heading",
           "settings": {
             "heading": "Fresh New Look, Same Powerful Formula.",
-            "heading_size": "h1"
+            "heading_size": "hxxl"
           }
         },
         "text_c9TPtb": {
@@ -53,16 +53,18 @@
       ],
       "settings": {
         "image": "shopify://shop_images/cata-kor-rebranding-hero.jpg",
+        "image_first_mobile": "shopify://shop_images/2_NAD5001_1_1_708205f5-b89c-45b1-9198-f79e50f9c648.png",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "large",
         "desktop_content_position": "top-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-4a883a37-99d1-4761-a71a-25fcb256acf5",
+        "color_scheme": "scheme-603b64c2-7061-406c-a1c3-8d8dcc58cc1c",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": true,
+        "custom_class": "image_banner_rebranding_page_hero_section"
       }
     },
     "product_evolution_yRdyz4": {
@@ -202,7 +204,7 @@
         "slide_A9XVkL"
       ],
       "settings": {
-        "section_color_scheme": "scheme-4",
+        "section_color_scheme": "scheme-3",
         "padding_top": 36,
         "padding_bottom": 36,
         "sub_title": "",
@@ -273,7 +275,7 @@
         "caption": "FAQs",
         "heading": "Frequently Asked Questions",
         "mobile_text": "",
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-61c54174-6908-4e3f-a360-364419028ed7",
         "container_color_scheme": "",
         "full_content": false,
         "open_first_collapsible_row": false,
