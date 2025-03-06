@@ -36,6 +36,7 @@
         },
         "button_Gtr7fh": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "GOODI347",
             "button_link": "#",
@@ -61,7 +62,8 @@
         "padding_top": 236,
         "padding_bottom": 48,
         "mobile_padding_top": 132,
-        "mobile_padding_bottom": 60
+        "mobile_padding_bottom": 60,
+        "coppy_button": "GOODI347"
       }
     },
     "text_EnVT9J": {
