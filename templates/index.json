@@ -51,7 +51,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now",
-            "button_link_1": "shopify://products/250mg-can-of-nad",
+            "button_link_1": "shopify://products/500mg-can-of-nad",
             "button_style_secondary_1": false
           }
         }
