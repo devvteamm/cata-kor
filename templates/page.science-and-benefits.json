@@ -200,6 +200,7 @@
         "image_shape": "default",
         "show_secondary_image": false,
         "show_description": true,
+        "show_custom_details": true,
         "show_price": false,
         "show_custom_button": "COA CERTIFICATE",
         "link_on_card_product": false,
