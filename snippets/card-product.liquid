@@ -108,10 +108,6 @@
         {%- endif -%}
         <div class="card__content">
           <div class="card__information">
-            {% assign product_title = card_product.title | escape %}
-            {% if card_product.metafields.custom.title != blank %}
-              {% assign product_title = card_product.metafields.custom.title.value | escape %}
-            {% endif %}
             <h3
               class="card__heading"
               {% if card_product.featured_media == null and settings.card_style == 'standard' %}
@@ -124,7 +120,7 @@
                 class="full-unstyled-link"
                 aria-labelledby="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }} NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
               >
-                {{ product_title }}
+                {{ card_product.title | escape }}
               </a>
             </h3>
             {% if show_description %}
@@ -154,10 +150,6 @@
       </div>
       <div class="card__content">
         <div class="card__information">
-          {% assign product_title = card_product.title | escape %}
-          {% if card_product.metafields.custom.title != blank %}
-            {% assign product_title = card_product.metafields.custom.title.value | escape %}
-          {% endif %}
           <h3
             class="card__heading{% if card_product.featured_media or settings.card_style == 'standard' %} h5{% endif %}"
             {% if card_product.featured_media or settings.card_style == 'card' %}
@@ -244,12 +236,7 @@
             {% endif %}
             {% if show_custom_button != blank %}
               <div class="card_product--custom__buttons">
-                {% if show_coa_certificate %}
-                  {% assign image_url = card_product.metafields.custom.coa_certificate | image_url: width: card_product.metafields.custom.coa_certificate.width %}
-                  <a href="{{ image_url }}"  target="_blank" class="shop_now_btn">{{ show_custom_button }}</a>
-                {%  else %}
-                  <a href="{{ card_product.url }}" class="shop_now_btn">{{ show_custom_button }}</a>
-                {% endif %}
+                <a href="{{ card_product.url }}" class="shop_now_btn">{{ show_custom_button }}</a>
               </div>
             {% endif %}
             {%- if card_product.quantity_price_breaks_configured? -%}
