@@ -179,10 +179,10 @@
           "background_gradient": "",
           "text": "#000000",
           "secondary_text": "#000000",
-          "button": "#ffffff",
-          "button_label": "#000000",
+          "button": "#375b2b",
+          "button_label": "#ffffff",
           "secondary_button_label": "#ffffff",
-          "shadow": "#121212"
+          "shadow": "#375b2b"
         }
       },
       "scheme-4": {
