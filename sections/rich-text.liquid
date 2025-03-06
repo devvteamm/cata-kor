@@ -89,6 +89,7 @@
                     {{- block.settings.button_label_2 | escape -}}
                   </a>
                 {%- endif -%}
+                <button class="button button--primary" onclick="copyCode()">GOODI347</button>
               </div>
           {%- endcase -%}
         {%- endfor -%}
@@ -96,22 +97,31 @@
     </div>
     {% if section.settings.show_accent_graphics %}
       {% comment %} <div class="show_accent_graphics--wrapper"> {% endcomment %}
-        <div class="left_side_graphics">
-          {{- 'icon-star-left.svg' | inline_asset_content -}}
-        </div>
-        <div class="right_side_graphics">
-          {{- 'icon-star-right.svg' | inline_asset_content -}}
-        </div>
+      <div class="left_side_graphics">
+        {{- 'icon-star-left.svg' | inline_asset_content -}}
+      </div>
+      <div class="right_side_graphics">
+        {{- 'icon-star-right.svg' | inline_asset_content -}}
+      </div>
       {% comment %} </div> {% endcomment %}
     {% endif %}
     {% if section.settings.show_star == true %}
       <div class="star-icon">
         {{- 'about-star.svg' | inline_asset_content -}}
       </div>
-  {% endif %}
+    {% endif %}
   </div>
 </div>
-
+<script>
+  function copyCode() {
+      const code = "GOODI347";
+      navigator.clipboard.writeText(code).then(() => {
+          alert("Code copied: " + code);
+      }).catch(err => {
+          console.error("Failed to copy: ", err);
+      });
+  }
+</script>
 {% schema %}
 {
   "name": "t:sections.rich-text.name",
@@ -141,7 +151,7 @@
     //   "default": "center",
     //   "label": "t:sections.rich-text.settings.desktop_content_position.label",
     //   "info": "Position is automatically optimized for mobile, Make container full width is inedible to not work"
-    // }, 
+    // },
     {
       "type": "select",
       "id": "content_alignment",
