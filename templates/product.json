@@ -272,7 +272,7 @@
         "product_hwCXUg": {
           "type": "Product",
           "settings": {
-            "product": "500mg-can-of-nad",
+            "product": "nad-advanced-500mg",
             "product_image": "shopify://shop_images/nr_main_3.png",
             "product_description": "<h2><strong>500mg Can of NAD</strong></h2><p>Age 35+: Larger stack → “500mg NAD+”</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
             "button_text_buy": "SHOP NOW",
@@ -571,7 +571,7 @@
       "settings": {
         "text_slogan": "",
         "product_list": [
-          "500mg-can-of-nad",
+          "nad-advanced-500mg",
           "nad-core-250mg"
         ],
         "image_ratio": "adapt",
