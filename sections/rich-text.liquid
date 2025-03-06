@@ -89,7 +89,7 @@
                     {{- block.settings.button_label_2 | escape -}}
                   </a>
                 {%- endif -%}
-                <button class="button button--primary" onclick="copyCode()">GOODI347</button>
+                <button class="button button--primary" onclick="copyCode(this)">GOODI347</button>
               </div>
           {%- endcase -%}
         {%- endfor -%}
@@ -113,8 +113,8 @@
   </div>
 </div>
 <script>
-  function copyCode() {
-      const code = "GOODI347";
+  function copyCode(button) {
+      const code = button.innerText; // Get button text dynamically
       navigator.clipboard.writeText(code).then(() => {
           alert("Code copied: " + code);
       }).catch(err => {
