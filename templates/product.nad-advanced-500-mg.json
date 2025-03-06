@@ -130,7 +130,7 @@
         "heading_GDGnmL": {
           "type": "heading",
           "settings": {
-            "heading": "Why NAD {{ product.metafields.custom.product_volume.value }}?",
+            "heading": "<p>Why NAD {{ product.metafields.custom.product_volume.value }}?</p>",
             "heading_size": "hxl"
           }
         },
@@ -198,14 +198,14 @@
         "heading_enNpGU": {
           "type": "heading",
           "settings": {
-            "heading": "30 days supply",
+            "heading": "<p>30 days supply</p>",
             "heading_size": "hxl"
           }
         },
         "heading_yBV7b3": {
           "type": "heading",
           "settings": {
-            "heading": "Consistency is key!",
+            "heading": "<p>Consistency is key!</p>",
             "heading_size": "extra-small"
           }
         },
@@ -263,7 +263,7 @@
         "product_4FFfq6": {
           "type": "Product",
           "settings": {
-            "product": "250mg-can-of-nad",
+            "product": "nad-core-250mg",
             "product_image": "shopify://shop_images/cata-kor-pdp-tabs-NAD-250.png",
             "product_description": "<h3>NAD⁺ CORE 250mg</h3><p>Take Cata-Kor daily to unlock a higher NAD+ baseline and achieve desired results.*</p><p>Support healthy aging and boost cellular energy.*</p>",
             "button_text_buy": "SHOP NOW",
@@ -274,7 +274,7 @@
         "product_hwCXUg": {
           "type": "Product",
           "settings": {
-            "product": "500mg-can-of-nad",
+            "product": "nad-advanced-500mg",
             "product_image": "shopify://shop_images/cata-kor-pdp-tabs-NAD-250.png",
             "product_description": "<h3>NAD⁺ ADVANCED 500mg</h3><p>Consistency is key, use Cata-Kor NAD+ Advanced daily</p><p>The Reservatrol difference: helps to support skin health and overall energy.*</p>",
             "button_text_buy": "SHOP NOW",
