@@ -182,7 +182,10 @@
 .custom-text-width-product-swiper .btn-slide {
   flex: 1 1 50%;
 }
-
+.custom-image-with-text .image-with-text__heading {
+  width: 100%;
+  max-width: 100% !important;
+}
 @media screen and (max-width: 1024px) {
   .custom-text-width-product-swiper .grid {
     gap: 3rem;
