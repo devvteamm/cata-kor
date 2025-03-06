@@ -156,6 +156,7 @@
   padding-block: 1rem;
   width: 100%;
   text-align: center;
+  cursor: pointer;
 }
 
 .custom-text-width-product-swiper
