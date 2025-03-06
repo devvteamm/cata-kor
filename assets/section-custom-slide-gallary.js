@@ -10,7 +10,23 @@ class CustomSlides extends HTMLElement {
       }
 
       let currentIndex = 0;
-      const intervalTime = 5000; // Change slide every 3 seconds
+      const intervalTime = 5000; // Change slide every 5 seconds
+
+      function setInitialSlide() {
+        slides.forEach((slide, index) => {
+          slide.classList.remove("active");
+          const progressBar = slide.querySelector(".progress-bar");
+          if (progressBar) {
+            progressBar.style.width = "0%"; // Reset progress bar
+          }
+          if (index === currentIndex) {
+            slide.classList.add("active");
+            if (progressBar) {
+              progressBar.style.width = "100%";
+            }
+          }
+        });
+      }
 
       function changeSlide() {
         slides.forEach((slide) => {
@@ -33,6 +49,9 @@ class CustomSlides extends HTMLElement {
           }
         }, 50);
       }
+
+      // Set the initial slide immediately
+      setInitialSlide();
 
       // Auto-change slides at a fixed interval
       let slideInterval = setInterval(changeSlide, intervalTime);
@@ -65,11 +84,6 @@ class CustomSlides extends HTMLElement {
         });
       });
 
-      // Start initial progress bar animation
-      const initialProgressBar = slides[currentIndex].querySelector(".progress-bar");
-      if (initialProgressBar) {
-        initialProgressBar.style.width = "100%";
-      }
     } catch (error) {
       console.error("Error initializing CustomSlides:", error);
     }
