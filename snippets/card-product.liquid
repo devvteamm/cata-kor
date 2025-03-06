@@ -236,7 +236,12 @@
             {% endif %}
             {% if show_custom_button != blank %}
               <div class="card_product--custom__buttons">
+                  {% if show_coa_certificate %}
+                  {% assign image_url = card_product.metafields.custom.coa_certificate | image_url: width: card_product.metafields.custom.coa_certificate.width %}
+                  <a href="{{ image_url }}"  target="_blank" class="shop_now_btn">{{ show_custom_button }}</a>
+                {%  else %}
                 <a href="{{ card_product.url }}" class="shop_now_btn">{{ show_custom_button }}</a>
+                {% endif %}
               </div>
             {% endif %}
             {%- if card_product.quantity_price_breaks_configured? -%}

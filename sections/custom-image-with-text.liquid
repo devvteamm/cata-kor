@@ -51,7 +51,8 @@
                     show_price: section.settings.show_price,
                     section_id: section.id,
                     show_custom_button: section.settings.show_custom_button,
-                    link_on_card_product: section.settings.link_on_card_product
+                    link_on_card_product: section.settings.link_on_card_product,
+                    show_coa_certificate: section.settings.show_coa_certificate
                   %}
                 </div>
               {%- endfor -%}
@@ -222,6 +223,12 @@
       "type": "text",
       "id": "show_custom_button",
       "label": "Show Custom button"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_coa_certificate",
+      "default": false,
+      "label": "Show coa certificate"
     },
     {
       "type": "checkbox",

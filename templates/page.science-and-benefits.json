@@ -203,6 +203,7 @@
         "show_custom_details": true,
         "show_price": false,
         "show_custom_button": "COA CERTIFICATE",
+        "show_coa_certificate": true,
         "link_on_card_product": false,
         "show_vendor": false,
         "show_rating": false,
