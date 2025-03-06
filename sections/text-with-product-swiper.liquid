@@ -31,47 +31,55 @@
       <div class="image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_product_card_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse image-with-text__grid--reverse_mobile{% endif %}">
         <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_product_card_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
           <div class="swiper-container">
-              {% comment %} {%- for block in section.blocks -%}
+            {% comment %}
+              {%- for block in section.blocks -%}
                 {% assign product_item = block.settings.product %}
                 \\\\{{ product_item.title }}
-              {% endfor %} {% endcomment %}
-              <!-- Slider main container -->
-               <div class="swiper text-with-product-container2">
-                  <!-- Additional required wrapper -->
-                  <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    {%- for block in section.blocks -%}
-                      {% if block.type == "Product" %}
-                        {% assign product_item = block.settings.product %}
-                        <div class="swiper-slide">
-                          <div class="product_container">
-                            <div class="product_image_container">
-                              <div class="product_image">
-                                {{ block.settings.product_image | image_url: width: 1440 | image_tag: width: 194, height: 194 }}
-                              </div>
-                            </div>
-                            <div class="p_description">
-                              <div class="Product_description">{{ block.settings.product_description }}</div>
-                              <div class="buy_now_button">{{ block.settings.button_text_buy |  link_to: product_item.url  }}</div>
-                            </div>
+              {% endfor %}
+            {% endcomment %}
+            <!-- Slider main container -->
+            <div class="swiper text-with-product-container2">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                {%- for block in section.blocks -%}
+                  {% if block.type == 'Product' %}
+                    {% assign product_item = block.settings.product %}
+                    <div class="swiper-slide">
+                      <div class="product_container">
+                        <div class="product_image_container">
+                          <div class="product_image">
+                            {{
+                              block.settings.product_image
+                              | image_url: width: 1440
+                              | image_tag: width: 194, height: 194
+                            }}
                           </div>
                         </div>
-                      {% endif %}
-                    {% endfor %}
-                  </div>
-               </div>
-              <div thumbsSlider="" class="swiper text-with-product-container">
-                <div class="swiper-wrapper">
-                  {%- for block in section.blocks -%}
-                    {% if block.type == "Product" %}
-                      <div class="swiper-slide btn-slide">
-                        <div class="product_title-btn">
-                          <button>{{ block.settings.button_text }}</button>
+                        <div class="p_description">
+                          <div class="Product_description">{{ block.settings.product_description }}</div>
+                          <div class="buy_now_button">
+                            {{ block.settings.button_text_buy | link_to: product_item.url }}
+                          </div>
                         </div>
                       </div>
-                    {% endif %}
-                  {% endfor %}
-                </div>
+                    </div>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            </div>
+            <div thumbsSlider="" class="swiper text-with-product-container">
+              <div class="swiper-wrapper">
+                {%- for block in section.blocks -%}
+                  {% if block.type == 'Product' %}
+                    <div class="swiper-slide btn-slide">
+                      <div class="product_title-btn">
+                        <button>{{ block.settings.button_text }}</button>
+                      </div>
+                    </div>
+                  {% endif %}
+                {% endfor %}
+              </div>
             </div>
           </div>
         </div>
@@ -90,7 +98,7 @@
                     class="image-with-text__heading inline-richtext {{ block.settings.heading_size }}"
                     {{ block.shopify_attributes }}
                   >
-                    {{ block.settings.heading }}
+                    {{ block.settings.heading | strip_html }}
                   </h2>
                 {%- when 'caption' -%}
                   <p
@@ -127,8 +135,8 @@
   </div>
 </div>
 
- <!-- Initialize Swiper -->
- <script>
+<!-- Initialize Swiper -->
+<script>
   document.addEventListener("DOMContentLoaded", function () {
       var swiper_text = new Swiper(".text-with-product-container", {
         spaceBetween: 10,
@@ -143,7 +151,6 @@
         },
       });
     });
-
 </script>
 
 {% schema %}
