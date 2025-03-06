@@ -85,7 +85,8 @@
 }
 
 .collapsible-row-layout .accordion {
-  border: var(--text-boxes-border-width) solid rgba(var(--color-foreground), var(--text-boxes-border-opacity));
+  border: var(--text-boxes-border-width) solid
+    rgba(var(--color-foreground), var(--text-boxes-border-opacity));
   margin-bottom: 1.5rem;
   /* Needed for gradient continuity with or without animation, the transform scopes the gradient to its container which happens already when animation are turned on */
   transform: perspective(0);
@@ -112,7 +113,8 @@
 /* check for flexbox gap in older Safari versions */
 @supports not (inset: 10px) {
   @media screen and (min-width: 750px) {
-    .collapsible-content__grid:not(.collapsible-content__grid--reverse) .grid__item:last-child,
+    .collapsible-content__grid:not(.collapsible-content__grid--reverse)
+      .grid__item:last-child,
     .collapsible-content__grid--reverse .collapsible-content__grid-item {
       padding-left: 5rem;
       padding-right: 0;
@@ -120,7 +122,8 @@
   }
 
   @media screen and (min-width: 990px) {
-    .collapsible-content__grid:not(.collapsible-content__grid--reverse) .grid__item:last-child,
+    .collapsible-content__grid:not(.collapsible-content__grid--reverse)
+      .grid__item:last-child,
     .collapsible-content__grid--reverse .collapsible-content__grid-item {
       padding-left: 7rem;
     }
@@ -129,200 +132,200 @@
 
 /* faq  */
 
-.faq .faq-content__wrapper{
+.faq .faq-content__wrapper {
   display: flex;
   gap: 1.9rem;
 }
-.faq .collapsible-content__header{
+.faq .collapsible-content__header {
   max-width: 32rem;
   width: 100%;
   text-align: left;
 }
-.faq .question{
+.faq .question {
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
-.faq .caption-with-letter-spacing{
-  font-family: 'Onest', serif;
+.faq .caption-with-letter-spacing {
+  font-family: "Onest", serif;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.75;
   letter-spacing: 0;
-  margin: 0; 
+  margin: 0;
   display: flex;
-  align-items: center; 
+  align-items: center;
   color: rgb(var(--color-secondary-text));
 }
 .faq .caption-with-letter-spacing::before {
   content: "";
   display: inline-block;
   width: 1.2rem;
-  height: .1rem;
+  height: 0.1rem;
   background-color: rgba(var(--color-secondary-text));
   margin-right: 1rem;
 }
 
-.faq .faq_header{
+.faq .faq_header {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
 }
-.faq .collapsible-content__heading{
+.faq .collapsible-content__heading {
   margin: 0;
-  font-size: 5.5rem;
+  font-size: 5.4rem;
   line-height: 1.27;
   letter-spacing: -0.22rem;
   color: rgb(var(--color-foreground));
   /* font-family: 'Teachers', serif; */
   font-weight: 600;
 }
-.faq .collapsible-content__header{
+.faq .collapsible-content__header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 1rem;
-} 
-.faq .faq_button{
+}
+.faq .faq_button {
   background-color: rgb(var(--color-secondary-text));
   color: rgb(var(--color-button-text));
   display: block;
   width: fit-content;
   padding: 1.4rem 3.7rem;
   text-decoration: none;
-  font-family: 'Teachers', serif;
+  font-family: "Teachers", serif;
   font-weight: 700;
   font-size: 1.6rem;
   line-height: 1.275;
   letter-spacing: 0;
   border-radius: 23.2rem;
 }
-.faq .accordion{
+.faq .accordion {
   border-radius: 1.6rem;
-  border: 1px solid #E5E5E5;
+  border: 1px solid #e5e5e5;
   /* padding: 2.7rem 3.3rem 2.7rem 2.7rem; */
   margin-top: 0;
 }
-.faq .collapsible-content summary:hover{
+.faq .collapsible-content summary:hover {
   background-color: rgb(var(--gradient-background));
 }
-.faq .accordion__title{
-  font-family: 'Teachers', serif;
+.faq .accordion__title {
+  font-family: "Teachers", serif;
   font-weight: 600;
   font-size: 2rem;
   line-height: 1.275;
-  letter-spacing: -0.20px;  
+  letter-spacing: -0.2px;
 }
-.faq .collapsible-content summary:hover .accordion__title{
+.faq .collapsible-content summary:hover .accordion__title {
   text-decoration: none;
 }
-.faq .accordion__content{
+.faq .accordion__content {
   padding: 0;
 }
-.faq .accordion__content p{
+.faq .accordion__content p {
   padding: 1.6rem 4.3rem 0rem;
-  font-family: 'Teachers', serif;
+  font-family: "Teachers", serif;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.5625;
   letter-spacing: 0;
   margin: 0 auto;
-  border-top: 1px solid #E5E5E5;
+  border-top: 1px solid #e5e5e5;
   width: calc(100% - 60px);
 }
-.faq .faq_button_mobile{
+.faq .faq_button_mobile {
   display: none;
 }
-.faq .accordion summary{
+.faq .accordion summary {
   padding: 2.7rem 3.3rem 2.7rem 2.7rem;
 }
-.faq .accordion details[open] summary{
+.faq .accordion details[open] summary {
   padding-bottom: 4.6rem;
 }
 .faq .vector-icon {
   position: relative;
 }
-.faq .vector-icon svg{
+.faq .vector-icon svg {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   right: 25%;
 }
-.faq.faq_fullContent .faq-content__wrapper{
+.faq.faq_fullContent .faq-content__wrapper {
   flex-direction: column;
 }
-.faq.faq_fullContent .collapsible-content__header{
+.faq.faq_fullContent .collapsible-content__header {
   max-width: 100%;
 }
-.faq.faq_fullContent .collapsible-content__heading{
+.faq.faq_fullContent .collapsible-content__heading {
   max-width: 56.2rem;
   width: 100%;
   margin: 0 auto;
 }
-.faq.faq_fullContent .faq_header{
+.faq.faq_fullContent .faq_header {
   text-align: center;
 }
-.faq summary .icon-caret{
+.faq summary .icon-caret {
   right: 3.3rem;
 }
-.faq.faq_fullContent .vector-icon{
+.faq.faq_fullContent .vector-icon {
   display: none;
 }
-.faq.faq_fullContent .faq_button_mobile{
+.faq.faq_fullContent .faq_button_mobile {
   display: block;
 }
-.faq.faq_fullContent .faq_button{
+.faq.faq_fullContent .faq_button {
   display: none;
 }
-.faq.faq_fullContent .faq-content__wrapper{
+.faq.faq_fullContent .faq-content__wrapper {
   gap: 5rem;
 }
 
-.faq.faq_fullContent .caption-with-letter-spacing{
+.faq.faq_fullContent .caption-with-letter-spacing {
   justify-content: center;
 }
-.faq .collapsible-content__mobile-text{
+.faq .collapsible-content__mobile-text {
   display: none;
-  font-family: 'Teachers', serif;
+  font-family: "Teachers", serif;
   font-weight: 400;
   font-size: 2rem;
   line-height: 1.6;
   letter-spacing: 0;
 }
-.faq .collapsible-content__mobile-text p{
+.faq .collapsible-content__mobile-text p {
   margin: 0;
 }
-.faq .accordion__title_number{
+.faq .accordion__title_number {
   margin-right: 1.6rem;
 }
 
 @media screen and (max-width: 989px) {
-  .faq .faq-content__wrapper{
+  .faq .faq-content__wrapper {
     flex-direction: column;
   }
-  .faq .collapsible-content__header{
+  .faq .collapsible-content__header {
     max-width: 100%;
   }
-  .faq .collapsible-content__heading{
+  .faq .collapsible-content__heading {
     font-size: 4rem;
   }
-  .faq .faq_button{
+  .faq .faq_button {
     display: none;
   }
-  .faq .faq_button_mobile{
+  .faq .faq_button_mobile {
     display: block;
   }
-  .faq .vector-icon{
+  .faq .vector-icon {
     display: none;
-  } 
+  }
 }
 
 @media screen and (max-width: 749px) {
-  .faq .accordion__content{
+  .faq .accordion__content {
     margin-bottom: 2.6rem;
   }
-  .faq .faq-content__wrapper{
+  .faq .faq-content__wrapper {
     gap: 3rem;
   }
   .faq .collapsible-content__heading {
@@ -330,13 +333,13 @@
     line-height: 1.11;
     letter-spacing: 0.135px;
   }
-  .faq .collapsible-content__mobile-text{
+  .faq .collapsible-content__mobile-text {
     display: block;
   }
-  .faq.faq_fullContent .collapsible-content__mobile-text{
+  .faq.faq_fullContent .collapsible-content__mobile-text {
     display: none;
   }
-  .faq .faq_header{
+  .faq .faq_header {
     gap: 2rem;
   }
   .faq .accordion summary {
@@ -344,10 +347,10 @@
     min-height: 100px;
     height: 100%;
   }
-  .faq .accordion__title{
+  .faq .accordion__title {
     font-size: 2rem;
   }
-  .faq .accordion__content p{
+  .faq .accordion__content p {
     padding: 1rem;
     padding-top: 1.6rem;
     padding-bottom: 0;
@@ -355,18 +358,18 @@
     font-size: 1.6rem;
     padding-left: 4rem;
   }
-  .faq .question{
+  .faq .question {
     gap: 1rem;
   }
-  .faq .faq_button{
+  .faq .faq_button {
     padding: 1.4rem 3.4rem;
     margin-top: 2.2rem;
     font-size: 1.6rem;
   }
-  .faq summary .icon-caret{
+  .faq summary .icon-caret {
     right: 1.5rem;
   }
-  .faq.faq_fullContent .faq-content__wrapper{
+  .faq.faq_fullContent .faq-content__wrapper {
     gap: 2rem;
   }
 }
