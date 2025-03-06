@@ -18,7 +18,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Mask_group_1.png",
-            "image_width": 165,
+            "image_width": 550,
             "alignment": "",
             "image_text": "<p>Health supplements designed to support the lifestyle you deserve.</p>",
             "show_icon": true
