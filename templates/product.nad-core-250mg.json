@@ -247,7 +247,7 @@
           "type": "heading",
           "settings": {
             "heading": "Daily Serving Recommendations",
-            "heading_size": "hxl",
+            "heading_size": "h0",
             "sub_heding": "Dosage"
           }
         },
