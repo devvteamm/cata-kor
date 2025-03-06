@@ -11,6 +11,9 @@
   "sections": {
     "cart-items": {
       "type": "main-cart-items",
+      "custom_css": [
+        "cart-items {padding-top: 150px}"
+      ],
       "settings": {
         "color_scheme": "scheme-1",
         "padding_top": 100,
