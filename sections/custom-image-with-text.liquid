@@ -34,7 +34,6 @@
       <div class="image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_product_card_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse image-with-text__grid--reverse_mobile{% endif %}">
         <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_product_card_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
           <div class="banner__box-product--wrapper">
-            {{ section.settings.show_custom_details }}
             {%- assign product_blocks = section.settings.product_list -%}
 
             {% if product_blocks %}
