@@ -48,7 +48,7 @@
         "show_cutomer_icon": false,
         "show_cart_icon": false,
         "custom_button_text": "Shop Now",
-        "custom_button_link": "shopify://products/500mg-can-of-nad",
+        "custom_button_link": "shopify://products/nad-advanced-500mg",
         "color_scheme": "scheme-1",
         "menu_color_scheme": "scheme-1",
         "enable_country_selector": true,
