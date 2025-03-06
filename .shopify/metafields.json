@@ -43,7 +43,7 @@
     {
       "key": "Ingredients",
       "namespace": "custom",
-      "name": "main Ingredients",
+      "name": "Main Ingredients",
       "description": "",
       "type": {
         "name": "multi_line_text_field",
@@ -78,6 +78,16 @@
       "type": {
         "name": "multi_line_text_field",
         "category": "TEXT"
+      }
+    },
+    {
+      "key": "coa_certificate",
+      "namespace": "custom",
+      "name": "COA certificate",
+      "description": "",
+      "type": {
+        "name": "file_reference",
+        "category": "REFERENCE"
       }
     }
   ],
