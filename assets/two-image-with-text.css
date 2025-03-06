@@ -1114,7 +1114,7 @@
     line-height: 1;
   }
   .second_image {
-    transform: translate(25%);
+    transform: translate(60%);
   }
   .two-image-with-text-main .image-with-text__media img {
     object-position: -60px;
