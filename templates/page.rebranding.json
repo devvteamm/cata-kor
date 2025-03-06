@@ -24,11 +24,12 @@
           "type": "heading",
           "settings": {
             "heading": "<p>Fresh New Look, <br/>Same Powerful Formula.</p>",
-            "heading_size": "hxxl"
+            "heading_size": "hxl"
           }
         },
         "text_c9TPtb": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Fresh Look, Same Powerful Formula / Reimagined Aesthetics, Advanced Formula",
             "text_style": "body"
@@ -143,14 +144,14 @@
         "left_color": "#ece9e2",
         "right_color": "#f3f1ed",
         "product1_image": "shopify://shop_images/product_1.png",
-        "product1_name": "NAD250",
+        "product1_name": "NAD⁺ CORE 250mg",
         "product1_text1": "Essential NAD+ support for everyday vitality",
         "product1_text2": "New scientifically-backed ingredient",
         "product1_text3": "Unique liposomal technology",
         "product1_text4": "Balanced dosage, free from side effects",
         "product1_text5": "",
         "product2_image": "shopify://shop_images/product_1.png",
-        "product2_name": "NAD500",
+        "product2_name": "NAD⁺ ADVANCED 500mg",
         "product2_text1": "Advanced formula with Resveratrol for anti-aging",
         "product2_text2": "New scientifically-backed ingredient",
         "product2_text3": "Unique liposomal technology",

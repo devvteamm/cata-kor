@@ -5,7 +5,6 @@
   text-decoration: none;
 }
 
-
 .card {
   text-decoration: none;
   text-align: var(--text-alignment);
@@ -470,6 +469,10 @@
   .underline-links-hover:hover a {
     text-decoration: underline;
     text-underline-offset: 0.3rem;
+  }
+
+  .card-wrapper:hover a{
+    text-decoration: none;
   }
 }
 

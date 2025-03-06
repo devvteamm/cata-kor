@@ -294,7 +294,7 @@ h5,
 }
 
 .hxl {
-  font-size: calc(var(--font-heading-scale) * 4.5rem);
+  font-size: calc(var(--font-heading-scale) * 3.4rem);
   line-height: calc(1 + 0.3 / max(1, var(--font-heading-scale)));
   letter-spacing: -1px;
 }
@@ -2410,6 +2410,10 @@ input[type="checkbox"] {
   background-color: rgb(var(--color-background));
 }
 
+.header-wrapper.header--sticky-unset{
+  position: unset;
+}
+
 .header-wrapper.gradient {
   /* background: linear-gradient(to right, #FFFFFF 50%, var(--gradient-background) 50%); */
   background: transparent;
@@ -4043,4 +4047,8 @@ details-disclosure > details {
   .hxl {
     font-size: calc(var(--font-heading-scale) * 4rem);
   }
+}
+
+a{
+  color: rgba(var(--color-foreground));
 }

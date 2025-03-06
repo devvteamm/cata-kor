@@ -130,7 +130,7 @@
         "heading_GDGnmL": {
           "type": "heading",
           "settings": {
-            "heading": "Why NAD {{ product.metafields.custom.product_volume.value }}?",
+            "heading": "<p>Why NAD {{ product.metafields.custom.product_volume.value }}?</p>",
             "heading_size": "hxl"
           }
         },
@@ -138,7 +138,7 @@
           "type": "logo_with_text",
           "settings": {
             "text": "<p>NEW TO THE NAD+ GAME</p>",
-            "description": "LipoNAD+™ is a unique, trademarked formula designed to provide an ideal introduction to NAD+, enhancing cellular health and boosting energy levels. The minimum dose is a great place to start if you are new to supplements!",
+            "description": "<p>LipoNAD+™ is a unique, trademarked formula designed to provide an ideal introduction to NAD+, enhancing cellular health and boosting energy levels. The minimum dose is a great place to start if you are new to supplements!</p>",
             "image": "shopify://shop_images/icon-person-question.png"
           }
         },
@@ -146,7 +146,7 @@
           "type": "logo_with_text",
           "settings": {
             "text": "<p>THIRD-PARTY TESTED</p>",
-            "description": "Our LipoNAD+™ supplement is third-party tested in the USA to ensure its purity and effectiveness. Certificate found here.",
+            "description": "<p>Our LipoNAD+™ supplement is third-party tested in the USA to ensure its purity and effectiveness. Certificate found here.</p>",
             "image": "shopify://shop_images/icon-tested.png"
           }
         },
@@ -154,7 +154,7 @@
           "type": "logo_with_text",
           "settings": {
             "text": "<p>SUPPORTS SKIN AGING</p>",
-            "description": "With 250 mg LipoNAD+™ an NMN supplement alternative that enhances your body's absorption and the utilization of NAD precursors to support cellular health and regeneration*.",
+            "description": "<p>With 250 mg LipoNAD+™ an NMN supplement alternative that enhances your body's absorption and the utilization of NAD precursors to support cellular health and regeneration*.</p>",
             "image": "shopify://shop_images/icon-skin-aging.png"
           }
         },
@@ -162,7 +162,7 @@
           "type": "logo_with_text",
           "settings": {
             "text": "<p>9.3x GREATER ABSORPTION</p>",
-            "description": "250 mg LipoNAD+™ enhances bioavailability, delivering superior absorption compared to regular NAD+*.",
+            "description": "<p>250 mg LipoNAD+™ enhances bioavailability, delivering superior absorption compared to regular NAD+*.</p>",
             "image": "shopify://shop_images/icon-absorption.png"
           }
         }
@@ -188,6 +188,7 @@
         "mobile_content_alignment": "left",
         "stack_images_on_mobile": true,
         "show_text_below": true,
+        "show_custom_details": true,
         "custom_class": "image-banner__pdp-why"
       }
     },
@@ -197,14 +198,14 @@
         "heading_enNpGU": {
           "type": "heading",
           "settings": {
-            "heading": "30 days supply",
+            "heading": "<p>30 days supply</p>",
             "heading_size": "hxl"
           }
         },
         "heading_yBV7b3": {
           "type": "heading",
           "settings": {
-            "heading": "Consistency is key!",
+            "heading": "<p>Consistency is key!</p>",
             "heading_size": "extra-small"
           }
         },
@@ -237,6 +238,7 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true,
+        "show_custom_details": true,
         "custom_class": "image-banner__pdp-30-days"
       }
     },
@@ -261,7 +263,7 @@
         "product_4FFfq6": {
           "type": "Product",
           "settings": {
-            "product": "250mg-can-of-nad",
+            "product": "nad-core-250mg",
             "product_image": "shopify://shop_images/nr_main_3.png",
             "product_description": "<h3><strong>200mg Can of NAD</strong></h3><p>Age 35+: Larger stack → “500mg NAD+”</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
             "button_text_buy": "SHOP NOW",
@@ -272,7 +274,7 @@
         "product_hwCXUg": {
           "type": "Product",
           "settings": {
-            "product": "500mg-can-of-nad",
+            "product": "nad-advanced-500mg",
             "product_image": "shopify://shop_images/nr_main_3.png",
             "product_description": "<h2><strong>500mg Can of NAD</strong></h2><p>Age 35+: Larger stack → “500mg NAD+”</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
             "button_text_buy": "SHOP NOW",
@@ -578,8 +580,10 @@
         "image_shape": "default",
         "show_secondary_image": false,
         "show_description": true,
+        "show_custom_details": false,
         "show_price": true,
         "show_custom_button": "Shop Now",
+        "show_coa_certificate": false,
         "link_on_card_product": false,
         "show_vendor": false,
         "show_rating": true,

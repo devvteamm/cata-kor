@@ -1,10 +1,9 @@
 .product-compare .product-compare__heding{
   /* font-family: "Nohemi-Regular"; */
-  font-size: 5.5rem;
+  font-size: 4rem;
   line-height: 1.27;
   letter-spacing: 0;
   text-align: center;
-  max-width: 65.3rem;
   width: 100%;
   margin: 0 auto;
 }
@@ -29,11 +28,11 @@
   border-radius: 12px;
   line-height: 0;
   padding-block: 18px;
-  padding-inline: 24px;
-  font-family: 'Onest', sans-serif;
+  padding-inline: 15px;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 2rem;
   letter-spacing: 0;
+  width: 80%;
 }
 
 .right-side_container,.left-side_container {
@@ -140,7 +139,7 @@ footer{
   }
 
   .product-compare .product-compare__heding {
-    font-size: 45px;
+    font-size: 25px;
   }
 
   .product-compare .product_container {
@@ -162,7 +161,7 @@ footer{
   .section .product-compare{
     background: linear-gradient(to bottom, var(--left-side-color) 55%, var(--right-side-color) 50%);
   }
-  .product-compare .product_text .text{{
+  .product-compare .product_text .text{
     font-size: 1.8rem;
   }
 

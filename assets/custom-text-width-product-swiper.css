@@ -273,3 +273,11 @@
     margin-left: auto;
   }
 }
+@media screen and (max-width:749px) {
+  .custom-text-width-product-swiper.custom-image-with-text::after{
+    width: 150px;
+    height: 150px;
+    top: 0;
+    right: 0;
+  }
+}

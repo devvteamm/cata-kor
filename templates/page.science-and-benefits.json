@@ -50,7 +50,8 @@
         "caption_AKVwBr"
       ],
       "custom_css": [
-        ".two-image-with-text {background: unset;}"
+        ".two-image-with-text {background: unset;}",
+        "@media screen and (max-width: 749px) {.second_image {position: absolute; bottom: 0; left: -9%; transform: translate(60%); max-width: 39rem; width: 41vw; } .image-with-text__media img {display: block; max-width: 100%; position: absolute; top: 0; left: 25%; height: 100%; width: 100%; }}"
       ],
       "settings": {
         "text_slogan": "",

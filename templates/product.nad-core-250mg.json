@@ -130,7 +130,7 @@
         "heading_GDGnmL": {
           "type": "heading",
           "settings": {
-            "heading": "Why NAD {{ product.metafields.custom.product_volume.value }}?",
+            "heading": "<p>Why NAD {{ product.metafields.custom.product_volume.value }}?</p>",
             "heading_size": "hxl"
           }
         },
@@ -198,14 +198,14 @@
         "heading_enNpGU": {
           "type": "heading",
           "settings": {
-            "heading": "30 days supply",
+            "heading": "<p>30 days supply</p>",
             "heading_size": "hxl"
           }
         },
         "heading_yBV7b3": {
           "type": "heading",
           "settings": {
-            "heading": "Consistency is key!",
+            "heading": "<p>Consistency is key!</p>",
             "heading_size": "extra-small"
           }
         },
@@ -289,7 +289,9 @@
         "product_4FFfq6",
         "product_hwCXUg"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "@media screen and (max-width: 749px) {.custom-image-with-text {padding-top: 10px; }}"
+      ],
       "settings": {
         "text_slogan": "",
         "desktop_product_card_width": "medium",

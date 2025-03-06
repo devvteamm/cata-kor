@@ -12,16 +12,16 @@
 }
 
 .image-with-text__text {
-  font-family: "Onest", sans-serif;
+  font-family: 'Teachers', serif;
   font-weight: 400;
   letter-spacing: 0;
   font-size: 2rem;
 }
 
 .two-image-with-text .image-with-text__text h1 {
-  /* font-family: 'Nohemi-Medium', sans-serif; */
+  font-family: 'Teachers', serif;
   font-weight: 400;
-  font-size: 8rem;
+  font-size: 6rem;
   color: #e4f69d;
   line-height: 1.125;
   margin-bottom: 1.2rem;
@@ -727,7 +727,7 @@
   margin-top: 0;
 }
 .two-image-with-text .image-with-text__heading.hxxl {
-  font-size: 8.5rem;
+  font-size: 6.5rem;
   line-height: 1.058;
 }
 
@@ -735,7 +735,6 @@
   /* padding-bottom: 6.4rem; */
 }
 .two-image-with-text .image-with-text__text {
-  font-family: Onest, serif;
   font-weight: 400;
   font-size: 2rem;
   line-height: 1.4;
