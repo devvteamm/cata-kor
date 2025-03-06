@@ -4017,5 +4017,5 @@ details-disclosure > details {
   backdrop-filter: blur(5px); */
 }
 .header-wrapper .header__submenu .header__menu-item {
-  color: #000 !important;
+  color: #000;
 }
