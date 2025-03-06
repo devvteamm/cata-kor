@@ -4019,3 +4019,8 @@ details-disclosure > details {
 .header-wrapper .header__submenu .header__menu-item {
   color: #000;
 }
+@media screen and (max-width: 390px) {
+  .hxl {
+    font-size: calc(var(--font-heading-scale) * 4rem);
+  }
+}
