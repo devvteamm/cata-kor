@@ -61,7 +61,7 @@
         "collapsible_row_UFCxNQ": {
           "type": "collapsible_row",
           "settings": {
-            "heading": " Are your products gluten-free?",
+            "heading": "Are your products gluten-free?",
             "icon": "none",
             "row_content": "<p>Yes</p>",
             "page": ""
