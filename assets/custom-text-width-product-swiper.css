@@ -124,6 +124,11 @@
   text-align: center;
   text-decoration: none;
 }
+.custom-text-width-product-swiper .buy_now_button a:hover{
+  background-color: #fff;
+  color: #375b2b;
+  border: 2px solid #375b2b;
+}
 
 .custom-text-width-product-swiper .text-with-product-container {
   margin-top: 2rem;

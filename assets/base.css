@@ -1258,6 +1258,12 @@ button.shopify-payment-button__button--unbranded {
   background-color: rgba(var(--color-button), var(--alpha-button-background));
 }
 
+.button:hover{
+  background-color: #fff;
+  color: #375b2b;
+  outline: 2px solid #375b2b;
+}
+
 .button:before,
 .shopify-challenge__button:before,
 .customer button:before,
@@ -2452,6 +2458,12 @@ input[type="checkbox"] {
   color: rgb(var(--color-button-text));
 }
 
+.shop_now_btn:hover{
+  background-color: #FFF;
+  color: rgba(var(--color-button), var(--alpha-button-background));
+  outline: 2px solid rgba(var(--color-button), var(--alpha-button-background));
+}
+
 .header-wrapper.header--bg-color .shop_now_btn {
   background-color: #e4f69d;
   color: #000;
@@ -2961,6 +2973,9 @@ details[open] > .header__menu-item .icon-caret {
   color: rgb(var(--color-foreground));
   text-decoration: underline;
   text-underline-offset: 0.3rem;
+}
+.header-wrapper.header--bg-color .header__active-menu-item{
+  color: #fff;
 }
 
 .header__menu-item:hover .header__active-menu-item {
@@ -4005,6 +4020,11 @@ details-disclosure > details {
 .header.header--bg-color .header__buttons a {
   background-color: #e4f69d;
   color: #000;
+}
+.header--bg-color .header .header__buttons .shop_now_btn:hover{
+  background-color: #FFF;
+  color: #375b2b;
+  border: 2px solid #375b2b;
 }
 .section-header.scrolled-past-header .header--bg-white {
   background-color: rgba(255, 255, 255, 0.4);

@@ -611,6 +611,12 @@
   right: .6rem;
   text-transform: uppercase;
 } 
+
+.footer .footer_text-block .field .newsletter-form__button:hover{
+  background: #fff;
+  color: #375b2b;
+  outline: 2px solid #375b2b;
+}
 .footer .grid__item{
   flex-grow: 0;
 }

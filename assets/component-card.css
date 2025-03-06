@@ -5,6 +5,7 @@
   text-decoration: none;
 }
 
+
 .card {
   text-decoration: none;
   text-align: var(--text-alignment);
@@ -118,6 +119,12 @@
   text-align: center;
   padding: 1.35rem 1.7rem;
   border-radius: 23.2rem;
+}
+.card_product--custom__buttons .shop_now_btn:hover{
+  text-decoration: none;
+  background: #fff;
+  color: rgba(var(--color-button), var(--alpha-button-background));
+  outline: 2px solid rgba(var(--color-button), var(--alpha-button-background));
 }
 
 .card__media,

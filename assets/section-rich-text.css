@@ -202,6 +202,11 @@
   padding: 1.2rem 4.6rem;
   border: 1.54px solid rgba(27, 53, 42, .25);
 }
+.lifetime-warranty .rich-text__buttons .button--primary:hover{
+  background: #fff;
+  color: #375b2b;
+  border: 1.54px solid #375b2b;
+}
 
 @media screen and (max-width: 989px) {
   .about-us .rich-text__heading{

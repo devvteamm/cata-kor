@@ -201,6 +201,11 @@
   letter-spacing: 0;
   border-radius: 23.2rem;
 }
+.faq .faq_button:hover{
+  background-color: rgb(var(--color-button-text));
+  color: rgb(var(--color-secondary-text));
+  outline: 2px solid rgb(var(--color-secondary-text));
+}
 .faq .accordion {
   border-radius: 1.6rem;
   border: 1px solid #e5e5e5;

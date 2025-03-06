@@ -14,6 +14,11 @@
   margin-bottom: 1.5rem;
 }
 
+.contact__button .button:hover{
+  background-color: #fff;
+  color: rgba(var(--color-button), var(--alpha-button-background));
+  outline: 2px solid rgba(var(--color-button), var(--alpha-button-background));
+}
 @media screen and (min-width: 750px) {
   .contact .field {
     margin-bottom: 2rem;
