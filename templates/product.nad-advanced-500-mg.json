@@ -246,7 +246,7 @@
         "heading_kGrADc": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Daily</p><p>Serving</p><p>Recommendations</p>",
+            "heading": "Daily Serving Recommendations",
             "heading_size": "hxl",
             "sub_heding": "Dosage"
           }
