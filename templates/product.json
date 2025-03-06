@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "sections": {
     "main": {
       "type": "main-product",
@@ -260,7 +260,7 @@
         "product_4FFfq6": {
           "type": "Product",
           "settings": {
-            "product": "250mg-can-of-nad",
+            "product": "nad-core-250mg",
             "product_image": "shopify://shop_images/nr_main_3.png",
             "product_description": "<h3><strong>200mg Can of NAD</strong></h3><p>Age 35+: Larger stack → “500mg NAD+”</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
             "button_text_buy": "SHOP NOW",
@@ -476,7 +476,7 @@
         "text_slogan": "",
         "product_list": [
           "500mg-can-of-nad",
-          "250mg-can-of-nad"
+          "nad-core-250mg"
         ],
         "image_ratio": "adapt",
         "image_shape": "default",
@@ -505,7 +505,7 @@
         "product_nBrAwV": {
           "type": "Product",
           "settings": {
-            "product": "250mg-can-of-nad",
+            "product": "nad-core-250mg",
             "image_ratio": "square",
             "image_shape": "default",
             "show_secondary_image": false,
