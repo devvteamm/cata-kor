@@ -36,7 +36,6 @@
         },
         "button_Gtr7fh": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "button_label": "GOODI347",
             "button_link": "#",
