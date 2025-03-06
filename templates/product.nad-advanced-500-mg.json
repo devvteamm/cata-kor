@@ -583,8 +583,8 @@
       "settings": {
         "text_slogan": "",
         "product_list": [
-          "500mg-can-of-nad",
-          "250mg-can-of-nad"
+          "nad-core-250mg",
+          "nad-advanced-500mg"
         ],
         "image_ratio": "adapt",
         "image_shape": "default",
@@ -593,6 +593,7 @@
         "show_custom_details": true,
         "show_price": true,
         "show_custom_button": "Shop Now",
+        "show_coa_certificate": false,
         "link_on_card_product": false,
         "show_vendor": false,
         "show_rating": true,
