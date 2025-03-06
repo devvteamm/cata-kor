@@ -69,7 +69,7 @@
     "text_EnVT9J": {
       "type": "text",
       "settings": {
-        "paragraph": "<p><strong>*Our LIFETIME WARRANTY</strong> ensures that you keep smiling long after you bought your item and we want to keep it that way no matter what. We'll be more than happy to replace, or refund the item for you if it is defective, damaged or you're not satisfied with the results. <span style=\"text-decoration:underline\"><strong>FEEL FREE TO CONTACT US</strong></span></p>",
+        "paragraph": "<p><strong>*Our LIFETIME WARRANTY</strong> ensures that you keep smiling long after you bought your item and we want to keep it that way no matter what. We'll be more than happy to replace, or refund the item for you if it is defective, damaged or you're not satisfied with the results. <a href=\"/pages/contact\" target=\"_blank\" title=\"/pages/contact\"><span style=\"text-decoration:underline\"><strong>FEEL FREE TO CONTACT US</strong></span></a></p>",
         "color_scheme": "scheme-41f8d28c-2279-47f0-8f39-bd10f09968cd",
         "padding_top": 45,
         "padding_bottom": 47,
