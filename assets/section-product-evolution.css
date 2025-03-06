@@ -161,7 +161,7 @@
     }
 
     .product-evolution--media--wrapper .svg-wrapper {
-        transform: translate(-50%, -114%) rotate(90deg);
+        transform: translate(-50%, -90%) rotate(90deg);
     }
     .product-evolution--media--wrapper .svg-wrapper svg{
         height: 44px;
