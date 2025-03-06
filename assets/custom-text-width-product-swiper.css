@@ -1,20 +1,22 @@
-.custom-text-width-product-swiper.custom-image-with-text{
+.custom-text-width-product-swiper.custom-image-with-text {
   position: relative;
   overflow: hidden;
 }
-.custom-text-width-product-swiper.custom-image-with-text::after{
-  content: '';
+.custom-text-width-product-swiper.custom-image-with-text::after {
+  content: "";
   display: block;
   clear: both;
   width: 500px;
   height: 280px;
-  background: url(https://cdn.shopify.com/s/files/1/0918/3667/8454/files/cata-kor-floating-star.png?v=1741139965) no-repeat;
+  background: url(https://cdn.shopify.com/s/files/1/0918/3667/8454/files/cata-kor-floating-star.png?v=1741139965)
+    no-repeat;
   background-size: cover;
   position: absolute;
   top: -60px;
   right: -210px;
 }
-.custom-text-width-product-swiper.custom-image-with-text .image-with-text__grid{
+.custom-text-width-product-swiper.custom-image-with-text
+  .image-with-text__grid {
   align-items: start;
   gap: 9rem;
 }
@@ -24,7 +26,9 @@
   border-radius: 2rem;
   /* padding-right: 1.1rem; */
 }
-
+.custom-text-width-product-swiper .image-with-text__heading p {
+  margin: 0;
+}
 .custom-text-width-product-swiper .product_container .product_image_container {
   align-self: stretch;
   background-color: #fff;
@@ -43,18 +47,19 @@
   justify-content: center;
 }
 
-
-
 .custom-text-width-product-swiper .text-with-product-container2 .swiper-slide {
-  background-color: #F3EFE6;
+  background-color: #f3efe6;
   border-radius: 2rem;
 }
 
-.custom-text-width-product-swiper .product_container .Product_description p::before {
+.custom-text-width-product-swiper
+  .product_container
+  .Product_description
+  p::before {
   content: "";
   display: inline-block;
   width: 3.3rem;
-  height: .2rem;
+  height: 0.2rem;
   background-color: #1b352a;
   margin-right: 1rem;
   display: flex;
@@ -68,19 +73,21 @@
   /* align-items: center; */
   font-size: 1.4rem;
   letter-spacing: 0;
-
 }
 
-.custom-text-width-product-swiper .product_container .Product_description>p:first-of-type {
+.custom-text-width-product-swiper
+  .product_container
+  .Product_description
+  > p:first-of-type {
   margin-top: 2.7rem;
 }
 
-.custom-text-width-product-swiper .product_container .Product_description>p {
+.custom-text-width-product-swiper .product_container .Product_description > p {
   margin-bottom: 2.7rem;
 }
 
 .custom-text-width-product-swiper .product_container .Product_description h3 {
-  font-family: 'Onest', sans-serif;
+  font-family: "Onest", sans-serif;
   font-size: 2rem;
   letter-spacing: 0;
   line-height: 1.315;
@@ -93,7 +100,7 @@
 }
 
 .Product_description {
-  font-family: 'Onest', sans-serif;
+  font-family: "Onest", sans-serif;
   font-weight: 400;
   letter-spacing: 0;
   line-height: 1.71;
@@ -109,7 +116,7 @@
   font-size: 1.6rem;
   letter-spacing: 0;
   line-height: 1;
-  border: 1px solid #1B352A40;
+  border: 1px solid #1b352a40;
   background-color: #e4f69d;
   color: #000;
   border-radius: 23.2rem;
@@ -118,17 +125,15 @@
   text-decoration: none;
 }
 
-
 .custom-text-width-product-swiper .text-with-product-container {
   margin-top: 2rem;
 }
 
 .custom-text-width-product-swiper .text-with-product-container .swiper-wrapper {
-  border: .3rem solid #E6F69D45;
+  border: 0.3rem solid #e6f69d45;
   border-radius: 55.5rem;
   width: 92%;
   align-items: anchor-center;
-
 }
 
 .custom-text-width-product-swiper .text-with-product-container .swiper-wrapper {
@@ -137,9 +142,12 @@
   border-radius: 55.5rem;
 }
 
-.custom-text-width-product-swiper .text-with-product-container .product_title-btn button {
+.custom-text-width-product-swiper
+  .text-with-product-container
+  .product_title-btn
+  button {
   color: #999999;
-  font-family: 'Nohemi-Medium', sans-serif;
+  font-family: "Nohemi-Medium", sans-serif;
   font-size: 1.6rem;
   letter-spacing: 0;
   line-height: 1.75;
@@ -148,17 +156,22 @@
   padding-block: 1rem;
   width: 100%;
   text-align: center;
-
 }
 
-.custom-text-width-product-swiper .text-with-product-container .swiper-slide-thumb-active button {
-  border: 1px solid #1B352A40;
-  background-color: #E4F69D;
+.custom-text-width-product-swiper
+  .text-with-product-container
+  .swiper-slide-thumb-active
+  button {
+  border: 1px solid #1b352a40;
+  background-color: #e4f69d;
   color: #000;
   border-radius: 23.2rem;
 }
 
-.custom-text-width-product-swiper .text-with-product-container2 .product_image img {
+.custom-text-width-product-swiper
+  .text-with-product-container2
+  .product_image
+  img {
   height: auto;
   /* max-width: 19.4rem; */
   width: 94%;
@@ -179,7 +192,9 @@
     flex-direction: column;
   }
 
-  .custom-text-width-product-swiper .product_container .product_image_container {
+  .custom-text-width-product-swiper
+    .product_container
+    .product_image_container {
     width: unset;
     height: 30rem;
   }
@@ -188,12 +203,14 @@
     padding-block: 2rem;
   }
 
-  .custom-text-width-product-swiper .text-with-product-container2 .product_image img {
+  .custom-text-width-product-swiper
+    .text-with-product-container2
+    .product_image
+    img {
     /* height: unset; */
     height: revert-layer;
   }
 }
-
 
 @media screen and (max-width: 750px) {
   .custom-text-width-product-swiper .grid {
@@ -201,15 +218,18 @@
     gap: 0;
   }
 
-  .custom-text-width-product-swiper .text-with-product-container .product_title-btn button {
+  .custom-text-width-product-swiper
+    .text-with-product-container
+    .product_title-btn
+    button {
     line-height: 1;
   }
 
-  .custom-text-width-product-swiper.custom-image-with-text .image-with-text__grid {
+  .custom-text-width-product-swiper.custom-image-with-text
+    .image-with-text__grid {
     flex-direction: column-reverse;
     gap: 0;
   }
-
 }
 
 @media screen and (max-width: 480px) {
@@ -223,16 +243,22 @@
     padding-block: 0;
   }
 
-  .custom-text-width-product-swiper .text-with-product-container .swiper-wrapper{
+  .custom-text-width-product-swiper
+    .text-with-product-container
+    .swiper-wrapper {
     padding: 3px 9px;
   }
-  .custom-text-width-product-swiper .text-with-product-container .product_title-btn button {
+  .custom-text-width-product-swiper
+    .text-with-product-container
+    .product_title-btn
+    button {
     font-size: 1rem;
   }
 }
 
 @media screen and (min-width: 990px) {
-  .custom-text-width-product-swiper.custom-image-with-text .image-with-text__content {
+  .custom-text-width-product-swiper.custom-image-with-text
+    .image-with-text__content {
     padding: 0;
     max-width: 100%;
     margin-left: auto;
