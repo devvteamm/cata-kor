@@ -29,6 +29,7 @@
         },
         "text_c9TPtb": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Fresh Look, Same Powerful Formula / Reimagined Aesthetics, Advanced Formula",
             "text_style": "body"
@@ -64,6 +65,7 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true,
+        "show_custom_details": true,
         "custom_class": "image_banner_rebranding_page_hero_section"
       }
     },
