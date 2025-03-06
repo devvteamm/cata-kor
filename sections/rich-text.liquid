@@ -93,7 +93,9 @@
           {%- endcase -%}
         {%- endfor -%}
         {% if section.settings.coppy_button != blank %}
-          <button class="button button--primary" onclick="copyCode(this)">{{ section.settings.coppy_button }}</button>
+          <div class="rich-text__buttons">
+            <button class="button button--primary" onclick="copyCode(this)">{{ section.settings.coppy_button }}</button>
+          </div>
         {% endif %}
       </div>
     </div>
