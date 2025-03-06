@@ -23,7 +23,7 @@
         "heading_z3rVDB": {
           "type": "heading",
           "settings": {
-            "heading": "Fresh New Look, Same Powerful Formula.",
+            "heading": "<p>Fresh New Look, <br/>Same Powerful Formula.</p>",
             "heading_size": "hxxl"
           }
         },

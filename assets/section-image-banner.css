@@ -609,6 +609,10 @@ h2.extra-small {
   background-color: unset;
 }
 
+.banner__heading p{
+  margin: 0;
+}
+
 
 @media screen and (max-width: 749px) {
   .banner__content .content-container {
@@ -733,6 +737,15 @@ h2.extra-small {
 .image_banner_rebranding_page_hero_section .banner__heading,
 .image_banner_rebranding_page_hero_section .banner__box .banner__text{
   max-width: unset;
+}
+.image_banner_rebranding_page_hero_section .banner__box{
+  max-width: 140rem;
+}
+.image_banner_rebranding_page_hero_section .banner__heading.hxxl{
+  font-size: 8.5rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.05;
 }
 
 @media screen and (max-width: 749px) {
