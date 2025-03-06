@@ -238,7 +238,8 @@
                   show_price: product_block.settings.show_price,
                   section_id: product_block.id,
                   show_custom_button: product_block.settings.show_custom_button,
-                  link_on_card_product: product_block.settings.link_on_card_product
+                  link_on_card_product: product_block.settings.link_on_card_product,
+                  show_custom_details: section.settings.show_custom_details
                 %}
               </div>
             {%- endfor -%}
@@ -473,6 +474,12 @@
       "id": "show_text_below",
       "default": true,
       "label": "t:sections.image-banner.settings.show_text_below.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_custom_details",
+      "default": true,
+      "label": "Show custom details (metafield)"
     },
     {
       "type": "header",

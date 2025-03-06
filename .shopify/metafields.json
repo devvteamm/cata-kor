@@ -59,6 +59,26 @@
         "name": "multi_line_text_field",
         "category": "TEXT"
       }
+    },
+    {
+      "key": "title",
+      "namespace": "custom",
+      "name": "Title",
+      "description": "Product Title",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "description",
+      "namespace": "custom",
+      "name": "Description",
+      "description": "Description",
+      "type": {
+        "name": "multi_line_text_field",
+        "category": "TEXT"
+      }
     }
   ],
   "variant": [],

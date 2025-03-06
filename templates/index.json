@@ -146,6 +146,7 @@
         "mobile_content_alignment": "left",
         "stack_images_on_mobile": false,
         "show_text_below": false,
+        "show_custom_details": true,
         "custom_class": "image_banner__homepage-nad-journey"
       }
     },
@@ -207,6 +208,7 @@
         "mobile_content_alignment": "left",
         "stack_images_on_mobile": true,
         "show_text_below": true,
+        "show_custom_details": true,
         "custom_class": "image_banner__homepage-ingredients"
       }
     },

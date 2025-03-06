@@ -188,6 +188,7 @@
         "mobile_content_alignment": "left",
         "stack_images_on_mobile": true,
         "show_text_below": true,
+        "show_custom_details": true,
         "custom_class": "image-banner__pdp-why"
       }
     },
@@ -237,6 +238,7 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true,
+        "show_custom_details": true,
         "custom_class": "image-banner__pdp-30-days"
       }
     },
@@ -578,6 +580,7 @@
         "image_shape": "default",
         "show_secondary_image": false,
         "show_description": true,
+        "show_custom_details": true,
         "show_price": true,
         "show_custom_button": "Shop Now",
         "link_on_card_product": false,
