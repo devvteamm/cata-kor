@@ -38,13 +38,13 @@
 
             {% if product_blocks %}
               {%- for product_block in product_blocks -%}
-
                 <div class="banner__box-product" {{ product_block.shopify_attributes }}>
                   {% render 'card-product',
                     card_product: product_block,
                     media_aspect_ratio: section.settings.image_ratio,
                     image_shape: section.settings.image_shape,
                     show_secondary_image: section.settings.show_secondary_image,
+                    show_custom_details: section.settings.show_custom_details,
                     show_vendor: section.settings.show_vendor,
                     show_rating: section.settings.show_rating,
                     show_description: section.settings.show_description,
@@ -205,6 +205,12 @@
       "id": "show_description",
       "default": false,
       "label": "Show description"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_custom_details",
+      "default": false,
+      "label": "Show custom details (metafield)"
     },
       {
       "type": "checkbox",
