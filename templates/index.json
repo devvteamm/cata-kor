@@ -89,7 +89,7 @@
         "product_PaHmxC": {
           "type": "Product",
           "settings": {
-            "product": "250mg-can-of-nad",
+            "product": "nad-core-250mg",
             "image_ratio": "portrait",
             "image_shape": "default",
             "show_secondary_image": false,
@@ -501,7 +501,7 @@
         "product_nBrAwV": {
           "type": "Product",
           "settings": {
-            "product": "250mg-can-of-nad",
+            "product": "nad-core-250mg",
             "image_ratio": "square",
             "image_shape": "default",
             "show_secondary_image": false,
