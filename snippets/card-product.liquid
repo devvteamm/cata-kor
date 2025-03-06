@@ -180,8 +180,12 @@
             {% endif %}
           </h3>
           {% if show_description %}
-            {% if card_product.description != blank %}
-              <div class="card__description">{{ card_product.description }}</div>
+            {% if show_custom_details %}
+              <div class="card__description">{{ card_product.metafields.custom.description }}</div>
+            {% else %}
+              {% if card_product.description != blank %}
+                <div class="card__description">{{ card_product.description }}</div>
+              {% endif %}
             {% endif %}
           {% endif %}
           <div class="card-information">
