@@ -89,10 +89,12 @@
                     {{- block.settings.button_label_2 | escape -}}
                   </a>
                 {%- endif -%}
-                <button class="button button--primary" onclick="copyCode(this)">GOODI347</button>
               </div>
           {%- endcase -%}
         {%- endfor -%}
+        {% if section.settings.coppy_button != blank %}
+          <button class="button button--primary" onclick="copyCode(this)">{{ section.settings.coppy_button }}</button>
+        {% endif %}
       </div>
     </div>
     {% if section.settings.show_accent_graphics %}
@@ -245,7 +247,13 @@
       "unit": "px",
       "label": "Mobile bottom padding",
       "default": 60
-    }
+    },
+    {
+          "type": "text",
+          "id": "coppy_button",
+          "label": "Text for copy",
+          "info": "Use this if you want to copy the text when clicking the button."
+        }
   ],
   "blocks": [
     {
