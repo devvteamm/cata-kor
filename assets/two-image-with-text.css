@@ -1116,6 +1116,9 @@
   .second_image {
     transform: translate(25%);
   }
+  .two-image-with-text-main .image-with-text__media img {
+    object-position: -60px;
+  }
 }
 
 @media screen and (max-width: 480px) {
