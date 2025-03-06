@@ -5,10 +5,16 @@
   position: relative;
   overflow: hidden;
   /* height: 470px; /* Ensuring a fixed height */
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
+
 @media only screen and (min-width: 750px) {
   .carousel {
     display: flex;
+    flex-direction: row;
+    gap: 0;
   }
 }
 
@@ -46,6 +52,7 @@
   }
   .slide .text-content h3 {
     opacity: 1;
+    margin-top: 10px;
   }
 }
 
@@ -80,8 +87,17 @@
   transition: opacity 0.5s ease-in-out;
 }
 
+
 .slide:not(.active) .text-content h3 {
-  opacity: 0.5;  /* Reduce title opacity for inactive slides */
+  opacity: 1;
+}
+@media only screen and (min-width: 750px) {
+  .slide .text-content h3 {
+    opacity: 1;
+  }
+  .slide:not(.active) .text-content h3 {
+    opacity: 0.5;  /* Reduce title opacity for inactive slides */
+  }
 }
 
 .slide.active .text-content p {

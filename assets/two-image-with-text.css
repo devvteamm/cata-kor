@@ -70,7 +70,7 @@
 
 .second_image {
   position: absolute;
-  bottom: 0;
+  bottom: -10px;
   left: 50%;
   transform: translateX(-50%);
   max-width: 33rem;
@@ -731,6 +731,7 @@
   line-height: 1.058;
 }
 
+
 .two-image-with-text .image-with-text .grid__item {
   /* padding-bottom: 6.4rem; */
 }
@@ -1114,6 +1115,7 @@
   }
   .second_image {
     transform: translate(60%);
+    bottom: -10px;
   }
   .two-image-with-text-main .image-with-text__media img {
     object-position: -60px;
@@ -1129,5 +1131,11 @@
   .product_container {
     flex-direction: column;
     padding-block: 0;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .two-image-with-text .image-with-text__heading.hxxl {
+    font-size: 3.8rem;;
   }
 }

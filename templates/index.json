@@ -30,7 +30,7 @@
         "image_pgP7bL": {
           "type": "Image",
           "settings": {
-            "image": "shopify://shop_images/cata-kor-homepage-hero-left.png",
+            "image": "shopify://shop_images/Frame-1321317147-left.png",
             "mobile_image": "shopify://shop_images/cata-kor-homepage-hero-top.png",
             "first_text": "",
             "second_text": "",
@@ -40,8 +40,8 @@
         "image_3aVRLE": {
           "type": "Image",
           "settings": {
-            "image": "shopify://shop_images/cata-kor-homepage-hero-right.png",
-            "mobile_image": "shopify://shop_images/cata-kor-homepage-hero-btm-3.png",
+            "image": "shopify://shop_images/Frame-1321317147-right.png",
+            "mobile_image": "shopify://shop_images/cata-kor-homepage-hero-btm.png",
             "first_text": "<p><br/></p>",
             "second_text": "",
             "third_text": ""
@@ -51,7 +51,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now",
-            "button_link_1": "shopify://products/500mg-can-of-nad",
+            "button_link_1": "shopify://products/nad-core-250mg",
             "button_style_secondary_1": false
           }
         }
@@ -85,7 +85,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Begin Your NAD Journey",
+            "heading": "<p>Begin Your NAD Journey</p>",
             "heading_size": "hxl"
           }
         },
@@ -156,7 +156,7 @@
         "heading_dLhci4": {
           "type": "heading",
           "settings": {
-            "heading": "GMP Manufactured, Scientifically Researched Ingredients, Third Party Tested.",
+            "heading": "<p>GMP Manufactured, Scientifically Researched Ingredients, Third Party Tested.</p>",
             "heading_size": "hxl"
           }
         },
@@ -250,7 +250,7 @@
             "percentage": "65%",
             "percentage_text": "NAD+ Decline",
             "graph_image": "shopify://shop_images/image_21.png",
-            "bottom_text": "Tissue nad+ Decline"
+            "bottom_text": "Tissuenad+ Decline"
           }
         }
       },
@@ -357,7 +357,7 @@
             "text": "<p>Reignite your body's natural vitality with Cata-Kor NAD+ supplements. Designed to replenish declining NAD+ levels, our formula supports cellular health, energy production, and overall well-being. From combating aging to fueling recovery, NAD+ is at the core of longevity. Take charge of your health with Cata-Kor, and experience a boost in daily performance, enhanced resilience, and long-term wellness*.</p>",
             "text_key": "first_slide",
             "button_label_1": "Shop Now",
-            "button_link_1": "shopify://products/500mg-can-of-nad"
+            "button_link_1": "#"
           }
         },
         "right_side_block_jXweC4": {
@@ -408,7 +408,7 @@
         "right_side_block_rgMifg"
       ],
       "settings": {
-        "disclaimer_text": "<p>*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</p><p>Statements regarding dietary supplements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease or health condition.</p>",
+        "disclaimer_text": "",
         "color_scheme": "scheme-5",
         "padding_top": 100,
         "padding_bottom": 60

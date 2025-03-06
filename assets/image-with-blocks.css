@@ -13,8 +13,8 @@
   flex: 1;
 }
 .image-with-blocks .image-with-blocks__text .heding{
-  /* font-family: "Teachers", sans-serif; */
-  font-size: 6.5rem;
+  font-family: var(--font-heading-family);
+  font-size: 5.5rem;
   line-height: 1.015;
   letter-spacing: -0.195px;
   font-weight: 600;
@@ -143,7 +143,9 @@
 }
 @media screen and (min-width:750px) {
   .imagewithblocks__home-study.image-with-blocks::after {
-    top: -60px;
-    right: -210px;
+    top: -4px;
+    left: -380px;
+    width: 890px;
+    transform: rotate(154deg);
   }
 }

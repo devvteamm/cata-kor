@@ -138,7 +138,7 @@
           "type": "logo_with_text",
           "settings": {
             "text": "<p>NEW TO THE NAD+ GAME</p>",
-            "description": "<p>LipoNAD+™ is a unique, trademarked formula designed to provide an ideal introduction to NAD+, enhancing cellular health and boosting energy levels. The minimum dose is a great place to start if you are new to supplements!</p>",
+            "description": "LipoNAD+™ is a unique, trademarked formula designed to provide an ideal introduction to NAD+, enhancing cellular health and boosting energy levels. The minimum dose is a great place to start if you are new to supplements!",
             "image": "shopify://shop_images/icon-person-question.png"
           }
         },
@@ -146,7 +146,7 @@
           "type": "logo_with_text",
           "settings": {
             "text": "<p>THIRD-PARTY TESTED</p>",
-            "description": "<p>Our LipoNAD+™ supplement is third-party tested in the USA to ensure its purity and effectiveness. Certificate found here.</p>",
+            "description": "Our LipoNAD+™ supplement is third-party tested in the USA to ensure its purity and effectiveness. Certificate found here.",
             "image": "shopify://shop_images/icon-tested.png"
           }
         },
@@ -154,7 +154,7 @@
           "type": "logo_with_text",
           "settings": {
             "text": "<p>SUPPORTS SKIN AGING</p>",
-            "description": "<p>With 250 mg LipoNAD+™ an NMN supplement alternative that enhances your body's absorption and the utilization of NAD precursors to support cellular health and regeneration*.</p>",
+            "description": "With 250 mg LipoNAD+™ an NMN supplement alternative that enhances your body's absorption and the utilization of NAD precursors to support cellular health and regeneration*.",
             "image": "shopify://shop_images/icon-skin-aging.png"
           }
         },
@@ -162,7 +162,7 @@
           "type": "logo_with_text",
           "settings": {
             "text": "<p>9.3x GREATER ABSORPTION</p>",
-            "description": "<p>250 mg LipoNAD+™ enhances bioavailability, delivering superior absorption compared to regular NAD+*.</p>",
+            "description": "250 mg LipoNAD+™ enhances bioavailability, delivering superior absorption compared to regular NAD+*.",
             "image": "shopify://shop_images/icon-absorption.png"
           }
         }
@@ -188,7 +188,6 @@
         "mobile_content_alignment": "left",
         "stack_images_on_mobile": true,
         "show_text_below": true,
-        "show_custom_details": true,
         "custom_class": "image-banner__pdp-why"
       }
     },
@@ -238,7 +237,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true,
-        "show_custom_details": true,
         "custom_class": "image-banner__pdp-30-days"
       }
     },
@@ -249,7 +247,7 @@
           "type": "heading",
           "settings": {
             "heading": "Daily Serving Recommendations",
-            "heading_size": "h0",
+            "heading_size": "hxl",
             "sub_heding": "Dosage"
           }
         },
@@ -573,17 +571,15 @@
       "settings": {
         "text_slogan": "",
         "product_list": [
-          "nad-advanced-500mg",
-          "nad-core-250mg"
+          "500mg-can-of-nad",
+          "250mg-can-of-nad"
         ],
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
         "show_description": true,
-        "show_custom_details": true,
         "show_price": true,
         "show_custom_button": "Shop Now",
-        "show_coa_certificate": false,
         "link_on_card_product": false,
         "show_vendor": false,
         "show_rating": true,

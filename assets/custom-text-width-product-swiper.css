@@ -15,10 +15,19 @@
   top: -60px;
   right: -210px;
 }
-.custom-text-width-product-swiper.custom-image-with-text
-  .image-with-text__grid {
+@media screen and (min-width: 750px) and (max-width: 1440px) {
+  .custom-text-width-product-swiper.custom-image-with-text::after {
+    top: -120px;
+  }
+}
+.custom-text-width-product-swiper.custom-image-with-text .image-with-text__grid {
   align-items: start;
   gap: 9rem;
+}
+@media screen and (min-width: 750px) and (max-width: 1440px) {
+  .custom-text-width-product-swiper.custom-image-with-text .image-with-text__grid {
+    gap: 4rem;
+  }
 }
 .custom-text-width-product-swiper .product_container {
   display: flex;
@@ -52,10 +61,7 @@
   border-radius: 2rem;
 }
 
-.custom-text-width-product-swiper
-  .product_container
-  .Product_description
-  p::before {
+.custom-text-width-product-swiper .product_container .Product_description p::before {
   content: "";
   display: inline-block;
   width: 3.3rem;
@@ -112,7 +118,7 @@
 }
 
 .custom-text-width-product-swiper .buy_now_button a {
-  font-family: Nohemi-Medium, sans-serif;
+  /* font-family: Nohemi-Medium, sans-serif; */
   font-size: 1.6rem;
   letter-spacing: 0;
   line-height: 1;
@@ -147,12 +153,9 @@
   border-radius: 55.5rem;
 }
 
-.custom-text-width-product-swiper
-  .text-with-product-container
-  .product_title-btn
-  button {
+.custom-text-width-product-swiper .text-with-product-container .product_title-btn button {
   color: #999999;
-  font-family: "Nohemi-Medium", sans-serif;
+  /* font-family: "Nohemi-Medium", sans-serif; */
   font-size: 1.6rem;
   letter-spacing: 0;
   line-height: 1.75;
@@ -162,6 +165,11 @@
   width: 100%;
   text-align: center;
   cursor: pointer;
+}
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .custom-text-width-product-swiper .text-with-product-container .product_title-btn button {
+    font-size: 1.3rem;
+  }
 }
 
 .custom-text-width-product-swiper
@@ -277,7 +285,7 @@
   .custom-text-width-product-swiper.custom-image-with-text::after{
     width: 150px;
     height: 150px;
-    top: 0;
+    top: -30px;
     right: 0;
   }
 }
