@@ -118,6 +118,8 @@
   text-align: center;
   padding: 1.35rem 1.7rem;
   border-radius: 23.2rem;
+  display: inline-block;
+  width: 100%;
 }
 .card_product--custom__buttons .shop_now_btn:hover{
   text-decoration: none;
@@ -661,4 +663,14 @@
   .grid__item:nth-child(8n) .product-card-wrapper:hover .shape--blob {
     clip-path: polygon(var(--shape--blob-5));
   }
+}
+
+.card-wrapper .card__information_wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-wrapper .card__information_wrapper .card_product--custom__buttons{
+  display: inline-block;
+  height: fit-content;
 }
