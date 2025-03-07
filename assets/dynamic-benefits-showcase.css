@@ -34,7 +34,6 @@
 .dynamic-benefits-showcase-left-side-item {
     display: flex;
     column-gap: 2.4rem;
-    cursor: pointer;
 }
 
 .dynamic-benefits-showcase-left-side-item.active {
