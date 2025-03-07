@@ -290,4 +290,7 @@
     top: -30px;
     right: 0;
   }
+  .custom-text-width-product-swiper .product_container .Product_description>p{
+    margin-bottom: 1.5rem;
+  }
 }
