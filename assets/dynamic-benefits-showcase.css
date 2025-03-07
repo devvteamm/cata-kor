@@ -114,6 +114,8 @@
 .dynamic-benefits-showcase-left-side-item .dynamic-benefits-showcase-left-side-item--image {
     padding: 1rem 0 1rem 1rem;
     min-width: 12.1rem;
+    max-width: 11.1rem; 
+    width: 100%;
 }
 .dynamic-benefits-showcase-left-side-item .dynamic-benefits-showcase-left-side-item--image img {
     width: 100%;
@@ -121,6 +123,7 @@
     object-fit: cover;
     display: block;
     aspect-ratio: 1/1;
+    object-position: 40%;
 }
 
 @media screen and (max-width:989px) {
