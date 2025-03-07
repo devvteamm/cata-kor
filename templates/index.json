@@ -41,7 +41,7 @@
           "type": "Image",
           "settings": {
             "image": "shopify://shop_images/Frame-1321317147-right.png",
-            "mobile_image": "shopify://shop_images/cata-kor-homepage-hero-btm-3.png",
+            "mobile_image": "shopify://shop_images/cata-kor-homepage-hero-btm.png",
             "first_text": "<p><br/></p>",
             "second_text": "",
             "third_text": ""
@@ -316,7 +316,7 @@
         "left_side_block_zDV4YK": {
           "type": "left_side_block",
           "settings": {
-            "image": "shopify://shop_images/image_1.png",
+            "image": "shopify://shop_images/0ne1.jpg",
             "heading": "Combats the Effects of Aging",
             "text": "<p>Aging depletes NAD+ levels leading to reduced cellular function. Our supplement aids in the restoration of NAD+ levels, supporting DNA repair, metabolism, and longevity to help you feel younger and more vibrant every day.*</p>",
             "text_key": "first_slide"
@@ -325,7 +325,7 @@
         "left_side_block_JjdFAc": {
           "type": "left_side_block",
           "settings": {
-            "image": "shopify://shop_images/image_2.png",
+            "image": "shopify://shop_images/66eb50433670e26e4e7e32120e74ae2a_1.jpg",
             "heading": "Boosts Cellular Energy",
             "text": "<p>NAD+ supports mitochondria, the powerhouse of your cells. By enhancing energy production at a cellular level, our formula helps to support an active, focused, and energized lifestyle.*</p>",
             "text_key": "second_slide"
@@ -334,7 +334,7 @@
         "left_side_block_XTQHNU": {
           "type": "left_side_block",
           "settings": {
-            "image": "shopify://shop_images/image_3.png",
+            "image": "shopify://shop_images/336c39b329c5b9e2be3aa0fce81d969e_1.jpg",
             "heading": "Supports Heart and Muscles",
             "text": "<p>Healthy NAD+ levels contribute to optimal cardiovascular function and muscle recovery. Give your heart the reinforcement it needs to improve endurance and reduce fatigue naturally.*</p>",
             "text_key": "third_slide"
@@ -343,7 +343,7 @@
         "left_side_block_fckCEF": {
           "type": "left_side_block",
           "settings": {
-            "image": "shopify://shop_images/image_4.png",
+            "image": "shopify://shop_images/4f75c883e22513529acf22151f95bce5_1.jpg",
             "heading": "Fuels Cellular Repair",
             "text": "<p>Every cell in your body relies on NAD+ for repair and regeneration. Our formula is designed to aid cellular recovery by reducing oxidative stress, and promoting overall resilience.*</p>",
             "text_key": "forth_slide"

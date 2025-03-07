@@ -219,7 +219,8 @@
   }
 
   .p_description {
-    padding-block: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
   }
 
   .custom-text-width-product-swiper
