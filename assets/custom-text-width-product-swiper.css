@@ -223,12 +223,16 @@
     padding-bottom: 2rem;
   }
 
-  .custom-text-width-product-swiper
-    .text-with-product-container2
-    .product_image
-    img {
+  .custom-text-width-product-swiper .text-with-product-container2 .product_image img {
     /* height: unset; */
-    height: revert-layer;
+    /* height: revert-layer; */
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  .custom-text-width-product-swiper .product_container .product_image{
+    height: 100%;
+    width: 100%;
   }
 }
 
