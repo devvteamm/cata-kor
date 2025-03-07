@@ -1516,7 +1516,7 @@ a.product__text {
   display: flex;
   /* margin-right: 2rem; */
   opacity: .5;
-  z-index: 1;
+  z-index: 0;
 }
 @media screen and (max-width: 749.98px){
   .product .product_page-image-wrapper {
