@@ -358,6 +358,9 @@
   .custom_review_block  .multicolumn .title-wrapper-with-link {
     padding-inline: 2rem;
   }
+  .custom_review_block .multicolumn-card__info {
+    padding: 1rem;
+  }
 }
 @media screen and (min-width: 990px) {
   .custom_review_block .slider-component-desktop .slider-buttons {
