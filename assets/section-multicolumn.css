@@ -380,12 +380,20 @@
 }
 @media screen and (max-width: 749px) {
   .custom_review_block .swiper-wrapper {
-    flex-direction: column;
-    gap: 2.8rem;
-    padding-inline: 1rem;
+    /* flex-direction: column; */
+    /* gap: 2.8rem; */
+    /* padding-inline: 1rem; */
   }
   .custom_review_block .swiper-wrapper .swiper-slide {
     width: 94%;
+  }
+  .custom_review_block .small-hide{
+    display: flex !important;
+    justify-content: center;
+  }
+  .custom_review_block .swiper-button--wrapper{
+    position: unset;
+    align-self: end;
   }
 }
 
@@ -463,4 +471,3 @@
       row-gap: 2rem;
     }
   }
-

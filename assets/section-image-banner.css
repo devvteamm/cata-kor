@@ -724,6 +724,9 @@ h2.extra-small {
   .image_banner__homepage-ingredients .banner__heading.hxl{
     font-size: 3.4rem;
   }
+  .image_banner__homepage-nad-journey.banner--adapt{
+    min-height: 150rem;
+  }
 }
 /* rebranding page hero section css */
 

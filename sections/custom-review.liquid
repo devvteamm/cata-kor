@@ -265,7 +265,7 @@
     let swiperInstance;
   
     function initSwiper() {
-      if (window.innerWidth >= 750 && !swiperInstance) {
+      // if (window.innerWidth >= 750 && !swiperInstance) {
         swiperInstance = new Swiper(".swiper-container_wrapper", {
           slidesPerView: {{ section.settings.columns_mobile }},
           spaceBetween: getCSSVariableValue("--grid-mobile-horizontal-spacing"),
@@ -282,10 +282,10 @@
             989: { slidesPerView: {{ section.settings.columns_desktop }}, spaceBetween: getCSSVariableValue("--grid-desktop-horizontal-spacing") },
           },
         });
-      } else if (window.innerWidth < 750 && swiperInstance) {
-        swiperInstance.destroy(true, true);
-        swiperInstance = null;
-      }
+      // } else if (window.innerWidth < 750 && swiperInstance) {
+      //   swiperInstance.destroy(true, true);
+      //   swiperInstance = null;
+      // }
     }
   
     // Initialize Swiper based on screen size
