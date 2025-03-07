@@ -256,7 +256,7 @@
 </div>
 
 
-<script>
+{% comment %} <script>
   document.addEventListener("DOMContentLoaded", function () {
     function getCSSVariableValue(variable) {
       return parseInt(getComputedStyle(document.documentElement).getPropertyValue(variable));
@@ -298,6 +298,57 @@
     });
   });
   
+</script> {% endcomment %}
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  // Use a simpler approach for spacing to avoid iOS issues
+  const mobileSpacing = 10; // Default value in pixels
+  const desktopSpacing = 28; // Default value in pixels
+  let swiperInstance;
+  function initSwiper() {
+    // Always destroy previous instance to prevent issues
+    if (swiperInstance) {
+      swiperInstance.destroy(true, true);
+    }
+    // Create new Swiper with iOS-friendly settings
+    swiperInstance = new Swiper(".swiper-container_wrapper", {
+      slidesPerView: 1.5,
+      spaceBetween: mobileSpacing,
+      loop: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        type: 'bullets',
+      },
+      // iOS-specific touch handling improvements
+      touchRatio: 1,
+      touchAngle: 45,
+      touchStartPreventDefault: false,
+      passiveListeners: true,
+      resistance: true,
+      resistanceRatio: 0.85,
+      breakpoints: {
+        989: {
+          slidesPerView: {{ section.settings.columns_desktop }}, // Replace with your desktop columns value
+          spaceBetween: desktopSpacing
+        },
+      },
+    });
+  }
+  // Initialize Swiper
+  initSwiper();
+  // Re-initialize on window resize with debouncing
+  let resizeTimer;
+  window.addEventListener("resize", function () {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(initSwiper, 250);
+  });
+});
 </script>
 
 {% schema %}
