@@ -257,46 +257,54 @@
 
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    function getCSSVariableValue(variable) {
-      return parseInt(getComputedStyle(document.documentElement).getPropertyValue(variable));
+ document.addEventListener("DOMContentLoaded", function () {
+
+  const mobileSpacing = 10; 
+  const desktopSpacing = 28; 
+  let swiperInstance;
+  function initSwiper() {
+  
+    if (swiperInstance) {
+      swiperInstance.destroy(true, true);
     }
-  
-    let swiperInstance;
-  
-    function initSwiper() {
-      // if (window.innerWidth >= 750 && !swiperInstance) {
-        swiperInstance = new Swiper(".swiper-container_wrapper", {
-          // slidesPerView: {{ section.settings.columns_mobile }},
-          slidesPerView: 1.5,
-          spaceBetween: getCSSVariableValue("--grid-mobile-horizontal-spacing"),
-          loop: true,
-          navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-          },
-          pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-          },
-          breakpoints: {
-            989: { slidesPerView: {{ section.settings.columns_desktop }}, spaceBetween: getCSSVariableValue("--grid-desktop-horizontal-spacing") },
-          },
-        });
-      // } else if (window.innerWidth < 750 && swiperInstance) {
-      //   swiperInstance.destroy(true, true);
-      //   swiperInstance = null;
-      // }
-    }
-  
-    // Initialize Swiper based on screen size
-    initSwiper();
-  
-    // Listen for window resize events
-    window.addEventListener("resize", function () {
-      initSwiper();
+   
+    swiperInstance = new Swiper(".swiper-container_wrapper", {
+      slidesPerView: 1.5,
+      spaceBetween: mobileSpacing,
+      loop: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        type: 'bullets',
+      },
+     
+      touchRatio: 1,
+      touchAngle: 45,
+      touchStartPreventDefault: false,
+      passiveListeners: true,
+      resistance: true,
+      resistanceRatio: 0.85,
+      breakpoints: {
+        989: {
+          slidesPerView: {{ section.settings.columns_desktop }}, // Replace with your desktop columns value
+          spaceBetween: desktopSpacing
+        },
+      },
     });
+  }
+
+  initSwiper();
+  
+  let resizeTimer;
+  window.addEventListener("resize", function () {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(initSwiper, 250);
   });
+});
   
 </script>
 
