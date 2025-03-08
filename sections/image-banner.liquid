@@ -222,8 +222,10 @@
             </div>
           {%- endcase -%}
         {%- endfor -%}
+        {%- assign product_blocks = section.blocks | where: "type", "Product" -%}
+        {% if product_blocks.size > 0 %}
         <div class="banner__box-product--wrapper">
-          {%- assign product_blocks = section.blocks | where: "type", "Product" -%}
+
           {% if product_blocks.size > 0 %}
             {%- for product_block in product_blocks -%}
               <div class="banner__box-product" {{ product_block.shopify_attributes }}>
@@ -245,6 +247,7 @@
             {%- endfor -%}
           {% endif %}
         </div>
+        {% endif %}
         {%- assign logo_with_text_block = section.blocks |where: "type", "logo_with_text" -%}
         {% if logo_with_text_block != blank %}
           <div class="banner__box-logo-with-text--wrapper">

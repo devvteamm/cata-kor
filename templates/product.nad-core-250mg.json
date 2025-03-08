@@ -226,8 +226,8 @@
         ".banner__heading {max-width: unset;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/cata-kor-pdp-30-day-supply.jpg",
-        "image_first_mobile": "shopify://shop_images/cata-kor-pdp-30-day-supply-mob.jpg",
+        "image": "shopify://shop_images/cata-kor-pdp-30daysupply-2.jpg",
+        "image_first_mobile": "shopify://shop_images/shutterstock_1983515168_1_-min.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-left",

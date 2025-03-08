@@ -135,7 +135,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/image.jpg",
-        "image_first_mobile": "shopify://shop_images/image_mobile.png",
+        "image_first_mobile": "shopify://shop_images/image.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "top-left",

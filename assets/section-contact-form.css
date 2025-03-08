@@ -99,7 +99,7 @@
  max-width: 6rem;
  width: 100%;
  background-color: #F3F1ED;
- border-radius: .8rem; 
+ border-radius: .8rem;
  display: flex;
  align-items: center;
  justify-content: center;
@@ -153,7 +153,7 @@
 .main-contact .field__input:focus{
   box-shadow: none;
   padding: 0;
-} 
+}
 .main-contact .field:hover.field:after {
   box-shadow: none;
 }
@@ -206,7 +206,8 @@
   }
   .main-contact .contact_image{
     max-width: 100%;
-    min-height: 68.7rem;
+    aspect-ratio: 1.5;
+    /* min-height: 68.7rem; */
   }
   .main-contact .contact .title {
     font-size: 4.5rem;

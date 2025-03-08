@@ -657,6 +657,13 @@ h2.extra-small {
   .image-banner__pdp-30-days.banner:not(.banner--stacked) {
     flex-direction: column-reverse;
   }
+  .image-banner__pdp-30-days .banner__content,
+  .image-banner__pdp-30-days .banner__content .content-container{
+    background-color: #d7d5d1;
+  }
+  .image-banner__pdp-30-days .banner__content .content-container{
+    padding-bottom: 0;
+  }
 }
 
 /* ---- image_banner__homepage-nad-journey ---- */
@@ -669,8 +676,11 @@ h2.extra-small {
     max-width: 38rem;
     text-align: justify;
   } */
+  .image_banner__homepage-nad-journey.banner:not(.banner--stacked){
+    flex-direction: column-reverse;
+  }
   .image_banner__homepage-nad-journey .banner__content::before {
-    padding-bottom: 278.40% !important;
+    /* padding-bottom: 278.40% !important; */
   }
   .image_banner__homepage-nad-journey .banner__box .banner__text {
     text-align: start;
@@ -682,7 +692,9 @@ h2.extra-small {
 }
 
 /* --- image_banner__homepage-ingredients ---- */
-
+.image_banner__homepage-ingredients .banner__heading.hxl{
+  font-size:  clamp(3rem, 9vw, 5rem);
+}
 @media screen and (max-width:749px) {
   .image_banner__homepage-ingredients.banner{
     flex-direction: column-reverse;
@@ -721,11 +733,9 @@ h2.extra-small {
     line-height: 1.4545;
     text-align: start;
   }
-  .image_banner__homepage-ingredients .banner__heading.hxl{
-    font-size: 3.4rem;
-  }
+
   .image_banner__homepage-nad-journey.banner--adapt{
-    min-height: 150rem;
+    /* min-height: 150rem; */
   }
 }
 /* rebranding page hero section css */
@@ -788,6 +798,9 @@ h2.extra-small {
     font-size: 1.8rem;
     line-height: 1.56;
     letter-spacing: 0;
+  }
+  .image_banner__homepage-nad-journey .banner__media{
+    position: relative;
   }
 
 }
