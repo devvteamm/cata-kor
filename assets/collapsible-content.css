@@ -174,7 +174,7 @@
 }
 .faq .collapsible-content__heading {
   margin: 0;
-  font-size: 5.4rem;
+  font-size: clamp(3rem, 9vw, 5rem);
   line-height: 1.27;
   letter-spacing: -0.22rem;
   color: rgb(var(--color-foreground));
@@ -313,7 +313,7 @@
     max-width: 100%;
   }
   .faq .collapsible-content__heading {
-    font-size: 4rem;
+    /* font-size: 4rem; */
   }
   .faq .faq_button {
     display: none;
@@ -334,7 +334,7 @@
     gap: 3rem;
   }
   .faq .collapsible-content__heading {
-    font-size: 4.5rem;
+    /* font-size: 4.5rem; */
     line-height: 1.11;
     letter-spacing: 0.135px;
   }
@@ -349,7 +349,7 @@
   }
   .faq .accordion summary {
     padding: 2.4rem 1.6rem 2.4rem 2.5rem;
-    min-height: 100px;
+    /* min-height: 100px; */
     height: 100%;
   }
   .faq .accordion__title {

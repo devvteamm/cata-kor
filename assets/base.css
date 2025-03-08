@@ -3986,6 +3986,11 @@ details-disclosure > details {
 .product__info-wrapper .ingredients_title {
   max-width: 40rem;
 }
+@media screen and (max-width: 480px) {
+  .product__info-wrapper .ingredients_title {
+    font-size: 1.6rem;
+  }
+}
 
 .main_ingredients,
 .other_ingredients {
@@ -3998,6 +4003,11 @@ details-disclosure > details {
 
 .ingredients_volume {
   font-weight: 600;
+}
+@media screen and (max-width: 480px) {
+  .ingredients_volume {
+    font-size: 1.6rem;
+  }
 }
 
 .product .product__info-wrapper .other_ingredients_title {

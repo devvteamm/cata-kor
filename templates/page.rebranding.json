@@ -52,8 +52,11 @@
         "text_c9TPtb",
         "buttons_LjVEgf"
       ],
+      "custom_css": [
+        "@media screen and (max-width: 749px) {.banner--large.banner--mobile-bottom:not(.banner--adapt) .banner__media, .banner--large.banner--stacked:not(.banner--mobile-bottom):not(.banner--adapt)>.banner__media {padding-bottom: 80%; }}"
+      ],
       "settings": {
-        "image": "shopify://shop_images/cata-kor-rebranding-hero.jpg",
+        "image": "shopify://shop_images/cata-kor-rebranding-hero-min.jpg",
         "image_first_mobile": "shopify://shop_images/2_NAD5001_1_1_708205f5-b89c-45b1-9198-f79e50f9c648.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
@@ -75,7 +78,7 @@
         "heading_fqVQcE": {
           "type": "heading",
           "settings": {
-            "heading": "Fresh Look, Powerful Formula.",
+            "heading": "<p>Fresh Look, Powerful Formula.</p>",
             "heading_size": "h1"
           }
         },

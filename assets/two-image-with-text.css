@@ -21,7 +21,7 @@
 .two-image-with-text .image-with-text__text h1 {
   font-family: 'Teachers', serif;
   font-weight: 400;
-  font-size: 6rem;
+  font-size: clamp(3rem, 9vw, 8rem);
   color: #e4f69d;
   line-height: 1.125;
   margin-bottom: 1.2rem;
@@ -726,7 +726,11 @@
   width: 100%;
   margin-top: 0;
 }
+.two-image-with-text .image-with-text__heading p{
+  margin: 0;
+}
 .two-image-with-text .image-with-text__heading.hxxl {
+  font-size: clamp(20px, 9vw, 44px);
   font-size: 6.5rem;
   line-height: 1.058;
 }
@@ -755,6 +759,7 @@
 @media screen and (max-width: 1200px) {
   .two-image-with-text .image-with-text__heading.hxxl {
     font-size: 6.5rem;
+    font-size: clamp(20px, 9vw, 44px);
   }
 }
 @media screen and (max-width: 989px) {
@@ -807,6 +812,7 @@
   }
   .two-image-with-text .image-with-text__heading.hxxl {
     font-size: 4.5rem;
+    font-size: clamp(20px, 9vw, 44px);
     line-height: 1.11;
   }
   .two-image-with-text .image-with-text__text {
@@ -1136,6 +1142,7 @@
 
 @media screen and (max-width: 380px) {
   .two-image-with-text .image-with-text__heading.hxxl {
-    font-size: 3.8rem;;
+    font-size: 3.8rem;
+    font-size: clamp(20px, 9vw, 44px);
   }
 }

@@ -13,7 +13,7 @@
     }
   }
 {%- endstyle -%}
- 
+
 {%- liquid
   assign fetch_priority = 'auto'
   if section.index == 1
@@ -114,7 +114,7 @@
     </div>
   </div>
   {% if section.settings.second_image != blank %}
-    <div class="second_image"><img src="{{ section.settings.second_image |  image_url  }}" width="{{ section.settings.second_image.width }}" alt=""></div>    
+    <div class="second_image"><img src="{{ section.settings.second_image |  image_url  }}" width="{{ section.settings.second_image.width }}" alt=""></div>
   {% endif %}
 </div>
 {% if template.suffix == "science-and-benefits" %}
@@ -126,10 +126,10 @@
   "name": "Two Image with text",
   "class": "section",
   "disabled_on": {
-    "groups": ["header", "footer"] 
+    "groups": ["header", "footer"]
   },
   "settings": [
-    { 
+    {
       "type": "text",
       "id": "text_slogan",
       "label": "Sloagn Text"
@@ -354,7 +354,7 @@
       "limit": 1,
       "settings": [
         {
-          "type": "inline_richtext",
+          "type": "richtext",
           "id": "heading",
           "default": "t:sections.image-with-text.blocks.heading.settings.heading.default",
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
