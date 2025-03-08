@@ -64,7 +64,7 @@
         "buttons_N7QyD3"
       ],
       "custom_css": [
-        "@media screen and (max-width: 1440px) {.banner{padding-top: 120px; }}"
+        "@media screen and (max-width: 1440px) {.banner {padding-top: 100px; }}"
       ],
       "settings": {
         "left_site_color": "#ffffff",
