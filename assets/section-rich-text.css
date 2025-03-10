@@ -237,7 +237,8 @@
     width: 100%;
   }
   .lifetime-warranty .rich-text__blocks .rich-text__heading.hxl {
-    font-size: 4.5rem;
+    /* font-size: 4.5rem; */
+    font-size: clamp(2rem, 9vw, 4.4rem);
     line-height: 1.11;
     letter-spacing: -0.30px;
   }

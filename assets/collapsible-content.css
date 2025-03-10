@@ -337,6 +337,7 @@
     /* font-size: 4.5rem; */
     line-height: 1.11;
     letter-spacing: 0.135px;
+    font-size: clamp(2rem, 9vw, 4.4rem);
   }
   .faq .collapsible-content__mobile-text {
     display: block;

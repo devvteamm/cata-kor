@@ -175,7 +175,8 @@
 
 .custom-slide-gallary .title-wrapper-with-link .title {
   /* font-family: Nohemi-Medium, sans-serif; */
-  font-size: 4.5rem;
+  /* font-size: 4.5rem; */
+  font-size: clamp(2rem, 9vw, 4.4rem);
 }
 @media only screen and (min-width: 750px) {
   .custom-slide-gallary .title-wrapper-with-link .title {

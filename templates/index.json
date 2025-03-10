@@ -40,7 +40,7 @@
         "image_3aVRLE": {
           "type": "Image",
           "settings": {
-            "image": "shopify://shop_images/Frame-1321317147-right-new.png",
+            "image": "shopify://shop_images/group_1171276109.png",
             "mobile_image": "shopify://shop_images/Frame_5.png",
             "first_text": "<p><br/></p>",
             "second_text": "",
@@ -165,7 +165,7 @@
           "settings": {
             "text": "<p>GMP Manufactured to ensure quality and safety of ingredients</p>",
             "description": "",
-            "image": "shopify://shop_images/fi_18565766.png"
+            "image": "shopify://shop_images/Frame_7.png"
           }
         },
         "logo_with_text_AHXjRT": {
@@ -173,7 +173,7 @@
           "settings": {
             "text": "<p>Scientifically Researched<br/> Ingredients</p>",
             "description": "",
-            "image": "shopify://shop_images/fi_11498784.png"
+            "image": "shopify://shop_images/Group_1171276113.png"
           }
         },
         "logo_with_text_MACiVp": {
@@ -181,7 +181,7 @@
           "settings": {
             "text": "<p>Third Party Tested for Purity, Potency, and<br/> Heavy Metals</p>",
             "description": "",
-            "image": "shopify://shop_images/fi_18610465.png"
+            "image": "shopify://shop_images/Frame_8.png"
           }
         }
       },

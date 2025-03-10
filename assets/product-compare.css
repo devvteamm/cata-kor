@@ -145,7 +145,7 @@ footer{
   }
 
   .product-compare .product-compare__heding {
-    font-size: 25px;
+    font-size: clamp(2rem, 9vw, 4.4rem);
   }
 
   .product-compare .product_container {

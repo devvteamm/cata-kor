@@ -806,5 +806,7 @@ h2.extra-small {
   .image_banner__homepage-nad-journey .banner__media{
     position: relative;
   }
-
+  .image_banner_rebranding_page_hero_section .banner__heading.hxl{
+    font-size: clamp(2rem, 9vw, 4.4rem);
+  }
 }

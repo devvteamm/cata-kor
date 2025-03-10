@@ -540,7 +540,8 @@
     align-items: center;
   }
   .nad-image-with-text .image-with-text__heading.h1 {
-    font-size: 3.5rem;
+    /* font-size: 3.5rem; */
+    font-size: clamp(2rem, 9vw, 4.4rem);
     line-height: 1.11;
     letter-spacing: -0.135px;
   }
@@ -810,5 +811,10 @@
 @media screen and (max-width: 1440px) {
   .image-with-text.science-and-benefits .image-with-text__heading{
     font-size: clamp(3.6rem,4.6vw,6.5rem);
+  }
+}
+@media screen and (max-width: 749px) {
+  .image-with-text.science-and-benefits .image-with-text__heading{
+    font-size: clamp(2rem, 9vw, 4.4rem);
   }
 }

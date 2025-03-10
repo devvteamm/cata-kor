@@ -130,7 +130,8 @@
 
 @media screen and (max-width:989px) {
     .dynamic-benefits-showcase-right-side-item-heading {
-        font-size: 4.5rem;
+        /* font-size: 4.5rem; */
+        font-size: clamp(2rem, 9vw, 4.4rem);
         line-height: 1.11;
         letter-spacing: -0.135px;
     }
