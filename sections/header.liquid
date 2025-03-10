@@ -107,7 +107,7 @@
   endfor
 -%}
 
-<{% if section.settings.sticky_header_type != 'none' %}sticky-header  data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper {% if request.page_type == 'policy' %} header--sticky-unset {% endif %} {% if request.page_type == 'index' or request.page_type == 'product' %}header--bg-white{% elsif template.suffix == "lifetime-warranty" or request.page_type == 'cart' or request.page_type == 'policy' %} header--bg-green {% else %}header--bg-color{% endif %} color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}">
+<{% if section.settings.sticky_header_type != 'none' %}sticky-header  data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper {% if request.page_type == 'policy' or request.page_type == 'collection' %} header--sticky-unset {% endif %} {% if request.page_type == 'index' or request.page_type == 'product' or request.page_type == 'collection' %}header--bg-white{% elsif template.suffix == "lifetime-warranty" or request.page_type == 'cart' or request.page_type == 'policy' %} header--bg-green {% else %}header--bg-color{% endif %} color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}">
   {%- liquid
     assign social_links = false
     assign localization_forms = false
