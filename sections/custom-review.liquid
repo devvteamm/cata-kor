@@ -302,16 +302,16 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  // Use a simpler approach for spacing to avoid iOS issues
-  const mobileSpacing = 10; // Default value in pixels
-  const desktopSpacing = 28; // Default value in pixels
+
+  const mobileSpacing = 10; 
+  const desktopSpacing = 28; 
   let swiperInstance;
   function initSwiper() {
-    // Always destroy previous instance to prevent issues
+  
     if (swiperInstance) {
       swiperInstance.destroy(true, true);
     }
-    // Create new Swiper with iOS-friendly settings
+   
     swiperInstance = new Swiper(".swiper-container_wrapper", {
       slidesPerView: 1.5,
       spaceBetween: mobileSpacing,
@@ -325,7 +325,7 @@ document.addEventListener("DOMContentLoaded", function () {
         clickable: true,
         type: 'bullets',
       },
-      // iOS-specific touch handling improvements
+     
       touchRatio: 1,
       touchAngle: 45,
       touchStartPreventDefault: false,
@@ -340,9 +340,9 @@ document.addEventListener("DOMContentLoaded", function () {
       },
     });
   }
-  // Initialize Swiper
+
   initSwiper();
-  // Re-initialize on window resize with debouncing
+  
   let resizeTimer;
   window.addEventListener("resize", function () {
     clearTimeout(resizeTimer);

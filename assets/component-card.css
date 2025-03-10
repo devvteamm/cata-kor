@@ -674,3 +674,13 @@
   display: inline-block;
   height: fit-content;
 }
+
+
+.collection .card--card .quick-add{
+  margin-top: 1.5rem;
+}
+.collection .card__information_description{
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
