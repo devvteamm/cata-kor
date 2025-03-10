@@ -527,7 +527,7 @@
  width: fit-content;
 }
 .footer-block__heading{
-  font-family: 'Teachers', serif;
+  font-family: 'Teachers', sans-serif;
   font-weight: 700;
   font-size: 1.8rem;
   line-height: 1.2;
@@ -535,7 +535,7 @@
 }
 .footer-block__details-content .list-menu__item--link,
 .footer-block__details-content.rte{
-  font-family: 'Teachers', serif;
+  font-family: 'Teachers', sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.275;
@@ -547,7 +547,7 @@
 }
 .footer_image_text p{
   margin: 0;
-  font-family: 'Teachers', serif;
+  font-family: 'Teachers', sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.5;  
