@@ -535,6 +535,10 @@
   margin-top: 10rem;
 }
 
+.image_banner__homepage-ingredients .banner__box-logo-with-text--wrapper{
+  margin-top: 10rem;
+}
+
 .banner__box-logo-with-text--wrapper:empty{
   display: none;
 }
