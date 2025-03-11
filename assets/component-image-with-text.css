@@ -818,3 +818,8 @@
     font-size: clamp(2rem, 9vw, 4.4rem);
   }
 }
+
+.image-with-text.science-and-benefits .shop_now_btn{
+  text-transform: none;
+  margin-inline: .2rem;
+}

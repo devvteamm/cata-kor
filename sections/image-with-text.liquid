@@ -93,7 +93,7 @@
                       {% if block.settings.button_link == blank %}
                         role="link" aria-disabled="true"
                       {% else %}
-                        href="{{ block.settings.button_link }}"
+                        href="{{ block.settings.button_link }}" {% if block.settings.new_tab %} target="_blank" {% endif %}
                       {% endif %}
                       class="shop_now_btn{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
                       {{ block.shopify_attributes }}
@@ -473,6 +473,12 @@
           "type": "url",
           "id": "button_link",
           "label": "t:sections.image-with-text.blocks.button.settings.button_link.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "new_tab",
+          "default": false,
+          "label": "Open new tab"
         },
         {
           "type": "checkbox",

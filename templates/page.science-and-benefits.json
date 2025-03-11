@@ -88,11 +88,21 @@
             "text": "<p>LipoNAD+™ preserves NAD+ levels in the liver at 9.3x higher than regular NAD+.*<br/></p>",
             "text_style": "body"
           }
+        },
+        "button_JR8J4e": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read the scientific study",
+            "button_link": "https://cdn.shopify.com/s/files/1/0918/3667/8454/files/NAD_Lipo_Availability_testing_data_Revised.pdf",
+            "new_tab": true,
+            "button_style_secondary": false
+          }
         }
       },
       "block_order": [
         "heading_dYyXa3",
-        "text_q8mgNP"
+        "text_q8mgNP",
+        "button_JR8J4e"
       ],
       "custom_css": [
         "@media screen and (max-width: 749.98px) {.image-with-text__grid--reverse {flex-direction: column-reverse; } .image-with-text__content {padding: 0 0 25px 0; }}"
@@ -107,7 +117,7 @@
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "scheme-41f8d28c-2279-47f0-8f39-bd10f09968cd",
-        "color_scheme": "scheme-41f8d28c-2279-47f0-8f39-bd10f09968cd",
+        "color_scheme": "scheme-89e91adc-d1ff-4412-a854-6441113cffd6",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
