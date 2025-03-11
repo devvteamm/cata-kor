@@ -664,6 +664,19 @@ h2.extra-small {
   .image-banner__pdp-why .banner__heading.hxl{
     font-size: clamp(2rem, 9vw, 4.4rem);
   }
+  .image-banner__pdp-why .logo{
+    max-width: 5rem;
+    width: 100%;
+    height: 5rem;
+  }
+  .image-banner__pdp-why .logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .banner__box-logo-with-text--wrapper .logo-with-text-wrraper{
+    align-items: start;
+  }
 }
 @media screen and (max-width: 425px) {
   .image-banner__pdp-why .banner__box-logo-with-text--wrapper .logo-with-text-wrraper {
