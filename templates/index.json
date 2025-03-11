@@ -30,8 +30,8 @@
         "image_pgP7bL": {
           "type": "Image",
           "settings": {
-            "image": "shopify://shop_images/Frame-1321317147-left.png",
-            "mobile_image": "shopify://shop_images/cata-kor-homepage-hero-top.png",
+            "image": "shopify://shop_images/Frame_1707478907.png",
+            "mobile_image": "shopify://shop_images/Frame_1707478890_1.png",
             "first_text": "",
             "second_text": "",
             "third_text": "<p><br/></p>"
@@ -40,8 +40,8 @@
         "image_3aVRLE": {
           "type": "Image",
           "settings": {
-            "image": "shopify://shop_images/group_1171276109.png",
-            "mobile_image": "shopify://shop_images/Frame_5.png",
+            "image": "shopify://shop_images/Frame_1707478905.png",
+            "mobile_image": "shopify://shop_images/Frame_1707478908_2.png",
             "first_text": "<p><br/></p>",
             "second_text": "",
             "third_text": ""
