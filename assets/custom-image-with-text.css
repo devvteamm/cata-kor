@@ -106,6 +106,9 @@
   .custom-image-with-text .banner__box-product--wrapper .banner__box-product {
     max-width: 100%;
   }
+  .custom-image-with-text .image-with-text__heading.hxl{
+    font-size: clamp(2rem, 9vw, 4.4rem);
+  }
 }
 
 .custom-image-with-text .banner__box-product--wrapper {

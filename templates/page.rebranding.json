@@ -53,7 +53,7 @@
         "buttons_LjVEgf"
       ],
       "custom_css": [
-        "@media screen and (max-width: 749px) {.banner--large.banner--mobile-bottom:not(.banner--adapt) .banner__media, .banner--large.banner--stacked:not(.banner--mobile-bottom):not(.banner--adapt)>.banner__media {padding-bottom: 80%; }}"
+        "@media screen and (max-width: 749px) {.banner--large.banner--mobile-bottom:not(.banner--adapt) .banner__media, .banner--large.banner--stacked:not(.banner--mobile-bottom):not(.banner--adapt) > .banner__media {padding-bottom: 80%; }}"
       ],
       "settings": {
         "image": "shopify://shop_images/cata-kor-rebranding-hero-min.jpg",
@@ -143,7 +143,7 @@
       "settings": {
         "color_scheme": "scheme-2",
         "image": "shopify://shop_images/Star_5_4.png",
-        "title": "SELECT THE RIGHT PRODUCT",
+        "title": "Select the right product",
         "left_color": "#ece9e2",
         "right_color": "#f3f1ed",
         "product1_image": "shopify://shop_images/product_1.png",

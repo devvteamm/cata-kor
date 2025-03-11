@@ -298,4 +298,7 @@
   .custom-text-width-product-swiper .product_container .Product_description>p{
     margin-bottom: 1.5rem;
   }
+  .custom-text-width-product-swiper .image-with-text__heading.h0{
+    font-size: clamp(2rem, 9vw, 4.4rem);
+  }
 }
