@@ -803,7 +803,8 @@ h2.extra-small {
   line-height: 1.05;
 }
 .image_banner_rebranding_page_hero_section .banner__heading.hxl {
-  font-size: clamp(1.8rem,6.2vw,6.5rem);
+  /* font-size: clamp(1.8rem,6.2vw,6.5rem); */
+  font-size: clamp(2rem, 9vw, 4.4rem);
 }
 .image_banner_rebranding_page_hero_section .banner__buttons .button{
   font-size: 1.6rem;
