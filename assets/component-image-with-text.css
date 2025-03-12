@@ -583,6 +583,7 @@
   padding: .8rem 1.1rem .8rem 1.6rem;
   gap: 1.6rem;
   align-items: center;
+  justify-content: space-between;
 }
 .nad-image-with-text .media-item-taxt-and-title .media-title{
   /* font-family: 'Teachers', sans-serif; */
@@ -816,6 +817,15 @@
 @media screen and (max-width: 749px) {
   .image-with-text.science-and-benefits .image-with-text__heading{
     font-size: clamp(2rem, 9vw, 4.4rem);
+  }
+  .nad-image-with-text .media-item-taxt-and-title .media-title{
+    font-size: 2.5rem;
+  }
+  .nad-image-with-text .media-item-taxt-and-title{
+    gap: 1rem;
+  }
+  .nad-image-with-text .bottom_text{
+    font-size: 2.8rem;
   }
 }
 
