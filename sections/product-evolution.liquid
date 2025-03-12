@@ -58,7 +58,7 @@
       {% if image_block.size > 0 %}
       {%- for block in image_block -%}
         <div class="product-evolution--media--{{ forloop.index }} small-hide">
-          {{ block.settings.image | image_url: width: block.settings.image.width | image_tag:
+          {{ block.settings.image | image_url: width: 1050 | image_tag:
             alt: block.settings.image.alt | default: 'Product image'
           }}
           {% if block.settings.first_text != blank %}
