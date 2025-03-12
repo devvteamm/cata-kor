@@ -595,7 +595,6 @@ body.template-product .banner__box-logo-with-text--wrapper .logo-with-text-conte
 }
 
 .banner__box-logo-with-text--wrapper .logo-with-text-description {
-  /* font-family: "Onest", serif; */
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.388;
@@ -609,7 +608,6 @@ body.template-product .banner__box-logo-with-text--wrapper .logo-with-text-conte
 }
 
 h2.extra-small {
-  /* font-family: "Onest", serif; */
   font-size: 2.4rem;
   line-height: 1.099;
   font-weight: 600;

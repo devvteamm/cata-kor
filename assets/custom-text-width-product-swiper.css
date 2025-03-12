@@ -93,7 +93,6 @@
 }
 
 .custom-text-width-product-swiper .product_container .Product_description h3 {
-  font-family: "Onest", sans-serif;
   font-size: 2rem;
   letter-spacing: 0;
   line-height: 1.315;
@@ -107,7 +106,6 @@
 }
 
 .Product_description {
-  font-family: "Onest", sans-serif;
   font-weight: 400;
   letter-spacing: 0;
   line-height: 1.71;

@@ -3923,7 +3923,6 @@ details-disclosure > details {
 
 .product__info-wrapper .product__info-container .product__description {
   margin-top: 0;
-  font-family: "Onest", sans-serif;
   letter-spacing: 0;
 }
 
@@ -3941,7 +3940,6 @@ details-disclosure > details {
 }
 
 .product__info-wrapper .price-item {
-  /* font-family: 'Onest',sans-serif; */
   font-weight: 700;
   font-size: 2.2rem;
   letter-spacing: 0;
@@ -3949,7 +3947,6 @@ details-disclosure > details {
 }
 
 .product__info-wrapper .product__text {
-  /* font-family: 'Onest',sans-serif; */
   font-size: 1.4rem;
   line-height: 1.27;
   letter-spacing: 0;
@@ -3968,7 +3965,6 @@ details-disclosure > details {
 
 .main_ingredients_title,
 .other_ingredients_title {
-  /* font-family: 'Onest',sans-serif; */
   font-size: 1.6rem;
   letter-spacing: 0;
   line-height: 1.275;
@@ -3994,7 +3990,6 @@ details-disclosure > details {
 
 .main_ingredients,
 .other_ingredients {
-  /* font-family: 'Onest',sans-serif; */
   font-size: 2rem;
   letter-spacing: 0;
   line-height: 1.4;
