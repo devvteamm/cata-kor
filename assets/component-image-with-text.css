@@ -676,6 +676,10 @@
  height: 100%;
  object-fit: cover;
 }
+.nad-image-with-text .shop_now_btn{
+  margin-left: .2rem;
+  margin-bottom: .2rem;
+}
 
 /* image with text header css  */
 
