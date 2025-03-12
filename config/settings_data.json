@@ -9,9 +9,9 @@
  */
 {
   "current": {
-    "logo": "shopify://shop_images/Mask_group_2_6a45ae73-62af-4285-bed4-58a5c830ac37.png",
-    "logo2": "shopify://shop_images/cata-kor-logo-green.png",
-    "logo_width": 120,
+    "logo": "shopify://shop_images/cata-kor-logo-green-png.png",
+    "logo2": "shopify://shop_images/cata-kor-logo-yallo-png.png",
+    "logo_width": 150,
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
