@@ -72,72 +72,6 @@
         "custom_class": "image_banner_rebranding_page_hero_section"
       }
     },
-    "product_evolution_yRdyz4": {
-      "type": "product-evolution",
-      "blocks": {
-        "heading_fqVQcE": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Fresh Look, Powerful Formula.</p>",
-            "heading_size": "h1"
-          }
-        },
-        "text_D3X9rA": {
-          "type": "text",
-          "settings": {
-            "text": "Fresh Look, Powerful Formula / Reimagined Aesthetics, Advanced Formula",
-            "text_style": "body"
-          }
-        },
-        "buttons_ttbcMU": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "SHOP NOW",
-            "button_link_1": "",
-            "button_style_secondary_1": false
-          }
-        },
-        "image_PPQAg8": {
-          "type": "Image",
-          "settings": {
-            "image": "shopify://shop_images/Group_1171276115.png",
-            "first_text": "",
-            "second_text": "",
-            "third_text": ""
-          }
-        },
-        "image_WWUqPe": {
-          "type": "Image",
-          "settings": {
-            "image": "shopify://shop_images/Group_1171276143.png",
-            "first_text": "",
-            "second_text": "",
-            "third_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_fqVQcE",
-        "text_D3X9rA",
-        "buttons_ttbcMU",
-        "image_PPQAg8",
-        "image_WWUqPe"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".banner__text {max-width: 100%;}"
-      ],
-      "settings": {
-        "left_site_color": "#ffffff",
-        "right_site_color": "#f4f5f5",
-        "desktop_content_position": "top-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-b5151d7e-8668-4505-82cd-fa78be2bc3f0",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "product_compare_YmXTHw": {
       "type": "product-compare",
       "settings": {
@@ -317,7 +251,6 @@
   "order": [
     "main",
     "image_banner_6pqQ9U",
-    "product_evolution_yRdyz4",
     "product_compare_YmXTHw",
     "custom_slide_gallary_kikpH3",
     "faq_section_3dQJza"
