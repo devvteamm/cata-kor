@@ -15,9 +15,27 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "174722326584241aba": {
+      "type": "apps",
+      "blocks": {
+        "snowball_affiliate_marketing_affiliate_sign_up_Q43UWQ": {
+          "type": "shopify://apps/snowball-affiliate-marketing/blocks/affiliate-sign-up/6e5feda3-ec24-4171-ae41-64028b660bc7",
+          "settings": {
+            "form_id": "fc3be098-9fc8-4ea4-be0d-08bdca7ef8c3"
+          }
+        }
+      },
+      "block_order": [
+        "snowball_affiliate_marketing_affiliate_sign_up_Q43UWQ"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "174722326584241aba"
   ]
 }
