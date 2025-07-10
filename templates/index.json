@@ -550,7 +550,8 @@
         "grid_item_2_title": "< 1 %",
         "grid_item_2_description": "Customers who ever request a refund",
         "description_bottom": "Simply email our support team if you’d like a full refund—no returns, hoops, or hassles.",
-        "background_image": "shopify://shop_images/peace-banner-vk.png"
+        "background_image": "shopify://shop_images/peace-banner-vk.png",
+        "background_image_mobile": "shopify://shop_images/peace-banner-vk-mobile.png"
       }
     }
   },
