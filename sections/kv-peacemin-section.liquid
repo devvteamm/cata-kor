@@ -118,6 +118,9 @@
 
 .kv-peacemind-content {
     max-width: 390px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
 }
 
 .kv-peacemind-title {
@@ -128,7 +131,7 @@
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
-    margin: 0;
+    margin: 0 0 12px 0;
 }
 
 .kv-peacemind-description {
@@ -140,9 +143,43 @@
     font-family: SpaceGrotesk Medium;
 }
 
+.kv-peacemind-grid .kv-peacemind-grid-item {
+    padding: 12px 20px;
+    border-radius: 12px;
+    background: #E2F78E;
+    backdrop-filter: blur(12px);
+}
 
+.kv-peacemind-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 16px 0px;
+}
 
+.kv-peacemind-grid-item-title {
+    color: #20362A;
+    text-align: center;
+    font-family: Teachers,sans-serif;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.45;
+    text-transform: uppercase;
+    margin: 0;
+}
 
+.kv-peacemind-grid-item-description {
+    color: #20362A;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-family: SpaceGrotesk Medium;
+    margin: 0;
+    letter-spacing: 0;
+}
 
 
 @media (max-width: 767.98px) { 
