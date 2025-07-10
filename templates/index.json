@@ -553,6 +553,16 @@
         "background_image": "shopify://shop_images/peace-banner-vk.png",
         "background_image_mobile": "shopify://shop_images/peace-banner-vk-mobile.png"
       }
+    },
+    "kv_swacthes_section_rxArxU": {
+      "type": "kv-swacthes-section",
+      "name": "KV Swatches Section",
+      "settings": {
+        "title": "Take 2 capsules daily to support",
+        "button_text": "96% notices increased energy levels*",
+        "button_link": "#tab_with_testimonials",
+        "background_image": "shopify://shop_images/caps-banner.png"
+      }
     }
   },
   "order": [
@@ -564,6 +574,7 @@
     "dynamic_benefits_showcase_wPg7KQ",
     "image_with_blocks_MJhgzL",
     "custom_review_JQdbwY",
-    "kv_peacemin_section_Jm73X4"
+    "kv_peacemin_section_Jm73X4",
+    "kv_swacthes_section_rxArxU"
   ]
 }
