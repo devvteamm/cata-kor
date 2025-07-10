@@ -1,0 +1,118 @@
+<div class="kv-peacemind-section">
+    <div class="kv-peacemind-container">
+        <div class="kv-peacemind-content">
+            <h2 class="kv-peacemind-title">{{ section.settings.title }}</h2>
+            <div class="kv-peacemind-description">
+                {{ section.settings.description_top }}
+            </div>
+            <div class="kv-peacemind-grid">
+                <div class="kv-peacemind-grid-item">
+                    <div class="kv-peacemind-grid-item-content">
+                        <h3 class="kv-peacemind-grid-item-title">{{ section.settings.grid_item_1_title }}</h3>
+                        <p class="kv-peacemind-grid-item-description">{{ section.settings.grid_item_1_description }}</p>
+                    </div>
+                </div>
+                <div class="kv-peacemind-grid-item">
+                    <div class="kv-peacemind-grid-item-content">
+                        <h3 class="kv-peacemind-grid-item-title">{{ section.settings.grid_item_2_title }}</h3>
+                        <p class="kv-peacemind-grid-item-description">{{ section.settings.grid_item_2_description }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="kv-peacemind-description">
+                {{ section.settings.description_bottom }}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "KV Peacemind Section",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+        },
+        {
+            "type": "text",
+            "id": "description_top",
+            "label": "Description Top"
+        },
+        {
+            "type": "text",
+            "id": "grid_item_1_title",
+            "label": "Grid Item 1 Title"
+        },
+        {
+            "type": "text",
+            "id": "grid_item_1_description",
+            "label": "Grid Item 1 Description"
+        },
+        {
+            "type": "text",
+            "id": "grid_item_2_title",
+            "label": "Grid Item 2 Title"
+        },
+        {
+            "type": "text",
+            "id": "grid_item_2_description",
+            "label": "Grid Item 2 Description"
+        },
+        {
+            "type": "text",
+            "id": "description_bottom",
+            "label": "Description Bottom"
+        },
+        {
+            "type": "image_picker",
+            "id": "background_image",
+            "label": "Background Image"
+        },
+        {
+            "type": "image_picker",
+            "id": "background_image_mobile",
+            "label": "Background Image Mobile"
+        }
+    ],
+    "presets": [
+        {
+            "name": "KV Peacemind Section"
+        }
+    ]
+}
+{% endschema %}
+
+<style>
+
+.kv-peacemind-section{
+    background-image: url('{{ section.settings.background_image | img_url: 'master' }}');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767.98px) { 
+
+.kv-peacemind-section{
+    background-image: url('{{ section.settings.background_image_mobile | img_url: 'master' }}');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+}
+
+</style>
