@@ -556,6 +556,31 @@
     },
     "kv_swacthes_section_rxArxU": {
       "type": "kv-swacthes-section",
+      "blocks": {
+        "swatch_xLqQCP": {
+          "type": "swatch",
+          "settings": {
+            "swatch_text": "Healthy aging*"
+          }
+        },
+        "swatch_Ya7Vq3": {
+          "type": "swatch",
+          "settings": {
+            "swatch_text": "Skin health*"
+          }
+        },
+        "swatch_ChU76k": {
+          "type": "swatch",
+          "settings": {
+            "swatch_text": "Energy production*"
+          }
+        }
+      },
+      "block_order": [
+        "swatch_xLqQCP",
+        "swatch_Ya7Vq3",
+        "swatch_ChU76k"
+      ],
       "name": "KV Swatches Section",
       "settings": {
         "title": "Take 2 capsules daily to support",
