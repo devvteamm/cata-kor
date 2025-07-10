@@ -85,6 +85,19 @@
 {% endschema %}
 
 <style>
+ @font-face {
+    font-family: "SpaceGrotesk Regular";
+    font-style: normal;
+    font-display: swap;
+    src: url("https://cdn.shopify.com/s/files/1/0918/3667/8454/files/SpaceGrotesk-Regular.woff2?v=1750668447") format("woff2");
+    }
+      
+@font-face {
+    font-family: "SpaceGrotesk Medium";
+    font-style: normal;
+    font-display: swap;
+    src: url("https://cdn.shopify.com/s/files/1/0918/3667/8454/files/SpaceGrotesk-Medium.woff2?v=1750668446") format("woff2");
+}
 
 .kv-peacemind-section{
     background-image: url('{{ section.settings.background_image | img_url: 'master' }}');
@@ -93,11 +106,39 @@
     background-repeat: no-repeat;
 }
 
+.kv-peacemind-section {
+    padding: 148px 0px;
+}
 
+.kv-peacemind-container {
+    max-width: 1080px;
+    margin: auto;
+    padding: 0 20px;
+}
 
+.kv-peacemind-content {
+    max-width: 390px;
+}
 
+.kv-peacemind-title {
+    color: #20362A;
+    font-family: Teachers,sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0;
+}
 
-
+.kv-peacemind-description {
+    color: #20362A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-family: SpaceGrotesk Medium;
+}
 
 
 
