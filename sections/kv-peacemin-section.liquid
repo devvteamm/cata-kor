@@ -229,7 +229,7 @@
 .kv-peacemind-section{
     background-image: url('{{ section.settings.background_image_mobile | img_url: 'master' }}');
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
 }
 
@@ -255,7 +255,19 @@
     font-size: 30px;
 }
 
+.kv-peacemind-description.bottom {
+    padding: 300px 0 0 0;
+}
 
+.kv-peacemind-grid-item-description {
+    font-family: "SpaceGrotesk Regular";
+    font-weight: 400;
+}
+
+.kv-peacemind-description {
+    font-family: Teachers,sans-serif;
+    font-weight: 400;
+}
 
 }
 
