@@ -538,6 +538,20 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "kv_peacemin_section_Jm73X4": {
+      "type": "kv-peacemin-section",
+      "name": "KV Peacemind Section",
+      "settings": {
+        "title": "Peace-of-Mind Guarantee",
+        "description_top": "Every bottle is backed by our lifetimeMoney-Back Promise.",
+        "grid_item_1_title": "LIFETIME",
+        "grid_item_1_description": "Risk-free return window",
+        "grid_item_2_title": "< 1 %",
+        "grid_item_2_description": "Customers who ever request a refund",
+        "description_bottom": "Simply email our support team if you’d like a full refund—no returns, hoops, or hassles.",
+        "background_image": "shopify://shop_images/peace-banner-vk.png"
+      }
     }
   },
   "order": [
@@ -548,6 +562,7 @@
     "rich_text_YtNtjM",
     "dynamic_benefits_showcase_wPg7KQ",
     "image_with_blocks_MJhgzL",
-    "custom_review_JQdbwY"
+    "custom_review_JQdbwY",
+    "kv_peacemin_section_Jm73X4"
   ]
 }
