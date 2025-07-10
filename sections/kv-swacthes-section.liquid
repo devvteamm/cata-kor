@@ -1,0 +1,102 @@
+<div class="kv-swatches-section">
+    <div class="kv-swatches-container">
+        <div class="kv-swatches-content">
+            <h2 class="kv-swatches-title">{{ section.settings.title }}</h2>
+            <div class="kv-swatches-grid">
+                {% for block in section.blocks %}
+                    <div class="kv-swatches-grid-item">
+                        {{ block.settings.swatch_text }}
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="kv-swatches-button">
+            <a href="{{ section.settings.button_link }}" class="kv-swatches-button-link">
+                <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.25" y="0.25" width="33.5" height="33.5" rx="16.75" fill="#E2F78E"/>
+                    <rect x="0.25" y="0.25" width="33.5" height="33.5" rx="16.75" stroke="#20362A" stroke-width="0.5"/>
+                    <path d="M14.0895 14.0001C14.3241 13.3312 14.7881 12.767 15.399 12.4076C16.01 12.0482 16.7285 11.9167 17.4271 12.0365C18.1257 12.1563 18.7594 12.5195 19.2158 13.0619C19.6721 13.6043 19.9216 14.2908 19.9201 14.9996C19.9201 17 16.9202 17.9996 16.9202 17.9996M16.9994 22.0003H17.0102M27 17C27 19.6522 25.9464 22.1957 24.0711 24.0711C22.1957 25.9464 19.6522 27 17 27C14.3478 27 11.8043 25.9464 9.92893 24.0711C8.05357 22.1957 7 19.6522 7 17C7 14.3478 8.05357 11.8043 9.92893 9.92893C11.8043 8.05357 14.3478 7 17 7C19.6522 7 22.1957 8.05357 24.0711 9.92893C25.9464 11.8043 27 14.3478 27 17Z" stroke="#20362A" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                {{ section.settings.button_text }}
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11 7V15M7 11H15M21 11C21 16.523 16.523 21 11 21C5.477 21 1 16.523 1 11C1 5.477 5.477 1 11 1C16.523 1 21 5.477 21 11Z" stroke="#20362A" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                </a>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "KV Swatches Section",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+        },
+        {
+            "type": "text",
+            "id": "button_text",
+            "label": "Button Text"
+        },
+        {
+            "type": "url",
+            "id": "button_link",
+            "label": "Button Link"
+        },
+        {
+            "type": "image_picker",
+            "id": "background_image",
+            "label": "Background Image"
+        },
+        {
+            "type": "image_picker",
+            "id": "background_image_mobile",
+            "label": "Background Image Mobile"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "swatch",
+            "name": "Swatch",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "swatch_text",
+                    "label": "Swatch Text"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "KV Swatches Section"
+        }
+    ]
+}
+{% endschema %}
+
+
+<style>
+
+ .kv-swatches-section{
+    background-image: url('{{ section.settings.background_image | img_url: 'master' }}');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+@media (max-width: 767.98px) { 
+    .kv-swatches-section{
+        background-image: url('{{ section.settings.background_image_mobile | img_url: 'master' }}');
+        background-position: center center;
+    }
+}
+
+
+
+</style>
