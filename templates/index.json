@@ -586,7 +586,8 @@
         "title": "Take 2 capsules daily to support",
         "button_text": "96% notices increased energy levels*",
         "button_link": "#tab_with_testimonials",
-        "background_image": "shopify://shop_images/caps-banner.png"
+        "background_image": "shopify://shop_images/caps-banner.png",
+        "background_image_mobile": "shopify://shop_images/caps-banner-mobile.png"
       }
     }
   },
